@@ -1,9 +1,21 @@
 {
     "latest_etag": {
-        "LastCheck": "2024-07-01T04:32:46+00:00Z",
+        "LastCheck": "2024-07-01T08:33:39+00:00Z",
         "UpdateHash": "7084a81b599fa44b382282fb9ba1242b3295bce189b9ad5d99b1bb85039fe641"
     },
     "log": [
+        {
+            "timestamp": "2024-07-01T08:33:39+00:00Z",
+            "new_etag": "7084a81b599fa44b382282fb9ba1242b3295bce189b9ad5d99b1bb85039fe641",
+            "status": "failed (403)",
+            "previous_etag": "7084a81b599fa44b382282fb9ba1242b3295bce189b9ad5d99b1bb85039fe641"
+        },
+        {
+            "timestamp": "2024-07-01T08:33:15+00:00Z",
+            "new_etag": "7084a81b599fa44b382282fb9ba1242b3295bce189b9ad5d99b1bb85039fe641",
+            "status": "success (200)",
+            "previous_etag": "7084a81b599fa44b382282fb9ba1242b3295bce189b9ad5d99b1bb85039fe641"
+        },
         {
             "timestamp": "2024-07-01T04:32:46+00:00Z",
             "new_etag": "7084a81b599fa44b382282fb9ba1242b3295bce189b9ad5d99b1bb85039fe641",
