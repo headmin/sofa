@@ -1,5 +1,5 @@
 {
-    "UpdateHash": "c44569e877eac6be0797eaca18be86402e385cb5c4f6c4fa36a67d2cbc2f2b59",
+    "UpdateHash": "4aab311f9789d89781cd089f576bfcd62cf4bf7b4053b658e8b9167d9c22b91a",
     "OSVersions": [
         {
             "OSVersion": "Sonoma 14",
@@ -7,7 +7,7 @@
                 "ProductVersion": "14.5",
                 "Build": "23F79",
                 "ReleaseDate": "2024-05-20T00:00:00Z",
-                "ExpirationDate": "2024-09-28T00:00:00Z",
+                "ExpirationDate": "2024-09-29T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -857,7 +857,7 @@
                 "ProductVersion": "13.6.7",
                 "Build": "22G720",
                 "ReleaseDate": "2024-05-20T00:00:00Z",
-                "ExpirationDate": "2024-09-28T00:00:00Z",
+                "ExpirationDate": "2024-09-29T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -2131,7 +2131,7 @@
                 "ProductVersion": "12.7.5",
                 "Build": "21H1222",
                 "ReleaseDate": "2024-05-20T00:00:00Z",
-                "ExpirationDate": "2024-09-28T00:00:00Z",
+                "ExpirationDate": "2024-09-29T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
