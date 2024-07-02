@@ -1,5 +1,5 @@
 {
-    "etag": "7084a81b599fa44b382282fb9ba1242b3295bce189b9ad5d99b1bb85039fe641",
+    "etag": "fce880bd6e2c1eea9e3a52665c0d53a8cbc40456858d6d8315d32d518c750cdd",
     "data": {
         "PublicAssetSets": {
             "iOS": [
@@ -7,7 +7,7 @@
                     "ProductVersion": "6.3",
                     "Build": "17U6208",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch2,3",
                         "Watch2,4",
@@ -19,7 +19,7 @@
                     "ProductVersion": "17.5",
                     "Build": "21L569",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "AudioAccessory1,1",
                         "AudioAccessory5,1",
@@ -30,7 +30,7 @@
                     "ProductVersion": "17.5.1",
                     "Build": "21L580",
                     "PostingDate": "2024-05-21",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "AppleTV11,1",
                         "AppleTV14,1",
@@ -42,7 +42,7 @@
                     "ProductVersion": "8.8.1",
                     "Build": "19U6512",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch3,1",
                         "Watch3,2",
@@ -74,7 +74,7 @@
                     "ProductVersion": "16.7.2",
                     "Build": "20H115",
                     "PostingDate": "2023-10-25",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad11,1",
                         "iPad11,2",
@@ -150,7 +150,7 @@
                     "ProductVersion": "10.5",
                     "Build": "21T576",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch4,1",
                         "Watch4,2",
@@ -192,7 +192,7 @@
                     "ProductVersion": "16.7.2",
                     "Build": "20H6115",
                     "PostingDate": "2023-10-25",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad11,1",
                         "iPad11,2",
@@ -268,7 +268,7 @@
                     "ProductVersion": "10.5",
                     "Build": "21T6576",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch4,1",
                         "Watch4,2",
@@ -310,7 +310,7 @@
                     "ProductVersion": "9.6.3",
                     "Build": "20U502",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch4,1",
                         "Watch4,2",
@@ -347,7 +347,7 @@
                     "ProductVersion": "6.3",
                     "Build": "17U208",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch2,3",
                         "Watch2,4",
@@ -359,7 +359,7 @@
                     "ProductVersion": "8.8.1",
                     "Build": "19U512",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch3,1",
                         "Watch3,2",
@@ -391,7 +391,7 @@
                     "ProductVersion": "17.5.1",
                     "Build": "21F90",
                     "PostingDate": "2024-05-29",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad11,1",
                         "iPad11,2",
@@ -480,7 +480,7 @@
                     "ProductVersion": "15.8.2",
                     "Build": "19H384",
                     "PostingDate": "2024-05-29",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad5,1",
                         "iPad5,2",
@@ -500,7 +500,7 @@
                     "ProductVersion": "1.2",
                     "Build": "21O589",
                     "PostingDate": "2024-06-17",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "RealityDevice14,1"
                     ]
@@ -509,7 +509,7 @@
                     "ProductVersion": "17.5.1",
                     "Build": "21F6090",
                     "PostingDate": "2024-05-29",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad11,1",
                         "iPad11,2",
@@ -598,7 +598,7 @@
                     "ProductVersion": "16.7.8",
                     "Build": "20H343",
                     "PostingDate": "2024-05-29",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad6,11",
                         "iPad6,12",
@@ -618,7 +618,7 @@
                     "ProductVersion": "12.5.7",
                     "Build": "16H81",
                     "PostingDate": "2024-05-29",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad4,1",
                         "iPad4,2",
@@ -640,7 +640,7 @@
                     "ProductVersion": "12.5.7",
                     "Build": "16H6081",
                     "PostingDate": "2024-05-29",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad4,1",
                         "iPad4,2",
@@ -662,7 +662,7 @@
                     "ProductVersion": "17.5",
                     "Build": "21L6569",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "AudioAccessory1,1",
                         "AudioAccessory5,1",
@@ -673,7 +673,7 @@
                     "ProductVersion": "16.7.8",
                     "Build": "20H6343",
                     "PostingDate": "2024-05-29",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad6,11",
                         "iPad6,12",
@@ -693,7 +693,7 @@
                     "ProductVersion": "1.2",
                     "Build": "21O6589",
                     "PostingDate": "2024-06-17",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "RealityDevice14,1"
                     ]
@@ -702,7 +702,7 @@
                     "ProductVersion": "17.5.1",
                     "Build": "21L6580",
                     "PostingDate": "2024-05-21",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "AppleTV11,1",
                         "AppleTV14,1",
@@ -714,7 +714,7 @@
                     "ProductVersion": "15.8.2",
                     "Build": "19H6384",
                     "PostingDate": "2024-05-29",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad5,1",
                         "iPad5,2",
@@ -734,7 +734,7 @@
                     "ProductVersion": "5.3.9",
                     "Build": "16U693",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch2,3",
                         "Watch2,4",
@@ -754,7 +754,7 @@
                     "ProductVersion": "9.6.3",
                     "Build": "20U6502",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch4,1",
                         "Watch4,2",
@@ -788,12 +788,32 @@
                     ]
                 }
             ],
+            "visionOS": [
+                {
+                    "ProductVersion": "1.1.2",
+                    "Build": "21O231",
+                    "PostingDate": "2024-04-12",
+                    "ExpirationDate": "2024-09-08",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "1.1.2",
+                    "Build": "21O6231",
+                    "PostingDate": "2024-04-12",
+                    "ExpirationDate": "2024-09-08",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                }
+            ],
             "macOS": [
                 {
                     "ProductVersion": "14.5",
                     "Build": "23F79",
                     "PostingDate": "2024-05-20",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -857,7 +877,7 @@
                     "ProductVersion": "12.7.5",
                     "Build": "21H1222",
                     "PostingDate": "2024-05-20",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -923,7 +943,7 @@
                     "ProductVersion": "11.7.10",
                     "Build": "20G1427",
                     "PostingDate": "2024-05-20",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -1019,7 +1039,7 @@
                     "ProductVersion": "13.6.7",
                     "Build": "22G720",
                     "PostingDate": "2024-05-20",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -1089,26 +1109,6 @@
                         "RealityDevice14,1"
                     ]
                 }
-            ],
-            "visionOS": [
-                {
-                    "ProductVersion": "1.1.2",
-                    "Build": "21O231",
-                    "PostingDate": "2024-04-12",
-                    "ExpirationDate": "2024-09-08",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "1.1.2",
-                    "Build": "21O6231",
-                    "PostingDate": "2024-04-12",
-                    "ExpirationDate": "2024-09-08",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                }
             ]
         },
         "AssetSets": {
@@ -1117,7 +1117,7 @@
                     "ProductVersion": "6.3",
                     "Build": "17U6208",
                     "PostingDate": "2024-03-07",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch2,3",
                         "Watch2,4",
@@ -1144,7 +1144,7 @@
                     "ProductVersion": "17.5",
                     "Build": "21L569",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "AppleTV11,1",
                         "AppleTV14,1",
@@ -1159,7 +1159,7 @@
                     "ProductVersion": "17.5.1",
                     "Build": "21L580",
                     "PostingDate": "2024-05-21",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "AppleTV11,1",
                         "AppleTV14,1",
@@ -1252,7 +1252,7 @@
                     "ProductVersion": "17.5",
                     "Build": "21F6079",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad11,1",
                         "iPad11,2",
@@ -1333,7 +1333,7 @@
                     "ProductVersion": "8.8.1",
                     "Build": "19U6512",
                     "PostingDate": "2024-03-07",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch3,1",
                         "Watch3,2",
@@ -1365,7 +1365,7 @@
                     "ProductVersion": "16.7.2",
                     "Build": "20H115",
                     "PostingDate": "2023-10-25",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad11,1",
                         "iPad11,2",
@@ -1461,7 +1461,7 @@
                     "ProductVersion": "10.5",
                     "Build": "21T576",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch4,1",
                         "Watch4,2",
@@ -1503,7 +1503,7 @@
                     "ProductVersion": "17.5",
                     "Build": "21F6084",
                     "PostingDate": "2024-05-14",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad14,10",
                         "iPad14,11",
@@ -1561,7 +1561,7 @@
                     "ProductVersion": "16.7.2",
                     "Build": "20H6115",
                     "PostingDate": "2023-10-25",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad11,1",
                         "iPad11,2",
@@ -1637,7 +1637,7 @@
                     "ProductVersion": "10.5",
                     "Build": "21T6576",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch4,1",
                         "Watch4,2",
@@ -1699,7 +1699,7 @@
                     "ProductVersion": "9.6.3",
                     "Build": "20U502",
                     "PostingDate": "2024-03-07",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch4,1",
                         "Watch4,2",
@@ -1736,7 +1736,7 @@
                     "ProductVersion": "17.5",
                     "Build": "21F79",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad11,1",
                         "iPad11,2",
@@ -1817,7 +1817,7 @@
                     "ProductVersion": "6.3",
                     "Build": "17U208",
                     "PostingDate": "2024-03-07",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch2,3",
                         "Watch2,4",
@@ -1829,7 +1829,7 @@
                     "ProductVersion": "8.8.1",
                     "Build": "19U512",
                     "PostingDate": "2024-03-07",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch3,1",
                         "Watch3,2",
@@ -1903,7 +1903,7 @@
                     "ProductVersion": "17.5.1",
                     "Build": "21F90",
                     "PostingDate": "2024-05-20",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad11,1",
                         "iPad11,2",
@@ -1992,7 +1992,7 @@
                     "ProductVersion": "15.8.2",
                     "Build": "19H384",
                     "PostingDate": "2024-03-28",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad5,1",
                         "iPad5,2",
@@ -2012,7 +2012,7 @@
                     "ProductVersion": "1.2",
                     "Build": "21O589",
                     "PostingDate": "2024-06-10",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "RealityDevice14,1"
                     ]
@@ -2021,7 +2021,7 @@
                     "ProductVersion": "17.5.1",
                     "Build": "21F6090",
                     "PostingDate": "2024-05-20",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad11,1",
                         "iPad11,2",
@@ -2110,7 +2110,7 @@
                     "ProductVersion": "16.7.8",
                     "Build": "20H343",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad6,11",
                         "iPad6,12",
@@ -2130,7 +2130,7 @@
                     "ProductVersion": "12.5.7",
                     "Build": "16H81",
                     "PostingDate": "2024-03-28",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad4,1",
                         "iPad4,2",
@@ -2152,7 +2152,7 @@
                     "ProductVersion": "12.5.7",
                     "Build": "16H6081",
                     "PostingDate": "2024-03-28",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad4,1",
                         "iPad4,2",
@@ -2174,7 +2174,7 @@
                     "ProductVersion": "17.5",
                     "Build": "21L6569",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "AppleTV11,1",
                         "AppleTV14,1",
@@ -2204,7 +2204,7 @@
                     "ProductVersion": "17.5",
                     "Build": "21F84",
                     "PostingDate": "2024-05-14",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad14,10",
                         "iPad14,11",
@@ -2220,7 +2220,7 @@
                     "ProductVersion": "16.7.8",
                     "Build": "20H6343",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad6,11",
                         "iPad6,12",
@@ -2240,7 +2240,7 @@
                     "ProductVersion": "1.2",
                     "Build": "21O6589",
                     "PostingDate": "2024-06-10",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "RealityDevice14,1"
                     ]
@@ -2249,7 +2249,7 @@
                     "ProductVersion": "17.5.1",
                     "Build": "21L6580",
                     "PostingDate": "2024-05-21",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "AppleTV11,1",
                         "AppleTV14,1",
@@ -2261,7 +2261,7 @@
                     "ProductVersion": "15.8.2",
                     "Build": "19H6384",
                     "PostingDate": "2024-03-28",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "iPad5,1",
                         "iPad5,2",
@@ -2281,7 +2281,7 @@
                     "ProductVersion": "5.3.9",
                     "Build": "16U693",
                     "PostingDate": "2024-03-07",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch2,3",
                         "Watch2,4",
@@ -2382,7 +2382,7 @@
                     "ProductVersion": "9.6.3",
                     "Build": "20U6502",
                     "PostingDate": "2024-03-07",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "Watch4,1",
                         "Watch4,2",
@@ -2413,55 +2413,6 @@
                         "Watch6,7",
                         "Watch6,8",
                         "Watch6,9"
-                    ]
-                }
-            ],
-            "visionOS": [
-                {
-                    "ProductVersion": "1.1.2",
-                    "Build": "21O231",
-                    "PostingDate": "2024-04-09",
-                    "ExpirationDate": "2024-09-08",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "1.1.2",
-                    "Build": "21O6231",
-                    "PostingDate": "2024-04-09",
-                    "ExpirationDate": "2024-09-08",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "1.1.1",
-                    "Build": "21O6224",
-                    "PostingDate": "2024-03-21",
-                    "ExpirationDate": "2024-07-08",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "1.1.1",
-                    "Build": "21O224",
-                    "PostingDate": "2024-03-21",
-                    "ExpirationDate": "2024-07-08",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                }
-            ],
-            "xrOS": [
-                {
-                    "ProductVersion": "1.0.3",
-                    "Build": "21N333",
-                    "PostingDate": "2024-02-12",
-                    "ExpirationDate": "2024-06-05",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
                     ]
                 }
             ],
@@ -2597,7 +2548,7 @@
                     "ProductVersion": "14.5",
                     "Build": "23F79",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -2727,7 +2678,7 @@
                     "ProductVersion": "12.7.5",
                     "Build": "21H1222",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -2793,7 +2744,7 @@
                     "ProductVersion": "11.7.10",
                     "Build": "20G1427",
                     "PostingDate": "2024-04-01",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -2889,7 +2840,7 @@
                     "ProductVersion": "13.6.7",
                     "Build": "22G720",
                     "PostingDate": "2024-05-13",
-                    "ExpirationDate": "2024-09-29",
+                    "ExpirationDate": "2024-09-30",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -2946,6 +2897,55 @@
                         "Mac-EE2EBD4B90B839A8",
                         "VMA2MACOSAP",
                         "VMM-x86_64"
+                    ]
+                }
+            ],
+            "visionOS": [
+                {
+                    "ProductVersion": "1.1.2",
+                    "Build": "21O231",
+                    "PostingDate": "2024-04-09",
+                    "ExpirationDate": "2024-09-08",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "1.1.2",
+                    "Build": "21O6231",
+                    "PostingDate": "2024-04-09",
+                    "ExpirationDate": "2024-09-08",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "1.1.1",
+                    "Build": "21O6224",
+                    "PostingDate": "2024-03-21",
+                    "ExpirationDate": "2024-07-08",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "1.1.1",
+                    "Build": "21O224",
+                    "PostingDate": "2024-03-21",
+                    "ExpirationDate": "2024-07-08",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                }
+            ],
+            "xrOS": [
+                {
+                    "ProductVersion": "1.0.3",
+                    "Build": "21N333",
+                    "PostingDate": "2024-02-12",
+                    "ExpirationDate": "2024-06-05",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
                     ]
                 }
             ]
