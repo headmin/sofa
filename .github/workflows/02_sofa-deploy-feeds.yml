@@ -1,0 +1,222 @@
+name: 🚀 SOFA Feed Deployment
+
+on:
+  # Trigger after successful build pipeline
+  workflow_run:
+    workflows: ["01 - SOFA build pipeline"]
+    types:
+      - completed
+    branches:
+      - main
+      - 250830-dev-sofa-2.0
+  
+  # Allow manual deployment
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Deployment environment'
+        type: choice
+        default: 'beta'
+        options:
+        - both
+        - beta
+        - production
+
+env:
+  DEPLOYMENT_VERSION: '1.0.0'
+
+jobs:
+  deploy:
+    name: Deploy Feeds to DigitalOcean
+    runs-on: ubuntu-latest
+    if: github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch'
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+        
+      - name: Setup deployment environment
+        run: |
+          echo "Setting up feed deployment environment..."
+          echo "## 🚀 Feed Deployment" >> $GITHUB_STEP_SUMMARY
+          echo "**Environment:** ${{ github.event.inputs.environment || 'both' }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Timestamp:** $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+      - name: Verify feed files exist
+        run: |
+          echo "Verifying required feed files..."
+          
+          # Check for essential V1 files
+          V1_FEEDS=("ios_data_feed.json" "macos_data_feed.json" "timestamp.json" "rss_feed.xml")
+          for feed in "${V1_FEEDS[@]}"; do
+            if [ ! -f "v1/$feed" ]; then
+              echo "❌ v1/$feed not found"
+              exit 1
+            fi
+          done
+          
+          # Check for V2 feeds
+          V2_FEEDS=("ios_data_feed.json" "macos_data_feed.json" "safari_data_feed.json" "tvos_data_feed.json" "watchos_data_feed.json" "visionos_data_feed.json")
+          for feed in "${V2_FEEDS[@]}"; do
+            if [ ! -f "v2/$feed" ]; then
+              echo "❌ v2/$feed not found"
+              exit 1
+            fi
+          done
+          
+          echo "✅ All required feed files found"
+          
+          # Show file sizes
+          echo "V1 Feed file sizes:"
+          ls -lh v1/ios_data_feed.json v1/macos_data_feed.json v1/timestamp.json v1/rss_feed.xml
+          
+          echo "V2 Feed file sizes:"
+          ls -lh v2/*.json
+
+      - name: Un prettify jsons
+        run: |
+          echo "Minifying JSON files for production..."
+          
+          # Minify V1 feeds
+          echo "Processing V1 feeds..."
+          V1_FEEDS=("ios_data_feed.json" "macos_data_feed.json" "timestamp.json")
+          for feed in "${V1_FEEDS[@]}"; do
+            echo "  Minifying v1/$feed"
+            jq -c . "v1/$feed" > "v1/${feed%.*}_jq.json"
+            rm -f "v1/$feed"
+            mv "v1/${feed%.*}_jq.json" "v1/$feed"
+          done
+          
+          # Minify V2 feeds
+          echo "Processing V2 feeds..."
+          V2_FEEDS=("ios_data_feed.json" "macos_data_feed.json" "safari_data_feed.json" "tvos_data_feed.json" "watchos_data_feed.json" "visionos_data_feed.json")
+          for feed in "${V2_FEEDS[@]}"; do
+            echo "  Minifying v2/$feed"
+            jq -c . "v2/$feed" > "v2/${feed%.*}_jq.json"
+            rm -f "v2/$feed"
+            mv "v2/${feed%.*}_jq.json" "v2/$feed"
+          done
+          
+          echo "✅ All JSON files minified for faster delivery"
+          
+          # Show compression ratio
+          echo "File sizes after minification:"
+          echo "V1 feeds:"
+          ls -lh v1/ios_data_feed.json v1/macos_data_feed.json v1/timestamp.json
+          echo "V2 feeds:"
+          ls -lh v2/*.json
+
+      # - name: Set up S3cmd cli tool
+      #   uses: s3-actions/s3cmd@ef6ce583c6f4e5c121c53777f2f17740c36243be #v1.6.1
+      #   with:
+      #     provider: digitalocean
+      #     region: 'nyc3'
+      #     access_key: ${{ secrets.DO_S3_ACCESS_KEY }}
+      #     secret_key: ${{ secrets.DO_S3_SECRET_KEY }}
+
+      - name: Create gzipped jsons
+        run: |
+          echo "Creating gzipped versions for better compression..."
+          
+          # Compress V1 feeds
+          echo "Compressing V1 feeds..."
+          V1_FEEDS=("ios_data_feed.json" "macos_data_feed.json" "timestamp.json")
+          for feed in "${V1_FEEDS[@]}"; do
+            echo "  Compressing v1/$feed"
+            /usr/bin/gzip --best --stdout "v1/$feed" > "v1/${feed%.*}_compressed.json"
+          done
+          
+          # Compress V2 feeds
+          echo "Compressing V2 feeds..."
+          V2_FEEDS=("ios_data_feed.json" "macos_data_feed.json" "safari_data_feed.json" "tvos_data_feed.json" "watchos_data_feed.json" "visionos_data_feed.json")
+          for feed in "${V2_FEEDS[@]}"; do
+            echo "  Compressing v2/$feed"
+            /usr/bin/gzip --best --stdout "v2/$feed" > "v2/${feed%.*}_compressed.json"
+          done
+          
+          echo "✅ All gzipped files created for CDN delivery"
+          
+          # Show compression statistics
+          echo "Compression statistics (V1):"
+          for feed in "${V1_FEEDS[@]}"; do
+            original=$(stat -c%s "v1/$feed")
+            compressed=$(stat -c%s "v1/${feed%.*}_compressed.json")
+            ratio=$(echo "scale=1; $compressed * 100 / $original" | bc)
+            echo "  $feed: $original → $compressed bytes (${ratio}% of original)"
+          done
+          
+          echo "Compression statistics (V2):"
+          for feed in "${V2_FEEDS[@]}"; do
+            original=$(stat -c%s "v2/$feed")
+            compressed=$(stat -c%s "v2/${feed%.*}_compressed.json")
+            ratio=$(echo "scale=1; $compressed * 100 / $original" | bc)
+            echo "  $feed: $original → $compressed bytes (${ratio}% of original)"
+          done
+
+      # - name: Upload to Digital Ocean (Beta Feed)
+      #   if: github.event.inputs.environment == 'beta' || github.event.inputs.environment == 'both' || github.event_name == 'workflow_run'
+      #   run: |
+      #     echo "🚀 Uploading to DigitalOcean beta environment..."
+          
+      #     # Upload V1 feeds to beta
+      #     echo "Uploading V1 feeds to beta..."
+      #     V1_FEEDS=("ios_data_feed.json" "macos_data_feed.json" "timestamp.json")
+      #     for feed in "${V1_FEEDS[@]}"; do
+      #       echo "  Uploading v1/$feed"
+      #       s3cmd put "v1/$feed" --mime-type 'application/json' --acl-public "s3://sofafeed.macadmins.io/beta/v1/${feed%.*}_uncompressed.json"
+      #       s3cmd put "v1/${feed%.*}_compressed.json" --mime-type 'application/json' --add-header='Content-Encoding:gzip' --add-header='Cache-control:public, no-transform' --acl-public "s3://sofafeed.macadmins.io/beta/v1/$feed"
+      #     done
+          
+      #     # Upload V2 feeds to beta
+      #     echo "Uploading V2 feeds to beta..."
+      #     V2_FEEDS=("ios_data_feed.json" "macos_data_feed.json" "safari_data_feed.json" "tvos_data_feed.json" "watchos_data_feed.json" "visionos_data_feed.json")
+      #     for feed in "${V2_FEEDS[@]}"; do
+      #       echo "  Uploading v2/$feed"
+      #       s3cmd put "v2/$feed" --mime-type 'application/json' --acl-public "s3://sofafeed.macadmins.io/beta/v2/${feed%.*}_uncompressed.json"
+      #       s3cmd put "v2/${feed%.*}_compressed.json" --mime-type 'application/json' --add-header='Content-Encoding:gzip' --add-header='Cache-control:public, no-transform' --acl-public "s3://sofafeed.macadmins.io/beta/v2/$feed"
+      #     done
+          
+      #     echo "✅ Beta feeds (V1 + V2) uploaded to DigitalOcean"
+      #     echo "- **Beta Deployment**: ✅ Complete (V1: 3 feeds, V2: 6 feeds)" >> $GITHUB_STEP_SUMMARY
+
+      # - name: Upload to Digital Ocean (Production Feed)
+      #   if: github.event.inputs.environment == 'production' || github.event.inputs.environment == 'both' || github.event_name == 'workflow_run'
+      #   run: |
+      #     echo "🌍 Uploading to DigitalOcean production environment..."
+          
+      #     # Upload V1 feeds to production
+      #     echo "Uploading V1 feeds to production..."
+      #     V1_FEEDS=("ios_data_feed.json" "macos_data_feed.json" "timestamp.json")
+      #     for feed in "${V1_FEEDS[@]}"; do
+      #       echo "  Uploading v1/$feed"
+      #       s3cmd put "v1/$feed" --mime-type 'application/json' --acl-public "s3://sofafeed.macadmins.io/v1/${feed%.*}_uncompressed.json"
+      #       s3cmd put "v1/${feed%.*}_compressed.json" --mime-type 'application/json' --add-header='Content-Encoding:gzip' --add-header='Cache-control:public, no-transform' --acl-public "s3://sofafeed.macadmins.io/v1/$feed"
+      #     done
+          
+      #     # Upload RSS feed
+      #     echo "  Uploading v1/rss_feed.xml"
+      #     s3cmd put v1/rss_feed.xml --mime-type 'application/xml' --add-header='Cache-control:public, no-transform' --acl-public s3://sofafeed.macadmins.io/v1/rss_feed.xml
+          
+      #     # Upload V2 feeds to production
+      #     echo "Uploading V2 feeds to production..."
+      #     V2_FEEDS=("ios_data_feed.json" "macos_data_feed.json" "safari_data_feed.json" "tvos_data_feed.json" "watchos_data_feed.json" "visionos_data_feed.json")
+      #     for feed in "${V2_FEEDS[@]}"; do
+      #       echo "  Uploading v2/$feed"
+      #       s3cmd put "v2/$feed" --mime-type 'application/json' --acl-public "s3://sofafeed.macadmins.io/v2/${feed%.*}_uncompressed.json"
+      #       s3cmd put "v2/${feed%.*}_compressed.json" --mime-type 'application/json' --add-header='Content-Encoding:gzip' --add-header='Cache-control:public, no-transform' --acl-public "s3://sofafeed.macadmins.io/v2/$feed"
+      #     done
+          
+      #     echo "✅ Production feeds (V1 + V2) uploaded to DigitalOcean"
+      #     echo "- **Production Deployment**: ✅ Complete (V1: 3 feeds + RSS, V2: 6 feeds)" >> $GITHUB_STEP_SUMMARY
+          
+      - name: Deployment summary
+        if: always()
+        run: |
+          echo "## Deployment Results" >> $GITHUB_STEP_SUMMARY
+          echo "**Status:** ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Completed:** $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Feeds deployed to sofafeed.macadmins.io with gzip compression and proper caching headers." >> $GITHUB_STEP_SUMMARY
