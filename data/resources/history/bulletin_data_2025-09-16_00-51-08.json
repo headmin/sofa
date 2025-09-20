@@ -1,0 +1,183 @@
+{
+  "content_hash": "4093bae681c6b9b82c04866c197054ada1937bb7ce50ce3dc7b653226a77cf35",
+  "content_changed": true,
+  "generated_at": "2025-09-16T00:51:08.944902465Z",
+  "latest_releases": {
+    "macos": {
+      "version": "",
+      "build": "",
+      "release_date": "",
+      "url": "",
+      "cves_fixed": [],
+      "actively_exploited_count": 0,
+      "total_cve_count": 0,
+      "enterprise_link": null,
+      "updates_link": null
+    },
+    "ios": {
+      "version": "",
+      "build": "",
+      "release_date": "",
+      "url": "",
+      "cves_fixed": [],
+      "actively_exploited_count": 0,
+      "total_cve_count": 0,
+      "enterprise_link": null,
+      "updates_link": null
+    },
+    "ipados": {
+      "version": "",
+      "build": "",
+      "release_date": "",
+      "url": "",
+      "cves_fixed": [],
+      "actively_exploited_count": 0,
+      "total_cve_count": 0,
+      "enterprise_link": null,
+      "updates_link": null
+    },
+    "tvos": {
+      "version": "",
+      "build": "",
+      "release_date": "",
+      "url": "",
+      "cves_fixed": [],
+      "actively_exploited_count": 0,
+      "total_cve_count": 0,
+      "enterprise_link": null,
+      "updates_link": null
+    },
+    "watchos": {
+      "version": "",
+      "build": "",
+      "release_date": "",
+      "url": "",
+      "cves_fixed": [],
+      "actively_exploited_count": 0,
+      "total_cve_count": 0,
+      "enterprise_link": null,
+      "updates_link": null
+    },
+    "visionos": {
+      "version": "",
+      "build": "",
+      "release_date": "",
+      "url": "",
+      "cves_fixed": [],
+      "actively_exploited_count": 0,
+      "total_cve_count": 0,
+      "enterprise_link": null,
+      "updates_link": null
+    },
+    "safari": {
+      "version": "",
+      "build": "",
+      "release_date": "",
+      "url": "",
+      "cves_fixed": [],
+      "actively_exploited_count": 0,
+      "total_cve_count": 0,
+      "enterprise_link": null,
+      "updates_link": null
+    }
+  },
+  "security_summary": {
+    "unique_cves_fixed": 0,
+    "kev_matches": 0,
+    "latest_wave_date": "",
+    "kev_cve_list": []
+  },
+  "beta_releases": {
+    "latest_wave": "2025-09-15",
+    "macos": null,
+    "ios": null,
+    "ipados": {
+      "version": "17.7.9 RC",
+      "build": "21H446",
+      "released": "2025-07-21"
+    },
+    "tvos": null,
+    "watchos": null,
+    "visionos": null
+  },
+  "recent_releases": [
+    {
+      "release_date": "2025-09-15",
+      "name": "Safari 26",
+      "platform": "safari",
+      "version": "",
+      "url": "https://support.apple.com/en-us/125113"
+    },
+    {
+      "release_date": "2025-09-15",
+      "name": "Xcode 26",
+      "platform": "other",
+      "version": "",
+      "url": "https://support.apple.com/en-us/125117"
+    },
+    {
+      "release_date": "2025-09-15",
+      "name": "iOS 15.8.5 and iPadOS 15.8.5",
+      "platform": "ios",
+      "version": "15.8.5",
+      "url": "https://support.apple.com/en-us/125142"
+    },
+    {
+      "release_date": "2025-09-15",
+      "name": "iOS 16.7.12 and iPadOS 16.7.12",
+      "platform": "ios",
+      "version": "16.7.12",
+      "url": "https://support.apple.com/en-us/125141",
+      "enterprise_link": "https://support.apple.com/en-ca/101584",
+      "updates_link": "https://support.apple.com/en-ca/101566"
+    },
+    {
+      "release_date": "2025-09-15",
+      "name": "iOS 18.7 and iPadOS 18.7",
+      "platform": "ios",
+      "version": "18.7",
+      "url": "https://support.apple.com/en-us/125109",
+      "enterprise_link": "https://support.apple.com/en-ca/121158",
+      "updates_link": "https://support.apple.com/en-ca/121161"
+    },
+    {
+      "release_date": "2025-09-15",
+      "name": "iOS 26 and iPadOS 26",
+      "platform": "ios",
+      "version": "",
+      "url": "https://support.apple.com/en-us/125108"
+    },
+    {
+      "release_date": "2025-09-15",
+      "name": "macOS Sequoia 15.7",
+      "platform": "macos",
+      "version": "15.7",
+      "url": "https://support.apple.com/en-us/125111",
+      "enterprise_link": "https://support.apple.com/en-ca/121011",
+      "updates_link": "https://support.apple.com/en-ca/120283"
+    },
+    {
+      "release_date": "2025-09-15",
+      "name": "macOS Sonoma 14.8",
+      "platform": "macos",
+      "version": "14.8",
+      "url": "https://support.apple.com/en-us/125112",
+      "enterprise_link": "https://support.apple.com/en-ca/109030",
+      "updates_link": "https://support.apple.com/en-ca/109035"
+    },
+    {
+      "release_date": "2025-09-15",
+      "name": "macOS Tahoe 26",
+      "platform": "macos",
+      "version": "",
+      "url": "https://support.apple.com/en-us/125110"
+    },
+    {
+      "release_date": "2025-09-15",
+      "name": "tvOS 26",
+      "platform": "tvos",
+      "version": "",
+      "url": "https://support.apple.com/en-us/125114"
+    }
+  ]
+}

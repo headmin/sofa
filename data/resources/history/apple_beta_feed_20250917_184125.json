@@ -1,0 +1,56 @@
+{
+  "UpdateHash": "6045e568933e94121e26fa3039853f0bdc31de2a144ba83f080cc8b9d6c2d9ae",
+  "created_at": "2025-09-17T18:41:25.261354Z",
+  "items": [
+    {
+      "title": "Xcode 26 (17A324)",
+      "platform": "Xcode",
+      "version": "26",
+      "build": "17A324",
+      "released": "2025-09-15",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-26-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iPadOS 17.7.9 RC (21H446)",
+      "platform": "iPadOS",
+      "version": "17.7.9 RC",
+      "build": "21H446",
+      "released": "2025-07-21",
+      "release_notes_url": null,
+      "downloads_url": "https://developer.apple.com/download",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "Xcode 16.4 (16F6)",
+      "platform": "Xcode",
+      "version": "16.4",
+      "build": "16F6",
+      "released": "2025-05-28",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-16_4-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "Xcode 16.3 (16E140)",
+      "platform": "Xcode",
+      "version": "16.3",
+      "build": "16E140",
+      "released": "2025-03-31",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-16_3-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iPadOS 17.7.6 RC(21H423)",
+      "platform": "iPadOS",
+      "version": "17.7.6 RC",
+      "build": "21H423",
+      "released": "2025-03-24",
+      "release_notes_url": null,
+      "downloads_url": "https://developer.apple.com/download",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    }
+  ]
+}

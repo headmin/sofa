@@ -1,0 +1,288 @@
+{
+  "content_hash": "ea540c65e8fa57df3f387a8b8114a3f397b8bc6193c2c269c43e91d5223c013f",
+  "content_changed": true,
+  "generated_at": "2025-09-14T14:11:32.229117743Z",
+  "latest_releases": {
+    "macos": {
+      "version": "15.6.1",
+      "build": "24G90",
+      "release_date": "2025-08-20T00:00:00Z",
+      "url": "https://support.apple.com/en-us/124927",
+      "cves_fixed": [
+        "CVE-2025-43300"
+      ],
+      "actively_exploited_count": 1,
+      "total_cve_count": 1,
+      "enterprise_link": "https://support.apple.com/en-ca/121011",
+      "updates_link": "https://support.apple.com/en-ca/120283"
+    },
+    "ios": {
+      "version": "18.6.2",
+      "build": "22G6100",
+      "release_date": "2025-08-20T00:00:00Z",
+      "url": "https://support.apple.com/en-us/124925",
+      "cves_fixed": [
+        "CVE-2025-43300"
+      ],
+      "actively_exploited_count": 1,
+      "total_cve_count": 1,
+      "enterprise_link": "https://support.apple.com/en-ca/121158",
+      "updates_link": "https://support.apple.com/en-ca/121161"
+    },
+    "ipados": {
+      "version": "18.6.2",
+      "build": "22G6100",
+      "release_date": "2025-08-20T00:00:00Z",
+      "url": "https://support.apple.com/en-us/124925",
+      "cves_fixed": [
+        "CVE-2025-43300"
+      ],
+      "actively_exploited_count": 1,
+      "total_cve_count": 1,
+      "enterprise_link": "https://support.apple.com/en-ca/121158",
+      "updates_link": "https://support.apple.com/en-ca/121161"
+    },
+    "tvos": {
+      "version": "18.6",
+      "build": "22M84",
+      "release_date": "2025-07-29",
+      "url": "https://support.apple.com/en-us/124153",
+      "cves_fixed": [
+        "CVE-2025-31273",
+        "CVE-2025-31277",
+        "CVE-2025-31278",
+        "CVE-2025-31281",
+        "CVE-2025-43186",
+        "CVE-2025-43209",
+        "CVE-2025-43210",
+        "CVE-2025-43211",
+        "CVE-2025-43212",
+        "CVE-2025-43213",
+        "CVE-2025-43214",
+        "CVE-2025-43216",
+        "CVE-2025-43221",
+        "CVE-2025-43223",
+        "CVE-2025-43224",
+        "CVE-2025-43226",
+        "CVE-2025-43227",
+        "CVE-2025-43230",
+        "CVE-2025-43234",
+        "CVE-2025-43265",
+        "CVE-2025-43277",
+        "CVE-2025-6558",
+        "CVE-2025-7424",
+        "CVE-2025-7425"
+      ],
+      "actively_exploited_count": 1,
+      "total_cve_count": 24,
+      "enterprise_link": null,
+      "updates_link": null
+    },
+    "watchos": {
+      "version": "11.6.1",
+      "build": "22U90",
+      "release_date": "2025-08-14",
+      "url": "https://support.apple.com/en-us/100100",
+      "cves_fixed": [],
+      "actively_exploited_count": 0,
+      "total_cve_count": 0,
+      "enterprise_link": null,
+      "updates_link": null
+    },
+    "visionos": {
+      "version": "2.6",
+      "build": "22O785",
+      "release_date": "2025-07-29",
+      "url": "https://support.apple.com/en-us/124154",
+      "cves_fixed": [
+        "CVE-2025-31273",
+        "CVE-2025-31277",
+        "CVE-2025-31278",
+        "CVE-2025-31281",
+        "CVE-2025-43186",
+        "CVE-2025-43209",
+        "CVE-2025-43210",
+        "CVE-2025-43211",
+        "CVE-2025-43212",
+        "CVE-2025-43213",
+        "CVE-2025-43214",
+        "CVE-2025-43216",
+        "CVE-2025-43221",
+        "CVE-2025-43223",
+        "CVE-2025-43224",
+        "CVE-2025-43226",
+        "CVE-2025-43227",
+        "CVE-2025-43230",
+        "CVE-2025-43234",
+        "CVE-2025-43265",
+        "CVE-2025-43277",
+        "CVE-2025-6558",
+        "CVE-2025-7424",
+        "CVE-2025-7425"
+      ],
+      "actively_exploited_count": 1,
+      "total_cve_count": 24,
+      "enterprise_link": null,
+      "updates_link": null
+    },
+    "safari": {
+      "version": "18.6",
+      "build": "18.6",
+      "release_date": "2025-07-30T00:00:00Z",
+      "url": "https://support.apple.com/en-us/124152",
+      "cves_fixed": [
+        "CVE-2025-24188",
+        "CVE-2025-31273",
+        "CVE-2025-31277",
+        "CVE-2025-31278",
+        "CVE-2025-43211",
+        "CVE-2025-43212",
+        "CVE-2025-43213",
+        "CVE-2025-43214",
+        "CVE-2025-43216",
+        "CVE-2025-43227",
+        "CVE-2025-43228",
+        "CVE-2025-43229",
+        "CVE-2025-43240",
+        "CVE-2025-43265",
+        "CVE-2025-6558",
+        "CVE-2025-7424",
+        "CVE-2025-7425"
+      ],
+      "actively_exploited_count": 1,
+      "total_cve_count": 17,
+      "enterprise_link": null,
+      "updates_link": null
+    }
+  },
+  "security_summary": {
+    "unique_cves_fixed": 29,
+    "kev_matches": 2,
+    "latest_wave_date": "2025-08-20T00:00:00Z",
+    "kev_cve_list": [
+      "CVE-2025-6558",
+      "CVE-2025-43300"
+    ]
+  },
+  "beta_releases": {
+    "latest_wave": "2025-09-09",
+    "macos": {
+      "version": "26 RC",
+      "build": "25A353",
+      "released": "2025-09-09"
+    },
+    "ios": {
+      "version": "26 RC",
+      "build": "23A340",
+      "released": "2025-09-09"
+    },
+    "ipados": {
+      "version": "26 RC",
+      "build": "23A340",
+      "released": "2025-09-09"
+    },
+    "tvos": {
+      "version": "26 RC",
+      "build": "23J352",
+      "released": "2025-09-09"
+    },
+    "watchos": {
+      "version": "26 RC",
+      "build": "23R351",
+      "released": "2025-09-09"
+    },
+    "visionos": {
+      "version": "26 RC",
+      "build": "23M336",
+      "released": "2025-09-09"
+    }
+  },
+  "recent_releases": [
+    {
+      "release_date": "2025-08-20",
+      "name": "iOS 18.6.2 and iPadOS 18.6.2",
+      "platform": "ios",
+      "version": "18.6.2",
+      "url": "https://support.apple.com/en-us/124925",
+      "enterprise_link": "https://support.apple.com/en-ca/121158",
+      "updates_link": "https://support.apple.com/en-ca/121161"
+    },
+    {
+      "release_date": "2025-08-20",
+      "name": "iPadOS 17.7.10",
+      "platform": "ipados",
+      "version": "17.7.10",
+      "url": "https://support.apple.com/en-us/124926",
+      "enterprise_link": "https://support.apple.com/en-ca/118102",
+      "updates_link": "https://support.apple.com/en-ca/109043"
+    },
+    {
+      "release_date": "2025-08-20",
+      "name": "macOS Sequoia 15.6.1",
+      "platform": "macos",
+      "version": "15.6.1",
+      "url": "https://support.apple.com/en-us/124927",
+      "enterprise_link": "https://support.apple.com/en-ca/121011",
+      "updates_link": "https://support.apple.com/en-ca/120283"
+    },
+    {
+      "release_date": "2025-08-20",
+      "name": "macOS Sonoma 14.7.8",
+      "platform": "macos",
+      "version": "14.7.8",
+      "url": "https://support.apple.com/en-us/124928",
+      "enterprise_link": "https://support.apple.com/en-ca/109030",
+      "updates_link": "https://support.apple.com/en-ca/109035"
+    },
+    {
+      "release_date": "2025-08-20",
+      "name": "macOS Ventura 13.7.8",
+      "platform": "macos",
+      "version": "13.7.8",
+      "url": "https://support.apple.com/en-us/124929",
+      "enterprise_link": "https://support.apple.com/en-ca/HT213327",
+      "updates_link": "https://support.apple.com/en-ca/106337"
+    },
+    {
+      "release_date": "2025-08-14",
+      "name": "iOS 18.6.1",
+      "platform": "ios",
+      "version": "18.6.1",
+      "url": "https://support.apple.com/en-us/100100",
+      "enterprise_link": "https://support.apple.com/en-ca/121158",
+      "updates_link": "https://support.apple.com/en-ca/121161"
+    },
+    {
+      "release_date": "2025-08-14",
+      "name": "watchOS 11.6.1",
+      "platform": "watchos",
+      "version": "11.6.1",
+      "url": "https://support.apple.com/en-us/100100"
+    },
+    {
+      "release_date": "2025-07-30",
+      "name": "Safari 18.6",
+      "platform": "safari",
+      "version": "18.6",
+      "url": "https://support.apple.com/en-us/124152"
+    },
+    {
+      "release_date": "2025-07-29",
+      "name": "iOS 18.6 and iPadOS 18.6",
+      "platform": "ios",
+      "version": "18.6",
+      "url": "https://support.apple.com/en-us/124147",
+      "enterprise_link": "https://support.apple.com/en-ca/121158",
+      "updates_link": "https://support.apple.com/en-ca/121161"
+    },
+    {
+      "release_date": "2025-07-29",
+      "name": "iPadOS 17.7.9",
+      "platform": "ipados",
+      "version": "17.7.9",
+      "url": "https://support.apple.com/en-us/124148",
+      "enterprise_link": "https://support.apple.com/en-ca/118102",
+      "updates_link": "https://support.apple.com/en-ca/109043"
+    }
+  ]
+}

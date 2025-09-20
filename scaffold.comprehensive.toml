@@ -1,0 +1,1215 @@
+project = { name = "SOFA Configuration Manager", version = "1.0.0" }
+templates_dir = "templates"
+
+[variables]
+# Environment configuration
+env = "prod"
+org = "sofa"
+project_name = "SOFA"
+
+# Certificate configuration  
+apple_cert_url = "https://www.apple.com/certificateauthority/AppleRootCA-G3.cer"
+# apple_cert_url_legacy = "https://www.apple.com/certificateauthority/AppleComputerRootCertificate.cer"  # Old Apple Computer cert (expires 2025)
+
+# Version configuration
+min_versions = { macos = "12.0", ios = "16.0", ipados = "16.0", watchos = "9.0", tvos = "16.0", visionos = "1.0", safari = "16.0" }
+retention_policy = { ios = 3, ipados = 3, watchos = 2, tvos = 2, safari = 3 }
+
+# URL configuration
+base_url = "https://support.apple.com/en-ca"
+gdmf_url = "https://gdmf.apple.com/v2/pmv"
+ipsw_api = "https://api.ipsw.me/v4"
+
+# Directory configuration
+data_dir = "data"
+cache_dir = "./data/cache"
+templates_dir = "templates"
+
+# ==============================================================================
+# CONFIG FILES
+# ==============================================================================
+
+[[files]]
+output = "config/build.toml"
+mode = "0644"
+strategy = "inline"
+format = "text"
+content = '''
+# SOFA Assembly Configuration
+
+# Input configuration
+[input]
+directory = "./data/resources"
+models_directory = "./data/models"
+required_files = ["apple_security_releases.ndjson"]
+
+# Output configuration  
+[output]
+directory = "../"
+preserve_history = false
+max_history_files = 10
+
+# Feed configuration
+[feeds]
+include_models = true
+include_xprotect = true
+include_installation_apps = true
+generate_v1 = true
+generate_v2 = true
+v1_output_dir = "v1"
+v2_output_dir = "v2"
+
+# Version filtering configuration
+[feeds.version_filtering]
+enabled = true
+
+# Minimum versions to include
+[feeds.version_filtering.minimum_versions]
+macos = "12.0"
+ios = "16.0"
+ipados = "16.0"
+watchos = "9.0"
+tvos = "16.0"
+visionos = "1.0"
+safari = "16.0"
+
+# Enabled OS feeds
+[feeds.version_filtering.enabled_os_feeds]
+macos = true
+ios = true
+ipados = true
+watchos = true
+tvos = true
+visionos = true
+safari = true
+
+# Retention policy (number of major versions to keep, omitted = keep all)
+[feeds.version_filtering.retention_policy]
+ios = 3
+ipados = 3
+watchos = 2
+tvos = 2
+safari = 3
+
+# Templates configuration
+[templates]
+directory = "templates"
+macos_template = "macos_feed.hbs"
+ios_template = "ios_feed_v1.hbs"
+use_templates = false
+
+# Feed settings
+[feed_settings]
+include_xprotect = true
+include_models = true
+include_installation_apps = true
+layer_device_support = false
+inherit_devices = false
+
+# CVE database configuration
+[cve]
+database_path = "./data/gather/cve_lookup.ndjson"
+kev_path = "./data/gather/kev_catalog.json"
+cache_directory = "./data/fetch/html_cache"
+
+# Logging configuration
+[logging]
+level = "info"
+format = "pretty"
+'''
+
+[[files]]
+output = "config/essential_links.toml"
+mode = "0644"
+strategy = "inline"
+format = "text"
+content = '''
+[macOS.Tahoe]
+"What's new for enterprise in macOS Tahoe" = "https://support.apple.com/en-ca/121011"
+"What's new in the updates for macOS Tahoe" = "https://support.apple.com/en-ca/120283"
+
+[macOS.Sequoia]
+"What's new for enterprise in macOS Sequoia" = "https://support.apple.com/en-ca/121011"
+"What's new in the updates for macOS Sequoia" = "https://support.apple.com/en-ca/120283"
+
+[macOS.Sonoma]
+"What's new for enterprise in macOS Sonoma" = "https://support.apple.com/en-ca/109030"
+"What's new in the updates for macOS Sonoma" = "https://support.apple.com/en-ca/109035"
+
+[macOS.Ventura]
+"What's new for enterprise in macOS Ventura" = "https://support.apple.com/en-ca/HT213327"
+"What's new in the updates for macOS Ventura" = "https://support.apple.com/en-ca/106337"
+
+[macOS.Monterey]
+"What's new for enterprise in macOS Monterey" = "https://support.apple.com/en-ca/103271"
+"What's new in the updates for macOS Monterey" = "https://support.apple.com/en-ca/106339"
+
+[iOS."18"]
+"What's new for enterprise in iOS/iPadOS 18" = "https://support.apple.com/en-ca/121158"
+"What's new in the updates for iOS/iPadOS 18" = "https://support.apple.com/en-ca/121161"
+
+[iOS."17"]
+"What's new for enterprise in iOS/iPadOS 17" = "https://support.apple.com/en-ca/118102"
+"What's new in the updates for iOS/iPadOS 17" = "https://support.apple.com/en-ca/109043"
+
+[iOS."16"]
+"What's new for enterprise in iOS/iPadOS 16" = "https://support.apple.com/en-ca/101584"
+"What's new in the updates for iOS/iPadOS 16" = "https://support.apple.com/en-ca/101566"
+
+[Common]
+"Apple security releases" = "https://support.apple.com/en-ca/100100"
+"Apple Platform Deployment" = "https://support.apple.com/en-ca/guide/deployment/dep9d814c555/1/web/1.0"
+"Apple Platform Security" = "https://support.apple.com/en-ca/guide/security/secb82d6b274/web"
+"Apple Platform Certifications" = "https://support.apple.com/en-ca/guide/certifications/apc353b1b736/web"
+"AppleSeed for IT" = "https://beta.apple.com/for-it"
+
+["Apple Guides"]
+description = "Find comprehensive guides to deploy, secure, and certify Apple platforms."
+
+["Apple Guides".links]
+"Apple Platform Deployment" = "https://support.apple.com/en-ca/guide/deployment/welcome/web"
+"Apple Platform Security" = "https://support.apple.com/en-ca/guide/security/welcome/web"
+"Apple Platform Certifications" = "https://support.apple.com/en-ca/guide/certifications/welcome/web"
+"Apple security releases" = "https://support.apple.com/en-ca/100100"
+"Apple products on enterprise networks" = "https://support.apple.com/en-ca/101555"
+"Apple Business Manager User Guide" = "https://support.apple.com/en-ca/guide/apple-business-manager/welcome/web"
+
+["Apple Training"]
+description = "Explore training tutorials for Apple device support, deployment, management, and more."
+
+["Apple Training".links]
+"Apple Device Support Tutorials" = "https://it-training.apple.com/tutorials/apt-support/"
+"Deployment and Management Tutorials" = "https://it-training.apple.com/tutorials/apt-deployment/"
+"Mac Security Compliance Tutorials" = "https://it-training.apple.com/tutorials/apt-compliance/"
+"Apple Business Essentials Tutorials" = "https://it-training.apple.com/tutorials/apt-business-essentials/"
+
+["Apple Developer"]
+description = "Resources for Apple developers including beta programs and GitHub repositories."
+"Apple Beta Software Program" = "https://beta.apple.com"
+"Apple Developer Program" = "https://developer.apple.com/programs/"
+"Device Management (GitHub)" = "https://github.com/apple/device-management"
+
+["Apple Developer".context]
+"Apple Beta Software Program" = "Contribute to shaping future releases of iOS, iPadOS, macOS, tvOS, watchOS, and HomePod software by testing pre-release versions."
+"Apple Developer Program" = "The Apple Developer program provides developers and admins with tools for app creation, code signing, distribution, testing, analytics, and more."
+"Device Management (GitHub)" = "Apple Device management schema data for MDM and Declarative Device management (DDM)."
+
+[Security]
+description = "Security resources including macOS Security Compliance Project and MITRE ATT&CK."
+mSCP = "https://github.com/usnistgov/macos_security"
+Mitre = "https://attack.mitre.org/matrices/enterprise/macos/"
+
+[Security.context]
+Mitre = "The Mitre macOS Matrix is a compilation of tactics and techniques derived from the MITRE ATT&CK® Matrix for Enterprise, specifically focusing on macOS platform."
+mSCP = "The macOS security compliance project is an open source effort to provide a programmatic approach to generating security guidance."
+'''
+
+[[files]]
+output = "config/fetch.toml"
+mode = "0644"
+strategy = "inline"
+format = "text"
+content = '''
+# SOFA Fetch Configuration
+# Standard directory structure: bin/, config/, data/
+
+index_urls = [
+    "https://support.apple.com/en-us/100100",
+    "https://support.apple.com/en-us/121012",
+    "https://support.apple.com/en-us/120989"
+]
+
+cache_dir = "./data/cache/html"
+cache_ttl_seconds = 10
+max_concurrent_requests = 10
+user_agent = "sofa-rust-fetcher/1.0"
+request_timeout_seconds = 30
+max_retries = 3
+
+[output]
+directory = "./data/resources"
+preserve_history = true
+max_history_files = 10
+
+# CVE Enrichment Sources (optional)
+[cve_enrichment]
+# CISA Known Exploited Vulnerabilities catalog
+kev_catalog_url = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+
+# VulnCheck API for enhanced CVE details (Community tier uses backup endpoint)
+vulncheck_api_url = "https://api.vulncheck.com/v3/backup/nist-nvd2"
+# Set VULNCHECK_API_KEY environment variable or use --vulncheck-api-key flag
+'''
+
+[[files]]
+output = "config/gather.toml"
+mode = "0644"
+strategy = "inline"
+format = "text"
+content = '''
+# SOFA Gather Configuration
+# Standard directory structure: bin/, config/, data/
+
+[output]
+directory = "./data/resources"
+history_enabled = true
+timestamp_tracking = true
+preserve_history = false
+max_history_files = 10
+
+[urls]
+kev_catalog = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+gdmf_pmv = "https://gdmf.apple.com/v2/pmv"
+apple_catalog = "https://swscan.apple.com/content/catalogs/others/index-15-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog"
+rapid_security_response = "https://support.apple.com/en-us/HT213532"
+rss_feed = "https://developer.apple.com/news/releases/rss/releases.rss"
+apple_beta_rss = "https://developer.apple.com/rss/betas.rss"
+uma_catalog = "https://swscan.apple.com/content/catalogs/others/index-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog"
+mesu_catalog = "https://mesu.apple.com/assets/macos/com_apple_macOSIPSW/com_apple_macOSIPSW.xml"
+ipsw_api = "https://api.ipsw.me/v4"
+ipsw_devices = "https://api.ipsw.me/v4/devices"
+ipsw_version = "https://api.ipsw.me/v4/version"
+ipsw_device_info = "https://api.ipsw.me/v4/device/"
+ipsw_firmware_info = "https://api.ipsw.me/v4/ipsw/"
+apple_developer_releases = "https://developer.apple.com/news/releases/"
+
+[features]
+fetch_kev = true
+fetch_gdmf = true
+fetch_ipsw = true
+fetch_beta = true
+fetch_uma = true
+fetch_xprotect = true
+
+[cache]
+enabled = true
+directory = "./data/cache"
+ttl_seconds = 21600
+preserve_history = false
+
+[certificates]
+apple_root_cert = "config/AppleRoot.pem"
+verify_ssl = true
+
+# Binary path is not needed in TOML as binaries are in bin/ directory
+'''
+
+[[files]]
+output = "config/os_priority.toml"
+mode = "0644"
+strategy = "inline"
+format = "text"
+content = '''
+# OS Priority Configuration for SOFA
+# Lower numbers = higher priority in sorting
+# This file is optional - defaults are used if not present
+
+[priority]
+# Desktop OS
+macOS = 1
+
+# Mobile/Tablet OS
+iOS = 2
+iPadOS = 2
+
+# Browser
+Safari = 3
+
+# Other Apple OS
+watchOS = 4
+tvOS = 5
+visionOS = 6
+audioOS = 7
+bridgeOS = 8
+homeOS = 9
+
+# Default for unknown OS types
+default = 99
+
+# Version ranges to include in reports (optional)
+[versions]
+# These define which OS versions to include in essential links
+# Can be numeric ranges or named versions
+macOS = ["Tahoe", "Sequoia", "Sonoma", "Ventura", "Monterey", "Big Sur"]
+iOS = ["26", "18", "17", "16", "15"]
+iPadOS = ["26", "18", "17", "16", "15"]
+watchOS = ["26", "11", "10", "9"]
+tvOS = ["26", "18", "17", "16"]
+visionOS = ["26","2", "1"]
+'''
+
+# ==============================================================================
+# MODEL FILES (from models-live/)
+# ==============================================================================
+
+[[files]]
+output = "data/models/model_identifier_tahoe.json"
+mode = "0644"
+strategy = "inline"
+format = "json"
+content = '''
+[
+    {
+        "Model": "MacBook Air",
+        "URL": "https://support.apple.com/en-ca/HT201862",
+        "Identifiers": {
+            "Mac16,13": "MacBook Air (15-inch, M4, 2025)",
+            "Mac16,12": "MacBook Air (13-inch, M4, 2025)",
+            "Mac15,13": "MacBook Air (15-inch, M3, 2024)",
+            "Mac15,12": "MacBook Air (13-inch, M3, 2024)",
+            "Mac14,15": "MacBook Air (15-inch, M2, 2023)",
+            "Mac14,2": "MacBook Air (M2, 2022)",
+            "MacBookAir10,1": "MacBook Air (M1, 2020)",
+            "MacBookAir9,1": "MacBook Air (Retina, 13-inch, 2020)"
+        }
+    },
+    {
+        "Model": "MacBook Pro",
+        "URL": "https://support.apple.com/en-ca/HT201300",
+        "Identifiers": {
+            "Mac16,1": "MacBook Pro (14-inch, 2024)",
+            "Mac16,5": "MacBook Pro (14-inch, 2024)",
+            "Mac16,6": "MacBook Pro (14-inch, 2024)",
+            "Mac16,7": "MacBook Pro (14-inch, 2024)",
+            "Mac16,8": "MacBook Pro (14-inch, 2024)",
+            "Mac15,3": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,6": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,8": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,10": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,7": "MacBook Pro (16-inch, Nov 2023)",
+            "Mac15,9": "MacBook Pro (16-inch, Nov 2023)",
+            "Mac15,11": "MacBook Pro (16-inch, Nov 2023)",
+            "Mac14,5": "MacBook Pro (14-inch, 2023)",
+            "Mac14,9": "MacBook Pro (14-inch, 2023)",
+            "Mac14,6": "MacBook Pro (16-inch, 2023)",
+            "Mac14,10": "MacBook Pro (16-inch, 2023)",
+            "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
+            "MacBookPro18,3": "MacBook Pro (14-inch, 2021)",
+            "MacBookPro18,4": "MacBook Pro (14-inch, 2021)",
+            "MacBookPro18,1": "MacBook Pro (16-inch, 2021)",
+            "MacBookPro18,2": "MacBook Pro (16-inch, 2021)",
+            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
+            "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+            "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+            "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
+            "MacBookPro15,3": "MacBook Pro (15-inch, 2018)",
+            "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)"
+        }        
+    },
+    {
+        "Model": "Mac mini",
+        "URL": "https://support.apple.com/en-ca/HT201894",
+        "Identifiers": {
+            "Mac16,11": "Mac mini (2024)",
+            "Mac16,10": "Mac mini (2024)",
+            "Mac14,3": "Mac mini (2023)",
+            "Mac14,12": "Mac mini (2023)",
+            "Macmini9,1": "Mac mini (M1, 2020)",
+            "Macmini8,1": "Mac mini (2018)"
+        }
+    },
+    {
+        "Model": "Mac Studio",
+        "URL": "https://support.apple.com/en-ca/HT213073",
+        "Identifiers": {
+            "Mac16,9": "Mac Studio (2025)",
+            "Mac15,14": "Mac Studio (2025)",
+            "Mac14,13": "Mac Studio (2023)",
+            "Mac14,14": "Mac Studio (2023)",
+            "Mac13,1": "Mac Studio (2022)",
+            "Mac13,2": "Mac Studio (2022)"
+        }
+    },
+    {
+        "Model": "iMac",
+        "URL": "https://support.apple.com/en-ca/HT201634",
+        "Identifiers": {
+            "Mac16,2": "iMac (24-inch, 2024, Two ports)",
+            "Mac16,3": "iMac (24-inch, 2024, Four ports)",
+            "Mac15,5": "iMac (24-inch, 2023)",
+            "Mac15,4": "iMac (24-inch, 2023)",
+            "iMac21,1": "iMac (24-inch, M1, 2021)",
+            "iMac21,2": "iMac (24-inch, M1, 2021)",
+            "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac20,2": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac19,1": "iMac (Retina 5K, 27-inch, 2019)",
+            "iMac19,2": "iMac (Retina 4K, 21.5-inch, 2019)",
+            "iMacPro1,1": "iMac Pro"
+        }
+    },
+    {
+        "Model": "Mac Pro",
+        "URL": "https://support.apple.com/en-ca/HT202888",
+        "Identifiers": {
+            "Mac14,8": "Mac Pro (2023)",
+            "MacPro7,1": "Mac Pro (2019)"
+        }
+    }
+]
+'''
+
+[[files]]
+output = "data/models/model_identifier_sequoia.json"
+mode = "0644"
+strategy = "inline"
+format = "json"
+content = '''
+[
+    {
+        "Model": "MacBook Air",
+        "URL": "https://support.apple.com/en-ca/HT201862",
+        "Identifiers": {
+            "Mac16,13": "MacBook Air (15-inch, M4, 2025)",
+            "Mac16,12": "MacBook Air (13-inch, M4, 2025)",
+            "Mac15,13": "MacBook Air (15-inch, M3, 2024)",
+            "Mac15,12": "MacBook Air (13-inch, M3, 2024)",
+            "Mac14,15": "MacBook Air (15-inch, M2, 2023)",
+            "Mac14,2": "MacBook Air (M2, 2022)",
+            "MacBookAir10,1": "MacBook Air (M1, 2020)",
+            "MacBookAir9,1": "MacBook Air (Retina, 13-inch, 2020)"
+        }
+    },
+    {
+        "Model": "MacBook Pro",
+        "URL": "https://support.apple.com/en-ca/HT201300",
+        "Identifiers": {
+            "Mac16,1": "MacBook Pro (14-inch, 2024)",
+            "Mac16,5": "MacBook Pro (14-inch, 2024)",
+            "Mac16,6": "MacBook Pro (14-inch, 2024)",
+            "Mac16,7": "MacBook Pro (14-inch, 2024)",
+            "Mac16,8": "MacBook Pro (14-inch, 2024)",
+            "Mac15,3": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,6": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,8": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,10": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,7": "MacBook Pro (16-inch, Nov 2023)",
+            "Mac15,9": "MacBook Pro (16-inch, Nov 2023)",
+            "Mac15,11": "MacBook Pro (16-inch, Nov 2023)",
+            "Mac14,5": "MacBook Pro (14-inch, 2023)",
+            "Mac14,9": "MacBook Pro (14-inch, 2023)",
+            "Mac14,6": "MacBook Pro (16-inch, 2023)",
+            "Mac14,10": "MacBook Pro (16-inch, 2023)",
+            "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
+            "MacBookPro18,3": "MacBook Pro (14-inch, 2021)",
+            "MacBookPro18,4": "MacBook Pro (14-inch, 2021)",
+            "MacBookPro18,1": "MacBook Pro (16-inch, 2021)",
+            "MacBookPro18,2": "MacBook Pro (16-inch, 2021)",
+            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
+            "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+            "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+            "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
+            "MacBookPro15,3": "MacBook Pro (15-inch, 2018)",
+            "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)"
+        }        
+    },
+    {
+        "Model": "Mac mini",
+        "URL": "https://support.apple.com/en-ca/HT201894",
+        "Identifiers": {
+            "Mac16,11": "Mac mini (2024)",
+            "Mac16,10": "Mac mini (2024)",
+            "Mac14,3": "Mac mini (2023)",
+            "Mac14,12": "Mac mini (2023)",
+            "Macmini9,1": "Mac mini (M1, 2020)",
+            "Macmini8,1": "Mac mini (2018)"
+        }
+    },
+    {
+        "Model": "Mac Studio",
+        "URL": "https://support.apple.com/en-ca/HT213073",
+        "Identifiers": {
+            "Mac16,9": "Mac Studio (2025)",
+            "Mac15,14": "Mac Studio (2025)",
+            "Mac14,13": "Mac Studio (2023)",
+            "Mac14,14": "Mac Studio (2023)",
+            "Mac13,1": "Mac Studio (2022)",
+            "Mac13,2": "Mac Studio (2022)"
+        }
+    },
+    {
+        "Model": "iMac",
+        "URL": "https://support.apple.com/en-ca/HT201634",
+        "Identifiers": {
+            "Mac16,2": "iMac (24-inch, 2024, Two ports)",
+            "Mac16,3": "iMac (24-inch, 2024, Four ports)",
+            "Mac15,5": "iMac (24-inch, 2023)",
+            "Mac15,4": "iMac (24-inch, 2023)",
+            "iMac21,1": "iMac (24-inch, M1, 2021)",
+            "iMac21,2": "iMac (24-inch, M1, 2021)",
+            "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac20,2": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac19,1": "iMac (Retina 5K, 27-inch, 2019)",
+            "iMac19,2": "iMac (Retina 4K, 21.5-inch, 2019)",
+            "iMacPro1,1": "iMac Pro"
+        }
+    },
+    {
+        "Model": "Mac Pro",
+        "URL": "https://support.apple.com/en-ca/HT202888",
+        "Identifiers": {
+            "Mac14,8": "Mac Pro (2023)",
+            "MacPro7,1": "Mac Pro (2019)"
+        }
+    }
+]
+'''
+
+[[files]]
+output = "data/models/model_identifier_sonoma.json"
+mode = "0644"
+strategy = "inline"
+format = "json"
+content = '''
+[
+    {
+        "Model": "MacBook Air",
+        "URL": "https://support.apple.com/en-ca/HT201862",
+        "Identifiers": {
+          "Mac15,13": "MacBook Air (15-inch, M3, 2024)",
+          "Mac15,12": "MacBook Air (13-inch, M3, 2024)",
+          "Mac14,15": "MacBook Air (15-inch, M2, 2023)",
+          "Mac14,2": "MacBook Air (M2, 2022)",
+          "MacBookAir10,1": "MacBook Air (M1, 2020)",
+          "MacBookAir9,1": "MacBook Air (Retina, 13-inch, 2020)",
+          "MacBookAir8,2": "MacBook Air (Retina, 13-inch, 2019)",
+          "MacBookAir8,1": "MacBook Air (Retina, 13-inch, 2018)"
+        }
+    },
+    {
+        "Model": "MacBook Pro",
+        "URL": "https://support.apple.com/en-ca/HT201300",
+        "Identifiers": {
+            "Mac15,3": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,6": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,8": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,10": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,7": "MacBook Pro (16-inch, Nov 2023)",
+            "Mac15,9": "MacBook Pro (16-inch, Nov 2023)",
+            "Mac15,11": "MacBook Pro (16-inch, Nov 2023)",
+            "Mac14,5": "MacBook Pro (14-inch, 2023)",
+            "Mac14,9": "MacBook Pro (14-inch, 2023)",
+            "Mac14,6": "MacBook Pro (16-inch, 2023)",
+            "Mac14,10": "MacBook Pro (16-inch, 2023)",
+            "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
+            "MacBookPro18,3": "MacBook Pro (14-inch, 2021)",
+            "MacBookPro18,4": "MacBook Pro (14-inch, 2021)",
+            "MacBookPro18,1": "MacBook Pro (16-inch, 2021)",
+            "MacBookPro18,2": "MacBook Pro (16-inch, 2021)",
+            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
+            "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+            "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+            "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
+            "MacBookPro15,3": "MacBook Pro (15-inch, 2018)",
+            "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)"
+        }        
+    },
+    {
+        "Model": "Mac mini",
+        "URL": "https://support.apple.com/en-ca/HT201894",
+        "Identifiers": {
+            "Mac14,3": "Mac mini (2023)",
+            "Mac14,12": "Mac mini (2023)",
+            "Macmini9,1": "Mac mini (M1, 2020)",
+            "Macmini8,1": "Mac mini (2018)"
+        }
+    },
+    {
+        "Model": "Mac Studio",
+        "URL": "https://support.apple.com/en-ca/HT213073",
+        "Identifiers": {
+            "Mac14,13": "Mac Studio (2023)",
+            "Mac14,14": "Mac Studio (2023)",
+            "Mac13,1": "Mac Studio (2022)",
+            "Mac13,2": "Mac Studio (2022)"
+        }
+    },
+    {
+        "Model": "iMac",
+        "URL": "https://support.apple.com/en-ca/HT201634",
+        "Identifiers": {
+            "Mac15,5": "iMac (24-inch, 2023)",
+            "Mac15,4": "iMac (24-inch, 2023)",
+            "iMac21,1": "iMac (24-inch, M1, 2021)",
+            "iMac21,2": "iMac (24-inch, M1, 2021)",
+            "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac20,2": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac19,1": "iMac (Retina 5K, 27-inch, 2019)",
+            "iMac19,2": "iMac (Retina 4K, 21.5-inch, 2019)",
+            "iMacPro1,1": "iMac Pro"
+        }
+    },
+    {
+        "Model": "Mac Pro",
+        "URL": "https://support.apple.com/en-ca/HT202888",
+        "Identifiers": {
+            "Mac14,8": "Mac Pro (2023)",
+            "MacPro7,1": "Mac Pro (2019)"
+        }
+    }
+]
+'''
+
+[[files]]
+output = "data/models/model_identifier_ventura.json"
+mode = "0644"
+strategy = "inline"
+format = "json"
+content = '''
+[
+    {
+        "Model": "MacBook Air",
+        "URL": "https://support.apple.com/en-ca/HT201862",
+        "Identifiers": {
+            "Mac14,15": "MacBook Air (15-inch, M2, 2023)",
+            "Mac14,2": "MacBook Air (M2, 2022)",
+            "MacBookAir10,1": "MacBook Air (M1, 2020)",
+            "MacBookAir9,1": "MacBook Air (Retina, 13-inch, 2020)",
+            "MacBookAir8,2": "MacBook Air (Retina, 13-inch, 2019)",
+            "MacBookAir8,1": "MacBook Air (Retina, 13-inch, 2018)"
+        }
+    },
+    {
+        "Model": "MacBook Pro",
+        "URL": "https://support.apple.com/en-ca/HT201300",
+        "Identifiers": {
+            "Mac15,3": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,6": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,8": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,10": "MacBook Pro (14-inch, Nov 2023)",
+            "Mac15,7": "MacBook Pro (16-inch, Nov 2023)",
+            "Mac15,9": "MacBook Pro (16-inch, Nov 2023)",
+            "Mac15,11": "MacBook Pro (16-inch, Nov 2023)",
+            "Mac14,5": "MacBook Pro (14-inch, 2023)",
+            "Mac14,9": "MacBook Pro (14-inch, 2023)",
+            "Mac14,6": "MacBook Pro (16-inch, 2023)",
+            "Mac14,10": "MacBook Pro (16-inch, 2023)",
+            "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
+            "MacBookPro18,3": "MacBook Pro (14-inch, 2021)",
+            "MacBookPro18,4": "MacBook Pro (14-inch, 2021)",
+            "MacBookPro18,1": "MacBook Pro (16-inch, 2021)",
+            "MacBookPro18,2": "MacBook Pro (16-inch, 2021)",
+            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
+            "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+            "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+            "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
+            "MacBookPro15,3": "MacBook Pro (15-inch, 2018)",
+            "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
+            "MacBookPro14,3": "MacBook Pro (15-inch, 2017)",
+            "MacBookPro14,2": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
+            "MacBookPro14,1": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)"
+        }        
+    },
+    {
+        "Model": "MacBook",
+        "URL": "https://support.apple.com/en-ca/103257",
+        "Identifiers": {
+            "MacBook10,1": "MacBook (Retina, 12-inch, 2017)"
+        }
+    },
+    {
+        "Model": "Mac mini",
+        "URL": "https://support.apple.com/en-ca/HT201894",
+        "Identifiers": {
+            "Mac14,3": "Mac mini (2023)",
+            "Mac14,12": "Mac mini (2023)",
+            "Macmini9,1": "Mac mini (M1, 2020)",
+            "Macmini8,1": "Mac mini (2018)"
+        }
+    },
+    {
+        "Model": "Mac Studio",
+        "URL": "https://support.apple.com/en-ca/HT213073",
+        "Identifiers": {
+            "Mac14,13": "Mac Studio (2023)",
+            "Mac14,14": "Mac Studio (2023)",
+            "Mac13,1": "Mac Studio (2022)",
+            "Mac13,2": "Mac Studio (2022)"
+        }
+    },
+    {
+        "Model": "iMac",
+        "URL": "https://support.apple.com/en-ca/HT201634",
+        "Identifiers": {
+            "Mac15,5": "iMac (24-inch, 2023)",
+            "Mac15,4": "iMac (24-inch, 2023)",
+            "iMac21,1": "iMac (24-inch, M1, 2021)",
+            "iMac21,2": "iMac (24-inch, M1, 2021)",
+            "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac20,2": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac19,1": "iMac (Retina 5K, 27-inch, 2019)",
+            "iMac19,2": "iMac (Retina 4K, 21.5-inch, 2019)",
+            "iMacPro1,1": "iMac Pro",
+            "iMac18,3": "iMac (Retina 5K, 27-inch, 2017)",
+            "iMac18,2": "iMac (Retina 4K, 21.5-inch, 2017)",
+            "iMac18,1": "iMac (21.5-inch, 2017)"
+        }
+    },
+    {
+        "Model": "Mac Pro",
+        "URL": "https://support.apple.com/en-ca/HT202888",
+        "Identifiers": {
+            "Mac14,8": "Mac Pro (2023)",
+            "MacPro7,1": "Mac Pro (2019)"
+        }
+    }
+]
+'''
+
+[[files]]
+output = "data/models/model_identifier_monterey.json"
+mode = "0644"
+strategy = "inline"
+format = "json"
+content = '''
+[
+    {
+        "Model": "MacBook Air",
+        "URL": "https://support.apple.com/en-ca/HT201862",
+        "Identifiers": {
+            "Mac14,2": "MacBook Air (M2, 2022)",
+            "MacBookAir10,1": "MacBook Air (M1, 2020)",
+            "MacBookAir9,1": "MacBook Air (Retina, 13-inch, 2020)",
+            "MacBookAir8,2": "MacBook Air (Retina, 13-inch, 2019)",
+            "MacBookAir8,1": "MacBook Air (Retina, 13-inch, 2018)",
+            "MacBookAir7,2": "MacBook Air (13-inch, Mid 2017)"
+        }
+    },
+    {
+        "Model": "MacBook Pro",
+        "URL": "https://support.apple.com/en-ca/HT201300",
+        "Identifiers": {
+            "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
+            "MacBookPro18,3": "MacBook Pro (14-inch, 2021)",
+            "MacBookPro18,4": "MacBook Pro (14-inch, 2021)",
+            "MacBookPro18,1": "MacBook Pro (16-inch, 2021)",
+            "MacBookPro18,2": "MacBook Pro (16-inch, 2021)",
+            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
+            "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+            "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+            "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
+            "MacBookPro15,3": "MacBook Pro (15-inch, 2018)",
+            "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
+            "MacBookPro14,3": "MacBook Pro (15-inch, 2017)",
+            "MacBookPro14,2": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
+            "MacBookPro14,1": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)"
+        }        
+    },
+    {
+        "Model": "MacBook",
+        "URL": "https://support.apple.com/en-ca/103257",
+        "Identifiers": {
+            "MacBook10,1": "MacBook (Retina, 12-inch, 2017)",
+            "MacBook9,1": "MacBook (Retina, 12-inch, Early 2016)"
+        }
+    },
+    {
+        "Model": "Mac mini",
+        "URL": "https://support.apple.com/en-ca/HT201894",
+        "Identifiers": {
+            "Macmini9,1": "Mac mini (M1, 2020)",
+            "Macmini8,1": "Mac mini (2018)",
+            "Macmini7,1": "Mac mini (Late 2014)"
+        }
+    },
+    {
+        "Model": "Mac Studio",
+        "URL": "https://support.apple.com/en-ca/HT213073",
+        "Identifiers": {
+            "Mac13,1": "Mac Studio (2022)",
+            "Mac13,2": "Mac Studio (2022)"
+        }
+    },
+    {
+        "Model": "iMac",
+        "URL": "https://support.apple.com/en-ca/HT201634",
+        "Identifiers": {
+            "iMac21,1": "iMac (24-inch, M1, 2021)",
+            "iMac21,2": "iMac (24-inch, M1, 2021)",
+            "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac20,2": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac19,1": "iMac (Retina 5K, 27-inch, 2019)",
+            "iMac19,2": "iMac (Retina 4K, 21.5-inch, 2019)",
+            "iMacPro1,1": "iMac Pro",
+            "iMac18,3": "iMac (Retina 5K, 27-inch, 2017)",
+            "iMac18,2": "iMac (Retina 4K, 21.5-inch, 2017)",
+            "iMac18,1": "iMac (21.5-inch, 2017)"
+        }
+    },
+    {
+        "Model": "Mac Pro",
+        "URL": "https://support.apple.com/en-ca/HT202888",
+        "Identifiers": {
+            "MacPro7,1": "Mac Pro (2019)",
+            "MacPro6,1": "Mac Pro (Late 2013)"
+        }
+    }
+]
+'''
+
+[[files]]
+output = "data/models/mac_models_mapping.json"
+mode = "0644"
+strategy = "inline"
+format = "json"
+content = '''
+{
+  "MacBookAir7,2": {
+    "MarketingName": "MacBook Air (13-inch, Early 2015)",
+    "SupportedOS": [
+      "Monterey 12"
+    ],
+    "OSVersions": [
+      12
+    ]
+  },
+  "MacBookAir9,1": {
+    "MarketingName": "MacBook Air (Retina, 13-inch, 2020)",
+    "SupportedOS": [
+      "Monterey 12",
+      "Tahoe 26",
+      "Sequoia 15",
+      "Sonoma 14",
+      "Ventura 13"
+    ],
+    "OSVersions": [
+      12,
+      13,
+      14,
+      15,
+      26
+    ]
+  },
+  "MacBookAir10,1": {
+    "MarketingName": "MacBook Air (M1, 2020)",
+    "SupportedOS": [
+      "Monterey 12",
+      "Tahoe 26",
+      "Sequoia 15",
+      "Sonoma 14",
+      "Ventura 13"
+    ],
+    "OSVersions": [
+      12,
+      13,
+      14,
+      15,
+      26
+    ]
+  },
+  "Mac14,2": {
+    "MarketingName": "MacBook Air (M2, 2022)",
+    "SupportedOS": [
+      "Monterey 12",
+      "Tahoe 26",
+      "Sequoia 15",
+      "Sonoma 14",
+      "Ventura 13"
+    ],
+    "OSVersions": [
+      12,
+      13,
+      14,
+      15,
+      26
+    ]
+  },
+  "Mac14,15": {
+    "MarketingName": "MacBook Air (15-inch, M2, 2023)",
+    "SupportedOS": [
+      "Tahoe 26",
+      "Sequoia 15",
+      "Sonoma 14",
+      "Ventura 13"
+    ],
+    "OSVersions": [
+      13,
+      14,
+      15,
+      26
+    ]
+  },
+  "Mac15,12": {
+    "MarketingName": "MacBook Air (13-inch, M3, 2024)",
+    "SupportedOS": [
+      "Tahoe 26",
+      "Sequoia 15",
+      "Sonoma 14"
+    ],
+    "OSVersions": [
+      14,
+      15,
+      26
+    ]
+  },
+  "Mac15,13": {
+    "MarketingName": "MacBook Air (15-inch, M3, 2024)",
+    "SupportedOS": [
+      "Tahoe 26",
+      "Sequoia 15",
+      "Sonoma 14"
+    ],
+    "OSVersions": [
+      14,
+      15,
+      26
+    ]
+  }
+}
+'''
+
+[[files]]
+output = "data/models/supported_devices.json"
+mode = "0644"
+strategy = "inline"
+format = "json"
+content = '''
+[
+    {
+        "OSVersion": "15",
+        "url": "https://www.apple.com/macos/macos-sequoia-preview/",
+        "SupportedDevices": [
+            "J132AP",
+            "J137AP",
+            "J152FAP",
+            "J160AP",
+            "J174AP",
+            "J180dAP",
+            "J185AP",
+            "J185FAP",
+            "J213AP",
+            "J214KAP",
+            "J215AP",
+            "J223AP",
+            "J230KAP",
+            "J274AP",
+            "J293AP",
+            "J314cAP",
+            "J314sAP",
+            "J316cAP",
+            "J316sAP",
+            "J375cAP",
+            "J375dAP",
+            "J414cAP",
+            "J414sAP",
+            "J415AP",
+            "J416cAP",
+            "J416sAP",
+            "J433AP",
+            "J434AP",
+            "J456AP",
+            "J457AP",
+            "J473AP",
+            "J474sAP",
+            "J475cAP",
+            "J475dAP",
+            "J493AP",
+            "J504AP",
+            "J514cAP",
+            "J514mAP",
+            "J514sAP",
+            "J516cAP",
+            "J516mAP",
+            "J516sAP",
+            "J613AP",
+            "J615AP",
+            "J680AP",
+            "J780AP",
+            "Mac-1E7E29AD0135F9BC",
+            "Mac-63001698E7A34814",
+            "Mac-937A206F2EE63C01",
+            "Mac-AA95B1DDAB278B95",
+            "VMA2MACOSAP",
+            "VMM-x86_64"
+        ]
+    },
+    {
+        "OSVersion": "14",
+        "url": "https://support.apple.com/en-ca/105113",
+        "SupportedDevices": [
+            "J132AP",
+            "J137AP",
+            "J140AAP",
+            "J140KAP",
+            "J152FAP",
+            "J160AP",
+            "J174AP",
+            "J180dAP",
+            "J185AP",
+            "J185FAP",
+            "J213AP",
+            "J214KAP",
+            "J215AP",
+            "J223AP",
+            "J230KAP",
+            "J274AP",
+            "J293AP",
+            "J313AP",
+            "J314cAP",
+            "J314sAP",
+            "J316cAP",
+            "J316sAP",
+            "J375cAP",
+            "J375dAP",
+            "J413AP",
+            "J414cAP",
+            "J414sAP",
+            "J415AP",
+            "J416cAP",
+            "J416sAP",
+            "J433AP",
+            "J434AP",
+            "J456AP",
+            "J457AP",
+            "J473AP",
+            "J474sAP",
+            "J475cAP",
+            "J475dAP",
+            "J493AP",
+            "J504AP",
+            "J514cAP",
+            "J514mAP",
+            "J514sAP",
+            "J516cAP",
+            "J516mAP",
+            "J516sAP",
+            "J613AP",
+            "J615AP",
+            "J680AP",
+            "J780AP",
+            "Mac-1E7E29AD0135F9BC",
+            "Mac-63001698E7A34814",
+            "Mac-937A206F2EE63C01",
+            "Mac-AA95B1DDAB278B95",
+            "VMA2MACOSAP",
+            "VMM-x86_64"
+        ]
+    },
+    {
+        "OSVersion": "13",
+        "url": "https://support.apple.com/en-us/102861",
+        "SupportedDevices": [
+            "J132AP",
+            "J137AP",
+            "J140AAP",
+            "J140KAP",
+            "J152FAP",
+            "J160AP",
+            "J174AP",
+            "J180dAP",
+            "J185AP",
+            "J185FAP",
+            "J213AP",
+            "J214KAP",
+            "J215AP",
+            "J223AP",
+            "J230KAP",
+            "J274AP",
+            "J293AP",
+            "J313AP",
+            "J314cAP",
+            "J314sAP",
+            "J316cAP",
+            "J316sAP",
+            "J375cAP",
+            "J375dAP",
+            "J413AP",
+            "J414cAP",
+            "J414sAP",
+            "J415AP",
+            "J416cAP",
+            "J416sAP",
+            "J433AP",
+            "J434AP",
+            "J456AP",
+            "J457AP",
+            "J473AP",
+            "J474sAP",
+            "J475cAP",
+            "J475dAP",
+            "J493AP",
+            "J504AP",
+            "J680AP",
+            "J780AP",
+            "Mac-1E7E29AD0135F9BC",
+            "Mac-4B682C642B45593E",
+            "Mac-551B86E5744E2388",
+            "Mac-63001698E7A34814",
+            "Mac-77F17D7DA9285301",
+            "Mac-937A206F2EE63C01",
+            "Mac-AA95B1DDAB278B95",
+            "Mac-B4831CEBD52A0C4C",
+            "Mac-BE088AF8C5EB4FA2",
+            "Mac-CAD6701F7CEA0921",
+            "Mac-EE2EBD4B90B839A8",
+            "VMA2MACOSAP",
+            "VMM-x86_64"
+        ]
+    }
+]
+'''
+
+[[files]]
+output = "config/AppleRoot.pem"
+mode = "0644"
+strategy = "inline"
+format = "text"
+content = '''
+# Apple Root Certificate
+# 
+# IMPORTANT: The embedded certificate below is the standard Apple Root CA (2006-2035)
+# which is widely compatible. Apple also offers newer certificates (G3, G4) but
+# they may not be compatible with all systems due to different algorithms (ECC vs RSA).
+#
+# To fetch certificates from Apple:
+#   1. Use the built-in command: sofa-init fetch-apple-cert
+#   2. For G3 (newer ECC): curl -o config/AppleRoot.pem "https://www.apple.com/certificateauthority/AppleRootCA-G3.cer"  
+#   3. For legacy (old RSA): curl -o config/AppleRoot.pem "https://www.apple.com/certificateauthority/AppleComputerRootCertificate.cer"
+#   4. Browse all certificates: https://www.apple.com/certificateauthority/
+#
+# NOTE: If you get "badSignature" errors, use the embedded certificate below
+# as it's the most widely supported Apple Root CA.
+
+-----BEGIN CERTIFICATE-----
+MIIEuzCCA6OgAwIBAgIBAjANBgkqhkiG9w0BAQUFADBiMQswCQYDVQQGEwJVUzET
+MBEGA1UEChMKQXBwbGUgSW5jLjEmMCQGA1UECxMdQXBwbGUgQ2VydGlmaWNhdGlv
+biBBdXRob3JpdHkxFjAUBgNVBAMTDUFwcGxlIFJvb3QgQ0EwHhcNMDYwNDI1MjE0
+MDM2WhcNMzUwMjA5MjE0MDM2WjBiMQswCQYDVQQGEwJVUzETMBEGA1UEChMKQXBw
+bGUgSW5jLjEmMCQGA1UECxMdQXBwbGUgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkx
+FjAUBgNVBAMTDUFwcGxlIFJvb3QgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDkkakJH5HbHkdQ6wXtXnmELes2oldMVeyLGYne+Uts9QerIjAC6Bg+
++FAJ039BqJj50cpmnCRrEdCju+QbKsMflZ56DKRHi1vUFjczy8QPTc4UadHJGXL1
+XQ7Vf1+b8iUDulWPTV0N8WQ1IxVLFVkds5T39pyez1C6wVhQZ48ItCD3y6wsIG9w
+tj8BMIy3Q88PnT3zK0koGsj+zrW5DtleHNbLPbU6rfQPDgCSC7EhFi501TwN22IW
+q6NxkkdTVcGvL0Gz+PvjcM3mo0xFfh9Ma1CWQYnEdGILEINBhzOKgbEwWOxaBDKM
+aLOPHd5lc/9nXmW8Sdh2nzMUZaF3lMktAgMBAAGjggF6MIIBdjAOBgNVHQ8BAf8E
+BAMCAQYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUK9BpR5R2Cf70a40uQKb3
+R01/CF4wHwYDVR0jBBgwFoAUK9BpR5R2Cf70a40uQKb3R01/CF4wggERBgNVHSAE
+ggEIMIIBBDCCAQAGCSqGSIb3Y2QFATCB8jAqBggrBgEFBQcCARYeaHR0cHM6Ly93
+d3cuYXBwbGUuY29tL2FwcGxlY2EvMIHDBggrBgEFBQcCAjCBthqBs1JlbGlhbmNl
+IG9uIHRoaXMgY2VydGlmaWNhdGUgYnkgYW55IHBhcnR5IGFzc3VtZXMgYWNjZXB0
+YW5jZSBvZiB0aGUgdGhlbiBhcHBsaWNhYmxlIHN0YW5kYXJkIHRlcm1zIGFuZCBj
+b25kaXRpb25zIG9mIHVzZSwgY2VydGlmaWNhdGUgcG9saWN5IGFuZCBjZXJ0aWZp
+Y2F0aW9uIHByYWN0aWNlIHN0YXRlbWVudHMuMA0GCSqGSIb3DQEBBQUAA4IBAQBc
+NplMLXi37Yyb3PN3m/J20ncwT8EfhYOFG5k9RzfyqZtAjizUsZAS2L70c5vu0mQP
+y3lPNNiiPvl4/2vIB+x9OYOLUyDTOMSxv5pPCmv/K/xZpwUJfBdAVhEedNO3iyM7
+R6PVbyTi69G3cN8PReEnyvFteO3ntRcXqNx+IjXKJdXZD9Zr1KIkIxH3oayPc4Fg
+xhtbCS+SsvhESPBgOJ4V9T0mZyCKM2r3DYLP3uujL/lTaltkwGMzd/c6ByxW69oP
+IQ7aunMZT7XZNn/Bh1XZp5m5MkL72NVxnn6hUrcbvZNCJBIqxw8dtk2cXmPIS4AX
+UKqK1drk/NAJBzewdXUh
+-----END CERTIFICATE-----
+'''

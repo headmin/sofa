@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "vitepress": "^1.4.1",
+    "vue": "^3.4.34"
+  },
+  "scripts": {
+    "docs:dev": "DEBUG=true vitepress dev web",
+    "docs:build": "DEBUG=true vitepress build web",
+    "docs:preview": "DEBUG=true vitepress preview web"
+  },
+  "dependencies": {
+    "rollup": "^4.24.0"
+  }
+}

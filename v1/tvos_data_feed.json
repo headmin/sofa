@@ -1,0 +1,916 @@
+{
+  "Version": "1.1",
+  "UpdateHash": "63f7792d3c0d44bb16ce19457cfc379ef5e91e72f907630757d0d5bb6bba1409",
+  "OSVersions": [
+    {
+      "OSVersion": "tvOS 18",
+      "Latest": {
+        "UpdateName": "tvOS 18.6",
+        "ProductName": "tvOS",
+        "ProductVersion": "18.6",
+        "ReleaseDate": "2025-07-29T00:00:00Z",
+        "ReleaseType": "OS",
+        "SecurityInfo": "https://support.apple.com/en-us/124153",
+        "SecurityInfoContext": "tvOS has been updated. The latest released version is now 18.6, with the following release date: tvOS 18.6 : Jul 29, 2025",
+        "SupportedDevices": [
+          "AppleTV11,1",
+          "AppleTV14,1",
+          "AppleTV5,3",
+          "AppleTV6,2"
+        ],
+        "CVEs": {
+          "CVE-2025-31273": false,
+          "CVE-2025-31277": false,
+          "CVE-2025-31278": false,
+          "CVE-2025-31281": false,
+          "CVE-2025-43186": false,
+          "CVE-2025-43209": false,
+          "CVE-2025-43210": false,
+          "CVE-2025-43211": false,
+          "CVE-2025-43212": false,
+          "CVE-2025-43213": false,
+          "CVE-2025-43214": false,
+          "CVE-2025-43216": false,
+          "CVE-2025-43221": false,
+          "CVE-2025-43223": false,
+          "CVE-2025-43224": false,
+          "CVE-2025-43226": false,
+          "CVE-2025-43227": false,
+          "CVE-2025-43230": false,
+          "CVE-2025-43234": false,
+          "CVE-2025-43265": false,
+          "CVE-2025-43277": false,
+          "CVE-2025-6558": true,
+          "CVE-2025-7424": false,
+          "CVE-2025-7425": false
+        },
+        "ActivelyExploitedCVEs": [
+          "CVE-2025-6558"
+        ],
+        "UniqueCVEsCount": 24,
+        "DaysSincePreviousRelease": 78,
+        "update_summary": {
+          "priority": "emergency",
+          "summary": "EMERGENCY: 1 actively exploited, 24 total CVEs",
+          "recommendation": "Deploy immediately - active exploitation confirmed",
+          "stats": {
+            "exploited": 1,
+            "critical": 0,
+            "high": 1,
+            "medium": 0,
+            "remote": 0,
+            "total": 24
+          }
+        }
+      },
+      "SecurityReleases": [
+        {
+          "UpdateName": "tvOS 18.6",
+          "ProductName": "tvOS",
+          "ProductVersion": "18.6",
+          "ReleaseDate": "2025-07-29T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/124153",
+          "SecurityInfoContext": "tvOS has been updated. The latest released version is now 18.6, with the following release date: tvOS 18.6 : Jul 29, 2025",
+          "SupportedDevices": [
+            "AppleTV11,1",
+            "AppleTV14,1",
+            "AppleTV5,3",
+            "AppleTV6,2"
+          ],
+          "CVEs": {
+            "CVE-2025-31273": false,
+            "CVE-2025-31277": false,
+            "CVE-2025-31278": false,
+            "CVE-2025-31281": false,
+            "CVE-2025-43186": false,
+            "CVE-2025-43209": false,
+            "CVE-2025-43210": false,
+            "CVE-2025-43211": false,
+            "CVE-2025-43212": false,
+            "CVE-2025-43213": false,
+            "CVE-2025-43214": false,
+            "CVE-2025-43216": false,
+            "CVE-2025-43221": false,
+            "CVE-2025-43223": false,
+            "CVE-2025-43224": false,
+            "CVE-2025-43226": false,
+            "CVE-2025-43227": false,
+            "CVE-2025-43230": false,
+            "CVE-2025-43234": false,
+            "CVE-2025-43265": false,
+            "CVE-2025-43277": false,
+            "CVE-2025-6558": true,
+            "CVE-2025-7424": false,
+            "CVE-2025-7425": false
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-6558"
+          ],
+          "UniqueCVEsCount": 24,
+          "DaysSincePreviousRelease": 78,
+          "update_summary": {
+            "priority": "emergency",
+            "summary": "EMERGENCY: 1 actively exploited, 24 total CVEs",
+            "recommendation": "Deploy immediately - active exploitation confirmed",
+            "stats": {
+              "exploited": 1,
+              "critical": 0,
+              "high": 1,
+              "medium": 0,
+              "remote": 0,
+              "total": 24
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 18.5",
+          "ProductName": "tvOS",
+          "ProductVersion": "18.5",
+          "ReleaseDate": "2025-05-12T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/122720",
+          "SecurityInfoContext": "tvOS 18.5 was released on May 12, 2025. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "AppleTV11,1",
+            "AppleTV14,1",
+            "AppleTV5,3",
+            "AppleTV6,2"
+          ],
+          "CVEs": {
+            "CVE-2024-8176": false,
+            "CVE-2025-24213": false,
+            "CVE-2025-24223": false,
+            "CVE-2025-24224": false,
+            "CVE-2025-31204": false,
+            "CVE-2025-31205": false,
+            "CVE-2025-31206": false,
+            "CVE-2025-31208": false,
+            "CVE-2025-31209": false,
+            "CVE-2025-31212": false,
+            "CVE-2025-31215": false,
+            "CVE-2025-31217": false,
+            "CVE-2025-31219": false,
+            "CVE-2025-31221": false,
+            "CVE-2025-31222": false,
+            "CVE-2025-31223": false,
+            "CVE-2025-31226": false,
+            "CVE-2025-31233": false,
+            "CVE-2025-31234": false,
+            "CVE-2025-31238": false,
+            "CVE-2025-31239": false,
+            "CVE-2025-31241": false,
+            "CVE-2025-31245": false,
+            "CVE-2025-31251": false,
+            "CVE-2025-31257": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 25,
+          "DaysSincePreviousRelease": 26,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "1 high (of 25 CVEs)",
+            "recommendation": "Update to stay secure - security fixes included",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 1,
+              "medium": 0,
+              "remote": 0,
+              "total": 25
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 18.4.1",
+          "ProductName": "tvOS",
+          "ProductVersion": "18.4.1",
+          "ReleaseDate": "2025-04-16T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/122401",
+          "SecurityInfoContext": "tvOS 18.4.1 was released on Apr 16, 2025. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "AppleTV11,1",
+            "AppleTV14,1",
+            "AppleTV5,3",
+            "AppleTV6,2"
+          ],
+          "CVEs": {
+            "CVE-2025-31200": true,
+            "CVE-2025-31201": true
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-31201",
+            "CVE-2025-31200"
+          ],
+          "UniqueCVEsCount": 2,
+          "DaysSincePreviousRelease": 16,
+          "update_summary": {
+            "priority": "emergency",
+            "summary": "EMERGENCY: 2 actively exploited, 2 total CVEs",
+            "recommendation": "Deploy immediately - active exploitation confirmed",
+            "stats": {
+              "exploited": 2,
+              "critical": 0,
+              "high": 1,
+              "medium": 0,
+              "remote": 0,
+              "total": 2
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 18.4",
+          "ProductName": "tvOS",
+          "ProductVersion": "18.4",
+          "ReleaseDate": "2025-03-31T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/122377",
+          "SecurityInfoContext": "tvOS 18.4 was released on Mar 31, 2025. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "AppleTV11,1",
+            "AppleTV14,1",
+            "AppleTV5,3",
+            "AppleTV6,2"
+          ],
+          "CVEs": {
+            "CVE-2024-48958": false,
+            "CVE-2024-56171": false,
+            "CVE-2024-9681": false,
+            "CVE-2025-24097": false,
+            "CVE-2025-24163": false,
+            "CVE-2025-24173": false,
+            "CVE-2025-24178": false,
+            "CVE-2025-24182": false,
+            "CVE-2025-24190": false,
+            "CVE-2025-24194": false,
+            "CVE-2025-24206": false,
+            "CVE-2025-24209": false,
+            "CVE-2025-24210": false,
+            "CVE-2025-24211": false,
+            "CVE-2025-24212": false,
+            "CVE-2025-24214": false,
+            "CVE-2025-24216": false,
+            "CVE-2025-24217": false,
+            "CVE-2025-24230": false,
+            "CVE-2025-24238": false,
+            "CVE-2025-24243": false,
+            "CVE-2025-24244": false,
+            "CVE-2025-24251": false,
+            "CVE-2025-24252": false,
+            "CVE-2025-24264": false,
+            "CVE-2025-24270": false,
+            "CVE-2025-24271": false,
+            "CVE-2025-27113": false,
+            "CVE-2025-30425": false,
+            "CVE-2025-30426": false,
+            "CVE-2025-30427": false,
+            "CVE-2025-30429": false,
+            "CVE-2025-30432": false,
+            "CVE-2025-30438": false,
+            "CVE-2025-30445": false,
+            "CVE-2025-30447": false,
+            "CVE-2025-30454": false,
+            "CVE-2025-30471": false,
+            "CVE-2025-31182": false,
+            "CVE-2025-31183": false,
+            "CVE-2025-31191": false,
+            "CVE-2025-31196": false,
+            "CVE-2025-31197": false,
+            "CVE-2025-31202": false,
+            "CVE-2025-31203": false,
+            "CVE-2025-43205": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 46,
+          "DaysSincePreviousRelease": 20,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "1 high (of 46 CVEs)",
+            "recommendation": "Update to stay secure - security fixes included",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 1,
+              "medium": 0,
+              "remote": 0,
+              "total": 46
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 18.3.1",
+          "ProductName": "tvOS",
+          "ProductVersion": "18.3.1",
+          "ReleaseDate": "2025-03-11T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/100100",
+          "SecurityInfoContext": "This update has no published CVE entries.",
+          "SupportedDevices": [
+            "AppleTV11,1",
+            "AppleTV14,1",
+            "AppleTV5,3",
+            "AppleTV6,2"
+          ],
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 43,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "No known security vulnerabilities",
+            "recommendation": "Update recommended - may include unpublished security improvements",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 0
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 18.3",
+          "ProductName": "tvOS",
+          "ProductVersion": "18.3",
+          "ReleaseDate": "2025-01-27T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/122072",
+          "SecurityInfoContext": "tvOS 18.3 was released on Jan 27, 2025. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "AppleTV11,1",
+            "AppleTV14,1",
+            "AppleTV5,3",
+            "AppleTV6,2"
+          ],
+          "CVEs": {
+            "CVE-2024-55549": false,
+            "CVE-2025-24085": true,
+            "CVE-2025-24086": false,
+            "CVE-2025-24107": false,
+            "CVE-2025-24111": false,
+            "CVE-2025-24123": false,
+            "CVE-2025-24124": false,
+            "CVE-2025-24126": false,
+            "CVE-2025-24127": false,
+            "CVE-2025-24129": false,
+            "CVE-2025-24131": false,
+            "CVE-2025-24137": false,
+            "CVE-2025-24144": false,
+            "CVE-2025-24149": false,
+            "CVE-2025-24158": false,
+            "CVE-2025-24159": false,
+            "CVE-2025-24160": false,
+            "CVE-2025-24161": false,
+            "CVE-2025-24162": false,
+            "CVE-2025-24163": false,
+            "CVE-2025-24179": false,
+            "CVE-2025-24184": false,
+            "CVE-2025-24189": false,
+            "CVE-2025-24855": false,
+            "CVE-2025-31262": false
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-24085"
+          ],
+          "UniqueCVEsCount": 25,
+          "DaysSincePreviousRelease": 11,
+          "update_summary": {
+            "priority": "emergency",
+            "summary": "EMERGENCY: 1 actively exploited, 25 total CVEs",
+            "recommendation": "Deploy immediately - active exploitation confirmed",
+            "stats": {
+              "exploited": 1,
+              "critical": 0,
+              "high": 2,
+              "medium": 0,
+              "remote": 0,
+              "total": 25
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 18.2.1",
+          "ProductName": "tvOS",
+          "ProductVersion": "18.2.1",
+          "ReleaseDate": "2025-01-16T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/100100",
+          "SecurityInfoContext": "This update has no published CVE entries.",
+          "SupportedDevices": [
+            "AppleTV11,1",
+            "AppleTV14,1",
+            "AppleTV5,3",
+            "AppleTV6,2"
+          ],
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 36,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "No known security vulnerabilities",
+            "recommendation": "Update recommended - may include unpublished security improvements",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 0
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 18.2",
+          "ProductName": "tvOS",
+          "ProductVersion": "18.2",
+          "ReleaseDate": "2024-12-11T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/121844",
+          "SecurityInfoContext": "tvOS 18.2 was released on Dec 11, 2024. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "AppleTV11,1",
+            "AppleTV14,1",
+            "AppleTV5,3",
+            "AppleTV6,2"
+          ],
+          "CVEs": {
+            "CVE-2024-40864": false,
+            "CVE-2024-44225": false,
+            "CVE-2024-45306": false,
+            "CVE-2024-45490": false,
+            "CVE-2024-54468": false,
+            "CVE-2024-54478": false,
+            "CVE-2024-54479": false,
+            "CVE-2024-54486": false,
+            "CVE-2024-54494": false,
+            "CVE-2024-54497": false,
+            "CVE-2024-54499": false,
+            "CVE-2024-54500": false,
+            "CVE-2024-54501": false,
+            "CVE-2024-54502": false,
+            "CVE-2024-54505": false,
+            "CVE-2024-54508": false,
+            "CVE-2024-54510": false,
+            "CVE-2024-54513": false,
+            "CVE-2024-54514": false,
+            "CVE-2024-54517": false,
+            "CVE-2024-54518": false,
+            "CVE-2024-54522": false,
+            "CVE-2024-54523": false,
+            "CVE-2024-54525": false,
+            "CVE-2024-54526": false,
+            "CVE-2024-54527": false,
+            "CVE-2024-54534": false,
+            "CVE-2024-54541": false,
+            "CVE-2024-54543": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 29,
+          "DaysSincePreviousRelease": 44,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "1 high (of 29 CVEs)",
+            "recommendation": "Update to stay secure - security fixes included",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 1,
+              "medium": 0,
+              "remote": 0,
+              "total": 29
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 18.1",
+          "ProductName": "tvOS",
+          "ProductVersion": "18.1",
+          "ReleaseDate": "2024-10-28T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/121569",
+          "SecurityInfoContext": "tvOS 18.1 was released on Oct 28, 2024. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "AppleTV11,1",
+            "AppleTV14,1",
+            "AppleTV5,3",
+            "AppleTV6,2"
+          ],
+          "CVEs": {
+            "CVE-2024-44212": false,
+            "CVE-2024-44215": false,
+            "CVE-2024-44232": false,
+            "CVE-2024-44233": false,
+            "CVE-2024-44234": false,
+            "CVE-2024-44239": false,
+            "CVE-2024-44240": false,
+            "CVE-2024-44244": false,
+            "CVE-2024-44252": false,
+            "CVE-2024-44255": false,
+            "CVE-2024-44258": false,
+            "CVE-2024-44273": false,
+            "CVE-2024-44277": false,
+            "CVE-2024-44282": false,
+            "CVE-2024-44285": false,
+            "CVE-2024-44296": false,
+            "CVE-2024-44297": false,
+            "CVE-2024-44302": false,
+            "CVE-2024-54538": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 19,
+          "DaysSincePreviousRelease": 0,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "1 high (of 19 CVEs)",
+            "recommendation": "Update to stay secure - security fixes included",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 1,
+              "medium": 0,
+              "remote": 0,
+              "total": 19
+            }
+          }
+        }
+      ]
+    },
+    {
+      "OSVersion": "tvOS 17",
+      "Latest": {
+        "UpdateName": "tvOS 17.6.1",
+        "ProductName": "tvOS",
+        "ProductVersion": "17.6.1",
+        "ReleaseDate": "2024-08-19T00:00:00Z",
+        "ReleaseType": "OS",
+        "SecurityInfo": "https://support.apple.com/en-us/100100",
+        "SecurityInfoContext": "tvOS has been updated. The latest released version is now 17.6.1, with the following release date: tvOS 17.6.1 : Aug 19, 2024",
+        "SupportedDevices": [],
+        "CVEs": {},
+        "ActivelyExploitedCVEs": [],
+        "UniqueCVEsCount": 0,
+        "DaysSincePreviousRelease": 21,
+        "update_summary": {
+          "priority": "regular",
+          "summary": "No known security vulnerabilities",
+          "recommendation": "Update recommended - may include unpublished security improvements",
+          "stats": {
+            "exploited": 0,
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "remote": 0,
+            "total": 0
+          }
+        }
+      },
+      "SecurityReleases": [
+        {
+          "UpdateName": "tvOS 17.6.1",
+          "ProductName": "tvOS",
+          "ProductVersion": "17.6.1",
+          "ReleaseDate": "2024-08-19T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/100100",
+          "SecurityInfoContext": "This update has no published CVE entries.",
+          "SupportedDevices": [],
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 21,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "No known security vulnerabilities",
+            "recommendation": "Update recommended - may include unpublished security improvements",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 0
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 17.6",
+          "ProductName": "tvOS",
+          "ProductVersion": "17.6",
+          "ReleaseDate": "2024-07-29T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/120914",
+          "SecurityInfoContext": "tvOS 17.6 was released on Jul 29, 2024. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [],
+          "CVEs": {
+            "CVE-2023-52356": false,
+            "CVE-2023-6277": false,
+            "CVE-2024-27863": false,
+            "CVE-2024-40774": false,
+            "CVE-2024-40776": false,
+            "CVE-2024-40777": false,
+            "CVE-2024-40779": false,
+            "CVE-2024-40780": false,
+            "CVE-2024-40782": false,
+            "CVE-2024-40784": false,
+            "CVE-2024-40785": false,
+            "CVE-2024-40788": false,
+            "CVE-2024-40789": false,
+            "CVE-2024-40795": false,
+            "CVE-2024-40799": false,
+            "CVE-2024-40805": false,
+            "CVE-2024-40806": false,
+            "CVE-2024-40815": false,
+            "CVE-2024-40824": false,
+            "CVE-2024-44185": false,
+            "CVE-2024-44206": false,
+            "CVE-2024-54551": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 22,
+          "DaysSincePreviousRelease": 69,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "22 CVEs with unspecified severity",
+            "recommendation": "Update to stay secure - security fixes included",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 22
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 17.5.1",
+          "ProductName": "tvOS",
+          "ProductVersion": "17.5.1",
+          "ReleaseDate": "2024-05-21T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/100100",
+          "SecurityInfoContext": "This update has no published CVE entries.",
+          "SupportedDevices": [],
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 8,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "No known security vulnerabilities",
+            "recommendation": "Update recommended - may include unpublished security improvements",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 0
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 17.5",
+          "ProductName": "tvOS",
+          "ProductVersion": "17.5",
+          "ReleaseDate": "2024-05-13T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/120901",
+          "SecurityInfoContext": "tvOS 17.5 was released on May 13, 2024. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [],
+          "CVEs": {
+            "CVE-2024-27800": false,
+            "CVE-2024-27801": false,
+            "CVE-2024-27802": false,
+            "CVE-2024-27804": false,
+            "CVE-2024-27805": false,
+            "CVE-2024-27806": false,
+            "CVE-2024-27808": false,
+            "CVE-2024-27810": false,
+            "CVE-2024-27811": false,
+            "CVE-2024-27815": false,
+            "CVE-2024-27816": false,
+            "CVE-2024-27817": false,
+            "CVE-2024-27820": false,
+            "CVE-2024-27823": false,
+            "CVE-2024-27826": false,
+            "CVE-2024-27828": false,
+            "CVE-2024-27830": false,
+            "CVE-2024-27831": false,
+            "CVE-2024-27832": false,
+            "CVE-2024-27833": false,
+            "CVE-2024-27834": false,
+            "CVE-2024-27838": false,
+            "CVE-2024-27840": false,
+            "CVE-2024-27851": false,
+            "CVE-2024-27856": false,
+            "CVE-2024-27857": false,
+            "CVE-2024-27884": false,
+            "CVE-2024-40771": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 28,
+          "DaysSincePreviousRelease": 67,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "28 CVEs with unspecified severity",
+            "recommendation": "Update to stay secure - security fixes included",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 28
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 17.4",
+          "ProductName": "tvOS",
+          "ProductVersion": "17.4",
+          "ReleaseDate": "2024-03-07T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/120882",
+          "SecurityInfoContext": "tvOS 17.4 was released on Mar 07, 2024. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [],
+          "CVEs": {
+            "CVE-2022-48554": false,
+            "CVE-2024-0258": false,
+            "CVE-2024-23225": true,
+            "CVE-2024-23226": false,
+            "CVE-2024-23235": false,
+            "CVE-2024-23239": false,
+            "CVE-2024-23241": false,
+            "CVE-2024-23246": false,
+            "CVE-2024-23250": false,
+            "CVE-2024-23254": false,
+            "CVE-2024-23263": false,
+            "CVE-2024-23264": false,
+            "CVE-2024-23265": false,
+            "CVE-2024-23270": false,
+            "CVE-2024-23278": false,
+            "CVE-2024-23280": false,
+            "CVE-2024-23284": false,
+            "CVE-2024-23286": false,
+            "CVE-2024-23288": false,
+            "CVE-2024-23290": false,
+            "CVE-2024-23291": false,
+            "CVE-2024-23293": false,
+            "CVE-2024-23296": true,
+            "CVE-2024-23297": false,
+            "CVE-2024-27859": false,
+            "CVE-2024-54658": false
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2024-23296",
+            "CVE-2024-23225"
+          ],
+          "UniqueCVEsCount": 26,
+          "DaysSincePreviousRelease": 45,
+          "update_summary": {
+            "priority": "emergency",
+            "summary": "EMERGENCY: 2 actively exploited, 26 total CVEs",
+            "recommendation": "Deploy immediately - active exploitation confirmed",
+            "stats": {
+              "exploited": 2,
+              "critical": 0,
+              "high": 4,
+              "medium": 0,
+              "remote": 0,
+              "total": 26
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 17.3",
+          "ProductName": "tvOS",
+          "ProductVersion": "17.3",
+          "ReleaseDate": "2024-01-22T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/120311",
+          "SecurityInfoContext": "tvOS 17.3 was released on Jan 22, 2024. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [],
+          "CVEs": {
+            "CVE-2024-23201": false,
+            "CVE-2024-23206": false,
+            "CVE-2024-23208": false,
+            "CVE-2024-23210": false,
+            "CVE-2024-23212": false,
+            "CVE-2024-23213": false,
+            "CVE-2024-23215": false,
+            "CVE-2024-23218": false,
+            "CVE-2024-23222": true,
+            "CVE-2024-23223": false,
+            "CVE-2024-23271": false,
+            "CVE-2024-27791": false
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2024-23222"
+          ],
+          "UniqueCVEsCount": 12,
+          "DaysSincePreviousRelease": 42,
+          "update_summary": {
+            "priority": "emergency",
+            "summary": "EMERGENCY: 1 actively exploited, 12 total CVEs",
+            "recommendation": "Deploy immediately - active exploitation confirmed",
+            "stats": {
+              "exploited": 1,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 12
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 17.2",
+          "ProductName": "tvOS",
+          "ProductVersion": "17.2",
+          "ReleaseDate": "2023-12-11T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/kb/HT214040",
+          "SecurityInfoContext": "tvOS 17.2 was released on Dec 11, 2023. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [],
+          "CVEs": {
+            "CVE-2023-40389": false,
+            "CVE-2023-42883": false,
+            "CVE-2023-42884": false,
+            "CVE-2023-42890": false,
+            "CVE-2023-42893": false,
+            "CVE-2023-42898": false,
+            "CVE-2023-42899": false,
+            "CVE-2023-42914": false,
+            "CVE-2023-42916": true,
+            "CVE-2023-42917": true,
+            "CVE-2023-42936": false,
+            "CVE-2023-42947": false,
+            "CVE-2023-42950": false
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2023-42917",
+            "CVE-2023-42916"
+          ],
+          "UniqueCVEsCount": 13,
+          "DaysSincePreviousRelease": 47,
+          "update_summary": {
+            "priority": "emergency",
+            "summary": "EMERGENCY: 2 actively exploited, 13 total CVEs",
+            "recommendation": "Deploy immediately - active exploitation confirmed",
+            "stats": {
+              "exploited": 2,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 13
+            }
+          }
+        },
+        {
+          "UpdateName": "tvOS 17.1",
+          "ProductName": "tvOS",
+          "ProductVersion": "17.1",
+          "ReleaseDate": "2023-10-25T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/kb/HT213987",
+          "SecurityInfoContext": "tvOS 17.1 was released on Oct 25, 2023. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [],
+          "CVEs": {
+            "CVE-2023-40447": false,
+            "CVE-2023-41976": false,
+            "CVE-2023-42823": false,
+            "CVE-2023-42839": false,
+            "CVE-2023-42846": false,
+            "CVE-2023-42848": false,
+            "CVE-2023-42852": false,
+            "CVE-2023-42873": false,
+            "CVE-2023-42942": false,
+            "CVE-2023-42946": false,
+            "CVE-2023-42953": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 11,
+          "DaysSincePreviousRelease": 0,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "11 CVEs with unspecified severity",
+            "recommendation": "Update to stay secure - security fixes included",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 11
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

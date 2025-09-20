@@ -1,0 +1,22 @@
+# Feed Structure Template for JSON Version 1
+# This template defines the structure of the macOS and iOS data feeds.
+# It is designed with future versioning in mind, anticipating the eventual release of Version 2.
+
+XProtectVersion: ""  # Global XProtect version applicable across all macOS versions
+
+OSVersions:
+  - OSVersion: ""  # Unique identifier for each OS version (e.g., "macOS Sonoma 14")
+    Latest:  # Details of the latest release for this OS version
+      ProductVersion: ""
+      Build: ""
+      ReleaseDate: ""
+      ExpirationDate: ""
+      SupportedDevices: []  # List of supported device identifiers, sourced from gdmf.apple.com
+      SecurityInfo: ""  # URL to the security information page
+      CVEs: {}  # Mapping of CVE identifiers, in debug flag with their exploitation status (true/false)
+      ActivelyExploitedCVEs: []  # List of actively exploited CVEs
+      UniqueCVEsCount: 0  # Total number of unique CVEs addressed in this release
+      DaysSincePreviousRelease: 0  # Days since the last OS release
+    SecurityReleases: []  # Historical release data for this OS version
+
+Models: {}  # Mapping of model identifiers to their details (e.g., marketing names)

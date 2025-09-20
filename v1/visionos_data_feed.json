@@ -1,0 +1,916 @@
+{
+  "Version": "1.1",
+  "UpdateHash": "a38d992e1cd821b3b204ff6021c97202251ce60401623b8a9f31bd424420ba37",
+  "OSVersions": [
+    {
+      "OSVersion": "visionOS 2",
+      "Latest": {
+        "UpdateName": "visionOS 2.6",
+        "ProductName": "visionOS",
+        "ProductVersion": "2.6",
+        "ReleaseDate": "2025-07-29T00:00:00Z",
+        "ReleaseType": "OS",
+        "SecurityInfo": "https://support.apple.com/en-us/124154",
+        "SecurityInfoContext": "visionOS has been updated. The latest released version is now 2.6, with the following release date: visionOS 2.6 : Jul 29, 2025",
+        "SupportedDevices": [
+          "RealityDevice14,1"
+        ],
+        "CVEs": {
+          "CVE-2025-31273": false,
+          "CVE-2025-31277": false,
+          "CVE-2025-31278": false,
+          "CVE-2025-31281": false,
+          "CVE-2025-43186": false,
+          "CVE-2025-43209": false,
+          "CVE-2025-43210": false,
+          "CVE-2025-43211": false,
+          "CVE-2025-43212": false,
+          "CVE-2025-43213": false,
+          "CVE-2025-43214": false,
+          "CVE-2025-43216": false,
+          "CVE-2025-43221": false,
+          "CVE-2025-43223": false,
+          "CVE-2025-43224": false,
+          "CVE-2025-43226": false,
+          "CVE-2025-43227": false,
+          "CVE-2025-43230": false,
+          "CVE-2025-43234": false,
+          "CVE-2025-43265": false,
+          "CVE-2025-43277": false,
+          "CVE-2025-6558": true,
+          "CVE-2025-7424": false,
+          "CVE-2025-7425": false
+        },
+        "ActivelyExploitedCVEs": [
+          "CVE-2025-6558"
+        ],
+        "UniqueCVEsCount": 24,
+        "DaysSincePreviousRelease": 78,
+        "update_summary": {
+          "priority": "emergency",
+          "summary": "EMERGENCY: 1 actively exploited, 24 total CVEs",
+          "recommendation": "Deploy immediately - active exploitation confirmed",
+          "stats": {
+            "exploited": 1,
+            "critical": 0,
+            "high": 1,
+            "medium": 0,
+            "remote": 0,
+            "total": 24
+          }
+        }
+      },
+      "SecurityReleases": [
+        {
+          "UpdateName": "visionOS 2.6",
+          "ProductName": "visionOS",
+          "ProductVersion": "2.6",
+          "ReleaseDate": "2025-07-29T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/124154",
+          "SecurityInfoContext": "visionOS has been updated. The latest released version is now 2.6, with the following release date: visionOS 2.6 : Jul 29, 2025",
+          "SupportedDevices": [
+            "RealityDevice14,1"
+          ],
+          "CVEs": {
+            "CVE-2025-31273": false,
+            "CVE-2025-31277": false,
+            "CVE-2025-31278": false,
+            "CVE-2025-31281": false,
+            "CVE-2025-43186": false,
+            "CVE-2025-43209": false,
+            "CVE-2025-43210": false,
+            "CVE-2025-43211": false,
+            "CVE-2025-43212": false,
+            "CVE-2025-43213": false,
+            "CVE-2025-43214": false,
+            "CVE-2025-43216": false,
+            "CVE-2025-43221": false,
+            "CVE-2025-43223": false,
+            "CVE-2025-43224": false,
+            "CVE-2025-43226": false,
+            "CVE-2025-43227": false,
+            "CVE-2025-43230": false,
+            "CVE-2025-43234": false,
+            "CVE-2025-43265": false,
+            "CVE-2025-43277": false,
+            "CVE-2025-6558": true,
+            "CVE-2025-7424": false,
+            "CVE-2025-7425": false
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-6558"
+          ],
+          "UniqueCVEsCount": 24,
+          "DaysSincePreviousRelease": 78,
+          "update_summary": {
+            "priority": "emergency",
+            "summary": "EMERGENCY: 1 actively exploited, 24 total CVEs",
+            "recommendation": "Deploy immediately - active exploitation confirmed",
+            "stats": {
+              "exploited": 1,
+              "critical": 0,
+              "high": 1,
+              "medium": 0,
+              "remote": 0,
+              "total": 24
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 2.5",
+          "ProductName": "visionOS",
+          "ProductVersion": "2.5",
+          "ReleaseDate": "2025-05-12T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/122721",
+          "SecurityInfoContext": "visionOS 2.5 was released on May 12, 2025. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "RealityDevice14,1"
+          ],
+          "CVEs": {
+            "CVE-2024-8176": false,
+            "CVE-2025-24213": false,
+            "CVE-2025-24223": false,
+            "CVE-2025-24224": false,
+            "CVE-2025-30448": false,
+            "CVE-2025-31204": false,
+            "CVE-2025-31205": false,
+            "CVE-2025-31206": false,
+            "CVE-2025-31208": false,
+            "CVE-2025-31209": false,
+            "CVE-2025-31212": false,
+            "CVE-2025-31215": false,
+            "CVE-2025-31217": false,
+            "CVE-2025-31219": false,
+            "CVE-2025-31221": false,
+            "CVE-2025-31222": false,
+            "CVE-2025-31223": false,
+            "CVE-2025-31226": false,
+            "CVE-2025-31233": false,
+            "CVE-2025-31234": false,
+            "CVE-2025-31238": false,
+            "CVE-2025-31239": false,
+            "CVE-2025-31241": false,
+            "CVE-2025-31245": false,
+            "CVE-2025-31251": false,
+            "CVE-2025-31257": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 26,
+          "DaysSincePreviousRelease": 26,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "1 high (of 26 CVEs)",
+            "recommendation": "Update to stay secure - security fixes included",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 1,
+              "medium": 0,
+              "remote": 0,
+              "total": 26
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 2.4.1",
+          "ProductName": "visionOS",
+          "ProductVersion": "2.4.1",
+          "ReleaseDate": "2025-04-16T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/122402",
+          "SecurityInfoContext": "visionOS 2.4.1 was released on Apr 16, 2025. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "RealityDevice14,1"
+          ],
+          "CVEs": {
+            "CVE-2025-31200": true,
+            "CVE-2025-31201": true
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-31201",
+            "CVE-2025-31200"
+          ],
+          "UniqueCVEsCount": 2,
+          "DaysSincePreviousRelease": 16,
+          "update_summary": {
+            "priority": "emergency",
+            "summary": "EMERGENCY: 2 actively exploited, 2 total CVEs",
+            "recommendation": "Deploy immediately - active exploitation confirmed",
+            "stats": {
+              "exploited": 2,
+              "critical": 0,
+              "high": 1,
+              "medium": 0,
+              "remote": 0,
+              "total": 2
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 2.4",
+          "ProductName": "visionOS",
+          "ProductVersion": "2.4",
+          "ReleaseDate": "2025-03-31T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/122378",
+          "SecurityInfoContext": "visionOS 2.4 was released on Mar 31, 2025. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "RealityDevice14,1"
+          ],
+          "CVEs": {
+            "CVE-2024-48958": false,
+            "CVE-2024-56171": false,
+            "CVE-2024-9681": false,
+            "CVE-2025-24095": false,
+            "CVE-2025-24113": false,
+            "CVE-2025-24163": false,
+            "CVE-2025-24173": false,
+            "CVE-2025-24180": false,
+            "CVE-2025-24182": false,
+            "CVE-2025-24190": false,
+            "CVE-2025-24192": false,
+            "CVE-2025-24194": false,
+            "CVE-2025-24206": false,
+            "CVE-2025-24210": false,
+            "CVE-2025-24211": false,
+            "CVE-2025-24212": false,
+            "CVE-2025-24214": false,
+            "CVE-2025-24216": false,
+            "CVE-2025-24221": false,
+            "CVE-2025-24230": false,
+            "CVE-2025-24237": false,
+            "CVE-2025-24243": false,
+            "CVE-2025-24251": false,
+            "CVE-2025-24252": false,
+            "CVE-2025-24257": false,
+            "CVE-2025-24264": false,
+            "CVE-2025-24270": false,
+            "CVE-2025-24271": false,
+            "CVE-2025-24283": false,
+            "CVE-2025-27113": false,
+            "CVE-2025-30426": false,
+            "CVE-2025-30427": false,
+            "CVE-2025-30429": false,
+            "CVE-2025-30430": false,
+            "CVE-2025-30432": false,
+            "CVE-2025-30433": false,
+            "CVE-2025-30438": false,
+            "CVE-2025-30439": false,
+            "CVE-2025-30445": false,
+            "CVE-2025-30447": false,
+            "CVE-2025-30466": false,
+            "CVE-2025-30470": false,
+            "CVE-2025-30471": false,
+            "CVE-2025-31182": false,
+            "CVE-2025-31184": false,
+            "CVE-2025-31196": false,
+            "CVE-2025-31197": false,
+            "CVE-2025-31199": false,
+            "CVE-2025-31202": false,
+            "CVE-2025-31203": false,
+            "CVE-2025-43205": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 51,
+          "DaysSincePreviousRelease": 20,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "2 high (of 51 CVEs)",
+            "recommendation": "Update to stay secure - security fixes included",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 2,
+              "medium": 0,
+              "remote": 0,
+              "total": 51
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 2.3.2",
+          "ProductName": "visionOS",
+          "ProductVersion": "2.3.2",
+          "ReleaseDate": "2025-03-11T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/122284",
+          "SecurityInfoContext": "visionOS 2.3.2 was released on Mar 11, 2025. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "RealityDevice14,1"
+          ],
+          "CVEs": {
+            "CVE-2025-24201": true
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-24201"
+          ],
+          "UniqueCVEsCount": 1,
+          "DaysSincePreviousRelease": 29,
+          "update_summary": {
+            "priority": "emergency",
+            "summary": "EMERGENCY: 1 actively exploited, 1 total CVEs",
+            "recommendation": "Deploy immediately - active exploitation confirmed",
+            "stats": {
+              "exploited": 1,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 1
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 2.3.1",
+          "ProductName": "visionOS",
+          "ProductVersion": "2.3.1",
+          "ReleaseDate": "2025-02-10T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/122904",
+          "SecurityInfoContext": "visionOS 2.3.1 was released on Feb 10, 2025. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "RealityDevice14,1"
+          ],
+          "CVEs": {
+            "CVE-2025-43200": true
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-43200"
+          ],
+          "UniqueCVEsCount": 1,
+          "DaysSincePreviousRelease": 14,
+          "update_summary": {
+            "priority": "emergency",
+            "summary": "EMERGENCY: 1 actively exploited, 1 total CVEs",
+            "recommendation": "Deploy immediately - active exploitation confirmed",
+            "stats": {
+              "exploited": 1,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 1
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 2.3",
+          "ProductName": "visionOS",
+          "ProductVersion": "2.3",
+          "ReleaseDate": "2025-01-27T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/122073",
+          "SecurityInfoContext": "visionOS 2.3 was released on Jan 27, 2025. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "RealityDevice14,1"
+          ],
+          "CVEs": {
+            "CVE-2024-55549": false,
+            "CVE-2025-24085": true,
+            "CVE-2025-24086": false,
+            "CVE-2025-24111": false,
+            "CVE-2025-24113": false,
+            "CVE-2025-24117": false,
+            "CVE-2025-24123": false,
+            "CVE-2025-24124": false,
+            "CVE-2025-24126": false,
+            "CVE-2025-24127": false,
+            "CVE-2025-24129": false,
+            "CVE-2025-24131": false,
+            "CVE-2025-24137": false,
+            "CVE-2025-24143": false,
+            "CVE-2025-24144": false,
+            "CVE-2025-24149": false,
+            "CVE-2025-24154": false,
+            "CVE-2025-24158": false,
+            "CVE-2025-24159": false,
+            "CVE-2025-24160": false,
+            "CVE-2025-24161": false,
+            "CVE-2025-24162": false,
+            "CVE-2025-24163": false,
+            "CVE-2025-24179": false,
+            "CVE-2025-24184": false,
+            "CVE-2025-24189": false,
+            "CVE-2025-24855": false,
+            "CVE-2025-31262": false
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-24085"
+          ],
+          "UniqueCVEsCount": 28,
+          "DaysSincePreviousRelease": 47,
+          "update_summary": {
+            "priority": "emergency",
+            "summary": "EMERGENCY: 1 actively exploited, 28 total CVEs",
+            "recommendation": "Deploy immediately - active exploitation confirmed",
+            "stats": {
+              "exploited": 1,
+              "critical": 0,
+              "high": 2,
+              "medium": 0,
+              "remote": 0,
+              "total": 28
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 2.2",
+          "ProductName": "visionOS",
+          "ProductVersion": "2.2",
+          "ReleaseDate": "2024-12-11T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/121845",
+          "SecurityInfoContext": "visionOS 2.2 was released on Dec 11, 2024. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "RealityDevice14,1"
+          ],
+          "CVEs": {
+            "CVE-2024-44245": false,
+            "CVE-2024-45306": false,
+            "CVE-2024-45490": false,
+            "CVE-2024-54478": false,
+            "CVE-2024-54479": false,
+            "CVE-2024-54486": false,
+            "CVE-2024-54492": false,
+            "CVE-2024-54494": false,
+            "CVE-2024-54497": false,
+            "CVE-2024-54499": false,
+            "CVE-2024-54500": false,
+            "CVE-2024-54501": false,
+            "CVE-2024-54502": false,
+            "CVE-2024-54505": false,
+            "CVE-2024-54508": false,
+            "CVE-2024-54513": false,
+            "CVE-2024-54525": false,
+            "CVE-2024-54530": false,
+            "CVE-2024-54534": false,
+            "CVE-2024-54541": false,
+            "CVE-2024-54543": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 21,
+          "DaysSincePreviousRelease": 22,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "1 high (of 21 CVEs)",
+            "recommendation": "Update to stay secure - security fixes included",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 1,
+              "medium": 0,
+              "remote": 0,
+              "total": 21
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 2.1.1",
+          "ProductName": "visionOS",
+          "ProductVersion": "2.1.1",
+          "ReleaseDate": "2024-11-19T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/121755",
+          "SecurityInfoContext": "visionOS 2.1.1 was released on Nov 19, 2024. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "RealityDevice14,1"
+          ],
+          "CVEs": {
+            "CVE-2024-44308": true,
+            "CVE-2024-44309": true
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2024-44309",
+            "CVE-2024-44308"
+          ],
+          "UniqueCVEsCount": 2,
+          "DaysSincePreviousRelease": 22,
+          "update_summary": {
+            "priority": "emergency",
+            "summary": "EMERGENCY: 2 actively exploited, 2 total CVEs",
+            "recommendation": "Deploy immediately - active exploitation confirmed",
+            "stats": {
+              "exploited": 2,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 2
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 2.1",
+          "ProductName": "visionOS",
+          "ProductVersion": "2.1",
+          "ReleaseDate": "2024-10-28T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/121566",
+          "SecurityInfoContext": "visionOS 2.1 was released on Oct 28, 2024. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [
+            "RealityDevice14,1"
+          ],
+          "CVEs": {
+            "CVE-2024-44194": false,
+            "CVE-2024-44212": false,
+            "CVE-2024-44215": false,
+            "CVE-2024-44229": false,
+            "CVE-2024-44232": false,
+            "CVE-2024-44233": false,
+            "CVE-2024-44234": false,
+            "CVE-2024-44239": false,
+            "CVE-2024-44240": false,
+            "CVE-2024-44244": false,
+            "CVE-2024-44252": false,
+            "CVE-2024-44255": false,
+            "CVE-2024-44258": false,
+            "CVE-2024-44259": false,
+            "CVE-2024-44262": false,
+            "CVE-2024-44269": false,
+            "CVE-2024-44273": false,
+            "CVE-2024-44277": false,
+            "CVE-2024-44278": false,
+            "CVE-2024-44282": false,
+            "CVE-2024-44285": false,
+            "CVE-2024-44296": false,
+            "CVE-2024-44297": false,
+            "CVE-2024-44302": false,
+            "CVE-2024-54535": false,
+            "CVE-2024-54538": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 26,
+          "DaysSincePreviousRelease": 25,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "1 high (of 26 CVEs)",
+            "recommendation": "Update to stay secure - security fixes included",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 1,
+              "medium": 0,
+              "remote": 0,
+              "total": 26
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 2.0.1",
+          "ProductName": "visionOS",
+          "ProductVersion": "2.0.1",
+          "ReleaseDate": "2024-10-03T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/100100",
+          "SecurityInfoContext": "This update has no published CVE entries.",
+          "SupportedDevices": [
+            "RealityDevice14,1"
+          ],
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 0,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "No known security vulnerabilities",
+            "recommendation": "Update recommended - may include unpublished security improvements",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "OSVersion": "visionOS 1",
+      "Latest": {
+        "UpdateName": "visionOS 1.3",
+        "ProductName": "visionOS",
+        "ProductVersion": "1.3",
+        "ReleaseDate": "2024-07-29T00:00:00Z",
+        "ReleaseType": "OS",
+        "SecurityInfo": "https://support.apple.com/en-us/120915",
+        "SecurityInfoContext": "visionOS has been updated. The latest released version is now 1.3, with the following release date: visionOS 1.3 : Jul 29, 2024",
+        "SupportedDevices": [],
+        "CVEs": {
+          "CVE-2023-52356": false,
+          "CVE-2023-6277": false,
+          "CVE-2024-27804": false,
+          "CVE-2024-27823": false,
+          "CVE-2024-27826": false,
+          "CVE-2024-27863": false,
+          "CVE-2024-40776": false,
+          "CVE-2024-40777": false,
+          "CVE-2024-40779": false,
+          "CVE-2024-40780": false,
+          "CVE-2024-40782": false,
+          "CVE-2024-40784": false,
+          "CVE-2024-40785": false,
+          "CVE-2024-40788": false,
+          "CVE-2024-40789": false,
+          "CVE-2024-40799": false,
+          "CVE-2024-40806": false,
+          "CVE-2024-40809": false,
+          "CVE-2024-40812": false,
+          "CVE-2024-40865": false,
+          "CVE-2024-44185": false,
+          "CVE-2024-44206": false,
+          "CVE-2024-54551": false,
+          "CVE-2024-54564": false
+        },
+        "ActivelyExploitedCVEs": [],
+        "UniqueCVEsCount": 24,
+        "DaysSincePreviousRelease": 49,
+        "update_summary": {
+          "priority": "regular",
+          "summary": "24 CVEs with unspecified severity",
+          "recommendation": "Update to stay secure - security fixes included",
+          "stats": {
+            "exploited": 0,
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "remote": 0,
+            "total": 24
+          }
+        }
+      },
+      "SecurityReleases": [
+        {
+          "UpdateName": "visionOS 1.3",
+          "ProductName": "visionOS",
+          "ProductVersion": "1.3",
+          "ReleaseDate": "2024-07-29T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/120915",
+          "SecurityInfoContext": "visionOS has been updated. The latest released version is now 1.3, with the following release date: visionOS 1.3 : Jul 29, 2024",
+          "SupportedDevices": [],
+          "CVEs": {
+            "CVE-2023-52356": false,
+            "CVE-2023-6277": false,
+            "CVE-2024-27804": false,
+            "CVE-2024-27823": false,
+            "CVE-2024-27826": false,
+            "CVE-2024-27863": false,
+            "CVE-2024-40776": false,
+            "CVE-2024-40777": false,
+            "CVE-2024-40779": false,
+            "CVE-2024-40780": false,
+            "CVE-2024-40782": false,
+            "CVE-2024-40784": false,
+            "CVE-2024-40785": false,
+            "CVE-2024-40788": false,
+            "CVE-2024-40789": false,
+            "CVE-2024-40799": false,
+            "CVE-2024-40806": false,
+            "CVE-2024-40809": false,
+            "CVE-2024-40812": false,
+            "CVE-2024-40865": false,
+            "CVE-2024-44185": false,
+            "CVE-2024-44206": false,
+            "CVE-2024-54551": false,
+            "CVE-2024-54564": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 24,
+          "DaysSincePreviousRelease": 49,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "24 CVEs with unspecified severity",
+            "recommendation": "Update to stay secure - security fixes included",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 24
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 1.2",
+          "ProductName": "visionOS",
+          "ProductVersion": "1.2",
+          "ReleaseDate": "2024-06-10T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/120906",
+          "SecurityInfoContext": "visionOS 1.2 was released on Jun 10, 2024. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [],
+          "CVEs": {
+            "CVE-2024-27800": false,
+            "CVE-2024-27801": false,
+            "CVE-2024-27802": false,
+            "CVE-2024-27808": false,
+            "CVE-2024-27811": false,
+            "CVE-2024-27812": false,
+            "CVE-2024-27815": false,
+            "CVE-2024-27817": false,
+            "CVE-2024-27820": false,
+            "CVE-2024-27828": false,
+            "CVE-2024-27830": false,
+            "CVE-2024-27831": false,
+            "CVE-2024-27832": false,
+            "CVE-2024-27833": false,
+            "CVE-2024-27836": false,
+            "CVE-2024-27838": false,
+            "CVE-2024-27840": false,
+            "CVE-2024-27844": false,
+            "CVE-2024-27850": false,
+            "CVE-2024-27851": false,
+            "CVE-2024-27856": false,
+            "CVE-2024-27857": false,
+            "CVE-2024-27884": false,
+            "CVE-2024-40771": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 24,
+          "DaysSincePreviousRelease": 62,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "24 CVEs with unspecified severity",
+            "recommendation": "Update to stay secure - security fixes included",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 24
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 1.1.2",
+          "ProductName": "visionOS",
+          "ProductVersion": "1.1.2",
+          "ReleaseDate": "2024-04-09T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/100100",
+          "SecurityInfoContext": "This update has no published CVE entries.",
+          "SupportedDevices": [],
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 19,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "No known security vulnerabilities",
+            "recommendation": "Update recommended - may include unpublished security improvements",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 0
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 1.1.1",
+          "ProductName": "visionOS",
+          "ProductVersion": "1.1.1",
+          "ReleaseDate": "2024-03-21T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/120312",
+          "SecurityInfoContext": "visionOS 1.1.1 was released on Mar 21, 2024. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [],
+          "CVEs": {
+            "CVE-2024-1580": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 1,
+          "DaysSincePreviousRelease": 14,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "1 CVEs with unspecified severity",
+            "recommendation": "Update to stay secure - security fixes included",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 1
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 1.1",
+          "ProductName": "visionOS",
+          "ProductVersion": "1.1",
+          "ReleaseDate": "2024-03-07T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/120883",
+          "SecurityInfoContext": "visionOS 1.1 was released on Mar 07, 2024. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [],
+          "CVEs": {
+            "CVE-2024-23220": false,
+            "CVE-2024-23225": true,
+            "CVE-2024-23226": false,
+            "CVE-2024-23235": false,
+            "CVE-2024-23246": false,
+            "CVE-2024-23254": false,
+            "CVE-2024-23257": false,
+            "CVE-2024-23258": false,
+            "CVE-2024-23262": false,
+            "CVE-2024-23263": false,
+            "CVE-2024-23264": false,
+            "CVE-2024-23265": false,
+            "CVE-2024-23284": false,
+            "CVE-2024-23286": false,
+            "CVE-2024-23295": false,
+            "CVE-2024-23296": true,
+            "CVE-2024-27859": false,
+            "CVE-2024-54658": false
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2024-23296",
+            "CVE-2024-23225"
+          ],
+          "UniqueCVEsCount": 18,
+          "DaysSincePreviousRelease": 24,
+          "update_summary": {
+            "priority": "emergency",
+            "summary": "EMERGENCY: 2 actively exploited, 18 total CVEs",
+            "recommendation": "Deploy immediately - active exploitation confirmed",
+            "stats": {
+              "exploited": 2,
+              "critical": 0,
+              "high": 4,
+              "medium": 0,
+              "remote": 0,
+              "total": 18
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 1.0.3",
+          "ProductName": "visionOS",
+          "ProductVersion": "1.0.3",
+          "ReleaseDate": "2024-02-12T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/100100",
+          "SecurityInfoContext": "This update has no published CVE entries.",
+          "SupportedDevices": [],
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 12,
+          "update_summary": {
+            "priority": "regular",
+            "summary": "No known security vulnerabilities",
+            "recommendation": "Update recommended - may include unpublished security improvements",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 0
+            }
+          }
+        },
+        {
+          "UpdateName": "visionOS 1.0.2",
+          "ProductName": "visionOS",
+          "ProductVersion": "1.0.2",
+          "ReleaseDate": "2024-01-31T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/118479",
+          "SecurityInfoContext": "visionOS 1.0.2 was released on Jan 31, 2024. There are newer updates available - see if these apply to your devices (might be only for selected models).",
+          "SupportedDevices": [],
+          "CVEs": {
+            "CVE-2024-23222": true
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2024-23222"
+          ],
+          "UniqueCVEsCount": 1,
+          "DaysSincePreviousRelease": 0,
+          "update_summary": {
+            "priority": "emergency",
+            "summary": "EMERGENCY: 1 actively exploited, 1 total CVEs",
+            "recommendation": "Deploy immediately - active exploitation confirmed",
+            "stats": {
+              "exploited": 1,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "remote": 0,
+              "total": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
