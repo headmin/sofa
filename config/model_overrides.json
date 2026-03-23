@@ -1,0 +1,386 @@
+{
+  "VMM-x86_64": {
+    "identifier": "VMM-x86_64",
+    "name": "Virtual Machine (x86_64)",
+    "type": "Virtual Machine",
+    "soc": "Virtual",
+    "board": "VMM-x86_64",
+    "arch": "x86_64"
+  },
+  "VMA2MACOSAP": {
+    "identifier": "VirtualMac2,1",
+    "name": "Apple Virtual Machine",
+    "type": "Virtual Machine",
+    "soc": "Virtual",
+    "board": "VMA2MACOSAP",
+    "arch": "arm64e"
+  },
+  "J152FAP": {
+    "identifier": "MacPro7,1",
+    "name": "Mac Pro (2019)",
+    "type": "Mac Pro",
+    "soc": "Xeon W",
+    "board": "J152FAP",
+    "arch": "x86_64"
+  },
+  "J160AP": {
+    "identifier": "MacPro7,1-Rack",
+    "name": "Mac Pro (Rack, 2019)",
+    "type": "Mac Pro",
+    "soc": "Xeon W",
+    "board": "J160AP",
+    "arch": "x86_64"
+  },
+  "J132AP": {
+    "identifier": "MacBookPro15,2",
+    "name": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "J132AP",
+    "arch": "x86_64"
+  },
+  "J137AP": {
+    "identifier": "iMacPro1,1",
+    "name": "iMac Pro",
+    "type": "iMac Pro",
+    "soc": "Intel",
+    "board": "J137AP",
+    "arch": "x86_64"
+  },
+  "J140AAP": {
+    "identifier": "MacBookAir8,1",
+    "name": "MacBook Air (Retina, 13-inch, 2018)",
+    "type": "MacBook Air",
+    "soc": "Intel",
+    "board": "J140AAP",
+    "arch": "x86_64"
+  },
+  "J140KAP": {
+    "identifier": "MacBookAir8,2",
+    "name": "MacBook Air (Retina, 13-inch, 2019)",
+    "type": "MacBook Air",
+    "soc": "Intel",
+    "board": "J140KAP",
+    "arch": "x86_64"
+  },
+  "J174AP": {
+    "identifier": "Macmini8,1",
+    "name": "Mac mini (2018)",
+    "type": "Mac mini",
+    "soc": "Intel",
+    "board": "J174AP",
+    "arch": "x86_64"
+  },
+  "J185AP": {
+    "identifier": "MacBookPro15,1",
+    "name": "MacBook Pro (15-inch, 2018)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "J185AP",
+    "arch": "x86_64"
+  },
+  "J185FAP": {
+    "identifier": "MacBookPro15,3",
+    "name": "MacBook Pro (15-inch, 2019)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "J185FAP",
+    "arch": "x86_64"
+  },
+  "J213AP": {
+    "identifier": "MacBookPro15,4",
+    "name": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "J213AP",
+    "arch": "x86_64"
+  },
+  "J214AP": {
+    "identifier": "MacBookPro16,2",
+    "name": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "J214AP",
+    "arch": "x86_64"
+  },
+  "J214KAP": {
+    "identifier": "MacBookPro16,2",
+    "name": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "J214KAP",
+    "arch": "x86_64"
+  },
+  "J215AP": {
+    "identifier": "MacBookPro16,3",
+    "name": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "J215AP",
+    "arch": "x86_64"
+  },
+  "J223AP": {
+    "identifier": "MacBookAir9,1",
+    "name": "MacBook Air (Retina, 13-inch, 2020)",
+    "type": "MacBook Air",
+    "soc": "Intel",
+    "board": "J223AP",
+    "arch": "x86_64"
+  },
+  "J230AP": {
+    "identifier": "MacBookPro16,1",
+    "name": "MacBook Pro (16-inch, 2019)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "J230AP",
+    "arch": "x86_64"
+  },
+  "J230KAP": {
+    "identifier": "MacBookPro16,4",
+    "name": "MacBook Pro (16-inch, 2019)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "J230KAP",
+    "arch": "x86_64"
+  },
+  "J680AP": {
+    "identifier": "MacBookPro16,4",
+    "name": "MacBook Pro (16-inch, 2019)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "J680AP",
+    "arch": "x86_64"
+  },
+  "J780AP": {
+    "identifier": "iMac20,1",
+    "name": "iMac (Retina 5K, 27-inch, 2020)",
+    "type": "iMac",
+    "soc": "Intel",
+    "board": "J780AP",
+    "arch": "x86_64"
+  },
+  "Mac-06F11F11946D27C5": {
+    "identifier": "MacBookAir7,1",
+    "name": "MacBook Air (11-inch, Early 2015)",
+    "type": "MacBook Air",
+    "soc": "Intel",
+    "board": "Mac-06F11F11946D27C5",
+    "arch": "x86_64"
+  },
+  "Mac-06F11FD93F0323C5": {
+    "identifier": "MacBookAir7,2",
+    "name": "MacBook Air (13-inch, Early 2015)",
+    "type": "MacBook Air",
+    "soc": "Intel",
+    "board": "Mac-06F11FD93F0323C5",
+    "arch": "x86_64"
+  },
+  "Mac-1E7E29AD0135F9BC": {
+    "identifier": "MacBookAir9,1",
+    "name": "MacBook Air (Retina, 13-inch, 2020)",
+    "type": "MacBook Air",
+    "soc": "Intel",
+    "board": "Mac-1E7E29AD0135F9BC",
+    "arch": "x86_64"
+  },
+  "Mac-35C5E08120C7EEAF": {
+    "identifier": "MacBookPro15,1",
+    "name": "MacBook Pro (15-inch, 2018)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "Mac-35C5E08120C7EEAF",
+    "arch": "x86_64"
+  },
+  "Mac-473D31EABEB93F9B": {
+    "identifier": "iMac18,1",
+    "name": "iMac (21.5-inch, 2017)",
+    "type": "iMac",
+    "soc": "Intel",
+    "board": "Mac-473D31EABEB93F9B",
+    "arch": "x86_64"
+  },
+  "Mac-4B682C642B45593E": {
+    "identifier": "iMac18,3",
+    "name": "iMac (Retina 5K, 27-inch, 2017)",
+    "type": "iMac",
+    "soc": "Intel",
+    "board": "Mac-4B682C642B45593E",
+    "arch": "x86_64"
+  },
+  "Mac-551B86E5744E2388": {
+    "identifier": "MacBookPro14,3",
+    "name": "MacBook Pro (15-inch, 2017)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "Mac-551B86E5744E2388",
+    "arch": "x86_64"
+  },
+  "Mac-63001698E7A34814": {
+    "identifier": "iMac19,1",
+    "name": "iMac (Retina 5K, 27-inch, 2019)",
+    "type": "iMac",
+    "soc": "Intel",
+    "board": "Mac-63001698E7A34814",
+    "arch": "x86_64"
+  },
+  "Mac-65CE76090165799A": {
+    "identifier": "iMac17,1",
+    "name": "iMac (Retina 5K, 27-inch, Late 2015)",
+    "type": "iMac",
+    "soc": "Intel",
+    "board": "Mac-65CE76090165799A",
+    "arch": "x86_64"
+  },
+  "Mac-66E35819EE2D0D05": {
+    "identifier": "iMac19,2",
+    "name": "iMac (Retina 4K, 21.5-inch, 2019)",
+    "type": "iMac",
+    "soc": "Intel",
+    "board": "Mac-66E35819EE2D0D05",
+    "arch": "x86_64"
+  },
+  "Mac-77F17D7DA9285301": {
+    "identifier": "iMac18,2",
+    "name": "iMac (Retina 4K, 21.5-inch, 2017)",
+    "type": "iMac",
+    "soc": "Intel",
+    "board": "Mac-77F17D7DA9285301",
+    "arch": "x86_64"
+  },
+  "Mac-937A206F2EE63C01": {
+    "identifier": "MacBookPro14,2",
+    "name": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "Mac-937A206F2EE63C01",
+    "arch": "x86_64"
+  },
+  "Mac-937CB26E2E02BB01": {
+    "identifier": "MacBookPro13,2",
+    "name": "MacBook Pro (13-inch, 2016, Four Thunderbolt 3 ports)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "Mac-937CB26E2E02BB01",
+    "arch": "x86_64"
+  },
+  "Mac-9AE82516C7C6B903": {
+    "identifier": "MacBookPro14,1",
+    "name": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "Mac-9AE82516C7C6B903",
+    "arch": "x86_64"
+  },
+  "Mac-9F18E312C5C2BF0B": {
+    "identifier": "iMac20,2",
+    "name": "iMac (Retina 5K, 27-inch, 2020)",
+    "type": "iMac",
+    "soc": "Intel",
+    "board": "Mac-9F18E312C5C2BF0B",
+    "arch": "x86_64"
+  },
+  "Mac-A369DDC4E67F1C45": {
+    "identifier": "MacBookPro13,3",
+    "name": "MacBook Pro (15-inch, 2016)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "Mac-A369DDC4E67F1C45",
+    "arch": "x86_64"
+  },
+  "Mac-A5C67F76ED83108C": {
+    "identifier": "MacPro6,1",
+    "name": "Mac Pro (Late 2013)",
+    "type": "Mac Pro",
+    "soc": "Intel",
+    "board": "Mac-A5C67F76ED83108C",
+    "arch": "x86_64"
+  },
+  "Mac-AA95B1DDAB278B95": {
+    "identifier": "iMac16,2",
+    "name": "iMac (Retina 4K, 21.5-inch, Late 2015)",
+    "type": "iMac",
+    "soc": "Intel",
+    "board": "Mac-AA95B1DDAB278B95",
+    "arch": "x86_64"
+  },
+  "Mac-B4831CEBD52A0C4C": {
+    "identifier": "MacBookPro15,2",
+    "name": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "Mac-B4831CEBD52A0C4C",
+    "arch": "x86_64"
+  },
+  "Mac-B809C3757DA9BB8D": {
+    "identifier": "iMac15,1",
+    "name": "iMac (Retina 5K, 27-inch, Mid 2015)",
+    "type": "iMac",
+    "soc": "Intel",
+    "board": "Mac-B809C3757DA9BB8D",
+    "arch": "x86_64"
+  },
+  "Mac-BE088AF8C5EB4FA2": {
+    "identifier": "iMac16,1",
+    "name": "iMac (21.5-inch, Late 2015)",
+    "type": "iMac",
+    "soc": "Intel",
+    "board": "Mac-BE088AF8C5EB4FA2",
+    "arch": "x86_64"
+  },
+  "Mac-CAD6701F7CEA0921": {
+    "identifier": "MacBookPro13,1",
+    "name": "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "Mac-CAD6701F7CEA0921",
+    "arch": "x86_64"
+  },
+  "Mac-DB15BD556843C820": {
+    "identifier": "Macmini7,1",
+    "name": "Mac mini (Late 2014)",
+    "type": "Mac mini",
+    "soc": "Intel",
+    "board": "Mac-DB15BD556843C820",
+    "arch": "x86_64"
+  },
+  "Mac-E43C1C25D4880AD6": {
+    "identifier": "MacBookPro11,4",
+    "name": "MacBook Pro (Retina, 15-inch, Mid 2015)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "Mac-E43C1C25D4880AD6",
+    "arch": "x86_64"
+  },
+  "Mac-EE2EBD4B90B839A8": {
+    "identifier": "MacBookPro11,5",
+    "name": "MacBook Pro (Retina, 15-inch, Mid 2015)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "Mac-EE2EBD4B90B839A8",
+    "arch": "x86_64"
+  },
+  "Mac-F60DEB81FF30ACF6": {
+    "identifier": "MacBookPro12,1",
+    "name": "MacBook Pro (Retina, 13-inch, Early 2015)",
+    "type": "MacBook Pro",
+    "soc": "Intel",
+    "board": "Mac-F60DEB81FF30ACF6",
+    "arch": "x86_64"
+  },
+  "Mac-FFE5EF870D7BA81A": {
+    "identifier": "MacBook10,1",
+    "name": "MacBook (Retina, 12-inch, 2017)",
+    "type": "MacBook",
+    "soc": "Intel",
+    "board": "Mac-FFE5EF870D7BA81A",
+    "arch": "x86_64"
+  },
+  "J700AP": {
+    "identifier": "Mac17,5",
+    "name": "MacBook Neo (A18 Pro, 2025)",
+    "type": "Macbook Neo",
+    "soc": "A18 Pro",
+    "board": "J700AP",
+    "arch": "arm64e"
+  }
+}

@@ -1,0 +1,1434 @@
+{
+  "Mac13,1": {
+    "MarketingName": "Mac Studio (M1 Max)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12
+    ],
+    "BoardID": "J375cAP"
+  },
+  "Mac13,2": {
+    "MarketingName": "Mac Studio (M1 Ultra)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12
+    ],
+    "BoardID": "J375dAP"
+  },
+  "Mac14,10": {
+    "MarketingName": "MacBook Pro (16-inch, M2 Pro, 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13
+    ],
+    "BoardID": "J416sAP"
+  },
+  "Mac14,12": {
+    "MarketingName": "Mac mini (M2 Pro, 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13
+    ],
+    "BoardID": "J474sAP"
+  },
+  "Mac14,13": {
+    "MarketingName": "Mac Studio (M2 Max, 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13
+    ],
+    "BoardID": "J475cAP"
+  },
+  "Mac14,14": {
+    "MarketingName": "Mac Studio (M2 Ultra, 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13
+    ],
+    "BoardID": "J475dAP"
+  },
+  "Mac14,15": {
+    "MarketingName": "MacBook Air (15-inch, M2, 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13
+    ],
+    "BoardID": "J415AP"
+  },
+  "Mac14,2": {
+    "MarketingName": "MacBook Air (M2, 2022)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12
+    ],
+    "BoardID": "J413AP"
+  },
+  "Mac14,3": {
+    "MarketingName": "Mac mini (M2, 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13
+    ],
+    "BoardID": "J473AP"
+  },
+  "Mac14,5": {
+    "MarketingName": "MacBook Pro (14-inch, M2 Max, 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13
+    ],
+    "BoardID": "J414cAP"
+  },
+  "Mac14,6": {
+    "MarketingName": "MacBook Pro (16-inch, M2 Max, 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13
+    ],
+    "BoardID": "J416cAP"
+  },
+  "Mac14,7": {
+    "MarketingName": "MacBook Pro (13-inch, M2, 2022)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12
+    ],
+    "BoardID": "J493AP"
+  },
+  "Mac14,8": {
+    "MarketingName": "Mac Pro (Rack, 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13
+    ],
+    "BoardID": "J180dAP"
+  },
+  "Mac14,9": {
+    "MarketingName": "MacBook Pro (14-inch, M2 Pro, 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13
+    ],
+    "BoardID": "J414sAP"
+  },
+  "Mac15,10": {
+    "MarketingName": "MacBook Pro (14-inch, 14-core M3 Max, Nov 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14
+    ],
+    "BoardID": "J514mAP"
+  },
+  "Mac15,11": {
+    "MarketingName": "MacBook Pro (16-inch, 14-core M3 Max, Nov 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14
+    ],
+    "BoardID": "J516mAP"
+  },
+  "Mac15,12": {
+    "MarketingName": "MacBook Air (13-inch, M3, 2024)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14
+    ],
+    "BoardID": "J613AP"
+  },
+  "Mac15,13": {
+    "MarketingName": "MacBook Air (15-inch, M3, 2024)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14
+    ],
+    "BoardID": "J615AP"
+  },
+  "Mac15,14": {
+    "MarketingName": "Mac Studio (M3 Ultra, 2025)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia"
+    ],
+    "OSVersions": [
+      26,
+      15
+    ],
+    "BoardID": "J575dAP"
+  },
+  "Mac15,3": {
+    "MarketingName": "MacBook Pro (14-inch, M3, Nov 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13
+    ],
+    "BoardID": "J504AP"
+  },
+  "Mac15,4": {
+    "MarketingName": "iMac (24-inch, M3, 2023, Two Ports)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13
+    ],
+    "BoardID": "J433AP"
+  },
+  "Mac15,5": {
+    "MarketingName": "iMac (24-inch, M3, 2023, Four Ports)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13
+    ],
+    "BoardID": "J434AP"
+  },
+  "Mac15,6": {
+    "MarketingName": "MacBook Pro (14-inch, M3 Pro, Nov 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14
+    ],
+    "BoardID": "J514sAP"
+  },
+  "Mac15,7": {
+    "MarketingName": "MacBook Pro (16-inch, M3 Pro, Nov 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14
+    ],
+    "BoardID": "J516sAP"
+  },
+  "Mac15,8": {
+    "MarketingName": "MacBook Pro (14-inch, 16-core M3 Max, Nov 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14
+    ],
+    "BoardID": "J514cAP"
+  },
+  "Mac15,9": {
+    "MarketingName": "MacBook Pro (16-inch, 16-core M3 Max, Nov 2023)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14
+    ],
+    "BoardID": "J516cAP"
+  },
+  "Mac16,1": {
+    "MarketingName": "MacBook Pro (14-inch, M4, Nov 2024)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia"
+    ],
+    "OSVersions": [
+      26,
+      15
+    ],
+    "BoardID": "J604AP"
+  },
+  "Mac16,10": {
+    "MarketingName": "Mac mini (M4, 2024)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia"
+    ],
+    "OSVersions": [
+      26,
+      15
+    ],
+    "BoardID": "J773gAP"
+  },
+  "Mac16,11": {
+    "MarketingName": "Mac mini (M4 Pro, 2024)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia"
+    ],
+    "OSVersions": [
+      26,
+      15
+    ],
+    "BoardID": "J773sAP"
+  },
+  "Mac16,12": {
+    "MarketingName": "MacBook Air (13-inch, M4, 2025)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia"
+    ],
+    "OSVersions": [
+      26,
+      15
+    ],
+    "BoardID": "J713AP"
+  },
+  "Mac16,13": {
+    "MarketingName": "MacBook Air (15-inch, M4, 2025)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia"
+    ],
+    "OSVersions": [
+      26,
+      15
+    ],
+    "BoardID": "J715AP"
+  },
+  "Mac16,2": {
+    "MarketingName": "iMac (24-inch, M4, 2024, Two Ports)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia"
+    ],
+    "OSVersions": [
+      26,
+      15
+    ],
+    "BoardID": "J623AP"
+  },
+  "Mac16,3": {
+    "MarketingName": "iMac (24-inch, M4, 2024, Four Ports)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia"
+    ],
+    "OSVersions": [
+      26,
+      15
+    ],
+    "BoardID": "J624AP"
+  },
+  "Mac16,5": {
+    "MarketingName": "MacBook Pro (16-inch, M4 Max, Nov 2024)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia"
+    ],
+    "OSVersions": [
+      26,
+      15
+    ],
+    "BoardID": "J616cAP"
+  },
+  "Mac16,6": {
+    "MarketingName": "MacBook Pro (14-inch, M4 Max, Nov 2024)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia"
+    ],
+    "OSVersions": [
+      26,
+      15
+    ],
+    "BoardID": "J614cAP"
+  },
+  "Mac16,7": {
+    "MarketingName": "MacBook Pro (16-inch, M4 Pro, Nov 2024)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia"
+    ],
+    "OSVersions": [
+      26,
+      15
+    ],
+    "BoardID": "J616sAP"
+  },
+  "Mac16,8": {
+    "MarketingName": "MacBook Pro (14-inch, M4 Pro, Nov 2024)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia"
+    ],
+    "OSVersions": [
+      26,
+      15
+    ],
+    "BoardID": "J614sAP"
+  },
+  "Mac16,9": {
+    "MarketingName": "Mac Studio (M4 Max, 2025)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia"
+    ],
+    "OSVersions": [
+      26,
+      15
+    ],
+    "BoardID": "J575cAP"
+  },
+  "Mac17,2": {
+    "MarketingName": "MacBook Pro 14-inch (M5)",
+    "SupportedOS": [
+      "tahoe"
+    ],
+    "OSVersions": [
+      26
+    ],
+    "BoardID": "J704AP"
+  },
+  "Mac17,3": {
+    "MarketingName": "MacBook Air (13-inch, M5)",
+    "SupportedOS": [
+      "tahoe"
+    ],
+    "OSVersions": [
+      26
+    ],
+    "BoardID": "J813AP"
+  },
+  "Mac17,4": {
+    "MarketingName": "MacBook Air (15-inch, M5)",
+    "SupportedOS": [
+      "tahoe"
+    ],
+    "OSVersions": [
+      26
+    ],
+    "BoardID": "J815AP"
+  },
+  "Mac17,5": {
+    "MarketingName": "MacBook Neo",
+    "SupportedOS": [
+      "tahoe"
+    ],
+    "OSVersions": [
+      26
+    ],
+    "BoardID": "J700AP"
+  },
+  "Mac17,6": {
+    "MarketingName": "MacBook Pro (16-inch, M5 Max)",
+    "SupportedOS": [
+      "tahoe"
+    ],
+    "OSVersions": [
+      26
+    ],
+    "BoardID": "J716cAP"
+  },
+  "Mac17,7": {
+    "MarketingName": "MacBook Pro (14-inch, M5 Max)",
+    "SupportedOS": [
+      "tahoe"
+    ],
+    "OSVersions": [
+      26
+    ],
+    "BoardID": "J714cAP"
+  },
+  "Mac17,8": {
+    "MarketingName": "MacBook Pro (16-inch, M5 Pro)",
+    "SupportedOS": [
+      "tahoe"
+    ],
+    "OSVersions": [
+      26
+    ],
+    "BoardID": "J716sAP"
+  },
+  "Mac17,9": {
+    "MarketingName": "MacBook Pro (14-inch, M5 Pro)",
+    "SupportedOS": [
+      "tahoe"
+    ],
+    "OSVersions": [
+      26
+    ],
+    "BoardID": "J714sAP"
+  },
+  "MacBook10,1": {
+    "MarketingName": "MacBook (Retina, 12-inch, 2017)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-FFE5EF870D7BA81A"
+  },
+  "MacBookAir10,1": {
+    "MarketingName": "MacBook Air (M1, 2020)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J313AP"
+  },
+  "MacBookAir7,1": {
+    "MarketingName": "MacBook Air (11-inch, Early 2015)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-06F11F11946D27C5"
+  },
+  "MacBookAir7,2": {
+    "MarketingName": "MacBook Air (13-inch, Early 2015)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-06F11FD93F0323C5"
+  },
+  "MacBookAir8,1": {
+    "MarketingName": "MacBook Air (Retina, 13-inch, 2018)",
+    "SupportedOS": [
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J140AAP"
+  },
+  "MacBookAir8,2": {
+    "MarketingName": "MacBook Air (Retina, 13-inch, 2019)",
+    "SupportedOS": [
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J140KAP"
+  },
+  "MacBookAir9,1": {
+    "MarketingName": "MacBook Air (Retina, 13-inch, 2020)",
+    "SupportedOS": [
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "Mac-1E7E29AD0135F9BC"
+  },
+  "MacBookPro11,4": {
+    "MarketingName": "MacBook Pro (Retina, 15-inch, Mid 2015)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-E43C1C25D4880AD6"
+  },
+  "MacBookPro11,5": {
+    "MarketingName": "MacBook Pro (Retina, 15-inch, Mid 2015)",
+    "SupportedOS": [
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      13,
+      12,
+      11
+    ],
+    "BoardID": "Mac-EE2EBD4B90B839A8"
+  },
+  "MacBookPro12,1": {
+    "MarketingName": "MacBook Pro (Retina, 13-inch, Early 2015)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-F60DEB81FF30ACF6"
+  },
+  "MacBookPro13,1": {
+    "MarketingName": "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)",
+    "SupportedOS": [
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      13,
+      12,
+      11
+    ],
+    "BoardID": "Mac-CAD6701F7CEA0921"
+  },
+  "MacBookPro13,2": {
+    "MarketingName": "MacBook Pro (13-inch, 2016, Four Thunderbolt 3 ports)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-937CB26E2E02BB01"
+  },
+  "MacBookPro13,3": {
+    "MarketingName": "MacBook Pro (15-inch, 2016)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-A369DDC4E67F1C45"
+  },
+  "MacBookPro14,1": {
+    "MarketingName": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-9AE82516C7C6B903"
+  },
+  "MacBookPro14,2": {
+    "MarketingName": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
+    "SupportedOS": [
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "Mac-937A206F2EE63C01"
+  },
+  "MacBookPro14,3": {
+    "MarketingName": "MacBook Pro (15-inch, 2017)",
+    "SupportedOS": [
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      13,
+      12,
+      11
+    ],
+    "BoardID": "Mac-551B86E5744E2388"
+  },
+  "MacBookPro15,1": {
+    "MarketingName": "MacBook Pro (15-inch, 2018)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-35C5E08120C7EEAF"
+  },
+  "MacBookPro15,2": {
+    "MarketingName": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)",
+    "SupportedOS": [
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      13,
+      12,
+      11
+    ],
+    "BoardID": "Mac-B4831CEBD52A0C4C"
+  },
+  "MacBookPro15,3": {
+    "MarketingName": "MacBook Pro (15-inch, 2019)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J185FAP"
+  },
+  "MacBookPro15,4": {
+    "MarketingName": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+    "SupportedOS": [
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J213AP"
+  },
+  "MacBookPro16,1": {
+    "MarketingName": "MacBook Pro (16-inch, 2019)",
+    "SupportedOS": [
+      "bigsur"
+    ],
+    "OSVersions": [
+      11
+    ],
+    "BoardID": "J230AP"
+  },
+  "MacBookPro16,2": {
+    "MarketingName": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J214KAP"
+  },
+  "MacBookPro16,3": {
+    "MarketingName": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J215AP"
+  },
+  "MacBookPro16,4": {
+    "MarketingName": "MacBook Pro (16-inch, 2019)",
+    "SupportedOS": [
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J230KAP"
+  },
+  "MacBookPro17,1": {
+    "MarketingName": "MacBook Pro (13-inch, M1, 2020)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J293AP"
+  },
+  "MacBookPro18,1": {
+    "MarketingName": "MacBook Pro (16-inch, M1 Pro, 2021)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12
+    ],
+    "BoardID": "J316sAP"
+  },
+  "MacBookPro18,2": {
+    "MarketingName": "MacBook Pro (16-inch, M1 Max, 2021)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12
+    ],
+    "BoardID": "J316cAP"
+  },
+  "MacBookPro18,3": {
+    "MarketingName": "MacBook Pro (14-inch, M1 Pro, 2021)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12
+    ],
+    "BoardID": "J314sAP"
+  },
+  "MacBookPro18,4": {
+    "MarketingName": "MacBook Pro (14-inch, M1 Max, 2021)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12
+    ],
+    "BoardID": "J314cAP"
+  },
+  "MacPro6,1": {
+    "MarketingName": "Mac Pro (Late 2013)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-A5C67F76ED83108C"
+  },
+  "MacPro7,1": {
+    "MarketingName": "Mac Pro (2019)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J152FAP"
+  },
+  "MacPro7,1-Rack": {
+    "MarketingName": "Mac Pro (Rack, 2019)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J160AP"
+  },
+  "Macmini7,1": {
+    "MarketingName": "Mac mini (Late 2014)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-DB15BD556843C820"
+  },
+  "Macmini8,1": {
+    "MarketingName": "Mac mini (2018)",
+    "SupportedOS": [
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J174AP"
+  },
+  "Macmini9,1": {
+    "MarketingName": "Mac mini (M1, Late 2020)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J274AP"
+  },
+  "VMM-x86_64": {
+    "MarketingName": "Virtual Machine (x86_64)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "VMM-x86_64"
+  },
+  "VirtualMac2,1": {
+    "MarketingName": "Apple Virtual Machine",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12
+    ],
+    "BoardID": "VMA2MACOSAP"
+  },
+  "iMac15,1": {
+    "MarketingName": "iMac (Retina 5K, 27-inch, Mid 2015)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-B809C3757DA9BB8D"
+  },
+  "iMac16,1": {
+    "MarketingName": "iMac (21.5-inch, Late 2015)",
+    "SupportedOS": [
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      13,
+      12,
+      11
+    ],
+    "BoardID": "Mac-BE088AF8C5EB4FA2"
+  },
+  "iMac16,2": {
+    "MarketingName": "iMac (Retina 4K, 21.5-inch, Late 2015)",
+    "SupportedOS": [
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "Mac-AA95B1DDAB278B95"
+  },
+  "iMac17,1": {
+    "MarketingName": "iMac (Retina 5K, 27-inch, Late 2015)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-65CE76090165799A"
+  },
+  "iMac18,1": {
+    "MarketingName": "iMac (21.5-inch, 2017)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-473D31EABEB93F9B"
+  },
+  "iMac18,2": {
+    "MarketingName": "iMac (Retina 4K, 21.5-inch, 2017)",
+    "SupportedOS": [
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      13,
+      12,
+      11
+    ],
+    "BoardID": "Mac-77F17D7DA9285301"
+  },
+  "iMac18,3": {
+    "MarketingName": "iMac (Retina 5K, 27-inch, 2017)",
+    "SupportedOS": [
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      13,
+      12,
+      11
+    ],
+    "BoardID": "Mac-4B682C642B45593E"
+  },
+  "iMac19,1": {
+    "MarketingName": "iMac (Retina 5K, 27-inch, 2019)",
+    "SupportedOS": [
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "Mac-63001698E7A34814"
+  },
+  "iMac19,2": {
+    "MarketingName": "iMac (Retina 4K, 21.5-inch, 2019)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-66E35819EE2D0D05"
+  },
+  "iMac20,1": {
+    "MarketingName": "iMac (Retina 5K, 27-inch, 2020)",
+    "SupportedOS": [
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J780AP"
+  },
+  "iMac20,2": {
+    "MarketingName": "iMac (Retina 5K, 27-inch, 2020)",
+    "SupportedOS": [
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      12,
+      11
+    ],
+    "BoardID": "Mac-9F18E312C5C2BF0B"
+  },
+  "iMac21,1": {
+    "MarketingName": "iMac (24-inch, M1, 2021, Four Ports)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J456AP"
+  },
+  "iMac21,2": {
+    "MarketingName": "iMac (24-inch, M1, 2021, Two Ports)",
+    "SupportedOS": [
+      "tahoe",
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      26,
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J457AP"
+  },
+  "iMacPro1,1": {
+    "MarketingName": "iMac Pro",
+    "SupportedOS": [
+      "sequoia",
+      "sonoma",
+      "ventura",
+      "monterey",
+      "bigsur"
+    ],
+    "OSVersions": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "BoardID": "J137AP"
+  }
+}

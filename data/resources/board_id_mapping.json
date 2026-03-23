@@ -1,0 +1,792 @@
+{
+  "J152FAP": {
+    "device_id": "MacPro7,1",
+    "marketing_name": "Mac Pro (2019)",
+    "source": "AppleDB"
+  },
+  "J160AP": {
+    "device_id": "MacPro7,1-Rack",
+    "marketing_name": "Mac Pro (Rack, 2019)",
+    "source": "AppleDB"
+  },
+  "J180dAP": {
+    "device_id": "Mac14,8",
+    "marketing_name": "Mac Pro (Rack, 2023)",
+    "source": "AppleDB"
+  },
+  "J185AP": {
+    "device_id": "MacBookPro15,1",
+    "marketing_name": "MacBook Pro (15-inch, 2018)",
+    "source": "AppleDB"
+  },
+  "J185FAP": {
+    "device_id": "MacBookPro15,3",
+    "marketing_name": "MacBook Pro (15-inch, 2019)",
+    "source": "AppleDB"
+  },
+  "J214KAP": {
+    "device_id": "MacBookPro16,2",
+    "marketing_name": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+    "source": "AppleDB"
+  },
+  "J215AP": {
+    "device_id": "MacBookPro16,3",
+    "marketing_name": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+    "source": "AppleDB"
+  },
+  "J274AP": {
+    "device_id": "Macmini9,1",
+    "marketing_name": "Mac mini (M1, Late 2020)",
+    "source": "AppleDB"
+  },
+  "J293AP": {
+    "device_id": "MacBookPro17,1",
+    "marketing_name": "MacBook Pro (13-inch, M1, 2020)",
+    "source": "AppleDB"
+  },
+  "J313AP": {
+    "device_id": "MacBookAir10,1",
+    "marketing_name": "MacBook Air (M1, 2020)",
+    "source": "AppleDB"
+  },
+  "J314cAP": {
+    "device_id": "MacBookPro18,4",
+    "marketing_name": "MacBook Pro (14-inch, M1 Max, 2021)",
+    "source": "AppleDB"
+  },
+  "J314sAP": {
+    "device_id": "MacBookPro18,3",
+    "marketing_name": "MacBook Pro (14-inch, M1 Pro, 2021)",
+    "source": "AppleDB"
+  },
+  "J316cAP": {
+    "device_id": "MacBookPro18,2",
+    "marketing_name": "MacBook Pro (16-inch, M1 Max, 2021)",
+    "source": "AppleDB"
+  },
+  "J316sAP": {
+    "device_id": "MacBookPro18,1",
+    "marketing_name": "MacBook Pro (16-inch, M1 Pro, 2021)",
+    "source": "AppleDB"
+  },
+  "J375cAP": {
+    "device_id": "Mac13,1",
+    "marketing_name": "Mac Studio (M1 Max)",
+    "source": "AppleDB"
+  },
+  "J375dAP": {
+    "device_id": "Mac13,2",
+    "marketing_name": "Mac Studio (M1 Ultra)",
+    "source": "AppleDB"
+  },
+  "J413AP": {
+    "device_id": "Mac14,2",
+    "marketing_name": "MacBook Air (M2, 2022)",
+    "source": "AppleDB"
+  },
+  "J414cAP": {
+    "device_id": "Mac14,5",
+    "marketing_name": "MacBook Pro (14-inch, M2 Max, 2023)",
+    "source": "AppleDB"
+  },
+  "J414sAP": {
+    "device_id": "Mac14,9",
+    "marketing_name": "MacBook Pro (14-inch, M2 Pro, 2023)",
+    "source": "AppleDB"
+  },
+  "J415AP": {
+    "device_id": "Mac14,15",
+    "marketing_name": "MacBook Air (15-inch, M2, 2023)",
+    "source": "AppleDB"
+  },
+  "J416cAP": {
+    "device_id": "Mac14,6",
+    "marketing_name": "MacBook Pro (16-inch, M2 Max, 2023)",
+    "source": "AppleDB"
+  },
+  "J416sAP": {
+    "device_id": "Mac14,10",
+    "marketing_name": "MacBook Pro (16-inch, M2 Pro, 2023)",
+    "source": "AppleDB"
+  },
+  "J433AP": {
+    "device_id": "Mac15,4",
+    "marketing_name": "iMac (24-inch, M3, 2023, Two Ports)",
+    "source": "AppleDB"
+  },
+  "J434AP": {
+    "device_id": "Mac15,5",
+    "marketing_name": "iMac (24-inch, M3, 2023, Four Ports)",
+    "source": "AppleDB"
+  },
+  "J456AP": {
+    "device_id": "iMac21,1",
+    "marketing_name": "iMac (24-inch, M1, 2021, Four Ports)",
+    "source": "AppleDB"
+  },
+  "J457AP": {
+    "device_id": "iMac21,2",
+    "marketing_name": "iMac (24-inch, M1, 2021, Two Ports)",
+    "source": "AppleDB"
+  },
+  "J473AP": {
+    "device_id": "Mac14,3",
+    "marketing_name": "Mac mini (M2, 2023)",
+    "source": "AppleDB"
+  },
+  "J474sAP": {
+    "device_id": "Mac14,12",
+    "marketing_name": "Mac mini (M2 Pro, 2023)",
+    "source": "AppleDB"
+  },
+  "J475cAP": {
+    "device_id": "Mac14,13",
+    "marketing_name": "Mac Studio (M2 Max, 2023)",
+    "source": "AppleDB"
+  },
+  "J475dAP": {
+    "device_id": "Mac14,14",
+    "marketing_name": "Mac Studio (M2 Ultra, 2023)",
+    "source": "AppleDB"
+  },
+  "J493AP": {
+    "device_id": "Mac14,7",
+    "marketing_name": "MacBook Pro (13-inch, M2, 2022)",
+    "source": "AppleDB"
+  },
+  "J504AP": {
+    "device_id": "Mac15,3",
+    "marketing_name": "MacBook Pro (14-inch, M3, Nov 2023)",
+    "source": "AppleDB"
+  },
+  "J514cAP": {
+    "device_id": "Mac15,8",
+    "marketing_name": "MacBook Pro (14-inch, 16-core M3 Max, Nov 2023)",
+    "source": "AppleDB"
+  },
+  "J514mAP": {
+    "device_id": "Mac15,10",
+    "marketing_name": "MacBook Pro (14-inch, 14-core M3 Max, Nov 2023)",
+    "source": "AppleDB"
+  },
+  "J514sAP": {
+    "device_id": "Mac15,6",
+    "marketing_name": "MacBook Pro (14-inch, M3 Pro, Nov 2023)",
+    "source": "AppleDB"
+  },
+  "J516cAP": {
+    "device_id": "Mac15,9",
+    "marketing_name": "MacBook Pro (16-inch, 16-core M3 Max, Nov 2023)",
+    "source": "AppleDB"
+  },
+  "J516mAP": {
+    "device_id": "Mac15,11",
+    "marketing_name": "MacBook Pro (16-inch, 14-core M3 Max, Nov 2023)",
+    "source": "AppleDB"
+  },
+  "J516sAP": {
+    "device_id": "Mac15,7",
+    "marketing_name": "MacBook Pro (16-inch, M3 Pro, Nov 2023)",
+    "source": "AppleDB"
+  },
+  "J575cAP": {
+    "device_id": "Mac16,9",
+    "marketing_name": "Mac Studio (M4 Max, 2025)",
+    "source": "AppleDB"
+  },
+  "J575dAP": {
+    "device_id": "Mac15,14",
+    "marketing_name": "Mac Studio (M3 Ultra, 2025)",
+    "source": "AppleDB"
+  },
+  "J604AP": {
+    "device_id": "Mac16,1",
+    "marketing_name": "MacBook Pro (14-inch, M4, Nov 2024)",
+    "source": "AppleDB"
+  },
+  "J613AP": {
+    "device_id": "Mac15,12",
+    "marketing_name": "MacBook Air (13-inch, M3, 2024)",
+    "source": "AppleDB"
+  },
+  "J614cAP": {
+    "device_id": "Mac16,6",
+    "marketing_name": "MacBook Pro (14-inch, M4 Max, Nov 2024)",
+    "source": "AppleDB"
+  },
+  "J614sAP": {
+    "device_id": "Mac16,8",
+    "marketing_name": "MacBook Pro (14-inch, M4 Pro, Nov 2024)",
+    "source": "AppleDB"
+  },
+  "J615AP": {
+    "device_id": "Mac15,13",
+    "marketing_name": "MacBook Air (15-inch, M3, 2024)",
+    "source": "AppleDB"
+  },
+  "J616cAP": {
+    "device_id": "Mac16,5",
+    "marketing_name": "MacBook Pro (16-inch, M4 Max, Nov 2024)",
+    "source": "AppleDB"
+  },
+  "J616sAP": {
+    "device_id": "Mac16,7",
+    "marketing_name": "MacBook Pro (16-inch, M4 Pro, Nov 2024)",
+    "source": "AppleDB"
+  },
+  "J623AP": {
+    "device_id": "Mac16,2",
+    "marketing_name": "iMac (24-inch, M4, 2024, Two Ports)",
+    "source": "AppleDB"
+  },
+  "J624AP": {
+    "device_id": "Mac16,3",
+    "marketing_name": "iMac (24-inch, M4, 2024, Four Ports)",
+    "source": "AppleDB"
+  },
+  "J700AP": {
+    "device_id": "Mac17,5",
+    "marketing_name": "MacBook Neo",
+    "source": "AppleDB"
+  },
+  "J704AP": {
+    "device_id": "Mac17,2",
+    "marketing_name": "MacBook Pro 14-inch (M5)",
+    "source": "AppleDB"
+  },
+  "J713AP": {
+    "device_id": "Mac16,12",
+    "marketing_name": "MacBook Air (13-inch, M4, 2025)",
+    "source": "AppleDB"
+  },
+  "J714cAP": {
+    "device_id": "Mac17,7",
+    "marketing_name": "MacBook Pro (14-inch, M5 Max)",
+    "source": "AppleDB"
+  },
+  "J714sAP": {
+    "device_id": "Mac17,9",
+    "marketing_name": "MacBook Pro (14-inch, M5 Pro)",
+    "source": "AppleDB"
+  },
+  "J715AP": {
+    "device_id": "Mac16,13",
+    "marketing_name": "MacBook Air (15-inch, M4, 2025)",
+    "source": "AppleDB"
+  },
+  "J716cAP": {
+    "device_id": "Mac17,6",
+    "marketing_name": "MacBook Pro (16-inch, M5 Max)",
+    "source": "AppleDB"
+  },
+  "J716sAP": {
+    "device_id": "Mac17,8",
+    "marketing_name": "MacBook Pro (16-inch, M5 Pro)",
+    "source": "AppleDB"
+  },
+  "J773gAP": {
+    "device_id": "Mac16,10",
+    "marketing_name": "Mac mini (M4, 2024)",
+    "source": "AppleDB"
+  },
+  "J773sAP": {
+    "device_id": "Mac16,11",
+    "marketing_name": "Mac mini (M4 Pro, 2024)",
+    "source": "AppleDB"
+  },
+  "J813AP": {
+    "device_id": "Mac17,3",
+    "marketing_name": "MacBook Air (13-inch, M5)",
+    "source": "AppleDB"
+  },
+  "J815AP": {
+    "device_id": "Mac17,4",
+    "marketing_name": "MacBook Air (15-inch, M5)",
+    "source": "AppleDB"
+  },
+  "VMA2MACOSAP": {
+    "device_id": "VirtualMac2,1",
+    "marketing_name": "Apple Virtual Machine",
+    "source": "AppleDB"
+  },
+  "VMM-x86_64": {
+    "device_id": "VMM-x86_64",
+    "marketing_name": "Virtual Machine (x86_64)",
+    "source": "AppleDB"
+  },
+  "iPad11,1": {
+    "device_id": "iPad11,1",
+    "marketing_name": "iPad mini (5th generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad11,2": {
+    "device_id": "iPad11,2",
+    "marketing_name": "iPad mini (5th generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad11,3": {
+    "device_id": "iPad11,3",
+    "marketing_name": "iPad Air (3rd generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad11,4": {
+    "device_id": "iPad11,4",
+    "marketing_name": "iPad Air (3rd generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad11,6": {
+    "device_id": "iPad11,6",
+    "marketing_name": "iPad (8th generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad11,7": {
+    "device_id": "iPad11,7",
+    "marketing_name": "iPad (8th generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad12,1": {
+    "device_id": "iPad12,1",
+    "marketing_name": "iPad (9th generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad12,2": {
+    "device_id": "iPad12,2",
+    "marketing_name": "iPad (9th generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad13,1": {
+    "device_id": "iPad13,1",
+    "marketing_name": "iPad Air (4th generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad13,10": {
+    "device_id": "iPad13,10",
+    "marketing_name": "iPad Pro 12.9-inch (5th generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad13,11": {
+    "device_id": "iPad13,11",
+    "marketing_name": "iPad Pro 12.9-inch (5th generation) Wi-Fi + Cellular (1 or 2 TB)",
+    "source": "AppleDB"
+  },
+  "iPad13,16": {
+    "device_id": "iPad13,16",
+    "marketing_name": "iPad Air (5th generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad13,17": {
+    "device_id": "iPad13,17",
+    "marketing_name": "iPad Air (5th generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad13,18": {
+    "device_id": "iPad13,18",
+    "marketing_name": "iPad (10th generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad13,19": {
+    "device_id": "iPad13,19",
+    "marketing_name": "iPad (10th generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad13,2": {
+    "device_id": "iPad13,2",
+    "marketing_name": "iPad Air (4th generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad13,4": {
+    "device_id": "iPad13,4",
+    "marketing_name": "iPad Pro 11-inch (3rd generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad13,5": {
+    "device_id": "iPad13,5",
+    "marketing_name": "iPad Pro 11-inch (3rd generation) Wi-Fi (1 or 2 TB)",
+    "source": "AppleDB"
+  },
+  "iPad13,6": {
+    "device_id": "iPad13,6",
+    "marketing_name": "iPad Pro 11-inch (3rd generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad13,7": {
+    "device_id": "iPad13,7",
+    "marketing_name": "iPad Pro 11-inch (3rd generation) Wi-Fi + Cellular (1 or 2 TB)",
+    "source": "AppleDB"
+  },
+  "iPad13,8": {
+    "device_id": "iPad13,8",
+    "marketing_name": "iPad Pro 12.9-inch (5th generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad13,9": {
+    "device_id": "iPad13,9",
+    "marketing_name": "iPad Pro 12.9-inch (5th generation) Wi-Fi (1 or 2 TB)",
+    "source": "AppleDB"
+  },
+  "iPad14,1": {
+    "device_id": "iPad14,1",
+    "marketing_name": "iPad mini (6th generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad14,10": {
+    "device_id": "iPad14,10",
+    "marketing_name": "iPad Air 13-inch (M2) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad14,11": {
+    "device_id": "iPad14,11",
+    "marketing_name": "iPad Air 13-inch (M2) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad14,2": {
+    "device_id": "iPad14,2",
+    "marketing_name": "iPad mini (6th generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad14,3": {
+    "device_id": "iPad14,3",
+    "marketing_name": "iPad Pro 11-inch (4th generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad14,4": {
+    "device_id": "iPad14,4",
+    "marketing_name": "iPad Pro 11-inch (4th generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad14,5": {
+    "device_id": "iPad14,5",
+    "marketing_name": "iPad Pro 12.9-inch (6th generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad14,6": {
+    "device_id": "iPad14,6",
+    "marketing_name": "iPad Pro 12.9-inch (6th generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad14,8": {
+    "device_id": "iPad14,8",
+    "marketing_name": "iPad Air 11-inch (M2) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad14,9": {
+    "device_id": "iPad14,9",
+    "marketing_name": "iPad Air 11-inch (M2) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad15,3": {
+    "device_id": "iPad15,3",
+    "marketing_name": "iPad Air 11-inch (M3) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad15,4": {
+    "device_id": "iPad15,4",
+    "marketing_name": "iPad Air 11-inch (M3) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad15,5": {
+    "device_id": "iPad15,5",
+    "marketing_name": "iPad Air 13-inch (M3) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad15,6": {
+    "device_id": "iPad15,6",
+    "marketing_name": "iPad Air 13-inch (M3) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad15,7": {
+    "device_id": "iPad15,7",
+    "marketing_name": "iPad (A16) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad15,8": {
+    "device_id": "iPad15,8",
+    "marketing_name": "iPad (A16) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad16,1": {
+    "device_id": "iPad16,1",
+    "marketing_name": "iPad mini (A17 Pro) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad16,10": {
+    "device_id": "iPad16,10",
+    "marketing_name": "iPad Air 13-inch (M4) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad16,11": {
+    "device_id": "iPad16,11",
+    "marketing_name": "iPad Air 13-inch (M4) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad16,2": {
+    "device_id": "iPad16,2",
+    "marketing_name": "iPad mini (A17 Pro) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad16,3": {
+    "device_id": "iPad16,3",
+    "marketing_name": "iPad Pro 11-inch (M4) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad16,4": {
+    "device_id": "iPad16,4",
+    "marketing_name": "iPad Pro 11-inch (M4) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad16,5": {
+    "device_id": "iPad16,5",
+    "marketing_name": "iPad Pro 13-inch (M4) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad16,6": {
+    "device_id": "iPad16,6",
+    "marketing_name": "iPad Pro 13-inch (M4) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad16,8": {
+    "device_id": "iPad16,8",
+    "marketing_name": "iPad Air 11-inch (M4) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad16,9": {
+    "device_id": "iPad16,9",
+    "marketing_name": "iPad Air 11-inch (M4) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad17,1": {
+    "device_id": "iPad17,1",
+    "marketing_name": "iPad Pro 11-inch Wi-Fi (M5)",
+    "source": "AppleDB"
+  },
+  "iPad17,2": {
+    "device_id": "iPad17,2",
+    "marketing_name": "iPad Pro 11-inch Wi-Fi + Cellular (M5)",
+    "source": "AppleDB"
+  },
+  "iPad17,3": {
+    "device_id": "iPad17,3",
+    "marketing_name": "iPad Pro 13-inch Wi-Fi (M5)",
+    "source": "AppleDB"
+  },
+  "iPad17,4": {
+    "device_id": "iPad17,4",
+    "marketing_name": "iPad Pro 13-inch Wi-Fi + Cellular (M5)",
+    "source": "AppleDB"
+  },
+  "iPad8,1": {
+    "device_id": "iPad8,1",
+    "marketing_name": "iPad Pro 11-inch (1st generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad8,10": {
+    "device_id": "iPad8,10",
+    "marketing_name": "iPad Pro 11-inch (2nd generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad8,11": {
+    "device_id": "iPad8,11",
+    "marketing_name": "iPad Pro 12.9-inch (4th generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad8,12": {
+    "device_id": "iPad8,12",
+    "marketing_name": "iPad Pro 12.9-inch (4th generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad8,2": {
+    "device_id": "iPad8,2",
+    "marketing_name": "iPad Pro 11-inch (1st generation) Wi-Fi (1TB)",
+    "source": "AppleDB"
+  },
+  "iPad8,3": {
+    "device_id": "iPad8,3",
+    "marketing_name": "iPad Pro 11-inch (1st generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad8,4": {
+    "device_id": "iPad8,4",
+    "marketing_name": "iPad Pro 11-inch (1st generation) Wi-Fi + Cellular (1TB)",
+    "source": "AppleDB"
+  },
+  "iPad8,5": {
+    "device_id": "iPad8,5",
+    "marketing_name": "iPad Pro 12.9-inch (3rd generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPad8,6": {
+    "device_id": "iPad8,6",
+    "marketing_name": "iPad Pro 12.9-inch (3rd generation) Wi-Fi (1TB)",
+    "source": "AppleDB"
+  },
+  "iPad8,7": {
+    "device_id": "iPad8,7",
+    "marketing_name": "iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular",
+    "source": "AppleDB"
+  },
+  "iPad8,8": {
+    "device_id": "iPad8,8",
+    "marketing_name": "iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular (1TB)",
+    "source": "AppleDB"
+  },
+  "iPad8,9": {
+    "device_id": "iPad8,9",
+    "marketing_name": "iPad Pro 11-inch (2nd generation) Wi-Fi",
+    "source": "AppleDB"
+  },
+  "iPhone12,1": {
+    "device_id": "iPhone12,1",
+    "marketing_name": "iPhone 11",
+    "source": "AppleDB"
+  },
+  "iPhone12,3": {
+    "device_id": "iPhone12,3",
+    "marketing_name": "iPhone 11 Pro",
+    "source": "AppleDB"
+  },
+  "iPhone12,5": {
+    "device_id": "iPhone12,5",
+    "marketing_name": "iPhone 11 Pro Max",
+    "source": "AppleDB"
+  },
+  "iPhone12,8": {
+    "device_id": "iPhone12,8",
+    "marketing_name": "iPhone SE (2nd generation)",
+    "source": "AppleDB"
+  },
+  "iPhone13,1": {
+    "device_id": "iPhone13,1",
+    "marketing_name": "iPhone 12 mini",
+    "source": "AppleDB"
+  },
+  "iPhone13,2": {
+    "device_id": "iPhone13,2",
+    "marketing_name": "iPhone 12",
+    "source": "AppleDB"
+  },
+  "iPhone13,3": {
+    "device_id": "iPhone13,3",
+    "marketing_name": "iPhone 12 Pro",
+    "source": "AppleDB"
+  },
+  "iPhone13,4": {
+    "device_id": "iPhone13,4",
+    "marketing_name": "iPhone 12 Pro Max",
+    "source": "AppleDB"
+  },
+  "iPhone14,2": {
+    "device_id": "iPhone14,2",
+    "marketing_name": "iPhone 13 Pro",
+    "source": "AppleDB"
+  },
+  "iPhone14,3": {
+    "device_id": "iPhone14,3",
+    "marketing_name": "iPhone 13 Pro Max",
+    "source": "AppleDB"
+  },
+  "iPhone14,4": {
+    "device_id": "iPhone14,4",
+    "marketing_name": "iPhone 13 mini",
+    "source": "AppleDB"
+  },
+  "iPhone14,5": {
+    "device_id": "iPhone14,5",
+    "marketing_name": "iPhone 13",
+    "source": "AppleDB"
+  },
+  "iPhone14,6": {
+    "device_id": "iPhone14,6",
+    "marketing_name": "iPhone SE (3rd generation)",
+    "source": "AppleDB"
+  },
+  "iPhone14,7": {
+    "device_id": "iPhone14,7",
+    "marketing_name": "iPhone 14",
+    "source": "AppleDB"
+  },
+  "iPhone14,8": {
+    "device_id": "iPhone14,8",
+    "marketing_name": "iPhone 14 Plus",
+    "source": "AppleDB"
+  },
+  "iPhone15,2": {
+    "device_id": "iPhone15,2",
+    "marketing_name": "iPhone 14 Pro",
+    "source": "AppleDB"
+  },
+  "iPhone15,3": {
+    "device_id": "iPhone15,3",
+    "marketing_name": "iPhone 14 Pro Max",
+    "source": "AppleDB"
+  },
+  "iPhone15,4": {
+    "device_id": "iPhone15,4",
+    "marketing_name": "iPhone 15",
+    "source": "AppleDB"
+  },
+  "iPhone15,5": {
+    "device_id": "iPhone15,5",
+    "marketing_name": "iPhone 15 Plus",
+    "source": "AppleDB"
+  },
+  "iPhone16,1": {
+    "device_id": "iPhone16,1",
+    "marketing_name": "iPhone 15 Pro",
+    "source": "AppleDB"
+  },
+  "iPhone16,2": {
+    "device_id": "iPhone16,2",
+    "marketing_name": "iPhone 15 Pro Max",
+    "source": "AppleDB"
+  },
+  "iPhone17,1": {
+    "device_id": "iPhone17,1",
+    "marketing_name": "iPhone 16 Pro",
+    "source": "AppleDB"
+  },
+  "iPhone17,2": {
+    "device_id": "iPhone17,2",
+    "marketing_name": "iPhone 16 Pro Max",
+    "source": "AppleDB"
+  },
+  "iPhone17,3": {
+    "device_id": "iPhone17,3",
+    "marketing_name": "iPhone 16",
+    "source": "AppleDB"
+  },
+  "iPhone17,4": {
+    "device_id": "iPhone17,4",
+    "marketing_name": "iPhone 16 Plus",
+    "source": "AppleDB"
+  },
+  "iPhone17,5": {
+    "device_id": "iPhone17,5",
+    "marketing_name": "iPhone 16e",
+    "source": "AppleDB"
+  },
+  "iPhone18,1": {
+    "device_id": "iPhone18,1",
+    "marketing_name": "iPhone 17 Pro",
+    "source": "AppleDB"
+  },
+  "iPhone18,2": {
+    "device_id": "iPhone18,2",
+    "marketing_name": "iPhone 17 Pro Max",
+    "source": "AppleDB"
+  },
+  "iPhone18,3": {
+    "device_id": "iPhone18,3",
+    "marketing_name": "iPhone 17",
+    "source": "AppleDB"
+  },
+  "iPhone18,4": {
+    "device_id": "iPhone18,4",
+    "marketing_name": "iPhone Air",
+    "source": "AppleDB"
+  },
+  "iPhone18,5": {
+    "device_id": "iPhone18,5",
+    "marketing_name": "iPhone 17e",
+    "source": "AppleDB"
+  }
+}
