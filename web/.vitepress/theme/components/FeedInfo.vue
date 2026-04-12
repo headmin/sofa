@@ -205,7 +205,7 @@ in
                 <div class="field-item"><code>SupportedDevices[]</code><span>Compatible device identifiers</span></div>
                 <div class="field-item"><code>CVEs{}</code><span>Vulnerability details with NIST links</span></div>
                 <div class="field-item"><code>ActivelyExploitedCVEs[]</code><span>CISA KEV list</span></div>
-                <div class="field-item"><code>update_summary{}</code><span>Priority and recommendations</span></div>
+                <div class="field-item"><code>UpdateSummary{}</code><span>Priority and recommendations</span></div>
               </div>
             </div>
           </div>

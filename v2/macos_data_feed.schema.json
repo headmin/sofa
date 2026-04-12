@@ -1,0 +1,592 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sofa/v2/macos_data_feed/2026.04.11.2",
+  "title": "SOFA macos_data_feed (schema 2026.04.11.2)",
+  "description": "macOS v2 Feed structure - Enhanced CVE details",
+  "type": "object",
+  "required": [
+    "BackgroundSecurityImprovements",
+    "Devices",
+    "InstallationApps",
+    "LastCheck",
+    "Models",
+    "OSVersions",
+    "SchemaVersion",
+    "UpdateHash",
+    "Version",
+    "XProtectPayloads",
+    "XProtectPlistConfigData"
+  ],
+  "properties": {
+    "BackgroundSecurityImprovements": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/BackgroundSecurityImprovement"
+        }
+      }
+    },
+    "Devices": {
+      "description": "Canonical GDMF identifier -> DeviceEntry map. Every board_id referenced in OSVersions.Latest.SupportedDevices, OSVersions.SecurityReleases[].SupportedDevices, or BackgroundSecurityImprovements.*.SupportedDevices resolves via this map.",
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/definitions/DeviceEntry"
+      }
+    },
+    "InstallationApps": {
+      "$ref": "#/definitions/InstallationAppsV2"
+    },
+    "LastCheck": {
+      "type": "string"
+    },
+    "Models": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "OSVersions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/MacOSVersionV2"
+      }
+    },
+    "SchemaVersion": {
+      "type": "string"
+    },
+    "UpdateHash": {
+      "type": "string"
+    },
+    "Version": {
+      "type": "string"
+    },
+    "XProtectPayloads": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "XProtectPlistConfigData": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  },
+  "definitions": {
+    "BackgroundSecurityImprovement": {
+      "description": "A macOS BSI (Background Security Improvement) entry as published in GDMF.\n\nBSI entries are smaller out-of-band security patches delivered to specific device scopes outside the regular macOS update cycle. Each entry carries its own `supported_devices` list of GDMF identifiers; resolve those through the feed's top-level `Devices` map to get marketing names.\n\n# Examples\n\n```text { \"Version\": \"26.3.2\", \"VersionExtra\": \"(a)\", \"Build\": \"25D771400a\", \"SupportedDevices\": [\"J700AP\"], \"CVEs\": [\"CVE-2026-20643\"] } ```",
+      "type": "object",
+      "required": [
+        "Build",
+        "SupportedDevices",
+        "Version"
+      ],
+      "properties": {
+        "Build": {
+          "type": "string"
+        },
+        "CVEs": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "DeviceScope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DocumentationID": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "PatchesRelease": {
+          "description": "The regular release this BSI sits on top of. Joined by matching `prerequisite_build` against a security release's `build`.",
+          "anyOf": [
+            {
+              "$ref": "#/definitions/ReleaseRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "PostingDate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "PrerequisiteBuild": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "PrerequisiteVersion": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SecurityInfo": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SupersededBy": {
+          "description": "The next release that chronologically replaces this BSI for the same device scope. Absent if this BSI is the newest for its scope.",
+          "anyOf": [
+            {
+              "$ref": "#/definitions/ReleaseRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "SupportedDevices": {
+          "description": "GDMF identifier list. Resolve via the feed's top-level `Devices` map.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Version": {
+          "type": "string"
+        },
+        "VersionExtra": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "CVEDetailV2": {
+      "description": "CVE Details for v2 feeds - object format",
+      "type": "object",
+      "properties": {
+        "ActivelyExploited": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "AppleExploitationNotes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Component": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "EntryAddedDate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Impact": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "InKEV": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "NISTURL": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Severity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "DeviceEntry": {
+      "description": "Value type for the canonical v2-feed `Devices` map.\n\nResolves a GDMF identifier (macOS `board_id` like `J132AP`, or iOS-family `device_id` like `iPhone14,2`) to its marketing name plus — on macOS only — the Apple `device_id`. On iOS/visionOS/tvOS/watchOS the GDMF identifier IS the device_id, so `device_id` is omitted as redundant with the map key.",
+      "type": "object",
+      "required": [
+        "MarketingName"
+      ],
+      "properties": {
+        "DeviceID": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "MarketingName": {
+          "type": "string"
+        }
+      }
+    },
+    "InstallationAppsV2": {
+      "description": "v2-feed PascalCase mirror of `macos_builder_v1::InstallationApps`.",
+      "type": "object",
+      "properties": {
+        "AllPreviousUMA": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/UMAEntryV2"
+          }
+        },
+        "LatestMacIPSW": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/MacIPSWEntryV2"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "LatestUMA": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/UMAEntryV2"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "MacIPSWEntryV2": {
+      "description": "PascalCase mirror of `macos_builder_v1::MacIPSWEntry` for v2 feeds.",
+      "type": "object",
+      "required": [
+        "MacOSIPSWAppleSlug",
+        "MacOSIPSWBuild",
+        "MacOSIPSWURL",
+        "MacOSIPSWVersion"
+      ],
+      "properties": {
+        "MacOSIPSWAppleSlug": {
+          "type": "string"
+        },
+        "MacOSIPSWBuild": {
+          "type": "string"
+        },
+        "MacOSIPSWURL": {
+          "type": "string"
+        },
+        "MacOSIPSWVersion": {
+          "type": "string"
+        }
+      }
+    },
+    "MacOSReleaseV2": {
+      "type": "object",
+      "required": [
+        "ActivelyExploitedCVEs",
+        "AllBuilds",
+        "Build",
+        "CVEs",
+        "DeviceScope",
+        "ProductName",
+        "ProductVersion",
+        "ReleaseDate",
+        "ReleaseType",
+        "SecurityInfo",
+        "SecurityInfoContext",
+        "UniqueCVEsCount",
+        "UpdateName",
+        "UpdateSummary"
+      ],
+      "properties": {
+        "ActivelyExploitedCVEs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "AllBuilds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Build": {
+          "type": "string"
+        },
+        "CVEs": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/CVEDetailV2"
+          }
+        },
+        "DaysSincePreviousRelease": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "format": "int64"
+        },
+        "DeviceScope": {
+          "type": "string"
+        },
+        "ExpirationDate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "MergedInto": {
+          "description": "Only set on `DeviceScope: \"device-specific\"` releases — the next universal release whose SupportedDevices is a superset of this one's. Indicates that the narrow hotfix's fixes were absorbed into the broader release.",
+          "anyOf": [
+            {
+              "$ref": "#/definitions/ReleaseRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "ProductName": {
+          "type": "string"
+        },
+        "ProductVersion": {
+          "type": "string"
+        },
+        "ReleaseDate": {
+          "type": "string"
+        },
+        "ReleaseType": {
+          "type": "string"
+        },
+        "SecurityInfo": {
+          "type": "string"
+        },
+        "SecurityInfoContext": {
+          "type": "string"
+        },
+        "SupersededBy": {
+          "description": "Next release that chronologically replaces this one for the same device scope. Absent on the newest release of a major version.",
+          "anyOf": [
+            {
+              "$ref": "#/definitions/ReleaseRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "SupportedDevices": {
+          "description": "GDMF identifier list (board IDs on macOS, device IDs elsewhere). Resolve via the feed's top-level `Devices` map. `None` on a SecurityRelease means \"inherit from the parent OSVersion.Latest.SupportedDevices\" — used by the suppression pass to drop redundant copies.",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "UniqueCVEsCount": {
+          "type": "integer",
+          "format": "uint",
+          "minimum": 0.0
+        },
+        "UpdateName": {
+          "type": "string"
+        },
+        "UpdateSummary": {
+          "$ref": "#/definitions/UpdateSummary"
+        }
+      }
+    },
+    "MacOSVersionV2": {
+      "type": "object",
+      "required": [
+        "Latest",
+        "OSVersion",
+        "SecurityReleases",
+        "SupportedModels"
+      ],
+      "properties": {
+        "Latest": {
+          "$ref": "#/definitions/MacOSReleaseV2"
+        },
+        "OSVersion": {
+          "type": "string"
+        },
+        "SecurityReleases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MacOSReleaseV2"
+          }
+        },
+        "SupportedModels": {
+          "type": "array",
+          "items": true
+        }
+      }
+    },
+    "ReleaseRef": {
+      "description": "Pre-computed reference from one release (or BSI) to another.\n\nUsed as the value type for `PatchesRelease`, `SupersededBy`, and `MergedInto` on release and BSI entries. These cross-references save every downstream consumer from re-deriving the join (BSI → patched release, release → next release, device-specific → merging universal).\n\n# Examples\n\n```text \"SupersededBy\": { \"ProductVersion\": \"26.4\", \"Build\": \"25E246\", \"ReleaseDate\": \"2026-03-24T00:00:00Z\", \"DaysLater\": 7 } ```",
+      "type": "object",
+      "required": [
+        "Build",
+        "ProductVersion"
+      ],
+      "properties": {
+        "Build": {
+          "type": "string"
+        },
+        "DaysLater": {
+          "description": "Days between the source entry and this reference (non-negative). Present when both timestamps are parseable.",
+          "type": [
+            "integer",
+            "null"
+          ],
+          "format": "int64"
+        },
+        "ProductVersion": {
+          "type": "string"
+        },
+        "ReleaseDate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "UMAEntryV2": {
+      "description": "PascalCase mirror of `macos_builder_v1::UMAEntry` for v2 feeds.",
+      "type": "object",
+      "required": [
+        "AppleSlug",
+        "Build",
+        "PostingDate",
+        "Size",
+        "Title",
+        "URL",
+        "Version"
+      ],
+      "properties": {
+        "AppleSlug": {
+          "type": "string"
+        },
+        "Build": {
+          "type": "string"
+        },
+        "PostingDate": {
+          "type": "string"
+        },
+        "Size": {
+          "type": "integer",
+          "format": "uint64",
+          "minimum": 0.0
+        },
+        "Title": {
+          "type": "string"
+        },
+        "URL": {
+          "type": "string"
+        },
+        "Version": {
+          "type": "string"
+        }
+      }
+    },
+    "UpdateStats": {
+      "description": "Common utilities and types used across all builders",
+      "type": "object",
+      "required": [
+        "Critical",
+        "Exploited",
+        "High",
+        "Low",
+        "Medium",
+        "Remote",
+        "Total"
+      ],
+      "properties": {
+        "Critical": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0.0
+        },
+        "Exploited": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0.0
+        },
+        "High": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0.0
+        },
+        "Low": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0.0
+        },
+        "Medium": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0.0
+        },
+        "Remote": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0.0
+        },
+        "Total": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0.0
+        }
+      }
+    },
+    "UpdateSummary": {
+      "type": "object",
+      "required": [
+        "Priority",
+        "Recommendation",
+        "Stats",
+        "Summary"
+      ],
+      "properties": {
+        "Priority": {
+          "type": "string"
+        },
+        "Recommendation": {
+          "type": "string"
+        },
+        "Stats": {
+          "$ref": "#/definitions/UpdateStats"
+        },
+        "Summary": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

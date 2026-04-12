@@ -1,22 +1,41 @@
+# OS
+.DS_Store
 **/.DS_Store
-__pycache__/**
-venv/**
-/coverage
-/src/client/shared.ts
-/src/node/shared.ts
+
+# IDE
+.idea
+.vscode
+
+# Python
+__pycache__/
+venv/
+
+# Node / VitePress
+node_modules/
+pnpm-global/
 *.log
 *.tgz
-.DS_Store
-.idea
+*.timestamp-*.mjs
 .temp
 .vite_opt_cache
-.vscode
 .dist
 web/*/dist
 web/*/cache
+
+# SOFA pipeline — local binaries & build artifacts
+bin/sofa-*
+pkg/
+
+# SOFA pipeline — ephemeral cache & history snapshots
+data/cache/
+data/resources/history/
+
+# SOFA pipeline — generated markdown bulletins
+data/resources/bulletin.md
+data/resources/bulletin.concise.md
+
+# Misc
+/coverage
 temp
 examples-temp
-node_modules
-pnpm-global
 TODOs.md
-*.timestamp-*.mjs

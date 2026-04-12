@@ -1,8 +1,9 @@
 {
+  "SchemaVersion": "2026.04.11.2",
   "OSName": "visionOS",
   "Version": "2.0",
-  "UpdateHash": "29bdfcaccbee38a62e60b2a13c9ce7582ea75ccf9b7c3735912238c3f96760b5",
-  "LastCheck": "2026-04-12T01:06:43.039203482+00:00",
+  "UpdateHash": "7eb0b6e78e7bcff9219bcf0604d590d79d5cd1bb2034879a60471812caa815a6",
+  "LastCheck": "2026-04-12T05:30:35.349559+00:00",
   "OSVersions": [
     {
       "OSVersion": "visionOS 26",
@@ -19,7 +20,7 @@
         "ExpirationDate": "2026-07-11",
         "ReleaseType": "OS",
         "SecurityInfo": "https://support.apple.com/en-us/126799",
-        "SecurityInfoContext": "visionOS has been updated to version 26.4, which was released on March 24, 2026. This update addresses 29 security issues and is the most recent approved version.",
+        "SecurityInfoContext": "visionOS has been updated to version 26.4, released on March 24, 2026. This update addresses 29 security issues and is the most recent approved version.",
         "SupportedDevices": [
           "RealityDevice14,1",
           "RealityDevice17,1"
@@ -58,18 +59,18 @@
         "ActivelyExploitedCVEs": [],
         "UniqueCVEsCount": 29,
         "DaysSincePreviousRelease": 26,
-        "update_summary": {
-          "priority": "high",
-          "summary": "Addresses 29 security issues",
-          "recommendation": "Update to stay secure - security fixes available",
-          "stats": {
-            "exploited": 0,
-            "critical": 0,
-            "high": 0,
-            "medium": 0,
-            "low": 0,
-            "remote": 0,
-            "total": 29
+        "UpdateSummary": {
+          "Priority": "high",
+          "Summary": "Addresses 29 security issues",
+          "Recommendation": "Update to stay secure - security fixes available",
+          "Stats": {
+            "Exploited": 0,
+            "Critical": 0,
+            "High": 0,
+            "Medium": 0,
+            "Low": 0,
+            "Remote": 0,
+            "Total": 29
           }
         }
       },
@@ -87,7 +88,7 @@
           "ExpirationDate": "2026-07-11",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/126799",
-          "SecurityInfoContext": "visionOS has been updated to version 26.4, which was released on March 24, 2026. This update addresses 29 security issues and is the most recent approved version.",
+          "SecurityInfoContext": "visionOS has been updated to version 26.4, released on March 24, 2026. This update addresses 29 security issues and is the most recent approved version.",
           "SupportedDevices": [
             "RealityDevice14,1",
             "RealityDevice17,1"
@@ -126,18 +127,18 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 29,
           "DaysSincePreviousRelease": 26,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 29 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 29
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 29 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 29
             }
           }
         },
@@ -163,18 +164,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 15,
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "26.4",
+            "Build": "23O6247",
+            "ReleaseDate": "2026-03-24",
+            "DaysLater": 26
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -198,14 +205,14 @@
           ],
           "CVEs": {
             "CVE-2025-14174": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-43529": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-59375": {},
             "CVE-2026-20608": {},
@@ -236,9 +243,9 @@
             "CVE-2026-20676": {},
             "CVE-2026-20677": {},
             "CVE-2026-20700": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20700",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2026-20700",
+              "InKEV": true,
+              "Severity": "High"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -248,18 +255,24 @@
           ],
           "UniqueCVEsCount": 31,
           "DaysSincePreviousRelease": 61,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 31 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 31
+          "SupersededBy": {
+            "ProductVersion": "26.3.1",
+            "Build": "23N6630",
+            "ReleaseDate": "2026-02-26",
+            "DaysLater": 15
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 31 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 31
             }
           }
         },
@@ -284,17 +297,17 @@
           "CVEs": {
             "CVE-2024-7264": {},
             "CVE-2025-14174": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-43428": {},
             "CVE-2025-43501": {},
             "CVE-2025-43511": {},
             "CVE-2025-43529": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-43531": {},
             "CVE-2025-43532": {},
@@ -326,18 +339,24 @@
           ],
           "UniqueCVEsCount": 29,
           "DaysSincePreviousRelease": 39,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 29 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 29
+          "SupersededBy": {
+            "ProductVersion": "26.3",
+            "Build": "23N6620",
+            "ReleaseDate": "2026-02-11",
+            "DaysLater": 61
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 29 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 29
             }
           }
         },
@@ -398,14 +417,14 @@
             "CVE-2025-43503": {},
             "CVE-2025-43507": {},
             "CVE-2025-43510": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43510",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43510",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-43520": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43520",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43520",
+              "InKEV": true,
+              "Severity": "High"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -414,18 +433,24 @@
           ],
           "UniqueCVEsCount": 46,
           "DaysSincePreviousRelease": 35,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 46 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 46
+          "SupersededBy": {
+            "ProductVersion": "26.2",
+            "Build": "23N6301",
+            "ReleaseDate": "2025-12-12",
+            "DaysLater": 39
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 46 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 46
             }
           }
         },
@@ -446,18 +471,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 14,
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 1 security issue",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 1
+          "SupersededBy": {
+            "ProductVersion": "26.1",
+            "Build": "",
+            "ReleaseDate": "2025-11-03",
+            "DaysLater": 35
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 1 security issue",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 1
             }
           }
         },
@@ -500,18 +531,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 23,
           "DaysSincePreviousRelease": 0,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 23 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 23
+          "SupersededBy": {
+            "ProductVersion": "26.0.1",
+            "Build": "",
+            "ReleaseDate": "2025-09-29",
+            "DaysLater": 14
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 23 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 23
             }
           }
         }
@@ -528,14 +565,14 @@
         "ReleaseDate": "2025-07-29",
         "ReleaseType": "OS",
         "SecurityInfo": "https://support.apple.com/en-us/124154",
-        "SecurityInfoContext": "visionOS has been updated to version 2.6, which was released on July 29, 2025. This update addresses 26 security issues and is the most recent approved version.",
+        "SecurityInfoContext": "visionOS has been updated to version 2.6, released on July 29, 2025. This update addresses 26 security issues and is the most recent approved version.",
         "SupportedDevices": [],
         "CVEs": {
           "CVE-2025-31273": {},
           "CVE-2025-31277": {
-            "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
-            "in_kev": true,
-            "severity": "High"
+            "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
+            "InKEV": true,
+            "Severity": "High"
           },
           "CVE-2025-31278": {},
           "CVE-2025-31281": {},
@@ -558,9 +595,9 @@
           "CVE-2025-43277": {},
           "CVE-2025-43282": {},
           "CVE-2025-6558": {
-            "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6558",
-            "in_kev": true,
-            "severity": "High"
+            "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-6558",
+            "InKEV": true,
+            "Severity": "High"
           },
           "CVE-2025-6965": {},
           "CVE-2025-7424": {},
@@ -572,18 +609,18 @@
         ],
         "UniqueCVEsCount": 26,
         "DaysSincePreviousRelease": 78,
-        "update_summary": {
-          "priority": "high",
-          "summary": "Addresses 26 security issues",
-          "recommendation": "Update to stay secure - security fixes available",
-          "stats": {
-            "exploited": 0,
-            "critical": 0,
-            "high": 0,
-            "medium": 0,
-            "low": 0,
-            "remote": 0,
-            "total": 26
+        "UpdateSummary": {
+          "Priority": "high",
+          "Summary": "Addresses 26 security issues",
+          "Recommendation": "Update to stay secure - security fixes available",
+          "Stats": {
+            "Exploited": 0,
+            "Critical": 0,
+            "High": 0,
+            "Medium": 0,
+            "Low": 0,
+            "Remote": 0,
+            "Total": 26
           }
         }
       },
@@ -597,14 +634,14 @@
           "ReleaseDate": "2025-07-29",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/124154",
-          "SecurityInfoContext": "visionOS has been updated to version 2.6, which was released on July 29, 2025. This update addresses 26 security issues and is the most recent approved version.",
+          "SecurityInfoContext": "visionOS has been updated to version 2.6, released on July 29, 2025. This update addresses 26 security issues and is the most recent approved version.",
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2025-31273": {},
             "CVE-2025-31277": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-31278": {},
             "CVE-2025-31281": {},
@@ -627,9 +664,9 @@
             "CVE-2025-43277": {},
             "CVE-2025-43282": {},
             "CVE-2025-6558": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6558",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-6558",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-6965": {},
             "CVE-2025-7424": {},
@@ -641,18 +678,18 @@
           ],
           "UniqueCVEsCount": 26,
           "DaysSincePreviousRelease": 78,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 26 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 26
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 26 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 26
             }
           }
         },
@@ -700,18 +737,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 28,
           "DaysSincePreviousRelease": 26,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 28 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 28
+          "SupersededBy": {
+            "ProductVersion": "2.6",
+            "Build": "",
+            "ReleaseDate": "2025-07-29",
+            "DaysLater": 78
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 28 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 28
             }
           }
         },
@@ -728,14 +771,14 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2025-31200": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31200",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31200",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-31201": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31201",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31201",
+              "InKEV": true,
+              "Severity": "High"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -744,18 +787,24 @@
           ],
           "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 16,
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 2 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 2
+          "SupersededBy": {
+            "ProductVersion": "2.5",
+            "Build": "",
+            "ReleaseDate": "2025-05-12",
+            "DaysLater": 26
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 2 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 2
             }
           }
         },
@@ -827,18 +876,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 52,
           "DaysSincePreviousRelease": 20,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 52 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 52
+          "SupersededBy": {
+            "ProductVersion": "2.4.1",
+            "Build": "",
+            "ReleaseDate": "2025-04-16",
+            "DaysLater": 16
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 52 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 52
             }
           }
         },
@@ -855,9 +910,9 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2025-24201": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24201",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-24201",
+              "InKEV": true,
+              "Severity": "High"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -865,18 +920,24 @@
           ],
           "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 29,
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 1 security issue",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 1
+          "SupersededBy": {
+            "ProductVersion": "2.4",
+            "Build": "",
+            "ReleaseDate": "2025-03-31",
+            "DaysLater": 20
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 1 security issue",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 1
             }
           }
         },
@@ -893,9 +954,9 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2025-43200": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43200",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43200",
+              "InKEV": true,
+              "Severity": "High"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -903,18 +964,24 @@
           ],
           "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 14,
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 1 security issue",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 1
+          "SupersededBy": {
+            "ProductVersion": "2.3.2",
+            "Build": "",
+            "ReleaseDate": "2025-03-11",
+            "DaysLater": 29
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 1 security issue",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 1
             }
           }
         },
@@ -932,9 +999,9 @@
           "CVEs": {
             "CVE-2024-55549": {},
             "CVE-2025-24085": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24085",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-24085",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-24086": {},
             "CVE-2025-24111": {},
@@ -968,18 +1035,24 @@
           ],
           "UniqueCVEsCount": 28,
           "DaysSincePreviousRelease": 47,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 28 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 28
+          "SupersededBy": {
+            "ProductVersion": "2.3.1",
+            "Build": "",
+            "ReleaseDate": "2025-02-10",
+            "DaysLater": 14
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 28 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 28
             }
           }
         },
@@ -1020,18 +1093,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 21,
           "DaysSincePreviousRelease": 22,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 21 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 21
+          "SupersededBy": {
+            "ProductVersion": "2.3",
+            "Build": "",
+            "ReleaseDate": "2025-01-27",
+            "DaysLater": 47
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 21 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 21
             }
           }
         },
@@ -1048,14 +1127,14 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2024-44308": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44308",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2024-44308",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2024-44309": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44309",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2024-44309",
+              "InKEV": true,
+              "Severity": "High"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -1064,18 +1143,24 @@
           ],
           "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 22,
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 2 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 2
+          "SupersededBy": {
+            "ProductVersion": "2.2",
+            "Build": "",
+            "ReleaseDate": "2024-12-11",
+            "DaysLater": 22
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 2 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 2
             }
           }
         },
@@ -1121,18 +1206,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 26,
           "DaysSincePreviousRelease": 25,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 26 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 26
+          "SupersededBy": {
+            "ProductVersion": "2.1.1",
+            "Build": "",
+            "ReleaseDate": "2024-11-19",
+            "DaysLater": 22
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 26 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 26
             }
           }
         },
@@ -1151,18 +1242,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 17,
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "2.1",
+            "Build": "",
+            "ReleaseDate": "2024-10-28",
+            "DaysLater": 25
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -1203,23 +1300,37 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 21,
           "DaysSincePreviousRelease": 0,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 21 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 21
+          "SupersededBy": {
+            "ProductVersion": "2.0.1",
+            "Build": "",
+            "ReleaseDate": "2024-10-03",
+            "DaysLater": 17
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 21 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 21
             }
           }
         }
       ]
     }
   ],
+  "Devices": {
+    "RealityDevice14,1": {
+      "MarketingName": "Vision Pro"
+    },
+    "RealityDevice17,1": {
+      "MarketingName": "Vision Pro (M5)"
+    }
+  },
   "BackgroundSecurityImprovements": {}
 }

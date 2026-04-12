@@ -83,15 +83,15 @@
           <tr v-if="latestUMA" class="data-row featured">
             <td class="title-col">
               <div class="os-info">
-                <span class="os-name">{{ latestUMA.title }}</span>
+                <span class="os-name">{{ latestUMA.Title }}</span>
                 <span class="latest-badge">Latest</span>
               </div>
             </td>
             <td>
-              <span class="version-text">{{ latestUMA.version }}</span>
+              <span class="version-text">{{ latestUMA.Version }}</span>
             </td>
             <td>
-              <span class="build-badge">{{ latestUMA.build }}</span>
+              <span class="build-badge">{{ latestUMA.Build }}</span>
             </td>
             <td>
               <span class="format-tag pkg">PKG</span>
@@ -100,7 +100,7 @@
               <span class="size-text">~13 GB</span>
             </td>
             <td class="action-col">
-              <a :href="latestUMA.url" target="_blank" class="download-btn primary">
+              <a :href="latestUMA.URL" target="_blank" class="download-btn primary">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"/>
                 </svg>
@@ -112,13 +112,13 @@
           <!-- Previous UMA Versions -->
           <tr v-for="(uma, index) in previousUMA" :key="index" class="data-row">
             <td class="title-col">
-              <span class="os-name">{{ uma.title }}</span>
+              <span class="os-name">{{ uma.Title }}</span>
             </td>
             <td>
-              <span class="version-text">{{ uma.version }}</span>
+              <span class="version-text">{{ uma.Version }}</span>
             </td>
             <td>
-              <span class="build-badge">{{ uma.build }}</span>
+              <span class="build-badge">{{ uma.Build }}</span>
             </td>
             <td>
               <span class="format-tag pkg">PKG</span>
@@ -127,7 +127,7 @@
               <span class="size-text">~13 GB</span>
             </td>
             <td class="action-col">
-              <a :href="uma.url" target="_blank" class="download-btn">
+              <a :href="uma.URL" target="_blank" class="download-btn">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"/>
                 </svg>
@@ -197,10 +197,10 @@ const processData = () => {
     // Process Latest Mac IPSW
     if (macOSData.InstallationApps.LatestMacIPSW) {
       latestMacIPSW.value = {
-        title: latestUMA.value?.title || 'macOS Sequoia',
-        version: macOSData.InstallationApps.LatestMacIPSW.macos_ipsw_version,
-        build: macOSData.InstallationApps.LatestMacIPSW.macos_ipsw_build,
-        url: macOSData.InstallationApps.LatestMacIPSW.macos_ipsw_url
+        title: latestUMA.value?.Title || 'macOS Sequoia',
+        version: macOSData.InstallationApps.LatestMacIPSW.MacOSIPSWVersion,
+        build: macOSData.InstallationApps.LatestMacIPSW.MacOSIPSWBuild,
+        url: macOSData.InstallationApps.LatestMacIPSW.MacOSIPSWURL
       }
     }
   }

@@ -1,8 +1,9 @@
 {
+  "SchemaVersion": "2026.04.11.2",
   "OSName": "tvOS",
   "Version": "2.0",
-  "UpdateHash": "a882e3a123f7734a50ed8739641e2a1529cb64dfb395c51f0db2259c37834b01",
-  "LastCheck": "2026-04-12T01:06:43.010172683+00:00",
+  "UpdateHash": "964e78a86a5d3ab08ddce80cb188773284e49d1cf35c684fefa345512a556ce8",
+  "LastCheck": "2026-04-12T05:30:35.336167+00:00",
   "OSVersions": [
     {
       "OSVersion": "tvOS 26",
@@ -19,7 +20,7 @@
         "ExpirationDate": "2026-07-11",
         "ReleaseType": "OS",
         "SecurityInfo": "https://support.apple.com/en-us/126797",
-        "SecurityInfoContext": "tvOS has been updated to version 26.4, which was released on March 24, 2026. This update addresses 17 security issues and is the most recent approved version.",
+        "SecurityInfoContext": "tvOS has been updated to version 26.4, released on March 24, 2026. This update addresses 17 security issues and is the most recent approved version.",
         "SupportedDevices": [
           "AppleTV11,1",
           "AppleTV14,1",
@@ -48,18 +49,18 @@
         "ActivelyExploitedCVEs": [],
         "UniqueCVEsCount": 17,
         "DaysSincePreviousRelease": 41,
-        "update_summary": {
-          "priority": "high",
-          "summary": "Addresses 17 security issues",
-          "recommendation": "Update to stay secure - security fixes available",
-          "stats": {
-            "exploited": 0,
-            "critical": 0,
-            "high": 0,
-            "medium": 0,
-            "low": 0,
-            "remote": 0,
-            "total": 17
+        "UpdateSummary": {
+          "Priority": "high",
+          "Summary": "Addresses 17 security issues",
+          "Recommendation": "Update to stay secure - security fixes available",
+          "Stats": {
+            "Exploited": 0,
+            "Critical": 0,
+            "High": 0,
+            "Medium": 0,
+            "Low": 0,
+            "Remote": 0,
+            "Total": 17
           }
         }
       },
@@ -77,7 +78,7 @@
           "ExpirationDate": "2026-07-11",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/126797",
-          "SecurityInfoContext": "tvOS has been updated to version 26.4, which was released on March 24, 2026. This update addresses 17 security issues and is the most recent approved version.",
+          "SecurityInfoContext": "tvOS has been updated to version 26.4, released on March 24, 2026. This update addresses 17 security issues and is the most recent approved version.",
           "SupportedDevices": [
             "AppleTV11,1",
             "AppleTV14,1",
@@ -106,18 +107,18 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 17,
           "DaysSincePreviousRelease": 41,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 17 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 17
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 17 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 17
             }
           }
         },
@@ -143,14 +144,14 @@
           ],
           "CVEs": {
             "CVE-2025-14174": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-43529": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-59375": {},
             "CVE-2026-20609": {},
@@ -167,9 +168,9 @@
             "CVE-2026-20671": {},
             "CVE-2026-20675": {},
             "CVE-2026-20700": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20700",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2026-20700",
+              "InKEV": true,
+              "Severity": "High"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -179,18 +180,24 @@
           ],
           "UniqueCVEsCount": 17,
           "DaysSincePreviousRelease": 61,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 17 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 17
+          "SupersededBy": {
+            "ProductVersion": "26.4",
+            "Build": "23L6243",
+            "ReleaseDate": "2026-03-24",
+            "DaysLater": 41
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 17 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 17
             }
           }
         },
@@ -217,14 +224,14 @@
           "CVEs": {
             "CVE-2024-7264": {},
             "CVE-2025-14174": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-43529": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-43531": {},
             "CVE-2025-43532": {},
@@ -248,18 +255,24 @@
           ],
           "UniqueCVEsCount": 18,
           "DaysSincePreviousRelease": 39,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 18 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 18
+          "SupersededBy": {
+            "ProductVersion": "26.3",
+            "Build": "23K6620",
+            "ReleaseDate": "2026-02-11",
+            "DaysLater": 61
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 18 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 18
             }
           }
         },
@@ -305,14 +318,14 @@
             "CVE-2025-43462": {},
             "CVE-2025-43480": {},
             "CVE-2025-43510": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43510",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43510",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-43520": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43520",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43520",
+              "InKEV": true,
+              "Severity": "High"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -321,18 +334,24 @@
           ],
           "UniqueCVEsCount": 31,
           "DaysSincePreviousRelease": 35,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 31 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 31
+          "SupersededBy": {
+            "ProductVersion": "26.2",
+            "Build": "23K6054",
+            "ReleaseDate": "2025-12-12",
+            "DaysLater": 39
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 31 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 31
             }
           }
         },
@@ -351,18 +370,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 14,
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "26.1",
+            "Build": "",
+            "ReleaseDate": "2025-11-03",
+            "DaysLater": 35
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -404,18 +429,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 22,
           "DaysSincePreviousRelease": 0,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 22 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 22
+          "SupersededBy": {
+            "ProductVersion": "26.0.1",
+            "Build": "",
+            "ReleaseDate": "2025-09-29",
+            "DaysLater": 14
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 22 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 22
             }
           }
         }
@@ -432,14 +463,14 @@
         "ReleaseDate": "2025-07-29",
         "ReleaseType": "OS",
         "SecurityInfo": "https://support.apple.com/en-us/124153",
-        "SecurityInfoContext": "tvOS has been updated to version 18.6, which was released on July 29, 2025. This update addresses 26 security issues and is the most recent approved version.",
+        "SecurityInfoContext": "tvOS has been updated to version 18.6, released on July 29, 2025. This update addresses 26 security issues and is the most recent approved version.",
         "SupportedDevices": [],
         "CVEs": {
           "CVE-2025-31273": {},
           "CVE-2025-31277": {
-            "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
-            "in_kev": true,
-            "severity": "High"
+            "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
+            "InKEV": true,
+            "Severity": "High"
           },
           "CVE-2025-31278": {},
           "CVE-2025-31281": {},
@@ -462,9 +493,9 @@
           "CVE-2025-43277": {},
           "CVE-2025-43282": {},
           "CVE-2025-6558": {
-            "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6558",
-            "in_kev": true,
-            "severity": "High"
+            "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-6558",
+            "InKEV": true,
+            "Severity": "High"
           },
           "CVE-2025-6965": {},
           "CVE-2025-7424": {},
@@ -476,18 +507,18 @@
         ],
         "UniqueCVEsCount": 26,
         "DaysSincePreviousRelease": 78,
-        "update_summary": {
-          "priority": "high",
-          "summary": "Addresses 26 security issues",
-          "recommendation": "Update to stay secure - security fixes available",
-          "stats": {
-            "exploited": 0,
-            "critical": 0,
-            "high": 0,
-            "medium": 0,
-            "low": 0,
-            "remote": 0,
-            "total": 26
+        "UpdateSummary": {
+          "Priority": "high",
+          "Summary": "Addresses 26 security issues",
+          "Recommendation": "Update to stay secure - security fixes available",
+          "Stats": {
+            "Exploited": 0,
+            "Critical": 0,
+            "High": 0,
+            "Medium": 0,
+            "Low": 0,
+            "Remote": 0,
+            "Total": 26
           }
         }
       },
@@ -501,14 +532,14 @@
           "ReleaseDate": "2025-07-29",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/124153",
-          "SecurityInfoContext": "tvOS has been updated to version 18.6, which was released on July 29, 2025. This update addresses 26 security issues and is the most recent approved version.",
+          "SecurityInfoContext": "tvOS has been updated to version 18.6, released on July 29, 2025. This update addresses 26 security issues and is the most recent approved version.",
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2025-31273": {},
             "CVE-2025-31277": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-31278": {},
             "CVE-2025-31281": {},
@@ -531,9 +562,9 @@
             "CVE-2025-43277": {},
             "CVE-2025-43282": {},
             "CVE-2025-6558": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6558",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-6558",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-6965": {},
             "CVE-2025-7424": {},
@@ -545,18 +576,18 @@
           ],
           "UniqueCVEsCount": 26,
           "DaysSincePreviousRelease": 78,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 26 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 26
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 26 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 26
             }
           }
         },
@@ -603,18 +634,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 27,
           "DaysSincePreviousRelease": 26,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 27 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 27
+          "SupersededBy": {
+            "ProductVersion": "18.6",
+            "Build": "",
+            "ReleaseDate": "2025-07-29",
+            "DaysLater": 78
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 27 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 27
             }
           }
         },
@@ -631,14 +668,14 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2025-31200": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31200",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31200",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-31201": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31201",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31201",
+              "InKEV": true,
+              "Severity": "High"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -647,18 +684,24 @@
           ],
           "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 16,
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 2 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 2
+          "SupersededBy": {
+            "ProductVersion": "18.5",
+            "Build": "",
+            "ReleaseDate": "2025-05-12",
+            "DaysLater": 26
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 2 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 2
             }
           }
         },
@@ -725,18 +768,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 47,
           "DaysSincePreviousRelease": 20,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 47 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 47
+          "SupersededBy": {
+            "ProductVersion": "18.4.1",
+            "Build": "",
+            "ReleaseDate": "2025-04-16",
+            "DaysLater": 16
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 47 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 47
             }
           }
         },
@@ -755,18 +804,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 43,
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "18.4",
+            "Build": "",
+            "ReleaseDate": "2025-03-31",
+            "DaysLater": 20
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -784,9 +839,9 @@
           "CVEs": {
             "CVE-2024-55549": {},
             "CVE-2025-24085": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24085",
-              "in_kev": true,
-              "severity": "High"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-24085",
+              "InKEV": true,
+              "Severity": "High"
             },
             "CVE-2025-24086": {},
             "CVE-2025-24107": {},
@@ -817,18 +872,24 @@
           ],
           "UniqueCVEsCount": 25,
           "DaysSincePreviousRelease": 11,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 25 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 25
+          "SupersededBy": {
+            "ProductVersion": "18.3.1",
+            "Build": "",
+            "ReleaseDate": "2025-03-11",
+            "DaysLater": 43
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 25 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 25
             }
           }
         },
@@ -847,18 +908,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 36,
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "18.3",
+            "Build": "",
+            "ReleaseDate": "2025-01-27",
+            "DaysLater": 11
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -907,18 +974,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 29,
           "DaysSincePreviousRelease": 44,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 29 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 29
+          "SupersededBy": {
+            "ProductVersion": "18.2.1",
+            "Build": "",
+            "ReleaseDate": "2025-01-16",
+            "DaysLater": 36
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 29 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 29
             }
           }
         },
@@ -957,18 +1030,24 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 19,
           "DaysSincePreviousRelease": 42,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 19 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 19
+          "SupersededBy": {
+            "ProductVersion": "18.2",
+            "Build": "",
+            "ReleaseDate": "2024-12-11",
+            "DaysLater": 44
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 19 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 19
             }
           }
         },
@@ -1003,23 +1082,43 @@
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 15,
           "DaysSincePreviousRelease": 0,
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 15 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 15
+          "SupersededBy": {
+            "ProductVersion": "18.1",
+            "Build": "",
+            "ReleaseDate": "2024-10-28",
+            "DaysLater": 42
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 15 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 15
             }
           }
         }
       ]
     }
   ],
+  "Devices": {
+    "AppleTV11,1": {
+      "MarketingName": "Apple TV 4K (2nd generation)"
+    },
+    "AppleTV14,1": {
+      "MarketingName": "Apple TV 4K (3rd generation) Wi-Fi + Ethernet"
+    },
+    "AppleTV5,3": {
+      "MarketingName": "Apple TV HD (4th generation)"
+    },
+    "AppleTV6,2": {
+      "MarketingName": "Apple TV 4K (1st generation)"
+    }
+  },
   "BackgroundSecurityImprovements": {}
 }

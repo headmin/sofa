@@ -520,29 +520,23 @@ const formatCVEData = (cveData) => {
 const processSecurityData = (data) => {
   const base = import.meta.env.BASE_URL || '/'
   return data.map(update => {
-    // Process CVEs to ensure consistent format
-    const cves = Array.isArray(update.cves) 
-      ? update.cves.map(formatCVEData)
-      : Object.keys(update.CVEs || {}).map(cve => ({ cve, link: `${base}cve-details?cveId=${cve}` }))
+    // Process CVEs from v2 dict format
+    const cves = Object.keys(update.CVEs || {}).map(cve => ({ cve, link: `${base}cve-details?cveId=${cve}` }))
 
-    // Process actively exploited CVEs
-    const activelyExploited = Array.isArray(update.activelyExploited)
-      ? update.activelyExploited.map(formatCVEData)
-      : (update.ActivelyExploitedCVEs || []).map(cve => ({ cve, link: `${base}cve-details?cveId=${cve}` }))
+    // Process actively exploited CVEs from v2 string array
+    const activelyExploited = (update.ActivelyExploitedCVEs || []).map(cve => ({ cve, link: `${base}cve-details?cveId=${cve}` }))
 
     return {
-      version: update.version || update.ProductVersion || '',
-      releaseDate: update.releaseDate || update.ReleaseDate || '',
-      isWarning: update.isWarning || !!update.SecurityInfo,
-      securityInfoLink: update.securityInfoLink || update.SecurityInfo || '',
-      releaseNotes: update.releaseNotes || update.ReleaseNotes || '',
-      vulnerabilitiesCount: update.vulnerabilitiesCount || 
-        (update.CVEs ? Object.keys(update.CVEs).length : 0) || 0,
+      version: update.ProductVersion || '',
+      releaseDate: update.ReleaseDate || '',
+      isWarning: !!update.SecurityInfo,
+      securityInfoLink: update.SecurityInfo || '',
+      releaseNotes: update.ReleaseNotes || '',
+      vulnerabilitiesCount: update.CVEs ? Object.keys(update.CVEs).length : 0,
       activelyExploited,
       cves,
-      daysToPrevRelease: update.daysToPrevRelease || update.DaysSincePreviousRelease || 0,
-      // v2 fields - note: update_summary has underscore in the data
-      updateSummary: update.update_summary || update.UpdateSummary || null,
+      daysToPrevRelease: update.DaysSincePreviousRelease || 0,
+      updateSummary: update.UpdateSummary || null,
       securityInfoContext: update.SecurityInfoContext || null
     }
   })
@@ -664,12 +658,12 @@ onMounted(async () => {
           <!-- v2 Update Summary and Context -->
           <div v-if="update.updateSummary || update.securityInfoContext" class="update-summary-section">
             <div v-if="update.updateSummary" class="update-summary">
-              <div v-if="update.updateSummary.summary" class="summary-text">
+              <div v-if="update.updateSummary.Summary" class="summary-text">
                 <span class="summary-icon">⚠️</span>
-                {{ update.updateSummary.summary }}
+                {{ update.updateSummary.Summary }}
               </div>
-              <div v-if="update.updateSummary.recommendation" class="recommendation-text">
-                <strong>Recommendation:</strong> {{ update.updateSummary.recommendation }}
+              <div v-if="update.updateSummary.Recommendation" class="recommendation-text">
+                <strong>Recommendation:</strong> {{ update.updateSummary.Recommendation }}
               </div>
             </div>
             <div v-if="update.securityInfoContext" class="security-context">

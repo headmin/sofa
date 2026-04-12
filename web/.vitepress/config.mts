@@ -101,6 +101,7 @@ export default defineConfig({
         items: [
           { text: 'CVE Search', link: '/cve-search' },
           { text: 'Release Deferrals', link: '/release-deferrals' },
+          { text: 'Release Timeline', link: '/release-timeline' },
           { text: 'Model Identifiers', link: '/model-identifier' },
           { text: 'macOS Installers', link: '/macos-installer-info' },
           { text: 'Beta Releases', link: '/beta-releases' },

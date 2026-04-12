@@ -1,0 +1,221 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sofa/v2/dms_consumers/2026.04.11.2",
+  "title": "SOFA dms_consumers (schema 2026.04.11.2)",
+  "type": "object",
+  "required": [
+    "Devices",
+    "Metadata",
+    "Platforms"
+  ],
+  "properties": {
+    "Devices": {
+      "description": "Canonical GDMF identifier -> marketing name map. Every identifier referenced under `Platforms[].OSVersions[].SignedVersions[].SupportedDevices` or `BackgroundSecurityImprovements[].SupportedDevices` resolves through this map.",
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/definitions/DeviceEntry"
+      }
+    },
+    "Metadata": {
+      "$ref": "#/definitions/MDMMetadata"
+    },
+    "Platforms": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/MDMPlatform"
+      }
+    }
+  },
+  "definitions": {
+    "DeviceEntry": {
+      "description": "Value type for the canonical v2-feed `Devices` map.\n\nResolves a GDMF identifier (macOS `board_id` like `J132AP`, or iOS-family `device_id` like `iPhone14,2`) to its marketing name plus — on macOS only — the Apple `device_id`. On iOS/visionOS/tvOS/watchOS the GDMF identifier IS the device_id, so `device_id` is omitted as redundant with the map key.",
+      "type": "object",
+      "required": [
+        "MarketingName"
+      ],
+      "properties": {
+        "DeviceID": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "MarketingName": {
+          "type": "string"
+        }
+      }
+    },
+    "MDMBSIEntry": {
+      "type": "object",
+      "required": [
+        "Build",
+        "DeviceScope",
+        "SupportedDevices",
+        "Version"
+      ],
+      "properties": {
+        "Build": {
+          "type": "string"
+        },
+        "CVEs": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "DeviceScope": {
+          "type": "string"
+        },
+        "PostingDate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "PrerequisiteBuild": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SecurityInfo": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SupportedDevices": {
+          "description": "GDMF identifier list. Resolve via the feed's top-level `Devices` map.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Version": {
+          "type": "string"
+        },
+        "VersionExtra": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "MDMMetadata": {
+      "type": "object",
+      "required": [
+        "ContentHash",
+        "Description",
+        "GeneratedAt",
+        "SchemaVersion"
+      ],
+      "properties": {
+        "ContentHash": {
+          "type": "string"
+        },
+        "Description": {
+          "type": "string"
+        },
+        "GeneratedAt": {
+          "type": "string"
+        },
+        "SchemaVersion": {
+          "type": "string"
+        }
+      }
+    },
+    "MDMOSVersion": {
+      "type": "object",
+      "required": [
+        "LatestVersion",
+        "OSVersion",
+        "SignedVersions"
+      ],
+      "properties": {
+        "BackgroundSecurityImprovements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MDMBSIEntry"
+          }
+        },
+        "LatestVersion": {
+          "type": "string"
+        },
+        "OSVersion": {
+          "type": "string"
+        },
+        "SignedVersions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MDMSignedVersion"
+          }
+        }
+      }
+    },
+    "MDMPlatform": {
+      "type": "object",
+      "required": [
+        "OSVersions",
+        "Platform"
+      ],
+      "properties": {
+        "OSVersions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MDMOSVersion"
+          }
+        },
+        "Platform": {
+          "type": "string"
+        }
+      }
+    },
+    "MDMSignedVersion": {
+      "type": "object",
+      "required": [
+        "ActivelyExploitedCount",
+        "Build",
+        "CVECount",
+        "DeviceScope",
+        "ReleaseDate",
+        "SupportedDevices",
+        "Version"
+      ],
+      "properties": {
+        "ActivelyExploitedCount": {
+          "type": "integer",
+          "format": "uint",
+          "minimum": 0.0
+        },
+        "Build": {
+          "type": "string"
+        },
+        "CVECount": {
+          "type": "integer",
+          "format": "uint",
+          "minimum": 0.0
+        },
+        "DeviceScope": {
+          "type": "string"
+        },
+        "ReleaseDate": {
+          "type": "string"
+        },
+        "SupportedDevices": {
+          "description": "GDMF identifier list. Resolve via the feed's top-level `Devices` map.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Version": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

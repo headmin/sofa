@@ -1,0 +1,50 @@
+[
+  {
+    "version": "2026.04.11.2",
+    "date": "2026-04-11",
+    "changes": [
+      "Additive: pre-computed release cross-references on security releases and BSI entries",
+      "Added `PatchesRelease` on BSI entries — resolves the release the BSI sits on top of via PrerequisiteBuild match",
+      "Added `SupersededBy` on security releases and BSI entries — next release covering the same device scope, with DaysLater gap",
+      "Added `MergedInto` on device-specific releases — next universal release that absorbed the narrow hotfix",
+      "Consumers no longer need to derive the BSI→release / narrow→broader / superseded joins client-side",
+      "All three fields are optional and skip-if-none — no layout change for consumers that don't read them"
+    ]
+  },
+  {
+    "version": "2026.04.11.1",
+    "date": "2026-04-11",
+    "changes": [
+      "BREAKING: v2 feeds introduce a top-level canonical `Devices` map — GDMF identifier -> {DeviceID, MarketingName}",
+      "BREAKING: Every `SupportedDevices` field is now a string[] of GDMF identifiers (was Vec<SupportedDevice> objects). Consumers resolve via the top-level Devices map",
+      "`SecurityReleases[].SupportedDevices` is now optional — absent means `inherit from parent Latest.SupportedDevices`. Saves ~66% on macos_data_feed.json size via suppression of redundant duplicates",
+      "BREAKING: All v2 feed field names normalized to PascalCase — `update_summary`->`UpdateSummary`, `supported_devices`->`SupportedDevices` inside BSI, `apple_slug`->`AppleSlug`, `macos_ipsw_*`->`MacOSIPSW*`, `cves`->`CVEs`, `entry_added_date`->`EntryAddedDate`, etc.",
+      "DMS consumer: `SignedVersions[].Build` backfilled from `bsi_history.ndjson` for historical macOS minor versions where live GDMF no longer carries the build string",
+      "v2 `InstallationApps` uses new PascalCase mirror structs (`InstallationAppsV2`, `UMAEntryV2`, `MacIPSWEntryV2`); v1 `InstallationApps` shape preserved exactly",
+      "Applied uniformly to macOS, iOS, visionOS, tvOS, watchOS feeds and `dms_consumers.json`. v1 feeds untouched."
+    ]
+  },
+  {
+    "version": "2026.03.24.1",
+    "date": "2026-03-24",
+    "changes": [
+      "Changed SupportedDevices from Vec<String> to Vec<SupportedDevice> with board_id, device_id, marketing_name",
+      "Removed BSIDeviceDetail and device_details field from BackgroundSecurityImprovements",
+      "BSI supported_devices now uses same SupportedDevice struct as release SupportedDevices"
+    ]
+  },
+  {
+    "version": "2026.03.23.1",
+    "date": "2026-03-23",
+    "changes": [
+      "Added SchemaVersion field (CalVer) to all v2 feeds",
+      "Added schema_version to dms_consumers.json metadata",
+      "Added JSON Schema files (.schema.json) for all v2 feeds and DMS consumer feed",
+      "Added schema_changelog.json with version history",
+      "Added version_extra, device_scope, device_details to BackgroundSecurityImprovements",
+      "Added device_details resolution for all platforms in dms_consumers.json",
+      "Added content_hash to dms_consumers.json metadata",
+      "Enriched SecurityInfoContext with OS codename, BSI mention, days since previous"
+    ]
+  }
+]
