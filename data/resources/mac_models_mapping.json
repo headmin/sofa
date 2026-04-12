@@ -1322,7 +1322,7 @@
     ]
   },
   "MacBookAir7,2": {
-    "MarketingName": "MacBook Air (13-inch, Early 2015)",
+    "MarketingName": "MacBook Air (13-inch, 2017)",
     "SupportedOS": [
       "Monterey 12"
     ],
@@ -1465,7 +1465,7 @@
     ]
   },
   "MacBookPro15,1": {
-    "MarketingName": "MacBook Pro (15-inch, 2018)",
+    "MarketingName": "MacBook Pro (15-inch, 2019)",
     "SupportedOS": [
       "Monterey 12",
       "Tahoe 26",
@@ -1520,6 +1520,21 @@
       "Sequoia 15",
       "Ventura 13",
       "Sonoma 14"
+    ],
+    "OSVersions": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "MacBookPro16,1": {
+    "MarketingName": "MacBook Pro (16-inch, 2019)",
+    "SupportedOS": [
+      "Monterey 12",
+      "Ventura 13",
+      "Sonoma 14",
+      "Sequoia 15"
     ],
     "OSVersions": [
       12,
