@@ -327,9 +327,21 @@
     "device_id": "MacBookAir7,2",
     "marketing_name": "MacBook Air (13-inch, Early 2015)"
   },
+  "Mac-0CFF9C7C2B63DF8D": {
+    "device_id": "MacBookAir9,1",
+    "marketing_name": "MacBook Air (Retina, 13-inch, 2020)"
+  },
   "Mac-1E7E29AD0135F9BC": {
     "device_id": "MacBookAir9,1",
     "marketing_name": "MacBook Air (Retina, 13-inch, 2020)"
+  },
+  "Mac-226CB3C6A851A671": {
+    "device_id": "MacBookAir8,2",
+    "marketing_name": "MacBook Air (Retina, 13-inch, 2019)"
+  },
+  "Mac-27AD2F918AE68F61": {
+    "device_id": "MacPro7,1",
+    "marketing_name": "Mac Pro (2019)"
   },
   "Mac-35C5E08120C7EEAF": {
     "device_id": "MacBookPro15,1",
@@ -343,9 +355,17 @@
     "device_id": "iMac18,3",
     "marketing_name": "iMac (Retina 5K, 27-inch, 2017)"
   },
+  "Mac-53FDB3D8DB8CA971": {
+    "device_id": "MacBookPro15,4",
+    "marketing_name": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)"
+  },
   "Mac-551B86E5744E2388": {
     "device_id": "MacBookPro14,3",
     "marketing_name": "MacBook Pro (15-inch, 2017)"
+  },
+  "Mac-5F9802EFE386AA28": {
+    "device_id": "MacBookPro16,2",
+    "marketing_name": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)"
   },
   "Mac-63001698E7A34814": {
     "device_id": "iMac19,1",
@@ -362,6 +382,22 @@
   "Mac-77F17D7DA9285301": {
     "device_id": "iMac18,2",
     "marketing_name": "iMac (Retina 4K, 21.5-inch, 2017)"
+  },
+  "Mac-7BA5B2D9E42DDD94": {
+    "device_id": "iMacPro1,1",
+    "marketing_name": "iMac Pro (Retina 5K, 27-inch, Late 2017)"
+  },
+  "Mac-7BA5B2DFE22DDD8C": {
+    "device_id": "Macmini8,1",
+    "marketing_name": "Mac mini (Late 2018)"
+  },
+  "Mac-827FAC58A8FDFA22": {
+    "device_id": "MacBookAir8,1",
+    "marketing_name": "MacBook Air (Retina, 13-inch, 2018)"
+  },
+  "Mac-827FB448E656EC26": {
+    "device_id": "MacBookPro15,2",
+    "marketing_name": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)"
   },
   "Mac-937A206F2EE63C01": {
     "device_id": "MacBookPro14,2",
@@ -387,6 +423,10 @@
     "device_id": "MacPro6,1",
     "marketing_name": "Mac Pro (Late 2013)"
   },
+  "Mac-A61BADE1FDAD7B05": {
+    "device_id": "MacBookPro16,1",
+    "marketing_name": "MacBook Pro (16-inch, 2019)"
+  },
   "Mac-AA95B1DDAB278B95": {
     "device_id": "iMac16,2",
     "marketing_name": "iMac (Retina 4K, 21.5-inch, Late 2015)"
@@ -407,13 +447,25 @@
     "device_id": "MacBookPro13,1",
     "marketing_name": "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)"
   },
+  "Mac-CFF7D910A743CAAF": {
+    "device_id": "iMac20,1",
+    "marketing_name": "iMac (Retina 5K, 27-inch, 2020)"
+  },
   "Mac-DB15BD556843C820": {
     "device_id": "Macmini7,1",
     "marketing_name": "Mac mini (Late 2014)"
   },
+  "Mac-E1008331FDC96864": {
+    "device_id": "MacBookPro16,1",
+    "marketing_name": "MacBook Pro (16-inch, 2019)"
+  },
   "Mac-E43C1C25D4880AD6": {
     "device_id": "MacBookPro11,4",
     "marketing_name": "MacBook Pro (Retina, 15-inch, Mid 2015)"
+  },
+  "Mac-E7203C0F68AA0004": {
+    "device_id": "MacBookPro16,3",
+    "marketing_name": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)"
   },
   "Mac-EE2EBD4B90B839A8": {
     "device_id": "MacBookPro11,5",
