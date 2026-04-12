@@ -1,4 +1,5 @@
 @import 'tailwindcss' reference;
+@custom-variant dark (&:where(.dark, .dark *));
 
 /**
  * SOFA Bento Grid System
@@ -160,146 +161,28 @@
   @apply w-7 h-7 rounded-md flex items-center justify-center flex-shrink-0;
 }
 
-/* Dark mode adjustments for consistent theme - explicit for Tailwind 4 */
+/* Dark mode adjustments — no !important, let Tailwind dark: variants take precedence */
 .dark .bento-card,
 .dark .bento-statistics,
 .dark .bento-beta-gradient,
 .dark .bento-community-gradient,
-.dark .bento-quickboard,
-.dark .bento-macos,
-.dark .bento-ios,
-.dark .bento-watchos,
-.dark .bento-tvos,
-.dark .bento-visionos,
-.dark .bento-safari,
-.dark .bento-community,
-.dark .bento-feed-macos,
-.dark .bento-feed-ios {
-  background: rgba(30, 41, 59, 0.5) !important;
-  border-color: rgba(51, 65, 85, 0.5) !important;
-  backdrop-filter: blur(10px) !important;
+.dark .bento-quickboard {
+  background: rgba(30, 41, 59, 0.5);
+  border-color: rgba(51, 65, 85, 0.5);
+  backdrop-filter: blur(10px);
 }
 
 .dark .bento-card:hover,
 .dark .bento-statistics:hover,
 .dark .bento-beta-gradient:hover,
 .dark .bento-community-gradient:hover,
-.dark .bento-quickboard:hover,
-.dark .bento-macos:hover,
-.dark .bento-ios:hover,
-.dark .bento-watchos:hover,
-.dark .bento-tvos:hover,
-.dark .bento-visionos:hover,
-.dark .bento-safari:hover,
-.dark .bento-community:hover,
-.dark .bento-feed-macos:hover,
-.dark .bento-feed-ios:hover {
-  background: rgba(30, 41, 59, 0.7) !important;
-  border-color: rgba(71, 85, 105, 0.6) !important;
+.dark .bento-quickboard:hover {
+  background: rgba(30, 41, 59, 0.7);
+  border-color: rgba(71, 85, 105, 0.6);
 }
 
 .bento-card-title {
-  @apply font-semibold text-gray-900 text-sm flex-shrink-0;
-}
-
-/* Fix dark mode text colors explicitly */
-.dark .bento-card-title,
-.dark .bento-card h3,
-.dark .bento-card h4 {
-  color: rgb(248, 250, 252) !important;
-}
-
-.dark .bento-card .text-gray-900 {
-  color: rgb(248, 250, 252) !important;
-}
-
-.dark .bento-card .text-gray-700 {
-  color: rgb(203, 213, 225) !important;
-}
-
-.dark .bento-card .text-gray-600,
-.dark .bento-card .text-gray-500 {
-  color: rgb(156, 163, 175) !important;
-}
-
-.dark .bento-card .text-gray-400 {
-  color: rgb(107, 114, 128) !important;
-}
-
-/* Fix inner cards within bento boxes (SOFADashboard group/btn elements) */
-.dark .group\\/btn,
-.dark .group,
-.dark [class*="group"] {
-  background: rgba(30, 41, 59, 0.6) !important;
-  border-color: rgba(71, 85, 105, 0.6) !important;
-  color: rgb(229, 231, 235) !important;
-}
-
-.dark .group\\/btn:hover,
-.dark .group:hover,
-.dark [class*="group"]:hover {
-  background: rgba(30, 41, 59, 0.8) !important;
-  border-color: rgba(71, 85, 105, 0.8) !important;
-}
-
-/* Fix any bg-white elements in dark mode */
-.dark [class*="bg-white"] {
-  background: rgba(30, 41, 59, 0.6) !important;
-  border-color: rgba(71, 85, 105, 0.6) !important;
-}
-
-.dark [class*="bg-white"]:hover {
-  background: rgba(30, 41, 59, 0.8) !important;
-}
-
-/* Fix platform navigation buttons at top - comprehensive text color fixes */
-.dark a[class*="bg-white"],
-.dark a[class*="border-gray"],
-.dark .platform-nav a,
-.dark .flex a {
-  background: rgba(30, 41, 59, 0.6) !important;
-  border-color: rgba(71, 85, 105, 0.6) !important;
-  color: rgb(229, 231, 235) !important;
-}
-
-.dark a[class*="bg-white"]:hover,
-.dark a[class*="border-gray"]:hover,
-.dark .platform-nav a:hover,
-.dark .flex a:hover {
-  background: rgba(30, 41, 59, 0.8) !important;
-  border-color: rgba(71, 85, 105, 0.8) !important;
-  color: rgb(255, 255, 255) !important;
-}
-
-/* Fix text specifically in platform navigation buttons */
-.dark .flex a span,
-.dark .flex a div,
-.dark a[class*="bg-white"] span,
-.dark a[class*="bg-white"] div:not([class*="bg-"]) {
-  color: rgb(229, 231, 235) !important;
-}
-
-.dark .flex a:hover span,
-.dark .flex a:hover div,
-.dark a[class*="bg-white"]:hover span,
-.dark a[class*="bg-white"]:hover div:not([class*="bg-"]) {
-  color: rgb(255, 255, 255) !important;
-}
-
-/* Fix all button-like elements and spans in dark mode */
-.dark .inline-flex,
-.dark .px-4,
-.dark .py-2,
-.dark [class*="px-"]:not([class*="text-"]):not([class*="bg-blue"]):not([class*="bg-green"]):not([class*="bg-orange"]):not([class*="bg-purple"]) {
-  background: rgba(30, 41, 59, 0.6) !important;
-  border-color: rgba(71, 85, 105, 0.6) !important;
-  color: rgb(229, 231, 235) !important;
-}
-
-.dark .inline-flex:hover,
-.dark .px-4:hover,
-.dark .py-2:hover {
-  background: rgba(30, 41, 59, 0.8) !important;
+  @apply font-semibold text-gray-900 dark:text-slate-50 text-sm flex-shrink-0;
 }
 
 /* Fix Customize Layout preferences controls dark mode */

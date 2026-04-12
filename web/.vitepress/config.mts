@@ -125,7 +125,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the Apache 2.0 License.',
-      copyright: 'Copyright © 2025 by Mac Admins Open Source.',
+      copyright: 'Copyright © 2026 by Mac Admins Open Source.',
     },
   },
   vite: {
