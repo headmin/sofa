@@ -7,7 +7,7 @@ const ROW_HEIGHT = 80
 const NODE_RADIUS = 8
 const SVG_LEFT_PADDING = 40
 const SVG_TOP_PADDING = 30
-const RIGHT_LABEL_WIDTH = 320
+const RIGHT_LABEL_WIDTH = 500
 
 const platforms = [
   { id: 'macos', label: 'macOS', feed: 'v2/macos_data_feed.json' },
@@ -355,6 +355,133 @@ function navigateToSecurity(osVersion, version, event) {
     window.location.href = url
   }
 }
+
+// --- Markdown / Mermaid export ---
+
+const copyFeedback = ref(null) // group osVersion currently showing "Copied!"
+
+function generateMermaid(group) {
+  // Mermaid gitGraph needs chronological order (oldest first)
+  const chronological = [...group.nodes].reverse()
+  const lines = ['gitGraph']
+
+  const activeBranches = new Set()
+  let onMain = true
+
+  for (const node of chronological) {
+    if (node.type === 'bsi') {
+      if (!onMain) {
+        lines.push('  checkout main')
+        onMain = true
+      }
+      lines.push(`  commit id: "BSI ${node.version}" type: HIGHLIGHT`)
+      continue
+    }
+
+    if (node.scope === 'device-specific') {
+      const branchName = node.deviceNames[0]
+        ? node.deviceNames[0].replace(/[^a-zA-Z0-9]/g, '-').replace(/-+/g, '-').substring(0, 30)
+        : `device-${node.version}`
+
+      if (!activeBranches.has(branchName)) {
+        if (!onMain) {
+          lines.push('  checkout main')
+          onMain = true
+        }
+        lines.push(`  branch ${branchName}`)
+        activeBranches.add(branchName)
+        onMain = false
+      } else {
+        lines.push(`  checkout ${branchName}`)
+        onMain = false
+      }
+      lines.push(`  commit id: "${node.version}"`)
+    } else {
+      if (!onMain) {
+        lines.push('  checkout main')
+        onMain = true
+      }
+
+      // Merge any device branches that merge into this version
+      for (const other of chronological) {
+        if (other.type === 'release' && other.mergedInto === node.version) {
+          const mergeBranch = other.deviceNames[0]
+            ? other.deviceNames[0].replace(/[^a-zA-Z0-9]/g, '-').replace(/-+/g, '-').substring(0, 30)
+            : `device-${other.version}`
+          if (activeBranches.has(mergeBranch)) {
+            lines.push(`  merge ${mergeBranch}`)
+            activeBranches.delete(mergeBranch)
+          }
+        }
+      }
+
+      const tag = node.activelyExploitedCount > 0 ? ` tag: "${node.activelyExploitedCount} KEV"` : ''
+      lines.push(`  commit id: "${node.version}"${tag}`)
+    }
+  }
+
+  return lines.join('\n')
+}
+
+function generateMarkdown(group) {
+  const platform = platforms.find(p => p.id === selectedPlatform.value)
+  const title = `${platform?.label || ''} ${group.osVersion}`
+  const mermaid = generateMermaid(group)
+
+  // Table: latest first (same order as group.nodes which is reverse-chronological)
+  const tableHeader = '| Version | Date | Type | CVEs | KEV | Superseded By |'
+  const tableSep    = '|---------|------|------|------|-----|---------------|'
+  const tableRows = group.nodes.map(node => {
+    const date = formatDate(node.releaseDate)
+    const type = node.type === 'bsi' ? 'BSI'
+      : node.scope === 'device-specific' ? `Device (${node.deviceNames[0] || '?'})`
+      : 'Universal'
+    const kev = node.activelyExploitedCount || ''
+    const sup = node.supersededBy || ''
+    return `| ${node.version} | ${date} | ${type} | ${node.cveCount} | ${kev} | ${sup} |`
+  })
+
+  return [
+    `## ${title} — Release Timeline`,
+    '',
+    '```mermaid',
+    mermaid,
+    '```',
+    '',
+    '### Release Summary',
+    '',
+    tableHeader,
+    tableSep,
+    ...tableRows,
+    '',
+    `> Generated from [SOFA](https://sofa.macadmins.io/release-timeline) on ${new Date().toISOString().split('T')[0]}`,
+  ].join('\n')
+}
+
+async function copyMarkdown(group) {
+  const md = generateMarkdown(group)
+  try {
+    await navigator.clipboard.writeText(md)
+    copyFeedback.value = group.osVersion
+    setTimeout(() => { copyFeedback.value = null }, 2000)
+  } catch {
+    // Fallback: prompt user
+    console.warn('Clipboard API not available')
+  }
+}
+
+function downloadMarkdown(group) {
+  const md = generateMarkdown(group)
+  const platform = platforms.find(p => p.id === selectedPlatform.value)
+  const filename = `${platform?.id || 'release'}-${group.osVersion.replace(/\s+/g, '-').toLowerCase()}-timeline.md`
+  const blob = new Blob([md], { type: 'text/markdown' })
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = filename
+  a.click()
+  URL.revokeObjectURL(url)
+}
 </script>
 
 <template>
@@ -411,7 +538,17 @@ function navigateToSecurity(osVersion, version, event) {
 
     <!-- Graph groups -->
     <div v-else v-for="group in graphGroups" :key="group.osVersion" class="graph-group">
-      <h3 class="group-title">{{ group.osVersion }}</h3>
+      <div class="group-header">
+        <h3 class="group-title">{{ group.osVersion }}</h3>
+        <div class="export-buttons">
+          <button class="export-btn" @click="copyMarkdown(group)" :title="'Copy as Markdown with Mermaid diagram'">
+            {{ copyFeedback === group.osVersion ? 'Copied!' : 'Copy Markdown' }}
+          </button>
+          <button class="export-btn" @click="downloadMarkdown(group)" title="Download .md file">
+            Download .md
+          </button>
+        </div>
+      </div>
 
       <div class="graph-scroll-wrapper">
         <svg
@@ -812,11 +949,39 @@ function navigateToSecurity(osVersion, version, event) {
   margin-bottom: 2rem;
 }
 
+.group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
 .group-title {
   font-size: 1.125rem;
   font-weight: 600;
   color: var(--vp-c-text-1);
-  margin-bottom: 0.75rem;
+  margin: 0;
+}
+
+.export-buttons {
+  display: flex;
+  gap: 0.375rem;
+}
+
+.export-btn {
+  padding: 0.25rem 0.625rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-3);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.export-btn:hover {
+  color: var(--vp-c-text-1);
+  border-color: var(--vp-c-brand);
 }
 
 .graph-scroll-wrapper {
