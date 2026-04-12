@@ -3,7 +3,7 @@ import { ref, computed, watch, onMounted } from 'vue'
 
 // Layout constants
 const LANE_WIDTH = 60
-const ROW_HEIGHT = 80
+const ROW_HEIGHT = 100
 const NODE_RADIUS = 8
 const SVG_LEFT_PADDING = 40
 const SVG_TOP_PADDING = 30
@@ -429,8 +429,8 @@ function generateMarkdown(group) {
   const mermaid = generateMermaid(group)
 
   // Table: latest first (same order as group.nodes which is reverse-chronological)
-  const tableHeader = '| Version | Date | Type | CVEs | KEV | Superseded By |'
-  const tableSep    = '|---------|------|------|------|-----|---------------|'
+  const tableHeader = '| Version | Build | Date | Type | CVEs | KEV | Superseded By |'
+  const tableSep    = '|---------|-------|------|------|------|-----|---------------|'
   const tableRows = group.nodes.map(node => {
     const date = formatDate(node.releaseDate)
     const type = node.type === 'bsi' ? 'BSI'
@@ -438,7 +438,7 @@ function generateMarkdown(group) {
       : 'Universal'
     const kev = node.activelyExploitedCount || ''
     const sup = node.supersededBy || ''
-    return `| ${node.version} | ${date} | ${type} | ${node.cveCount} | ${kev} | ${sup} |`
+    return `| ${node.version} | \`${node.build}\` | ${date} | ${type} | ${node.cveCount} | ${kev} | ${sup} |`
   })
 
   return [
@@ -1066,13 +1066,13 @@ function downloadMarkdown(group) {
 }
 
 .date-label {
-  fill: var(--vp-c-text-3);
+  fill: var(--vp-c-text-2);
   font-size: 11px;
   font-family: var(--vp-font-family-base);
 }
 
 .cve-count-label {
-  fill: var(--vp-c-text-2);
+  fill: var(--vp-c-text-1);
 }
 
 .kev-count-label {
@@ -1080,7 +1080,7 @@ function downloadMarkdown(group) {
 }
 
 .days-label {
-  fill: var(--vp-c-text-3);
+  fill: var(--vp-c-text-2);
   font-size: 10px;
   font-style: italic;
   font-family: var(--vp-font-family-base);
