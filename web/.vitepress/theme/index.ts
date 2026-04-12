@@ -28,6 +28,7 @@ import BulletinDashboard from './components/BulletinDashboard.vue';
 import DataSourceDebug from './components/DataSourceDebug.vue';
 import DataTest from './components/DataTest.vue';
 import ReleaseTimeline from './components/ReleaseTimeline.vue';
+import SignedVersions from './components/SignedVersions.vue';
 
 export default {
   extends: DefaultTheme,
@@ -62,5 +63,6 @@ export default {
     app.component('DataSourceDebug', DataSourceDebug);
     app.component('DataTest', DataTest);
     app.component('ReleaseTimeline', ReleaseTimeline);
+    app.component('SignedVersions', SignedVersions);
   },
 } satisfies Theme;
