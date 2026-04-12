@@ -110,18 +110,18 @@ jobs:
           cd processing
           mkdir -p bin
 
-          # Use latest stable release - fix for MacBook Neo - macOS 26.3.2 issue that hit Nudge community
+          # Use latest stable release
           DOWNLOAD_URL="https://github.com/headmin/sofa-core-cli/releases/download/v0.3.0"
-          LINUX_ZIP="sofa-core-cli-x86_64-linux-binaries.zip"
+          LINUX_TAR="sofa-0.3.0-linux-x86_64.tar.gz"
 
-          echo "  • Downloading Linux binaries: $LINUX_ZIP"
-          if curl -L -f -o "$LINUX_ZIP" "$DOWNLOAD_URL/$LINUX_ZIP"; then
-            echo "    ✅ Downloaded: $LINUX_ZIP"
+          echo "  • Downloading Linux binaries: $LINUX_TAR"
+          if curl -L -f -o "$LINUX_TAR" "$DOWNLOAD_URL/$LINUX_TAR"; then
+            echo "    ✅ Downloaded: $LINUX_TAR"
 
             echo "  • Extracting binaries..."
-            unzip -o -j "$LINUX_ZIP" -d bin/
+            tar xzf "$LINUX_TAR" -C bin/ --strip-components=0
             chmod +x bin/*
-            rm "$LINUX_ZIP"
+            rm "$LINUX_TAR"
 
             echo "    ✅ Extracted and made executable"
             echo "  • Extracted files:"
