@@ -76,8 +76,17 @@ const graphGroups = computed(() => {
       const majorVersion = parts[parts.length - 1]
       const bsiList = data.BackgroundSecurityImprovements?.[majorVersion] ?? []
 
+      // Deduplicate releases by ProductVersion + Build
+      const seen = new Set()
+      const uniqueReleases = osv.SecurityReleases.filter(sr => {
+        const key = `${sr.ProductVersion}-${sr.Build}`
+        if (seen.has(key)) return false
+        seen.add(key)
+        return true
+      })
+
       // Build unified list: releases + BSIs, each with a normalized date
-      const releaseItems = osv.SecurityReleases.map(sr => ({
+      const releaseItems = uniqueReleases.map(sr => ({
         type: 'release',
         sortDate: new Date(sr.ReleaseDate).getTime(),
         data: sr,
@@ -548,7 +557,7 @@ function navigateToSecurity(osVersion, version, event) {
                 <rect
                   :x="node.cx + NODE_RADIUS + 6"
                   :y="node.cy - 10"
-                  :width="pillWidth(node.deviceNames[0])"
+                  :width="pillWidth(node.deviceCount <= 2 ? node.deviceNames.join(', ') : node.deviceNames[0] + ' +' + (node.deviceCount - 1))"
                   height="20"
                   rx="10"
                   class="device-pill-bg"
@@ -558,8 +567,9 @@ function navigateToSecurity(osVersion, version, event) {
                   :y="node.cy + 4"
                   class="device-pill-text"
                 >
-                  {{ node.deviceNames[0] }}
+                  {{ node.deviceCount <= 2 ? node.deviceNames.join(', ') : node.deviceNames[0] + ' +' + (node.deviceCount - 1) }}
                 </text>
+                <title>{{ node.deviceNames.join('\n') }}</title>
               </g>
               <text
                 :x="node.cx + NODE_RADIUS + 12"
