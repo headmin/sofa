@@ -43,10 +43,54 @@ const versions = computed(() => {
 
   return feedData.value.OSVersions.map(osv => {
     const latest = osv.Latest ?? {}
-    const supported = (latest.SupportedDevices ?? []).map(code => {
+    // Build structured device list grouped by product type
+    const deviceList = (latest.SupportedDevices ?? []).map(code => {
       const d = devices[code]
-      return d?.MarketingName ?? d?.DeviceID ?? code
-    }).sort()
+      const name = d?.MarketingName ?? code
+      const identifier = d?.DeviceID ?? ''
+      // Skip virtual machines
+      if (name.includes('Virtual') || code.startsWith('VM') || code.startsWith('X86') || code.startsWith('X589')) return null
+
+      // Categorize by product type
+      let category = 'Other'
+      if (name.includes('MacBook Pro')) category = 'MacBook Pro'
+      else if (name.includes('MacBook Air')) category = 'MacBook Air'
+      else if (name.includes('MacBook Neo')) category = 'MacBook Neo'
+      else if (name.includes('MacBook')) category = 'MacBook'
+      else if (name.includes('iMac Pro')) category = 'iMac Pro'
+      else if (name.includes('iMac')) category = 'iMac'
+      else if (name.includes('Mac mini')) category = 'Mac mini'
+      else if (name.includes('Mac Studio')) category = 'Mac Studio'
+      else if (name.includes('Mac Pro')) category = 'Mac Pro'
+      else if (name.includes('iPad')) category = 'iPad'
+      else if (name.includes('iPhone')) category = 'iPhone'
+      else if (name.includes('Apple TV')) category = 'Apple TV'
+      else if (name.includes('Apple Watch')) category = 'Apple Watch'
+      return { code, name, identifier, category }
+    }).filter(Boolean).sort((a, b) => a.name.localeCompare(b.name))
+
+    // Group by category, ordered by popularity
+    const categoryOrder = [
+      'MacBook Pro', 'MacBook Air', 'MacBook Neo', 'MacBook',
+      'iMac', 'iMac Pro',
+      'Mac mini', 'Mac Studio', 'Mac Pro',
+      'iPhone', 'iPad', 'Apple TV', 'Apple Watch',
+      'Other'
+    ]
+    const grouped = {}
+    for (const dev of deviceList) {
+      if (!grouped[dev.category]) grouped[dev.category] = []
+      grouped[dev.category].push(dev)
+    }
+    // Reorder by categoryOrder
+    const orderedGroups = {}
+    for (const cat of categoryOrder) {
+      if (grouped[cat]) orderedGroups[cat] = grouped[cat]
+    }
+    // Append any remaining
+    for (const cat of Object.keys(grouped)) {
+      if (!orderedGroups[cat]) orderedGroups[cat] = grouped[cat]
+    }
 
     const kevCount = latest.ActivelyExploitedCVEs?.length ?? 0
 
@@ -58,8 +102,8 @@ const versions = computed(() => {
       cveCount: latest.UniqueCVEsCount ?? 0,
       kevCount,
       expiration: latest.ExpirationDate ?? '',
-      deviceCount: (latest.SupportedDevices ?? []).length,
-      deviceNames: supported,
+      deviceCount: deviceList.length,
+      deviceGroups: orderedGroups,
       summary: latest.UpdateSummary ?? null,
     }
   })
@@ -81,6 +125,73 @@ function daysUntil(dateString) {
 
 function toggleDevices(osVersion) {
   expandedDevices.value[osVersion] = !expandedDevices.value[osVersion]
+}
+
+// Markdown export
+const copyFeedback = ref(null)
+
+function generateVersionMarkdown(v) {
+  const platform = platforms.find(p => p.id === selectedPlatform.value)
+  const lines = [
+    `## ${platform?.label || ''} ${v.osVersion} — ${v.productVersion}`,
+    '',
+    `| | |`,
+    `|---|---|`,
+    `| **Build** | \`${v.build}\` |`,
+    `| **Released** | ${formatDate(v.releaseDate)} |`,
+    `| **CVEs Fixed** | ${v.cveCount} |`,
+    v.kevCount ? `| **Exploited CVEs Fixed** | ${v.kevCount} |` : null,
+    v.expiration ? `| **Signing Expires** | ${formatDate(v.expiration)} |` : null,
+    `| **Supported Devices** | ${v.deviceCount} |`,
+    '',
+  ].filter(Boolean)
+
+  if (v.summary?.Summary) {
+    lines.push(`> ${v.summary.Summary}`)
+    if (v.summary.Recommendation) {
+      lines.push(`> **Recommendation:** ${v.summary.Recommendation}`)
+    }
+    lines.push('')
+  }
+
+  // Device tables per category
+  lines.push('### Supported Devices', '')
+  for (const [category, devs] of Object.entries(v.deviceGroups)) {
+    lines.push(`#### ${category} (${devs.length})`, '')
+    lines.push('| Model | Identifier | Board ID |')
+    lines.push('|-------|-----------|----------|')
+    for (const dev of devs) {
+      lines.push(`| ${dev.name} | \`${dev.identifier}\` | \`${dev.code}\` |`)
+    }
+    lines.push('')
+  }
+
+  lines.push(`> Generated from [SOFA](https://sofa.macadmins.io/signed-versions) on ${new Date().toISOString().split('T')[0]}`)
+  return lines.join('\n')
+}
+
+async function copyVersionMarkdown(v) {
+  const md = generateVersionMarkdown(v)
+  try {
+    await navigator.clipboard.writeText(md)
+    copyFeedback.value = v.osVersion
+    setTimeout(() => { copyFeedback.value = null }, 2000)
+  } catch {
+    console.warn('Clipboard API not available')
+  }
+}
+
+function downloadVersionMarkdown(v) {
+  const md = generateVersionMarkdown(v)
+  const platform = platforms.find(p => p.id === selectedPlatform.value)
+  const filename = `${platform?.id || 'os'}-${v.productVersion}-signed-versions.md`
+  const blob = new Blob([md], { type: 'text/markdown' })
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = filename
+  a.click()
+  URL.revokeObjectURL(url)
 }
 </script>
 
@@ -113,13 +224,20 @@ function toggleDevices(osVersion) {
           <div class="version-title">
             <h3>{{ v.osVersion }}</h3>
             <span class="version-badge">{{ v.productVersion }}</span>
-            <span v-if="v.kevCount > 0" class="kev-badge">{{ v.kevCount }} Actively Exploited</span>
+            <span v-if="v.kevCount > 0" class="kev-badge">Fixes {{ v.kevCount }} Exploited CVE{{ v.kevCount > 1 ? 's' : '' }}</span>
           </div>
-          <div class="signing-status">
-            <span class="signed-badge">Signed</span>
+          <div class="card-actions">
+            <span v-if="v.build !== '—'" class="signed-badge">Signed</span>
+            <span v-else class="unsigned-badge">No longer signed</span>
             <span v-if="daysUntil(v.expiration)" class="expiry-note">
               expires in {{ daysUntil(v.expiration) }} days
             </span>
+            <button class="export-btn" @click="copyVersionMarkdown(v)">
+              {{ copyFeedback === v.osVersion ? 'Copied!' : 'Copy .md' }}
+            </button>
+            <button class="export-btn" @click="downloadVersionMarkdown(v)">
+              Download .md
+            </button>
           </div>
         </div>
 
@@ -151,15 +269,31 @@ function toggleDevices(osVersion) {
           </p>
         </div>
 
-        <!-- Device list (expandable) -->
-        <div class="devices-section">
+        <!-- Device list (expandable, grouped by product type) -->
+        <div v-if="v.deviceCount > 0" class="devices-section">
           <button class="devices-toggle" @click="toggleDevices(v.osVersion)">
             {{ expandedDevices[v.osVersion] ? 'Hide' : 'Show' }} supported devices ({{ v.deviceCount }})
           </button>
-          <div v-if="expandedDevices[v.osVersion]" class="device-list">
-            <span v-for="name in v.deviceNames" :key="name" class="device-chip">
-              {{ name }}
-            </span>
+          <div v-if="expandedDevices[v.osVersion]" class="device-groups">
+            <div v-for="(devs, category) in v.deviceGroups" :key="category" class="device-group">
+              <h4 class="group-label">{{ category }} <span class="group-count">{{ devs.length }}</span></h4>
+              <table class="device-table">
+                <thead>
+                  <tr>
+                    <th>Model</th>
+                    <th>Identifier</th>
+                    <th>Board ID</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="dev in devs" :key="dev.code">
+                    <td>{{ dev.name }}</td>
+                    <td class="mono">{{ dev.identifier }}</td>
+                    <td class="mono">{{ dev.code }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -275,10 +409,27 @@ function toggleDevices(osVersion) {
   font-weight: 600;
 }
 
-.signing-status {
+.card-actions {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.export-btn {
+  padding: 0.25rem 0.625rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-3);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.export-btn:hover {
+  color: var(--vp-c-text-1);
+  border-color: var(--vp-c-brand);
 }
 
 .signed-badge {
@@ -289,6 +440,21 @@ function toggleDevices(osVersion) {
   border-radius: 9999px;
   font-size: 0.75rem;
   font-weight: 600;
+}
+
+.unsigned-badge {
+  padding: 0.125rem 0.5rem;
+  background: #fef2f2;
+  color: #9ca3af;
+  border: 1px solid #e5e7eb;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+:root.dark .unsigned-badge {
+  background: rgba(107, 114, 128, 0.1);
+  border-color: rgba(107, 114, 128, 0.3);
 }
 
 .expiry-note {
@@ -362,20 +528,70 @@ function toggleDevices(osVersion) {
 
 .devices-toggle:hover { text-decoration: underline; }
 
-.device-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.375rem;
+.device-groups {
   margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.device-chip {
-  padding: 0.25rem 0.625rem;
+.device-group {
+  border: 1px solid var(--vp-c-divider-light);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.group-label {
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
   background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 6px;
+  border-bottom: 1px solid var(--vp-c-divider-light);
+}
+
+.group-count {
+  font-weight: 400;
+  color: var(--vp-c-text-3);
   font-size: 0.75rem;
+}
+
+.device-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8125rem;
+}
+
+.device-table th {
+  text-align: left;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--vp-c-text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid var(--vp-c-divider-light);
+}
+
+.device-table td {
+  padding: 0.375rem 0.75rem;
   color: var(--vp-c-text-2);
+  border-bottom: 1px solid var(--vp-c-divider-light);
+}
+
+.device-table tr:last-child td {
+  border-bottom: none;
+}
+
+.device-table tr:hover td {
+  background: var(--vp-c-bg-soft);
+}
+
+.device-table .mono {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: var(--vp-c-text-3);
 }
 
 /* Dark mode */
