@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "SchemaVersion": "2026.04.11.2",
-    "ContentHash": "5ca00277e1fb24ad528e52b643c9a18cde4ed9700dae61169409c6ceab847849",
-    "GeneratedAt": "2026-10-31T12:35:05.343279244+00:00",
+    "ContentHash": "eab49c6da6ae60f56defda7772a588a77cedc9906ec87dc0ecc13ed21e8db8ef",
+    "GeneratedAt": "2026-10-31T18:35:28.066735772+00:00",
     "Description": "Lightweight DMS feed. Releases inherit SupportedDevices from their OS version unless overridden."
   },
   "Devices": {
@@ -2301,7 +2301,7 @@
               "Version": "26.0",
               "Build": "",
               "ReleaseDate": "2025-09-15",
-              "CVECount": 24,
+              "CVECount": 0,
               "ActivelyExploitedCount": 0
             }
           ]
