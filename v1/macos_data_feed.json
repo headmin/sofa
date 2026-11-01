@@ -1,5 +1,5 @@
 {
-  "UpdateHash": "94a8e68a2f0370d9eb83220f0950d8b22f2b06c7e61329b10da25e04fbd6982c",
+  "UpdateHash": "99efb938553b5ebe16e05342c35da8eae66896e44777d9819ee07015dbfc3495",
   "OSVersions": [
     {
       "OSVersion": "Golden Gate 27",
@@ -13507,9 +13507,41 @@
             "VMA2MACOSAP",
             "VMM-x86_64"
           ],
-          "CVEs": {},
+          "CVEs": {
+            "CVE-2020-19185": false,
+            "CVE-2020-19186": false,
+            "CVE-2020-19187": false,
+            "CVE-2020-19188": false,
+            "CVE-2020-19189": false,
+            "CVE-2020-19190": false,
+            "CVE-2023-3618": false,
+            "CVE-2023-41989": false,
+            "CVE-2023-42834": false,
+            "CVE-2023-42836": false,
+            "CVE-2023-42838": false,
+            "CVE-2023-42884": false,
+            "CVE-2023-42886": false,
+            "CVE-2023-42891": false,
+            "CVE-2023-42892": false,
+            "CVE-2023-42893": false,
+            "CVE-2023-42894": false,
+            "CVE-2023-42896": false,
+            "CVE-2023-42899": false,
+            "CVE-2023-42914": false,
+            "CVE-2023-42919": false,
+            "CVE-2023-42922": false,
+            "CVE-2023-42924": false,
+            "CVE-2023-42930": false,
+            "CVE-2023-42931": false,
+            "CVE-2023-42932": false,
+            "CVE-2023-42936": false,
+            "CVE-2023-42947": false,
+            "CVE-2023-42952": false,
+            "CVE-2023-42974": false,
+            "CVE-2023-5344": false
+          },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "UniqueCVEsCount": 31,
           "DaysSincePreviousRelease": 34
         },
         {
