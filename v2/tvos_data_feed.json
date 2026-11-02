@@ -2,8 +2,8 @@
   "SchemaVersion": "2026.04.11.2",
   "OSName": "tvOS",
   "Version": "2.0",
-  "UpdateHash": "91619107f26d794355afada5bae89b286e10ad744f642434bf4efaafc6458c5a",
-  "LastCheck": "2026-11-02T18:14:49.438259313+00:00",
+  "UpdateHash": "2975b7391f44a5f3acc3af0894ca9153b1030430d98ff734f3fae7b83ecd1138",
+  "LastCheck": "2026-11-02T18:34:56.125979264+00:00",
   "OSVersions": [
     {
       "OSVersion": "tvOS 27",
@@ -692,11 +692,31 @@
           "ReleaseDate": "2026-03-24",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/126797",
-          "SecurityInfoContext": "tvOS 26.4 was released on March 24, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "tvOS 26.4 was released on March 24, 2026. This release addressed 19 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [],
-          "CVEs": {},
+          "CVEs": {
+            "CVE-2025-14524": {},
+            "CVE-2025-64505": {},
+            "CVE-2026-20665": {},
+            "CVE-2026-20687": {},
+            "CVE-2026-20690": {},
+            "CVE-2026-20698": {},
+            "CVE-2026-28822": {},
+            "CVE-2026-28852": {},
+            "CVE-2026-28859": {},
+            "CVE-2026-28860": {},
+            "CVE-2026-28863": {},
+            "CVE-2026-28865": {},
+            "CVE-2026-28867": {},
+            "CVE-2026-28870": {},
+            "CVE-2026-28878": {},
+            "CVE-2026-28879": {},
+            "CVE-2026-28882": {},
+            "CVE-2026-28886": {},
+            "CVE-2026-28896": {}
+          },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "UniqueCVEsCount": 19,
           "DaysSincePreviousRelease": 41,
           "SupersededBy": {
             "ProductVersion": "26.5",
@@ -705,9 +725,9 @@
             "DaysLater": 48
           },
           "UpdateSummary": {
-            "Priority": "low",
-            "Summary": "Maintenance update with no published CVE entries",
-            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Priority": "high",
+            "Summary": "Addresses 19 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -715,7 +735,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 0
+              "Total": 19
             }
           }
         },
