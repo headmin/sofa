@@ -1,41 +1,41 @@
 {
-  "timestamp": "2026-11-01T21:23:55.264Z",
+  "timestamp": "2026-11-02T13:55:44.994Z",
   "periods": {
     "volume": {
-      "start": "2026-10-02T00:00:00.000Z",
-      "end": "2026-11-01T00:00:00.000Z",
+      "start": "2026-10-03T00:00:00.000Z",
+      "end": "2026-11-02T00:00:00.000Z",
       "days": 30
     },
     "trend": {
-      "start": "2026-10-25T00:00:00.000Z",
-      "end": "2026-11-01T00:00:00.000Z",
+      "start": "2026-10-26T00:00:00.000Z",
+      "end": "2026-11-02T00:00:00.000Z",
       "days": 7
     }
   },
   "volume": {
     "metrics": {
       "totalRequests": {
-        "value": 129223704,
-        "formatted": "129.22M"
+        "value": 127678076,
+        "formatted": "127.68M"
       },
       "bandwidth": {
-        "bytes": 4271244461082,
-        "formatted": "3.88 TB"
+        "bytes": 4233871709757,
+        "formatted": "3.85 TB"
       },
       "cachedRequests": {
-        "value": 123200735,
-        "formatted": "123.20M"
+        "value": 121792095,
+        "formatted": "121.79M"
       },
       "cacheRatio": {
-        "value": 95.3,
-        "formatted": "95.3%"
+        "value": 95.4,
+        "formatted": "95.4%"
       }
     },
     "calculated": {
       "dailyAverage": {
-        "requests": 4307456,
+        "requests": 4255935,
         "formatted": {
-          "requests": "4.31M"
+          "requests": "4.26M"
         }
       }
     }
@@ -43,16 +43,16 @@
   "trend": {
     "metrics": {
       "totalRequests": {
-        "value": 30777234,
-        "formatted": "30.78M"
+        "value": 30846764,
+        "formatted": "30.85M"
       },
       "bandwidth": {
-        "bytes": 1103321243574,
-        "formatted": "1.00 TB"
+        "bytes": 1119156040414,
+        "formatted": "1.02 TB"
       },
       "cachedRequests": {
-        "value": 29605400,
-        "formatted": "29.61M"
+        "value": 29677659,
+        "formatted": "29.68M"
       }
     },
     "daily": [
@@ -72,6 +72,11 @@
         "bytes": 194162475305
       },
       {
+        "date": "2026-11-01",
+        "requests": 3033752,
+        "bytes": 107175865789
+      },
+      {
         "date": "2026-10-31",
         "requests": 3040664,
         "bytes": 105390134553
@@ -80,11 +85,6 @@
         "date": "2026-10-29",
         "requests": 5029304,
         "bytes": 182844002868
-      },
-      {
-        "date": "2026-10-25",
-        "requests": 2964222,
-        "bytes": 91341068949
       },
       {
         "date": "2026-10-26",
