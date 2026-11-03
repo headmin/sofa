@@ -2,8 +2,8 @@
   "SchemaVersion": "2026.04.11.2",
   "OSName": "watchOS",
   "Version": "2.0",
-  "UpdateHash": "38aca31a2bf510c705d360191e24cc8b0c3d028bd3284e83ac76d60b90696cd1",
-  "LastCheck": "2026-11-03T06:39:44.501848929+00:00",
+  "UpdateHash": "fc8e41ae1ce7d78ab8b65743c12d5ea0b40f6b8e146bd26da71ca78ca7a00a5c",
+  "LastCheck": "2026-11-03T12:36:35.292383091+00:00",
   "OSVersions": [
     {
       "OSVersion": "watchOS 27",
@@ -846,37 +846,11 @@
           "ReleaseDate": "2026-03-24",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/126798",
-          "SecurityInfoContext": "watchOS 26.4 was released on March 24, 2026. This release addressed 25 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "watchOS 26.4 was released on March 24, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [],
-          "CVEs": {
-            "CVE-2025-14524": {},
-            "CVE-2025-64505": {},
-            "CVE-2026-20665": {},
-            "CVE-2026-20687": {},
-            "CVE-2026-20690": {},
-            "CVE-2026-20691": {},
-            "CVE-2026-20698": {},
-            "CVE-2026-28822": {},
-            "CVE-2026-28852": {},
-            "CVE-2026-28856": {},
-            "CVE-2026-28859": {},
-            "CVE-2026-28860": {},
-            "CVE-2026-28863": {},
-            "CVE-2026-28864": {},
-            "CVE-2026-28865": {},
-            "CVE-2026-28867": {},
-            "CVE-2026-28868": {},
-            "CVE-2026-28870": {},
-            "CVE-2026-28877": {},
-            "CVE-2026-28878": {},
-            "CVE-2026-28879": {},
-            "CVE-2026-28882": {},
-            "CVE-2026-28886": {},
-            "CVE-2026-28896": {},
-            "CVE-2026-43679": {}
-          },
+          "CVEs": {},
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 25,
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 41,
           "SupersededBy": {
             "ProductVersion": "26.5",
@@ -885,9 +859,9 @@
             "DaysLater": 48
           },
           "UpdateSummary": {
-            "Priority": "high",
-            "Summary": "Addresses 25 security issues",
-            "Recommendation": "Update to stay secure - security fixes available",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -895,7 +869,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 25
+              "Total": 0
             }
           }
         },
