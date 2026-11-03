@@ -1,5 +1,5 @@
 {
-  "UpdateHash": "523fe00649eaa9f26a050a8541a70124358b64868f5ca6c5d5939fff018b5f30",
+  "UpdateHash": "4bc059294b5e206283687ce10c111c3a979daccfb7deb173d52499dd98c9b200",
   "OSVersions": [
     {
       "OSVersion": "Golden Gate 27",
@@ -14862,13 +14862,13 @@
             "CVE-2022-42856"
           ],
           "UniqueCVEsCount": 51,
-          "DaysSincePreviousRelease": 34
+          "DaysSincePreviousRelease": 0
         },
         {
           "UpdateName": "macOS Ventura 13.0.1",
           "ProductName": "macOS",
           "ProductVersion": "13.0.1",
-          "ReleaseDate": "2022-11-09T00:00:00Z",
+          "ReleaseDate": "2024-06-12T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/kb/HT213504",
           "SupportedDevices": [
@@ -14928,10 +14928,13 @@
             "VMA2MACOSAP",
             "VMM-x86_64"
           ],
-          "CVEs": {},
+          "CVEs": {
+            "CVE-2022-40303": false,
+            "CVE-2022-40304": false
+          },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
-          "DaysSincePreviousRelease": 16
+          "UniqueCVEsCount": 2,
+          "DaysSincePreviousRelease": 597
         },
         {
           "UpdateName": "macOS Ventura 13",
@@ -19153,7 +19156,7 @@
       ]
     },
     "MacBookPro15,2": {
-      "MarketingName": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
+      "MarketingName": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)",
       "SupportedOS": [
         "Sequoia 15",
         "Sonoma 14",

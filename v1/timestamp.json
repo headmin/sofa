@@ -1,26 +1,26 @@
 {
-  "watchOS": {
-    "LastCheck": "2026-11-03T19:09:26+00:00Z",
-    "UpdateHash": "929ca38289b1bab210caea1a335b83f640f71f130a3abd99b739fef12d78f8fc"
-  },
-  "Safari": {
-    "LastCheck": "2026-11-03T19:09:26+00:00Z",
-    "UpdateHash": "24b8761714c8084368cf6508c862e0409071263ba2ebd9fc7abb2cd340fcdfdc"
+  "iOS": {
+    "LastCheck": "2026-11-03T20:12:27+00:00Z",
+    "UpdateHash": "c1ec44ad147e05509e1dcff54249e934eb55833c4c388f7acffd0c1e8f67b106"
   },
   "visionOS": {
-    "LastCheck": "2026-11-03T19:09:26+00:00Z",
-    "UpdateHash": "813f2e6d358cb42ef731b366453ad560ac82d8705b52b71c52703fcfa4eaa5cb"
+    "LastCheck": "2026-11-03T20:12:27+00:00Z",
+    "UpdateHash": "64d2a00f97b1c3262bb5aa7c72ef96674fd25881098840d7ca85f5d451a8f463"
   },
-  "iOS": {
-    "LastCheck": "2026-11-03T19:09:26+00:00Z",
-    "UpdateHash": "77ba3110c7f4ad1e0da5317520aa62012dc5924e68d6699ea2e42bbc7c246ac7"
+  "watchOS": {
+    "LastCheck": "2026-11-03T20:12:27+00:00Z",
+    "UpdateHash": "929ca38289b1bab210caea1a335b83f640f71f130a3abd99b739fef12d78f8fc"
   },
   "macOS": {
-    "LastCheck": "2026-11-03T19:09:26+00:00Z",
-    "UpdateHash": "a8e58b494383281475bbbe0a0a0e8472079169d1e2dfd273d2a62f1e58c4d80c"
+    "LastCheck": "2026-11-03T20:12:27+00:00Z",
+    "UpdateHash": "8f4318f92b4e82f2d472e2a96c0ea197027220ef45be12c07ffdaa133197feac"
+  },
+  "Safari": {
+    "LastCheck": "2026-11-03T20:12:27+00:00Z",
+    "UpdateHash": "b8ae3c02d9593ed4e4366fadf97048804b2a86cc6092156ae18ca659f691f502"
   },
   "tvOS": {
-    "LastCheck": "2026-11-03T19:09:26+00:00Z",
+    "LastCheck": "2026-11-03T20:12:27+00:00Z",
     "UpdateHash": "11d3f13e6117746fa1f204a16e9f08b0b18b2d2d41d59407ee22a5fca0927b62"
   }
 }
