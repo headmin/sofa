@@ -311,3 +311,7 @@
 {"timestamp":"2026-10-27T01:09:59Z","platform":"audioOS","version":"26.6","build":"23L773","posting_date":"2026-07-27","entry_type":"pmv_asset","unique_id":"pmv-audioOS-23L773-26.6"}
 {"timestamp":"2026-10-27T01:09:59Z","platform":"audioOS","version":"26.6","build":"23L6773","posting_date":"2026-07-27","entry_type":"pmv_asset","unique_id":"pmv-audioOS-23L6773-26.6"}
 {"timestamp":"2026-10-31T00:44:20Z","platform":"iOS","version":"27.2","build":"24V514","posting_date":"2026-10-30","entry_type":"pmv_asset","unique_id":"pmv-iOS-24V514-27.2"}
+{"timestamp":"2026-11-03T00:45:06Z","platform":"tvOS","version":"27.2","build":"24K6154","posting_date":"2026-11-02","entry_type":"pmv_asset","unique_id":"pmv-tvOS-24K6154-27.2"}
+{"timestamp":"2026-11-03T00:45:06Z","platform":"tvOS","version":"27.2","build":"24K154","posting_date":"2026-11-02","entry_type":"pmv_asset","unique_id":"pmv-tvOS-24K154-27.2"}
+{"timestamp":"2026-11-03T00:45:06Z","platform":"audioOS","version":"27.2","build":"24K122","posting_date":"2026-10-26","entry_type":"pmv_asset","unique_id":"pmv-audioOS-24K122-27.2"}
+{"timestamp":"2026-11-03T00:45:06Z","platform":"audioOS","version":"27.2","build":"24K6122","posting_date":"2026-10-26","entry_type":"pmv_asset","unique_id":"pmv-audioOS-24K6122-27.2"}

@@ -1,5 +1,5 @@
 {
-  "update_hash": "sha256:5b46505be1492ea6187b3e8bb36758cb0939565197f464b9dd8c7f60e5e55434",
+  "update_hash": "sha256:85c7cbee9a995be0bab57249b83252365f6dde7ad248efa10911a4df060fd070",
   "devices": [
     {
       "name": "iPhone 2G",
@@ -2622,7 +2622,7 @@
       {
         "version": "27.0.1",
         "buildid": "24A446",
-        "signed": true,
+        "signed": false,
         "signing_started": null,
         "signing_stopped": null,
         "url": "https://updates.cdn-apple.com/2026FallFCS/d2a71f59-ed65-4d58-9962-f162a5ecf4a0/iPad_Spring_2022_27.0.1_24A446_Restore.ipsw",
@@ -3236,7 +3236,7 @@
       {
         "version": "27.0.1",
         "buildid": "24A446",
-        "signed": true,
+        "signed": false,
         "signing_started": null,
         "signing_stopped": null,
         "url": "https://updates.cdn-apple.com/2026FallFCS/1306f1ec-7ef0-4d94-92ba-dbcbcf9e8d3d/iPhone14,2_27.0.1_24A446_Restore.ipsw",
@@ -4592,7 +4592,7 @@
     "build": "26B123",
     "url": "https://updates.cdn-apple.com/2026FallFCS/c9671975-52db-4fb5-9af2-00217169ba8d/UniversalMac_27.2_26B123_Restore.ipsw",
     "apple_slug": "unknown",
-    "fetch_timestamp": "2026-11-02T20:10:38.313750541Z"
+    "fetch_timestamp": "2026-11-03T00:45:07.122001604Z"
   },
   "total_devices": 286,
   "total_firmwares": 285
