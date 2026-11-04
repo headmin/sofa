@@ -2,8 +2,8 @@
   "SchemaVersion": "2026.04.11.2",
   "OSName": "visionOS",
   "Version": "2.0",
-  "UpdateHash": "066d63c87c60c0d30cdb17d90dadbd7bad07c66c0fc43addae2d92b9473c4753",
-  "LastCheck": "2026-11-04T17:10:19.638152511+00:00",
+  "UpdateHash": "5db2fdeff9656756dc37bf76d72077a265ccea27d1d53af656c826d563be0da9",
+  "LastCheck": "2026-11-04T18:14:05.234012951+00:00",
   "OSVersions": [
     {
       "OSVersion": "visionOS 27",
@@ -1297,35 +1297,11 @@
           "ReleaseDate": "2025-09-15",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/125115",
-          "SecurityInfoContext": "visionOS 26.0 was released on September 15, 2025. This release addressed 23 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "visionOS 26.0 was released on September 15, 2025. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [],
-          "CVEs": {
-            "CVE-2025-43190": {},
-            "CVE-2025-43272": {},
-            "CVE-2025-43302": {},
-            "CVE-2025-43303": {},
-            "CVE-2025-43316": {},
-            "CVE-2025-43317": {},
-            "CVE-2025-43323": {},
-            "CVE-2025-43342": {},
-            "CVE-2025-43343": {},
-            "CVE-2025-43344": {},
-            "CVE-2025-43345": {},
-            "CVE-2025-43346": {},
-            "CVE-2025-43347": {},
-            "CVE-2025-43349": {},
-            "CVE-2025-43354": {},
-            "CVE-2025-43355": {},
-            "CVE-2025-43356": {},
-            "CVE-2025-43359": {},
-            "CVE-2025-43361": {},
-            "CVE-2025-43372": {},
-            "CVE-2025-43376": {},
-            "CVE-2025-43419": {},
-            "CVE-2025-6965": {}
-          },
+          "CVEs": {},
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 23,
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 0,
           "SupersededBy": {
             "ProductVersion": "26.0.1",
@@ -1334,9 +1310,9 @@
             "DaysLater": 14
           },
           "UpdateSummary": {
-            "Priority": "high",
-            "Summary": "Addresses 23 security issues",
-            "Recommendation": "Update to stay secure - security fixes available",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -1344,7 +1320,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 23
+              "Total": 0
             }
           }
         }
@@ -1361,54 +1337,16 @@
         "ReleaseDate": "2025-07-29",
         "ReleaseType": "OS",
         "SecurityInfo": "https://support.apple.com/en-us/124154",
-        "SecurityInfoContext": "visionOS has been updated to version 2.6, released on July 29, 2025. This update addresses 26 security issues and is the most recent approved version.",
+        "SecurityInfoContext": "visionOS has been updated to version 2.6, released on July 29, 2025. This update has no published CVE entries and is the most recent approved version.",
         "SupportedDevices": [],
-        "CVEs": {
-          "CVE-2025-31273": {},
-          "CVE-2025-31277": {
-            "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
-            "InKEV": true,
-            "Severity": "High"
-          },
-          "CVE-2025-31278": {},
-          "CVE-2025-31281": {},
-          "CVE-2025-43186": {},
-          "CVE-2025-43209": {},
-          "CVE-2025-43210": {},
-          "CVE-2025-43211": {},
-          "CVE-2025-43212": {},
-          "CVE-2025-43213": {},
-          "CVE-2025-43214": {},
-          "CVE-2025-43216": {},
-          "CVE-2025-43221": {},
-          "CVE-2025-43223": {},
-          "CVE-2025-43224": {},
-          "CVE-2025-43226": {},
-          "CVE-2025-43227": {},
-          "CVE-2025-43230": {},
-          "CVE-2025-43234": {},
-          "CVE-2025-43265": {},
-          "CVE-2025-43277": {},
-          "CVE-2025-43282": {},
-          "CVE-2025-6558": {
-            "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-6558",
-            "InKEV": true,
-            "Severity": "High"
-          },
-          "CVE-2025-6965": {},
-          "CVE-2025-7424": {},
-          "CVE-2025-7425": {}
-        },
-        "ActivelyExploitedCVEs": [
-          "CVE-2025-31277",
-          "CVE-2025-6558"
-        ],
-        "UniqueCVEsCount": 26,
+        "CVEs": {},
+        "ActivelyExploitedCVEs": [],
+        "UniqueCVEsCount": 0,
         "DaysSincePreviousRelease": 78,
         "UpdateSummary": {
-          "Priority": "high",
-          "Summary": "Addresses 26 security issues",
-          "Recommendation": "Update to stay secure - security fixes available",
+          "Priority": "low",
+          "Summary": "Maintenance update with no published CVE entries",
+          "Recommendation": "Update recommended - may include unpublished security improvements",
           "Stats": {
             "Exploited": 0,
             "Critical": 0,
@@ -1416,7 +1354,7 @@
             "Medium": 0,
             "Low": 0,
             "Remote": 0,
-            "Total": 26
+            "Total": 0
           }
         }
       },
@@ -1430,54 +1368,16 @@
           "ReleaseDate": "2025-07-29",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/124154",
-          "SecurityInfoContext": "visionOS has been updated to version 2.6, released on July 29, 2025. This update addresses 26 security issues and is the most recent approved version.",
+          "SecurityInfoContext": "visionOS has been updated to version 2.6, released on July 29, 2025. This update has no published CVE entries and is the most recent approved version.",
           "SupportedDevices": [],
-          "CVEs": {
-            "CVE-2025-31273": {},
-            "CVE-2025-31277": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
-              "InKEV": true,
-              "Severity": "High"
-            },
-            "CVE-2025-31278": {},
-            "CVE-2025-31281": {},
-            "CVE-2025-43186": {},
-            "CVE-2025-43209": {},
-            "CVE-2025-43210": {},
-            "CVE-2025-43211": {},
-            "CVE-2025-43212": {},
-            "CVE-2025-43213": {},
-            "CVE-2025-43214": {},
-            "CVE-2025-43216": {},
-            "CVE-2025-43221": {},
-            "CVE-2025-43223": {},
-            "CVE-2025-43224": {},
-            "CVE-2025-43226": {},
-            "CVE-2025-43227": {},
-            "CVE-2025-43230": {},
-            "CVE-2025-43234": {},
-            "CVE-2025-43265": {},
-            "CVE-2025-43277": {},
-            "CVE-2025-43282": {},
-            "CVE-2025-6558": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-6558",
-              "InKEV": true,
-              "Severity": "High"
-            },
-            "CVE-2025-6965": {},
-            "CVE-2025-7424": {},
-            "CVE-2025-7425": {}
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2025-31277",
-            "CVE-2025-6558"
-          ],
-          "UniqueCVEsCount": 26,
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 78,
           "UpdateSummary": {
-            "Priority": "high",
-            "Summary": "Addresses 26 security issues",
-            "Recommendation": "Update to stay secure - security fixes available",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -1485,7 +1385,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 26
+              "Total": 0
             }
           }
         },
