@@ -1,8 +1,8 @@
 {
-  "update_hash": "sha256:61306881a33775673154c24dca12edd3bcc8c845ee5b123c215ea83cdd430fbe",
-  "total_products": 21,
+  "update_hash": "sha256:ea58e733770c184aca38e602abc302ec1341da95f84d8c11793ac6f754759c03",
+  "total_products": 18,
   "categories": {
-    "macOS": 21
+    "macOS": 18
   },
   "catalog_url": "https://swscan.apple.com/content/catalogs/others/index-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog",
   "products": [
@@ -79,15 +79,6 @@
       "download_url": "https://swcdn.apple.com/content/downloads/10/29/140-77964-A_0UTOTNYQBE/i3xi6sdu6ix3hinx00nytw4u0tky6oyswt/InstallAssistant.pkg"
     },
     {
-      "product_key": "140-71750",
-      "title": "macOS Tahoe",
-      "version": "26.6",
-      "build": "25G72",
-      "posting_date": "2026-07-27T18:01:08Z",
-      "size": 18380741420,
-      "download_url": "https://swcdn.apple.com/content/downloads/56/57/140-71750-A_ZJ1ETGFD03/dnnk12px38rclkv5ettt24crfqd9w244ua/InstallAssistant.pkg"
-    },
-    {
       "product_key": "142-50013",
       "title": "macOS Sequoia",
       "version": "15.8.2",
@@ -124,15 +115,6 @@
       "download_url": "https://swcdn.apple.com/content/downloads/16/08/140-85388-A_3LX3Q36I6P/zxod6nr7zkovvsml6s628z44gdbc4exa5p/InstallAssistant.pkg"
     },
     {
-      "product_key": "140-71763",
-      "title": "macOS Sequoia",
-      "version": "15.7.8",
-      "build": "24G824",
-      "posting_date": "2026-07-27T18:12:55Z",
-      "size": 15662526281,
-      "download_url": "https://swcdn.apple.com/content/downloads/11/25/140-71763-A_J1EVMAEOWN/smk9mja1myiettgeafge6oha4levx39v2i/InstallAssistant.pkg"
-    },
-    {
       "product_key": "140-88558",
       "title": "macOS Sonoma",
       "version": "14.8.9",
@@ -140,15 +122,6 @@
       "posting_date": "2026-08-24T22:50:35Z",
       "size": 13670152950,
       "download_url": "https://swcdn.apple.com/content/downloads/13/30/140-88558-A_TN3FIE7J63/p61cqj3ktmcqilz3q64ls4ekp1os9c8qbp/InstallAssistant.pkg"
-    },
-    {
-      "product_key": "140-75436",
-      "title": "macOS Sonoma",
-      "version": "14.8.8",
-      "build": "23J620",
-      "posting_date": "2026-07-27T18:14:35Z",
-      "size": 13669367579,
-      "download_url": "https://swcdn.apple.com/content/downloads/40/12/140-75436-A_GB8UWVHS9N/5xfegq6xrfx5iewmc26aruzvv4ykpubijg/InstallAssistant.pkg"
     },
     {
       "product_key": "093-22004",

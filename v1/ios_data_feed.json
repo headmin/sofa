@@ -1,5 +1,5 @@
 {
-  "UpdateHash": "16623e16563b9ebed1275eb59ce20cbeb06acf45f9aba716e4c60baeb78d65a3",
+  "UpdateHash": "37695e40a7b82f66ef3efbef777ab17049a855aa3603c1e0a01ef89c83aceea7",
   "OSVersions": [
     {
       "OSVersion": "27",
@@ -3190,52 +3190,9 @@
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/125633",
           "SupportedDevices": [],
-          "CVEs": {
-            "CVE-2025-43365": false,
-            "CVE-2025-43377": false,
-            "CVE-2025-43383": false,
-            "CVE-2025-43384": false,
-            "CVE-2025-43385": false,
-            "CVE-2025-43386": false,
-            "CVE-2025-43389": false,
-            "CVE-2025-43392": false,
-            "CVE-2025-43398": false,
-            "CVE-2025-43399": false,
-            "CVE-2025-43407": false,
-            "CVE-2025-43418": false,
-            "CVE-2025-43423": false,
-            "CVE-2025-43429": false,
-            "CVE-2025-43431": false,
-            "CVE-2025-43433": false,
-            "CVE-2025-43434": false,
-            "CVE-2025-43435": false,
-            "CVE-2025-43438": false,
-            "CVE-2025-43439": false,
-            "CVE-2025-43441": false,
-            "CVE-2025-43442": false,
-            "CVE-2025-43443": false,
-            "CVE-2025-43444": false,
-            "CVE-2025-43445": false,
-            "CVE-2025-43448": false,
-            "CVE-2025-43450": false,
-            "CVE-2025-43454": false,
-            "CVE-2025-43458": false,
-            "CVE-2025-43493": false,
-            "CVE-2025-43494": false,
-            "CVE-2025-43495": false,
-            "CVE-2025-43496": false,
-            "CVE-2025-43499": false,
-            "CVE-2025-43503": false,
-            "CVE-2025-43507": false,
-            "CVE-2025-43510": true,
-            "CVE-2025-43511": false,
-            "CVE-2025-43520": true
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2025-43520",
-            "CVE-2025-43510"
-          ],
-          "UniqueCVEsCount": 39,
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 0
         },
         {
@@ -3424,11 +3381,9 @@
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/125327",
           "SupportedDevices": [],
-          "CVEs": {
-            "CVE-2025-43400": false
-          },
+          "CVEs": {},
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 1,
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 14
         },
         {

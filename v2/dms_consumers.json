@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "SchemaVersion": "2026.04.11.2",
-    "ContentHash": "defb0ce7a05dcb9606decbe5e3c2727a567e3a37472a97dc59239b72ea6e2b9e",
-    "GeneratedAt": "2026-11-04T18:35:36.677489804+00:00",
+    "ContentHash": "d1d310aa1241ebac785b80cba632a47e10ef1907c24580ec95a34a814433ed8f",
+    "GeneratedAt": "2026-11-04T19:09:34.155644450+00:00",
     "Description": "Device Management consumers view of Apple-signed OS versions across all platforms with resolved device details."
   },
   "Devices": {
@@ -4772,7 +4772,7 @@
               "Version": "26.5",
               "Build": "",
               "ReleaseDate": "2026-05-11",
-              "CVECount": 48,
+              "CVECount": 0,
               "ActivelyExploitedCount": 0,
               "DeviceScope": "universal",
               "SupportedDevices": [
