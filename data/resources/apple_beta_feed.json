@@ -1,7 +1,77 @@
 {
-  "UpdateHash": "a68ed19f542e783d82831cb23cccda923b3e28b3f7d975b838279d512e3445df",
-  "created_at": "2026-11-03T20:11:37.732779Z",
+  "UpdateHash": "3177c4b94d6031475a75513d382a41f7d01ee9b84d82e36f19b76be05e966454",
+  "created_at": "2026-11-04T00:44:36.090416Z",
   "items": [
+    {
+      "title": "Xcode 27.3 beta (27C5020n)",
+      "platform": "Xcode",
+      "version": "27.3 beta",
+      "build": "27C5020n",
+      "released": "2026-11-03",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-27_3-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iOS 27.3 beta (24C5037i)",
+      "platform": "iOS",
+      "version": "27.3 beta",
+      "build": "24C5037i",
+      "released": "2026-11-03",
+      "release_notes_url": "https://developer.apple.com/go/?id=ios-27_3-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iPadOS 27.3 beta (24C5037i)",
+      "platform": "iPadOS",
+      "version": "27.3 beta",
+      "build": "24C5037i",
+      "released": "2026-11-03",
+      "release_notes_url": "https://developer.apple.com/go/?id=ipados-27_3-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "macOS 27.3 beta (26C5035r)",
+      "platform": "macOS",
+      "version": "27.3 beta",
+      "build": "26C5035r",
+      "released": "2026-11-03",
+      "release_notes_url": "https://developer.apple.com/go/?id=macos-27_3-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "tvOS 27.3 beta (24K5286g)",
+      "platform": "tvOS",
+      "version": "27.3 beta",
+      "build": "24K5286g",
+      "released": "2026-11-03",
+      "release_notes_url": "https://developer.apple.com/go/?id=tvos-27_3-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "visionOS 27.3 beta (24N5286r)",
+      "platform": "visionOS",
+      "version": "27.3 beta",
+      "build": "24N5286r",
+      "released": "2026-11-03",
+      "release_notes_url": "https://developer.apple.com/go/?id=visionos-27_3-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "watchOS 27.3 beta (24S5284h)",
+      "platform": "watchOS",
+      "version": "27.3 beta",
+      "build": "24S5284h",
+      "released": "2026-11-03",
+      "release_notes_url": "https://developer.apple.com/go/?id=watchos-27_3-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
     {
       "title": "Xcode 27.2 (27B52)",
       "platform": "Xcode",

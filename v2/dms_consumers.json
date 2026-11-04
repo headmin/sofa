@@ -2,7 +2,7 @@
   "Metadata": {
     "SchemaVersion": "2026.04.11.2",
     "ContentHash": "defb0ce7a05dcb9606decbe5e3c2727a567e3a37472a97dc59239b72ea6e2b9e",
-    "GeneratedAt": "2026-11-03T20:12:27.391515997+00:00",
+    "GeneratedAt": "2026-11-04T00:45:04.464583578+00:00",
     "Description": "Device Management consumers view of Apple-signed OS versions across all platforms with resolved device details."
   },
   "Devices": {

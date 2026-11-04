@@ -1,9 +1,24 @@
 {
   "title": "CISA Catalog of Known Exploited Vulnerabilities",
-  "catalogVersion": "2026.10.30",
-  "dateReleased": "2026-10-30T17:02:45.3665Z",
-  "count": 1766,
+  "catalogVersion": "2026.11.03",
+  "dateReleased": "2026-11-03T20:00:24.8741Z",
+  "count": 1767,
   "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-119977",
+      "vendorProject": "WordPress",
+      "product": "WordPress Core",
+      "vulnerabilityName": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+      "dateAdded": "2026-11-03",
+      "shortDescription": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades.",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "dueDate": "2026-11-06",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://wordpress.org/news/2026/10/wordpress-7-1-4 ; https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-core/wordpress-core-470-713-unauthenticated-upgrade-window-staged-installer-remote-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
+      "cwes": [
+        "CWE-367"
+      ]
+    },
     {
       "cveID": "CVE-2026-118527",
       "vendorProject": "Ivanti",
@@ -26272,5 +26287,5 @@
       ]
     }
   ],
-  "fetchTimestamp": "2026-11-03T20:11:35.867297733Z"
+  "fetchTimestamp": "2026-11-04T00:44:34.245819275Z"
 }
