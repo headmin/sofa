@@ -1,11 +1,11 @@
 {
-  "content_hash": "c13a813f7839a24b774c83bebf211cd932943b998eb65342a4b8179cf231c622",
+  "content_hash": "ba62707d04b89ffaa1b359a7fbfe83bbf5de98f57310d1718d9dcc43f45422a1",
   "content_changed": true,
-  "generated_at": "2026-11-05T19:10:10.779675688Z",
+  "generated_at": "2026-11-05T20:12:21.178769398Z",
   "latest_releases": {
     "macos": {
       "version": "27.2",
-      "build": "26B123",
+      "build": "26B8125",
       "release_date": "2026-10-26T00:00:00Z",
       "url": "https://support.apple.com/en-us/149521",
       "cves_fixed": [

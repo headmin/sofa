@@ -1,8 +1,8 @@
 {
-  "update_hash": "sha256:dc7059b530587cfead9ca5a23b395d2a6d3d5e3bc9ebfb7983fc765436fcd2eb",
-  "total_products": 18,
+  "update_hash": "sha256:8b75381951eaef3146b7367d245cbd9ffc7568776757df2c9e0a3302e025d4f7",
+  "total_products": 20,
   "categories": {
-    "macOS": 18
+    "macOS": 20
   },
   "catalog_url": "https://swscan.apple.com/content/catalogs/others/index-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog",
   "products": [
@@ -14,6 +14,24 @@
       "posting_date": "2026-10-26T18:04:46Z",
       "size": 17820888084,
       "download_url": "https://swcdn.apple.com/content/downloads/52/46/142-50055-A_O5SYDX5BLY/c72meffi1hj2eaf9fgtakkgwds73ujrr5u/InstallAssistant.pkg"
+    },
+    {
+      "product_key": "142-52618",
+      "title": "macOS 27 Golden Gate",
+      "version": "27.2",
+      "build": "26B8125",
+      "posting_date": "2026-11-05T19:14:34Z",
+      "size": 15336910122,
+      "download_url": "https://swcdn.apple.com/content/downloads/11/49/142-52618-A_3KJCAKDKAK/3ezbu5p177r2xvfphp803sduetahnw914q/InstallAssistant.pkg"
+    },
+    {
+      "product_key": "142-16607",
+      "title": "macOS 27 Golden Gate",
+      "version": "27.2",
+      "build": "26B7124",
+      "posting_date": "2026-11-05T19:15:37Z",
+      "size": 15336642433,
+      "download_url": "https://swcdn.apple.com/content/downloads/26/50/142-16607-A_JXDI69BEGN/r45lva8qa0ox3v7bxlqs3yynpa538jdzxk/InstallAssistant.pkg"
     },
     {
       "product_key": "142-27367",

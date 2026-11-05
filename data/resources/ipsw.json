@@ -1,5 +1,5 @@
 {
-  "update_hash": "sha256:e4980c9f07f04432cbbdb27294d4407216b819f83c74a7fc80abbfce2f685c61",
+  "update_hash": "sha256:b0780fecd2c58fc21cb7cee9bc014bedf27e8b24ae156adbbac4769247784620",
   "devices": [
     {
       "name": "iPhone 2G",
@@ -2002,6 +2002,62 @@
       "platform": "t8310",
       "cpid": 33552,
       "bdid": 66
+    },
+    {
+      "name": "MacBook Pro (14-inch PROLED XDR Display)",
+      "identifier": "Mac17,11",
+      "platform": "t6050",
+      "cpid": 24656,
+      "bdid": 4
+    },
+    {
+      "name": "MacBook Pro (14-inch PROLED XDR Display)",
+      "identifier": "Mac17,13",
+      "platform": "t6050",
+      "cpid": 24656,
+      "bdid": 20
+    },
+    {
+      "name": "MacBook Pro (16-inch PROLED XDR Display)",
+      "identifier": "Mac17,10",
+      "platform": "t6050",
+      "cpid": 24656,
+      "bdid": 6
+    },
+    {
+      "name": "MacBook Pro (16-inch PROLED XDR Display)",
+      "identifier": "Mac17,12",
+      "platform": "t6050",
+      "cpid": 24656,
+      "bdid": 22
+    },
+    {
+      "name": "iMac (24-inch, M6)",
+      "identifier": "Mac18,2",
+      "platform": "t8152",
+      "cpid": 33106,
+      "bdid": 38
+    },
+    {
+      "name": "MacBook Pro (14-inch, M6)",
+      "identifier": "Mac18,1",
+      "platform": "t8152",
+      "cpid": 33106,
+      "bdid": 34
+    },
+    {
+      "name": "iPad mini (A20 Pro)",
+      "identifier": "iPad19,1",
+      "platform": "t8160",
+      "cpid": 33120,
+      "bdid": 4
+    },
+    {
+      "name": "iPad mini (A20 Pro)",
+      "identifier": "iPad19,2",
+      "platform": "t8160",
+      "cpid": 33120,
+      "bdid": 6
     }
   ],
   "latest_versions": {
@@ -4592,8 +4648,8 @@
     "build": "26B123",
     "url": "https://updates.cdn-apple.com/2026FallFCS/c9671975-52db-4fb5-9af2-00217169ba8d/UniversalMac_27.2_26B123_Restore.ipsw",
     "apple_slug": "unknown",
-    "fetch_timestamp": "2026-11-05T19:09:09.615499241Z"
+    "fetch_timestamp": "2026-11-05T20:11:09.713042236Z"
   },
-  "total_devices": 286,
+  "total_devices": 294,
   "total_firmwares": 285
 }

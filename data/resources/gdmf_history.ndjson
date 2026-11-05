@@ -315,3 +315,5 @@
 {"timestamp":"2026-11-03T00:45:06Z","platform":"tvOS","version":"27.2","build":"24K154","posting_date":"2026-11-02","entry_type":"pmv_asset","unique_id":"pmv-tvOS-24K154-27.2"}
 {"timestamp":"2026-11-03T00:45:06Z","platform":"audioOS","version":"27.2","build":"24K122","posting_date":"2026-10-26","entry_type":"pmv_asset","unique_id":"pmv-audioOS-24K122-27.2"}
 {"timestamp":"2026-11-03T00:45:06Z","platform":"audioOS","version":"27.2","build":"24K6122","posting_date":"2026-10-26","entry_type":"pmv_asset","unique_id":"pmv-audioOS-24K6122-27.2"}
+{"timestamp":"2026-11-05T20:11:08Z","platform":"macOS","version":"27.2","build":"26B8125","posting_date":"2026-11-05","entry_type":"pmv_asset","unique_id":"pmv-macOS-26B8125-27.2"}
+{"timestamp":"2026-11-05T20:11:08Z","platform":"macOS","version":"27.2","build":"26B7124","posting_date":"2026-11-05","entry_type":"pmv_asset","unique_id":"pmv-macOS-26B7124-27.2"}

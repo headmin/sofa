@@ -419,6 +419,11 @@
     "SupportedOS": [],
     "OSVersions": []
   },
+  "J804AP": {
+    "MarketingName": "J804AP",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
   "J813AP": {
     "MarketingName": "J813AP",
     "SupportedOS": [],
@@ -429,6 +434,11 @@
     "SupportedOS": [],
     "OSVersions": []
   },
+  "J833ctAP": {
+    "MarketingName": "J833ctAP",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
   "J873gAP": {
     "MarketingName": "J873gAP",
     "SupportedOS": [],
@@ -436,6 +446,26 @@
   },
   "J873sAP": {
     "MarketingName": "J873sAP",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
+  "K114cAP": {
+    "MarketingName": "K114cAP",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
+  "K114sAP": {
+    "MarketingName": "K114sAP",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
+  "K116cAP": {
+    "MarketingName": "K116cAP",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
+  "K116sAP": {
+    "MarketingName": "K116sAP",
     "SupportedOS": [],
     "OSVersions": []
   },
