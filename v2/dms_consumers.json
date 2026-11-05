@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "SchemaVersion": "2026.04.11.2",
-    "ContentHash": "defb0ce7a05dcb9606decbe5e3c2727a567e3a37472a97dc59239b72ea6e2b9e",
-    "GeneratedAt": "2026-11-04T20:12:46.099080259+00:00",
+    "ContentHash": "06602448507acfb794bff44d8173f8e0f5be16033bea81a331975bab4c30b732",
+    "GeneratedAt": "2026-11-05T06:40:29.439439072+00:00",
     "Description": "Device Management consumers view of Apple-signed OS versions across all platforms with resolved device details."
   },
   "Devices": {
@@ -3290,10 +3290,26 @@
                 "iPad14,6",
                 "iPad14,8",
                 "iPad14,9",
+                "iPad15,3",
+                "iPad15,4",
+                "iPad15,5",
+                "iPad15,6",
+                "iPad15,7",
+                "iPad15,8",
+                "iPad16,1",
+                "iPad16,10",
+                "iPad16,11",
+                "iPad16,2",
                 "iPad16,3",
                 "iPad16,4",
                 "iPad16,5",
                 "iPad16,6",
+                "iPad16,8",
+                "iPad16,9",
+                "iPad17,1",
+                "iPad17,2",
+                "iPad17,3",
+                "iPad17,4",
                 "iPad8,1",
                 "iPad8,10",
                 "iPad8,11",
@@ -3330,7 +3346,13 @@
                 "iPhone17,1",
                 "iPhone17,2",
                 "iPhone17,3",
-                "iPhone17,4"
+                "iPhone17,4",
+                "iPhone17,5",
+                "iPhone18,1",
+                "iPhone18,2",
+                "iPhone18,3",
+                "iPhone18,4",
+                "iPhone18,5"
               ]
             },
             {
