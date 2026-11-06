@@ -2,7 +2,7 @@
   "Metadata": {
     "SchemaVersion": "2026.04.11.2",
     "ContentHash": "cb3160a7d7ac008314197b67b6411550f92c6067e1ba5581888104682838aa51",
-    "GeneratedAt": "2026-11-06T18:35:37.039209789+00:00",
+    "GeneratedAt": "2026-11-06T19:09:16.851695613+00:00",
     "Description": "Lightweight DMS feed. Releases inherit SupportedDevices from their OS version unless overridden."
   },
   "Devices": {

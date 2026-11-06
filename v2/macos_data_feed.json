@@ -1,8 +1,8 @@
 {
   "SchemaVersion": "2026.04.11.2",
   "Version": "2.0",
-  "UpdateHash": "06a76272befa6af80fb808cc8ad529eb6700cb698c8781531ce07a24b280a522",
-  "LastCheck": "2026-11-06T18:35:36.831803384+00:00",
+  "UpdateHash": "b52a219474124b9fdb3250137ffba4305f9dba953ba85663b4c3a1b89d432adb",
+  "LastCheck": "2026-11-06T19:09:16.639386868+00:00",
   "OSVersions": [
     {
       "OSVersion": "Golden Gate 27",
@@ -14896,7 +14896,7 @@
           "AllBuilds": [],
           "ReleaseDate": "2021-09-20T00:00:00Z",
           "ReleaseType": "OS",
-          "SecurityInfo": "https://support.apple.com/kb/HT213670",
+          "SecurityInfo": "https://support.apple.com/kb/HT211170",
           "SecurityInfoContext": "macOS 12.0 was released on . This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
           "CVEs": {},
           "ActivelyExploitedCVEs": [],
@@ -16866,9 +16866,9 @@
     "ReleaseDate": "2026-11-03T18:03:00Z"
   },
   "XProtectPayloads": {
-    "com.apple.XprotectFramework.PluginService": "74",
+    "ReleaseDate": "2026-11-03T18:03:00Z",
     "com.apple.XProtectFramework.XProtect": "170",
-    "ReleaseDate": "2026-11-03T18:03:00Z"
+    "com.apple.XprotectFramework.PluginService": "74"
   },
   "BackgroundSecurityImprovements": {
     "26": [
