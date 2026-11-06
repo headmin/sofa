@@ -2,8 +2,8 @@
   "SchemaVersion": "2026.04.11.2",
   "OSName": "visionOS",
   "Version": "2.0",
-  "UpdateHash": "c43fdeab9c91ee1b8fa09808e459a63a10952c908954ccbd6d2a5ad88c52085b",
-  "LastCheck": "2026-11-06T06:40:16.415495220+00:00",
+  "UpdateHash": "f8ce0c4d501e0ca316ad660eca64957e7be96f2fcc8757bec57f25f459f0f44d",
+  "LastCheck": "2026-11-06T12:35:51.875860141+00:00",
   "OSVersions": [
     {
       "OSVersion": "visionOS 27",
@@ -1088,52 +1088,11 @@
           "ReleaseDate": "2025-12-12",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/125891",
-          "SecurityInfoContext": "visionOS 26.2 was released on December 12, 2025. This release addressed 29 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "visionOS 26.2 was released on December 12, 2025. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [],
-          "CVEs": {
-            "CVE-2024-7264": {},
-            "CVE-2025-14174": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
-              "InKEV": true,
-              "Severity": "High"
-            },
-            "CVE-2025-43428": {},
-            "CVE-2025-43501": {},
-            "CVE-2025-43511": {},
-            "CVE-2025-43529": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
-              "InKEV": true,
-              "Severity": "High"
-            },
-            "CVE-2025-43531": {},
-            "CVE-2025-43532": {},
-            "CVE-2025-43533": {},
-            "CVE-2025-43535": {},
-            "CVE-2025-43538": {},
-            "CVE-2025-43539": {},
-            "CVE-2025-43541": {},
-            "CVE-2025-43542": {},
-            "CVE-2025-46276": {},
-            "CVE-2025-46279": {},
-            "CVE-2025-46285": {},
-            "CVE-2025-46287": {},
-            "CVE-2025-46288": {},
-            "CVE-2025-46290": {},
-            "CVE-2025-46298": {},
-            "CVE-2025-46299": {},
-            "CVE-2025-46300": {},
-            "CVE-2025-46301": {},
-            "CVE-2025-46302": {},
-            "CVE-2025-46303": {},
-            "CVE-2025-46304": {},
-            "CVE-2025-46305": {},
-            "CVE-2025-9086": {}
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2025-43529",
-            "CVE-2025-14174"
-          ],
-          "UniqueCVEsCount": 29,
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 39,
           "SupersededBy": {
             "ProductVersion": "26.3",
@@ -1142,9 +1101,9 @@
             "DaysLater": 61
           },
           "UpdateSummary": {
-            "Priority": "high",
-            "Summary": "Addresses 29 security issues",
-            "Recommendation": "Update to stay secure - security fixes available",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -1152,7 +1111,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 29
+              "Total": 0
             }
           }
         },
@@ -1746,19 +1705,11 @@
           "ReleaseDate": "2025-02-10",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/122904",
-          "SecurityInfoContext": "visionOS 2.3.1 was released on February 10, 2025. This release addressed one security issue. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "visionOS 2.3.1 was released on February 10, 2025. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [],
-          "CVEs": {
-            "CVE-2025-43200": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43200",
-              "InKEV": true,
-              "Severity": "High"
-            }
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2025-43200"
-          ],
-          "UniqueCVEsCount": 1,
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 14,
           "SupersededBy": {
             "ProductVersion": "2.3.2",
@@ -1767,9 +1718,9 @@
             "DaysLater": 29
           },
           "UpdateSummary": {
-            "Priority": "medium",
-            "Summary": "Addresses 1 security issue",
-            "Recommendation": "Update to stay secure - security fixes available",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -1777,7 +1728,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 1
+              "Total": 0
             }
           }
         },
