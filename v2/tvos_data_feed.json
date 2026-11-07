@@ -2,8 +2,8 @@
   "SchemaVersion": "2026.04.11.2",
   "OSName": "tvOS",
   "Version": "2.0",
-  "UpdateHash": "e88d9595c8ccd70eef947437694d77c44be0dae35ce570bd7ec3c6a8bbf7cd54",
-  "LastCheck": "2026-11-07T00:45:00.986339726+00:00",
+  "UpdateHash": "2958f1264e89fd60d610b81974e96bbd12abcd5001f49a2f30ae0d1bd947d44a",
+  "LastCheck": "2026-11-07T06:35:51.697232871+00:00",
   "OSVersions": [
     {
       "OSVersion": "tvOS 27",
@@ -1005,11 +1005,34 @@
           "ReleaseDate": "2025-09-15",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/125114",
-          "SecurityInfoContext": "tvOS 26.0 was released on September 15, 2025. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "tvOS 26.0 was released on September 15, 2025. This release addressed 22 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [],
-          "CVEs": {},
+          "CVEs": {
+            "CVE-2025-31255": {},
+            "CVE-2025-43302": {},
+            "CVE-2025-43303": {},
+            "CVE-2025-43317": {},
+            "CVE-2025-43323": {},
+            "CVE-2025-43329": {},
+            "CVE-2025-43342": {},
+            "CVE-2025-43343": {},
+            "CVE-2025-43344": {},
+            "CVE-2025-43345": {},
+            "CVE-2025-43346": {},
+            "CVE-2025-43347": {},
+            "CVE-2025-43349": {},
+            "CVE-2025-43354": {},
+            "CVE-2025-43355": {},
+            "CVE-2025-43356": {},
+            "CVE-2025-43359": {},
+            "CVE-2025-43361": {},
+            "CVE-2025-43372": {},
+            "CVE-2025-43376": {},
+            "CVE-2025-43419": {},
+            "CVE-2025-6965": {}
+          },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "UniqueCVEsCount": 22,
           "DaysSincePreviousRelease": 0,
           "SupersededBy": {
             "ProductVersion": "26.0.1",
@@ -1018,9 +1041,9 @@
             "DaysLater": 14
           },
           "UpdateSummary": {
-            "Priority": "low",
-            "Summary": "Maintenance update with no published CVE entries",
-            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Priority": "high",
+            "Summary": "Addresses 22 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -1028,7 +1051,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 0
+              "Total": 22
             }
           }
         }
