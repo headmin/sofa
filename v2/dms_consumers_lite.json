@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "SchemaVersion": "2026.04.11.2",
-    "ContentHash": "cb3160a7d7ac008314197b67b6411550f92c6067e1ba5581888104682838aa51",
-    "GeneratedAt": "2026-11-07T06:35:51.827622994+00:00",
+    "ContentHash": "b4297c1527c3b69aea814748462163983e27af732a11b91c1e5591e4850b126c",
+    "GeneratedAt": "2026-11-07T12:35:44.438722190+00:00",
     "Description": "Lightweight DMS feed. Releases inherit SupportedDevices from their OS version unless overridden."
   },
   "Devices": {
@@ -1313,7 +1313,7 @@
               "Version": "26.0.1",
               "Build": "",
               "ReleaseDate": "2025-09-29T00:00:00Z",
-              "CVECount": 1,
+              "CVECount": 0,
               "ActivelyExploitedCount": 0,
               "SupportedDevices": [
                 "J152FAP",
@@ -1377,7 +1377,7 @@
               "Version": "26.0",
               "Build": "",
               "ReleaseDate": "2025-09-15T00:00:00Z",
-              "CVECount": 96,
+              "CVECount": 0,
               "ActivelyExploitedCount": 0,
               "SupportedDevices": [
                 "J152FAP",
@@ -2491,7 +2491,7 @@
               "Version": "26.0.1",
               "Build": "",
               "ReleaseDate": "2025-09-29",
-              "CVECount": 1,
+              "CVECount": 0,
               "ActivelyExploitedCount": 0
             },
             {
