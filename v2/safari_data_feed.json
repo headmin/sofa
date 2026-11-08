@@ -1,6 +1,6 @@
 {
   "Version": "2.0",
-  "UpdateHash": "4a2c4a07416ba585faca8285dec5eadddcca484419c96822191d9f08882cbb50",
+  "UpdateHash": "6e107689869de58be1fa0ac2717bff1ff140d5ce559a9390f59c1bf20ed43f61",
   "AppVersions": [
     {
       "AppVersion": "Safari 27",
@@ -558,9 +558,45 @@
         "ReleaseDate": "2026-08-18T00:00:00Z",
         "ReleaseType": "Safari",
         "SecurityInfo": "https://support.apple.com/en-us/148286",
-        "CVEs": {},
+        "CVEs": {
+          "CVE-2026-43794": {},
+          "CVE-2026-43795": {},
+          "CVE-2026-64715": {},
+          "CVE-2026-64778": {},
+          "CVE-2026-64779": {},
+          "CVE-2026-64780": {},
+          "CVE-2026-64781": {},
+          "CVE-2026-64782": {},
+          "CVE-2026-64784": {},
+          "CVE-2026-64787": {},
+          "CVE-2026-65331": {},
+          "CVE-2026-65332": {},
+          "CVE-2026-65333": {},
+          "CVE-2026-65334": {},
+          "CVE-2026-65335": {},
+          "CVE-2026-65336": {},
+          "CVE-2026-65337": {},
+          "CVE-2026-65338": {},
+          "CVE-2026-65340": {},
+          "CVE-2026-65341": {},
+          "CVE-2026-65351": {},
+          "CVE-2026-65390": {
+            "entry_added_date": "2026-09-14",
+            "tags": [
+              "webkit"
+            ],
+            "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65390"
+          },
+          "CVE-2026-65391": {
+            "entry_added_date": "2026-09-14",
+            "tags": [
+              "memory-corruption"
+            ],
+            "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65391"
+          }
+        },
         "ActivelyExploitedCVEs": [],
-        "UniqueCVEsCount": 0,
+        "UniqueCVEsCount": 23,
         "DaysSincePreviousRelease": 22
       },
       "SecurityReleases": [
@@ -571,9 +607,45 @@
           "ReleaseDate": "2026-08-18T00:00:00Z",
           "ReleaseType": "Safari",
           "SecurityInfo": "https://support.apple.com/en-us/148286",
-          "CVEs": {},
+          "CVEs": {
+            "CVE-2026-43794": {},
+            "CVE-2026-43795": {},
+            "CVE-2026-64715": {},
+            "CVE-2026-64778": {},
+            "CVE-2026-64779": {},
+            "CVE-2026-64780": {},
+            "CVE-2026-64781": {},
+            "CVE-2026-64782": {},
+            "CVE-2026-64784": {},
+            "CVE-2026-64787": {},
+            "CVE-2026-65331": {},
+            "CVE-2026-65332": {},
+            "CVE-2026-65333": {},
+            "CVE-2026-65334": {},
+            "CVE-2026-65335": {},
+            "CVE-2026-65336": {},
+            "CVE-2026-65337": {},
+            "CVE-2026-65338": {},
+            "CVE-2026-65340": {},
+            "CVE-2026-65341": {},
+            "CVE-2026-65351": {},
+            "CVE-2026-65390": {
+              "entry_added_date": "2026-09-14",
+              "tags": [
+                "webkit"
+              ],
+              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65390"
+            },
+            "CVE-2026-65391": {
+              "entry_added_date": "2026-09-14",
+              "tags": [
+                "memory-corruption"
+              ],
+              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65391"
+            }
+          },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "UniqueCVEsCount": 23,
           "DaysSincePreviousRelease": 22
         },
         {
