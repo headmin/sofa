@@ -1,8 +1,8 @@
 {
   "SchemaVersion": "2026.04.11.2",
   "Version": "2.0",
-  "UpdateHash": "fdc635ab6e52175ed7f86ed7ee7156acf15f9e205509dec879496581ce1077dc",
-  "LastCheck": "2026-11-08T12:34:52.741706694+00:00",
+  "UpdateHash": "2d0f65c061dfd76c643d2d116d76b6b5fff7e91219f4457bd735c64bd51dc980",
+  "LastCheck": "2026-11-08T19:44:28.848796301+00:00",
   "OSVersions": [
     {
       "OSVersion": "27",
@@ -4670,49 +4670,11 @@
           "ReleaseDate": "2025-05-12T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/122404",
-          "SecurityInfoContext": "iOS 18.5 was released on May 12, 2025. This release addressed 37 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "iOS 18.5 was released on May 12, 2025. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [],
-          "CVEs": {
-            "CVE-2024-8176": {},
-            "CVE-2025-24213": {},
-            "CVE-2025-24223": {},
-            "CVE-2025-24224": {},
-            "CVE-2025-24225": {},
-            "CVE-2025-30448": {},
-            "CVE-2025-31204": {},
-            "CVE-2025-31205": {},
-            "CVE-2025-31206": {},
-            "CVE-2025-31207": {},
-            "CVE-2025-31208": {},
-            "CVE-2025-31209": {},
-            "CVE-2025-31210": {},
-            "CVE-2025-31212": {},
-            "CVE-2025-31214": {},
-            "CVE-2025-31215": {},
-            "CVE-2025-31216": {},
-            "CVE-2025-31217": {},
-            "CVE-2025-31219": {},
-            "CVE-2025-31221": {},
-            "CVE-2025-31222": {},
-            "CVE-2025-31223": {},
-            "CVE-2025-31225": {},
-            "CVE-2025-31226": {},
-            "CVE-2025-31227": {},
-            "CVE-2025-31228": {},
-            "CVE-2025-31233": {},
-            "CVE-2025-31234": {},
-            "CVE-2025-31238": {},
-            "CVE-2025-31239": {},
-            "CVE-2025-31241": {},
-            "CVE-2025-31242": {},
-            "CVE-2025-31245": {},
-            "CVE-2025-31251": {},
-            "CVE-2025-31253": {},
-            "CVE-2025-31257": {},
-            "CVE-2025-43374": {}
-          },
+          "CVEs": {},
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 37,
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 26,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -4722,9 +4684,9 @@
             "DaysLater": 78
           },
           "UpdateSummary": {
-            "Priority": "high",
-            "Summary": "Addresses 37 security issues",
-            "Recommendation": "Update to stay secure - security fixes available",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -4732,7 +4694,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 37
+              "Total": 0
             }
           }
         },
