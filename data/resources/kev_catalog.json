@@ -1,8 +1,8 @@
 {
   "title": "CISA Catalog of Known Exploited Vulnerabilities",
   "catalogVersion": "2026.11.09",
-  "dateReleased": "2026-11-09T16:16:16.4275Z",
-  "count": 1772,
+  "dateReleased": "2026-11-09T19:54:37.4945Z",
+  "count": 1773,
   "vulnerabilities": [
     {
       "cveID": "CVE-2026-102895",
@@ -51,6 +51,21 @@
         "CWE-77",
         "CWE-78",
         "CWE-749"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-123218",
+      "vendorProject": "IBM",
+      "product": "Aspera Faspex",
+      "vulnerabilityName": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
+      "dateAdded": "2026-11-09",
+      "shortDescription": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "dueDate": "2026-11-12",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.ibm.com/support/pages/node/7295921 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
+      "cwes": [
+        "CWE-863"
       ]
     },
     {
@@ -26366,5 +26381,5 @@
       ]
     }
   ],
-  "fetchTimestamp": "2026-11-09T19:09:02.223121585Z"
+  "fetchTimestamp": "2026-11-09T20:11:20.316768026Z"
 }

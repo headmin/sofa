@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "SchemaVersion": "2026.04.11.2",
-    "ContentHash": "cb3160a7d7ac008314197b67b6411550f92c6067e1ba5581888104682838aa51",
-    "GeneratedAt": "2026-11-09T19:09:32.616245217+00:00",
+    "ContentHash": "b6e9052f43e11c822bd13ccf20c2d9a831a2477e6fb28b4e41a977beb4595d15",
+    "GeneratedAt": "2026-11-09T20:12:05.741542582+00:00",
     "Description": "Lightweight DMS feed. Releases inherit SupportedDevices from their OS version unless overridden."
   },
   "Devices": {
@@ -738,7 +738,7 @@
       "OSVersions": [
         {
           "OSVersion": "Golden Gate 27",
-          "LatestVersion": "27.2",
+          "LatestVersion": "27.2.1",
           "SupportedDevices": [
             "J180dAP",
             "J274AP",
@@ -808,6 +808,13 @@
             "VMA2MACOSAP"
           ],
           "Releases": [
+            {
+              "Version": "27.2.1",
+              "Build": "26B8132",
+              "ReleaseDate": "2026-11-09T00:00:00Z",
+              "CVECount": 8,
+              "ActivelyExploitedCount": 1
+            },
             {
               "Version": "27.2",
               "Build": "26B8125",
@@ -957,7 +964,7 @@
         },
         {
           "OSVersion": "Tahoe 26",
-          "LatestVersion": "26.7.2",
+          "LatestVersion": "26.7.3",
           "SupportedDevices": [
             "J152FAP",
             "J160AP",
@@ -1024,6 +1031,13 @@
             "VMM-x86_64"
           ],
           "Releases": [
+            {
+              "Version": "26.7.3",
+              "Build": "25G342",
+              "ReleaseDate": "2026-11-09T00:00:00Z",
+              "CVECount": 8,
+              "ActivelyExploitedCount": 1
+            },
             {
               "Version": "26.7.2",
               "Build": "25G332",
@@ -1529,7 +1543,7 @@
       "OSVersions": [
         {
           "OSVersion": "27",
-          "LatestVersion": "27.2",
+          "LatestVersion": "27.2.1",
           "SupportedDevices": [
             "iPad12,1",
             "iPad12,2",
@@ -1620,6 +1634,13 @@
             "iPhone19,7"
           ],
           "Releases": [
+            {
+              "Version": "27.2.1",
+              "Build": "24B92034",
+              "ReleaseDate": "2026-11-09T00:00:00Z",
+              "CVECount": 9,
+              "ActivelyExploitedCount": 1
+            },
             {
               "Version": "27.2",
               "Build": "24B92020",
@@ -1827,7 +1848,7 @@
         },
         {
           "OSVersion": "26",
-          "LatestVersion": "26.7.2",
+          "LatestVersion": "26.7.3",
           "SupportedDevices": [
             "iPad11,1",
             "iPad11,2",
@@ -1927,6 +1948,13 @@
           ],
           "Releases": [
             {
+              "Version": "26.7.3",
+              "Build": "23H6131",
+              "ReleaseDate": "2026-11-09T00:00:00Z",
+              "CVECount": 8,
+              "ActivelyExploitedCount": 1
+            },
+            {
               "Version": "26.7.2",
               "Build": "23H6128",
               "ReleaseDate": "2026-10-26T00:00:00Z",
@@ -1986,7 +2014,7 @@
               "Version": "26.5",
               "Build": "23F6077",
               "ReleaseDate": "2026-05-11T00:00:00Z",
-              "CVECount": 67,
+              "CVECount": 0,
               "ActivelyExploitedCount": 0
             },
             {
@@ -2217,7 +2245,7 @@
       "OSVersions": [
         {
           "OSVersion": "watchOS 27",
-          "LatestVersion": "27.2",
+          "LatestVersion": "27.2.1",
           "SupportedDevices": [
             "Watch7,1",
             "Watch7,10",
@@ -2244,6 +2272,13 @@
             "Watch8,5"
           ],
           "Releases": [
+            {
+              "Version": "27.2.1",
+              "Build": "24S6132",
+              "ReleaseDate": "2026-11-09",
+              "CVECount": 9,
+              "ActivelyExploitedCount": 1
+            },
             {
               "Version": "27.2",
               "Build": "24S6118",
@@ -2276,7 +2311,7 @@
         },
         {
           "OSVersion": "watchOS 26",
-          "LatestVersion": "26.6",
+          "LatestVersion": "26.6.1",
           "SupportedDevices": [
             "Watch6,1",
             "Watch6,10",
@@ -2316,6 +2351,32 @@
           ],
           "Releases": [
             {
+              "Version": "26.6.1",
+              "Build": "23U95",
+              "ReleaseDate": "2026-11-09",
+              "CVECount": 5,
+              "ActivelyExploitedCount": 0,
+              "SupportedDevices": [
+                "Watch6,1",
+                "Watch6,10",
+                "Watch6,11",
+                "Watch6,12",
+                "Watch6,13",
+                "Watch6,14",
+                "Watch6,15",
+                "Watch6,16",
+                "Watch6,17",
+                "Watch6,18",
+                "Watch6,2",
+                "Watch6,3",
+                "Watch6,4",
+                "Watch6,6",
+                "Watch6,7",
+                "Watch6,8",
+                "Watch6,9"
+              ]
+            },
+            {
               "Version": "26.6",
               "Build": "23U67",
               "ReleaseDate": "2026-07-27",
@@ -2327,63 +2388,234 @@
               "Build": "",
               "ReleaseDate": "2026-05-11",
               "CVECount": 46,
-              "ActivelyExploitedCount": 0
+              "ActivelyExploitedCount": 0,
+              "SupportedDevices": [
+                "Watch6,1",
+                "Watch6,10",
+                "Watch6,11",
+                "Watch6,12",
+                "Watch6,13",
+                "Watch6,14",
+                "Watch6,15",
+                "Watch6,16",
+                "Watch6,17",
+                "Watch6,18",
+                "Watch6,2",
+                "Watch6,3",
+                "Watch6,4",
+                "Watch6,6",
+                "Watch6,7",
+                "Watch6,8",
+                "Watch6,9"
+              ]
             },
             {
               "Version": "26.4",
               "Build": "",
               "ReleaseDate": "2026-03-24",
               "CVECount": 25,
-              "ActivelyExploitedCount": 0
+              "ActivelyExploitedCount": 0,
+              "SupportedDevices": [
+                "Watch6,1",
+                "Watch6,10",
+                "Watch6,11",
+                "Watch6,12",
+                "Watch6,13",
+                "Watch6,14",
+                "Watch6,15",
+                "Watch6,16",
+                "Watch6,17",
+                "Watch6,18",
+                "Watch6,2",
+                "Watch6,3",
+                "Watch6,4",
+                "Watch6,6",
+                "Watch6,7",
+                "Watch6,8",
+                "Watch6,9"
+              ]
             },
             {
               "Version": "26.3",
               "Build": "",
               "ReleaseDate": "2026-02-11",
               "CVECount": 19,
-              "ActivelyExploitedCount": 3
+              "ActivelyExploitedCount": 3,
+              "SupportedDevices": [
+                "Watch6,1",
+                "Watch6,10",
+                "Watch6,11",
+                "Watch6,12",
+                "Watch6,13",
+                "Watch6,14",
+                "Watch6,15",
+                "Watch6,16",
+                "Watch6,17",
+                "Watch6,18",
+                "Watch6,2",
+                "Watch6,3",
+                "Watch6,4",
+                "Watch6,6",
+                "Watch6,7",
+                "Watch6,8",
+                "Watch6,9"
+              ]
             },
             {
               "Version": "26.2.1",
               "Build": "",
               "ReleaseDate": "2026-01-26",
               "CVECount": 0,
-              "ActivelyExploitedCount": 0
+              "ActivelyExploitedCount": 0,
+              "SupportedDevices": [
+                "Watch6,1",
+                "Watch6,10",
+                "Watch6,11",
+                "Watch6,12",
+                "Watch6,13",
+                "Watch6,14",
+                "Watch6,15",
+                "Watch6,16",
+                "Watch6,17",
+                "Watch6,18",
+                "Watch6,2",
+                "Watch6,3",
+                "Watch6,4",
+                "Watch6,6",
+                "Watch6,7",
+                "Watch6,8",
+                "Watch6,9"
+              ]
             },
             {
               "Version": "26.2",
               "Build": "",
               "ReleaseDate": "2025-12-12",
               "CVECount": 26,
-              "ActivelyExploitedCount": 2
+              "ActivelyExploitedCount": 2,
+              "SupportedDevices": [
+                "Watch6,1",
+                "Watch6,10",
+                "Watch6,11",
+                "Watch6,12",
+                "Watch6,13",
+                "Watch6,14",
+                "Watch6,15",
+                "Watch6,16",
+                "Watch6,17",
+                "Watch6,18",
+                "Watch6,2",
+                "Watch6,3",
+                "Watch6,4",
+                "Watch6,6",
+                "Watch6,7",
+                "Watch6,8",
+                "Watch6,9"
+              ]
             },
             {
               "Version": "26.1",
               "Build": "",
               "ReleaseDate": "2025-11-03",
               "CVECount": 35,
-              "ActivelyExploitedCount": 2
+              "ActivelyExploitedCount": 2,
+              "SupportedDevices": [
+                "Watch6,1",
+                "Watch6,10",
+                "Watch6,11",
+                "Watch6,12",
+                "Watch6,13",
+                "Watch6,14",
+                "Watch6,15",
+                "Watch6,16",
+                "Watch6,17",
+                "Watch6,18",
+                "Watch6,2",
+                "Watch6,3",
+                "Watch6,4",
+                "Watch6,6",
+                "Watch6,7",
+                "Watch6,8",
+                "Watch6,9"
+              ]
             },
             {
               "Version": "26.0.2",
               "Build": "",
               "ReleaseDate": "2025-09-29",
               "CVECount": 0,
-              "ActivelyExploitedCount": 0
+              "ActivelyExploitedCount": 0,
+              "SupportedDevices": [
+                "Watch6,1",
+                "Watch6,10",
+                "Watch6,11",
+                "Watch6,12",
+                "Watch6,13",
+                "Watch6,14",
+                "Watch6,15",
+                "Watch6,16",
+                "Watch6,17",
+                "Watch6,18",
+                "Watch6,2",
+                "Watch6,3",
+                "Watch6,4",
+                "Watch6,6",
+                "Watch6,7",
+                "Watch6,8",
+                "Watch6,9"
+              ]
             },
             {
               "Version": "26.0.1",
               "Build": "",
               "ReleaseDate": "2025-09-18",
               "CVECount": 0,
-              "ActivelyExploitedCount": 0
+              "ActivelyExploitedCount": 0,
+              "SupportedDevices": [
+                "Watch6,1",
+                "Watch6,10",
+                "Watch6,11",
+                "Watch6,12",
+                "Watch6,13",
+                "Watch6,14",
+                "Watch6,15",
+                "Watch6,16",
+                "Watch6,17",
+                "Watch6,18",
+                "Watch6,2",
+                "Watch6,3",
+                "Watch6,4",
+                "Watch6,6",
+                "Watch6,7",
+                "Watch6,8",
+                "Watch6,9"
+              ]
             },
             {
               "Version": "26.0",
               "Build": "",
               "ReleaseDate": "2025-09-15",
               "CVECount": 24,
-              "ActivelyExploitedCount": 0
+              "ActivelyExploitedCount": 0,
+              "SupportedDevices": [
+                "Watch6,1",
+                "Watch6,10",
+                "Watch6,11",
+                "Watch6,12",
+                "Watch6,13",
+                "Watch6,14",
+                "Watch6,15",
+                "Watch6,16",
+                "Watch6,17",
+                "Watch6,18",
+                "Watch6,2",
+                "Watch6,3",
+                "Watch6,4",
+                "Watch6,6",
+                "Watch6,7",
+                "Watch6,8",
+                "Watch6,9"
+              ]
             }
           ]
         }
@@ -2394,12 +2626,19 @@
       "OSVersions": [
         {
           "OSVersion": "visionOS 27",
-          "LatestVersion": "27.2",
+          "LatestVersion": "27.2.1",
           "SupportedDevices": [
             "RealityDevice14,1",
             "RealityDevice17,1"
           ],
           "Releases": [
+            {
+              "Version": "27.2.1",
+              "Build": "24N6124",
+              "ReleaseDate": "2026-11-09",
+              "CVECount": 9,
+              "ActivelyExploitedCount": 1
+            },
             {
               "Version": "27.2",
               "Build": "24N6120",
