@@ -1,5 +1,5 @@
 {
-  "UpdateHash": "e6deb5d036cd441d185339867191f4e3ad5807e4bb2378bc723601ee414d435a",
+  "UpdateHash": "58da12f3f58c00089866fec0b4c510510bbd3bb18e2335fb27ab846789ade7e6",
   "OSVersions": [
     {
       "OSVersion": "Golden Gate 27",
@@ -11376,15 +11376,9 @@
             "VMA2MACOSAP",
             "VMM-x86_64"
           ],
-          "CVEs": {
-            "CVE-2023-42916": true,
-            "CVE-2023-42917": true
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2023-42917",
-            "CVE-2023-42916"
-          ],
-          "UniqueCVEsCount": 2,
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 23
         },
         {
@@ -16173,13 +16167,9 @@
             "VMA2MACOSAP",
             "VMM-x86_64"
           ],
-          "CVEs": {
-            "CVE-2023-41064": true
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2023-41064"
-          ],
-          "UniqueCVEsCount": 1,
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 49
         },
         {
@@ -17063,13 +17053,13 @@
             "CVE-2022-32917"
           ],
           "UniqueCVEsCount": 40,
-          "DaysSincePreviousRelease": 225
+          "DaysSincePreviousRelease": 665
         },
         {
           "UpdateName": "macOS Monterey 12.5.1",
           "ProductName": "macOS",
           "ProductVersion": "12.5.1",
-          "ReleaseDate": "2023-10-31T00:00:00Z",
+          "ReleaseDate": "2022-08-17T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/kb/HT213413",
           "SupportedDevices": [
@@ -17132,16 +17122,10 @@
             "VMA2MACOSAP",
             "VMM-x86_64"
           ],
-          "CVEs": {
-            "CVE-2022-32893": true,
-            "CVE-2022-32894": true
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2022-32894",
-            "CVE-2022-32893"
-          ],
-          "UniqueCVEsCount": 2,
-          "DaysSincePreviousRelease": 468
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 28
         },
         {
           "UpdateName": "macOS Monterey 12.5",
@@ -17665,13 +17649,13 @@
           },
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 69,
-          "DaysSincePreviousRelease": 0
+          "DaysSincePreviousRelease": 628
         },
         {
           "UpdateName": "macOS Monterey 12.2.1",
           "ProductName": "macOS",
           "ProductVersion": "12.2.1",
-          "ReleaseDate": "2023-11-06T00:00:00Z",
+          "ReleaseDate": "2022-02-10T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/kb/HT213092",
           "SupportedDevices": [
@@ -17734,14 +17718,10 @@
             "VMA2MACOSAP",
             "VMM-x86_64"
           ],
-          "CVEs": {
-            "CVE-2022-22620": true
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2022-22620"
-          ],
-          "UniqueCVEsCount": 1,
-          "DaysSincePreviousRelease": 4
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 0
         },
         {
           "UpdateName": "macOS Monterey 12.2",
@@ -17900,9 +17880,66 @@
             "VMA2MACOSAP",
             "VMM-x86_64"
           ],
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "CVEs": {
+            "CVE-2021-30767": false,
+            "CVE-2021-30926": false,
+            "CVE-2021-30927": false,
+            "CVE-2021-30929": false,
+            "CVE-2021-30934": false,
+            "CVE-2021-30935": false,
+            "CVE-2021-30936": false,
+            "CVE-2021-30937": false,
+            "CVE-2021-30938": false,
+            "CVE-2021-30939": false,
+            "CVE-2021-30940": false,
+            "CVE-2021-30941": false,
+            "CVE-2021-30942": false,
+            "CVE-2021-30943": false,
+            "CVE-2021-30944": false,
+            "CVE-2021-30945": false,
+            "CVE-2021-30946": false,
+            "CVE-2021-30947": false,
+            "CVE-2021-30949": false,
+            "CVE-2021-30950": false,
+            "CVE-2021-30951": false,
+            "CVE-2021-30952": true,
+            "CVE-2021-30953": false,
+            "CVE-2021-30954": false,
+            "CVE-2021-30955": false,
+            "CVE-2021-30957": false,
+            "CVE-2021-30958": false,
+            "CVE-2021-30960": false,
+            "CVE-2021-30964": false,
+            "CVE-2021-30965": false,
+            "CVE-2021-30966": false,
+            "CVE-2021-30968": false,
+            "CVE-2021-30970": false,
+            "CVE-2021-30971": false,
+            "CVE-2021-30972": false,
+            "CVE-2021-30973": false,
+            "CVE-2021-30975": false,
+            "CVE-2021-30976": false,
+            "CVE-2021-30977": false,
+            "CVE-2021-30979": false,
+            "CVE-2021-30980": false,
+            "CVE-2021-30981": false,
+            "CVE-2021-30982": false,
+            "CVE-2021-30984": false,
+            "CVE-2021-30986": false,
+            "CVE-2021-30987": false,
+            "CVE-2021-30990": false,
+            "CVE-2021-30993": false,
+            "CVE-2021-30995": false,
+            "CVE-2021-30996": false,
+            "CVE-2021-31000": false,
+            "CVE-2021-31007": false,
+            "CVE-2021-31009": false,
+            "CVE-2021-31013": false
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2021-30952"
+          ],
+          "UniqueCVEsCount": 54,
           "DaysSincePreviousRelease": 49
         },
         {

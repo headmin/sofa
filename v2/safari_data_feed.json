@@ -1,6 +1,6 @@
 {
   "Version": "2.0",
-  "UpdateHash": "135a97959afa0d843189d8c7e6c01f384b2d74711efbc242eb7a80847f1ea5db",
+  "UpdateHash": "6e107689869de58be1fa0ac2717bff1ff140d5ce559a9390f59c1bf20ed43f61",
   "AppVersions": [
     {
       "AppVersion": "Safari 27",
@@ -1818,9 +1818,29 @@
           "ReleaseDate": "2024-11-19T00:00:00Z",
           "ReleaseType": "Safari",
           "SecurityInfo": "https://support.apple.com/en-us/121756",
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "CVEs": {
+            "CVE-2024-44308": {
+              "exploited": true,
+              "kev": true,
+              "matched_pattern": "CISA KEV catalog",
+              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44308",
+              "tags": [
+                "actively-exploited",
+                "webkit"
+              ]
+            },
+            "CVE-2024-44309": {
+              "exploited": true,
+              "kev": true,
+              "matched_pattern": "CISA KEV catalog",
+              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44309"
+            }
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2024-44309",
+            "CVE-2024-44308"
+          ],
+          "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 21
         },
         {

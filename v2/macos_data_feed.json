@@ -1,8 +1,8 @@
 {
   "SchemaVersion": "2026.04.11.2",
   "Version": "2.0",
-  "UpdateHash": "ace771c302320b57bd67ffa60a2e77c948be10d3c77652e9620736aa8af36a1b",
-  "LastCheck": "2026-11-09T00:49:46.440576803+00:00",
+  "UpdateHash": "d7ac5f58aa6bd434ffc00419f00d3613a5873b565b8d33c02fbe4cc32220dec0",
+  "LastCheck": "2026-11-09T06:47:17.189984142+00:00",
   "OSVersions": [
     {
       "OSVersion": "Golden Gate 27",
@@ -9910,26 +9910,10 @@
           "ReleaseDate": "2023-11-30T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/kb/HT214032",
-          "SecurityInfoContext": "macOS 14.1.2 was released on November 30, 2023. This release addressed 2 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
-          "CVEs": {
-            "CVE-2023-42916": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2023-42916",
-              "ActivelyExploited": true,
-              "InKEV": true,
-              "Severity": "Critical"
-            },
-            "CVE-2023-42917": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2023-42917",
-              "ActivelyExploited": true,
-              "InKEV": true,
-              "Severity": "Critical"
-            }
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2023-42917",
-            "CVE-2023-42916"
-          ],
-          "UniqueCVEsCount": 2,
+          "SecurityInfoContext": "macOS 14.1.2 was released on November 30, 2023. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 23,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -9939,17 +9923,17 @@
             "DaysLater": 11
           },
           "UpdateSummary": {
-            "Priority": "critical",
-            "Summary": "Contains 2 actively exploited vulnerabilities",
-            "Recommendation": "Update immediately - actively exploited vulnerabilities",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
-              "Exploited": 2,
+              "Exploited": 0,
               "Critical": 0,
               "High": 0,
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 2
+              "Total": 0
             }
           }
         },
@@ -13499,19 +13483,10 @@
           "ReleaseDate": "2023-09-11T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/kb/HT213914",
-          "SecurityInfoContext": "macOS 12.6.9 was released on September 11, 2023. This release addressed one security issue. Newer updates are now available, so please check to see if they apply to your devices.",
-          "CVEs": {
-            "CVE-2023-41064": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2023-41064",
-              "ActivelyExploited": true,
-              "InKEV": true,
-              "Severity": "Critical"
-            }
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2023-41064"
-          ],
-          "UniqueCVEsCount": 1,
+          "SecurityInfoContext": "macOS 12.6.9 was released on September 11, 2023. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 49,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -13521,17 +13496,17 @@
             "DaysLater": 10
           },
           "UpdateSummary": {
-            "Priority": "critical",
-            "Summary": "Contains 1 actively exploited vulnerability",
-            "Recommendation": "Update immediately - actively exploited vulnerabilities",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
-              "Exploited": 1,
+              "Exploited": 0,
               "Critical": 0,
               "High": 0,
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 1
+              "Total": 0
             }
           }
         },
@@ -14096,7 +14071,7 @@
             "CVE-2022-32917"
           ],
           "UniqueCVEsCount": 40,
-          "DaysSincePreviousRelease": 225,
+          "DaysSincePreviousRelease": 665,
           "DeviceScope": "universal",
           "SupersededBy": {
             "ProductVersion": "12.7.6",
@@ -14125,49 +14100,33 @@
           "ProductVersion": "12.5.1",
           "Build": "",
           "AllBuilds": [],
-          "ReleaseDate": "2023-10-31T00:00:00Z",
+          "ReleaseDate": "2022-08-17T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/kb/HT213413",
-          "SecurityInfoContext": "macOS 12.5.1 was released on October 31, 2023. This release addressed 2 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
-          "CVEs": {
-            "CVE-2022-32893": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2022-32893",
-              "ActivelyExploited": true,
-              "InKEV": true,
-              "Severity": "Critical"
-            },
-            "CVE-2022-32894": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2022-32894",
-              "ActivelyExploited": true,
-              "InKEV": true,
-              "Severity": "Critical"
-            }
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2022-32894",
-            "CVE-2022-32893"
-          ],
-          "UniqueCVEsCount": 2,
-          "DaysSincePreviousRelease": 468,
+          "SecurityInfoContext": "macOS 12.5.1 was released on August 17, 2022. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 28,
           "DeviceScope": "universal",
           "SupersededBy": {
-            "ProductVersion": "12.3.1",
+            "ProductVersion": "12.6.2",
             "Build": "",
-            "ReleaseDate": "2023-11-02T00:00:00Z",
-            "DaysLater": 2
+            "ReleaseDate": "2022-12-13T00:00:00Z",
+            "DaysLater": 118
           },
           "UpdateSummary": {
-            "Priority": "critical",
-            "Summary": "Contains 2 actively exploited vulnerabilities",
-            "Recommendation": "Update immediately - actively exploited vulnerabilities",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
-              "Exploited": 2,
+              "Exploited": 0,
               "Critical": 0,
               "High": 0,
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 2
+              "Total": 0
             }
           }
         },
@@ -14272,10 +14231,10 @@
           "DaysSincePreviousRelease": 65,
           "DeviceScope": "universal",
           "SupersededBy": {
-            "ProductVersion": "12.6.2",
+            "ProductVersion": "12.5.1",
             "Build": "",
-            "ReleaseDate": "2022-12-13T00:00:00Z",
-            "DaysLater": 146
+            "ReleaseDate": "2022-08-17T00:00:00Z",
+            "DaysLater": 28
           },
           "UpdateSummary": {
             "Priority": "critical",
@@ -14445,10 +14404,10 @@
           "DaysSincePreviousRelease": 2,
           "DeviceScope": "universal",
           "SupersededBy": {
-            "ProductVersion": "12.2.1",
+            "ProductVersion": "12.7.2",
             "Build": "",
-            "ReleaseDate": "2023-11-06T00:00:00Z",
-            "DaysLater": 4
+            "ReleaseDate": "2023-12-11T00:00:00Z",
+            "DaysLater": 39
           },
           "UpdateSummary": {
             "Priority": "critical",
@@ -14548,7 +14507,7 @@
           },
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 69,
-          "DaysSincePreviousRelease": 6,
+          "DaysSincePreviousRelease": 628,
           "DeviceScope": "universal",
           "SupersededBy": {
             "ProductVersion": "12.3.1",
@@ -14577,42 +14536,33 @@
           "ProductVersion": "12.2.1",
           "Build": "",
           "AllBuilds": [],
-          "ReleaseDate": "2023-11-06T00:00:00Z",
+          "ReleaseDate": "2022-02-10T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/kb/HT213092",
-          "SecurityInfoContext": "macOS 12.2.1 was released on November 06, 2023. This release addressed one security issue. Newer updates are now available, so please check to see if they apply to your devices.",
-          "CVEs": {
-            "CVE-2022-22620": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2022-22620",
-              "ActivelyExploited": true,
-              "InKEV": true,
-              "Severity": "Critical"
-            }
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2022-22620"
-          ],
-          "UniqueCVEsCount": 1,
-          "DaysSincePreviousRelease": 4,
+          "SecurityInfoContext": "macOS 12.2.1 was released on February 10, 2022. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 630,
           "DeviceScope": "universal",
           "SupersededBy": {
-            "ProductVersion": "12.7.2",
+            "ProductVersion": "12.4",
             "Build": "",
-            "ReleaseDate": "2023-12-11T00:00:00Z",
-            "DaysLater": 35
+            "ReleaseDate": "2022-05-16T00:00:00Z",
+            "DaysLater": 95
           },
           "UpdateSummary": {
-            "Priority": "critical",
-            "Summary": "Contains 1 actively exploited vulnerability",
-            "Recommendation": "Update immediately - actively exploited vulnerabilities",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
-              "Exploited": 1,
+              "Exploited": 0,
               "Critical": 0,
               "High": 0,
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 1
+              "Total": 0
             }
           }
         },
@@ -14655,10 +14605,10 @@
           "DaysSincePreviousRelease": 689,
           "DeviceScope": "universal",
           "SupersededBy": {
-            "ProductVersion": "12.2.1",
+            "ProductVersion": "12.7.2",
             "Build": "",
-            "ReleaseDate": "2023-11-06T00:00:00Z",
-            "DaysLater": 4
+            "ReleaseDate": "2023-12-11T00:00:00Z",
+            "DaysLater": 39
           },
           "UpdateSummary": {
             "Priority": "critical",
@@ -14684,30 +14634,92 @@
           "ReleaseDate": "2021-12-13T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/102874",
-          "SecurityInfoContext": "macOS 12.1 was released on December 13, 2021. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "SecurityInfoContext": "macOS 12.1 was released on December 13, 2021. This release addressed 54 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "CVEs": {
+            "CVE-2021-30767": {},
+            "CVE-2021-30926": {},
+            "CVE-2021-30927": {},
+            "CVE-2021-30929": {},
+            "CVE-2021-30934": {},
+            "CVE-2021-30935": {},
+            "CVE-2021-30936": {},
+            "CVE-2021-30937": {},
+            "CVE-2021-30938": {},
+            "CVE-2021-30939": {},
+            "CVE-2021-30940": {},
+            "CVE-2021-30941": {},
+            "CVE-2021-30942": {},
+            "CVE-2021-30943": {},
+            "CVE-2021-30944": {},
+            "CVE-2021-30945": {},
+            "CVE-2021-30946": {},
+            "CVE-2021-30947": {},
+            "CVE-2021-30949": {},
+            "CVE-2021-30950": {},
+            "CVE-2021-30951": {},
+            "CVE-2021-30952": {
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2021-30952",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
+            },
+            "CVE-2021-30953": {},
+            "CVE-2021-30954": {},
+            "CVE-2021-30955": {},
+            "CVE-2021-30957": {},
+            "CVE-2021-30958": {},
+            "CVE-2021-30960": {},
+            "CVE-2021-30964": {},
+            "CVE-2021-30965": {},
+            "CVE-2021-30966": {},
+            "CVE-2021-30968": {},
+            "CVE-2021-30970": {},
+            "CVE-2021-30971": {},
+            "CVE-2021-30972": {},
+            "CVE-2021-30973": {},
+            "CVE-2021-30975": {},
+            "CVE-2021-30976": {},
+            "CVE-2021-30977": {},
+            "CVE-2021-30979": {},
+            "CVE-2021-30980": {},
+            "CVE-2021-30981": {},
+            "CVE-2021-30982": {},
+            "CVE-2021-30984": {},
+            "CVE-2021-30986": {},
+            "CVE-2021-30987": {},
+            "CVE-2021-30990": {},
+            "CVE-2021-30993": {},
+            "CVE-2021-30995": {},
+            "CVE-2021-30996": {},
+            "CVE-2021-31000": {},
+            "CVE-2021-31007": {},
+            "CVE-2021-31009": {},
+            "CVE-2021-31013": {}
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2021-30952"
+          ],
+          "UniqueCVEsCount": 54,
           "DaysSincePreviousRelease": 49,
           "DeviceScope": "universal",
           "SupersededBy": {
-            "ProductVersion": "12.4",
+            "ProductVersion": "12.2.1",
             "Build": "",
-            "ReleaseDate": "2022-05-16T00:00:00Z",
-            "DaysLater": 154
+            "ReleaseDate": "2022-02-10T00:00:00Z",
+            "DaysLater": 59
           },
           "UpdateSummary": {
-            "Priority": "low",
-            "Summary": "Maintenance update with no published CVE entries",
-            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Priority": "critical",
+            "Summary": "Contains 1 actively exploited vulnerability",
+            "Recommendation": "Update immediately - actively exploited vulnerabilities",
             "Stats": {
-              "Exploited": 0,
+              "Exploited": 1,
               "Critical": 0,
               "High": 0,
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 0
+              "Total": 54
             }
           }
         },
@@ -14834,7 +14846,7 @@
           "AllBuilds": [],
           "ReleaseDate": "2021-09-20T00:00:00Z",
           "ReleaseType": "OS",
-          "SecurityInfo": "https://support.apple.com/en-us/149042",
+          "SecurityInfo": "https://support.apple.com/kb/HT213605",
           "SecurityInfoContext": "macOS 12.0 was released on . This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
           "CVEs": {},
           "ActivelyExploitedCVEs": [],
@@ -16804,9 +16816,9 @@
     "ReleaseDate": "2026-11-03T18:03:00Z"
   },
   "XProtectPayloads": {
+    "ReleaseDate": "2026-11-03T18:03:00Z",
     "com.apple.XProtectFramework.XProtect": "170",
-    "com.apple.XprotectFramework.PluginService": "74",
-    "ReleaseDate": "2026-11-03T18:03:00Z"
+    "com.apple.XprotectFramework.PluginService": "74"
   },
   "BackgroundSecurityImprovements": {
     "26": [
