@@ -1,8 +1,8 @@
 {
-  "update_hash": "sha256:1c056d8b7a47329bc958c280fe1921ceecd70b7ba99cbac38d1d993537f3775e",
-  "total_products": 21,
+  "update_hash": "sha256:479b31e8136848ccad246bec03b1e555e7269bd0b4b71b4d230d72b2aea417d9",
+  "total_products": 24,
   "categories": {
-    "macOS": 21
+    "macOS": 24
   },
   "catalog_url": "https://swscan.apple.com/content/catalogs/others/index-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog",
   "products": [
@@ -14,6 +14,15 @@
       "posting_date": "2026-11-09T18:18:15Z",
       "size": 17820346196,
       "download_url": "https://swcdn.apple.com/content/downloads/57/06/142-52990-A_M5PDCSKEVA/zkg1s5t3ro2xe0lskvh7wyyc6cf37j4i4f/InstallAssistant.pkg"
+    },
+    {
+      "product_key": "142-54833",
+      "title": "macOS 27 Golden Gate",
+      "version": "27.2.1",
+      "build": "26B8132",
+      "posting_date": "2026-11-09T18:20:41Z",
+      "size": 15336902822,
+      "download_url": "https://swcdn.apple.com/content/downloads/28/20/142-54833-A_SWZQBABI1Q/yk2glso2kk2j63b18acc4p54k94x0o9c3k/InstallAssistant.pkg"
     },
     {
       "product_key": "142-50055",
@@ -61,6 +70,15 @@
       "download_url": "https://swcdn.apple.com/content/downloads/01/05/142-15488-A_9XNIAXWVVL/5ajxcy8xk014o98zz1uut0zrlaj2nx91ln/InstallAssistant.pkg"
     },
     {
+      "product_key": "142-54128",
+      "title": "macOS Tahoe",
+      "version": "26.7.3",
+      "build": "25G342",
+      "posting_date": "2026-11-09T18:23:30Z",
+      "size": 18396150628,
+      "download_url": "https://swcdn.apple.com/content/downloads/02/21/142-54128-A_OWMUBNYT6S/xlorkwl2msc8dgn34ayr8dk2jm8xka68z3/InstallAssistant.pkg"
+    },
+    {
       "product_key": "142-50020",
       "title": "macOS Tahoe",
       "version": "26.7.2",
@@ -104,6 +122,15 @@
       "posting_date": "2026-08-06T17:22:02Z",
       "size": 18375851507,
       "download_url": "https://swcdn.apple.com/content/downloads/10/29/140-77964-A_0UTOTNYQBE/i3xi6sdu6ix3hinx00nytw4u0tky6oyswt/InstallAssistant.pkg"
+    },
+    {
+      "product_key": "142-54123",
+      "title": "macOS Sequoia",
+      "version": "15.8.3",
+      "build": "24H241",
+      "posting_date": "2026-11-09T18:26:56Z",
+      "size": 15674112109,
+      "download_url": "https://swcdn.apple.com/content/downloads/35/30/142-54123-A_L1FDSOKH17/4v632s6ip8ranyhu7hc09akv6d5239x9tq/InstallAssistant.pkg"
     },
     {
       "product_key": "142-50013",

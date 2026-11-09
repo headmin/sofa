@@ -1,5 +1,5 @@
 {
-  "update_hash": "sha256:b6fa740a5117b851b7585216dc0e9995adfbdc071910b89ecebececf779245f6",
+  "update_hash": "sha256:e4d015ef0aeb1022a8e94568e39e10aab7d16759f75828d6e710b4fa5dd945b7",
   "devices": [
     {
       "name": "iPhone 2G",
@@ -2071,6 +2071,15 @@
   "signing_status": {
     "MacBookPro18,1": [
       {
+        "version": "27.2.1",
+        "buildid": "26B131",
+        "signed": true,
+        "signing_started": null,
+        "signing_stopped": null,
+        "url": "https://updates.cdn-apple.com/2026FallFCS/c202a724-db7e-4d56-917b-110aa0226507/UniversalMac_27.2.1_26B131_Restore.ipsw",
+        "filesize": 25595954706
+      },
+      {
         "version": "27.2",
         "buildid": "26B123",
         "signed": true,
@@ -2666,6 +2675,15 @@
       }
     ],
     "iPad13,16": [
+      {
+        "version": "27.2.1",
+        "buildid": "24B156",
+        "signed": true,
+        "signing_started": null,
+        "signing_stopped": null,
+        "url": "https://updates.cdn-apple.com/2026FallFCS/9eb31055-25a2-4ca6-803b-5303a87e5034/iPad_Spring_2022_27.2.1_24B156_Restore.ipsw",
+        "filesize": 11734704771
+      },
       {
         "version": "27.2",
         "buildid": "24B119",
@@ -4648,8 +4666,8 @@
     "build": "26B131",
     "url": "https://updates.cdn-apple.com/2026FallFCS/c202a724-db7e-4d56-917b-110aa0226507/UniversalMac_27.2.1_26B131_Restore.ipsw",
     "apple_slug": "unknown",
-    "fetch_timestamp": "2026-11-09T18:34:49.318916175Z"
+    "fetch_timestamp": "2026-11-09T19:09:04.249100209Z"
   },
   "total_devices": 294,
-  "total_firmwares": 285
+  "total_firmwares": 287
 }
