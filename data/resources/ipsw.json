@@ -1,5 +1,5 @@
 {
-  "update_hash": "sha256:cb88e5827336c31d9c469d0054d8be69c684f79c0597656f6b914925a80c44ee",
+  "update_hash": "sha256:b6fa740a5117b851b7585216dc0e9995adfbdc071910b89ecebececf779245f6",
   "devices": [
     {
       "name": "iPhone 2G",
@@ -4644,11 +4644,11 @@
     ]
   },
   "macos_ipsw": {
-    "version": "27.2",
-    "build": "26B123",
-    "url": "https://updates.cdn-apple.com/2026FallFCS/c9671975-52db-4fb5-9af2-00217169ba8d/UniversalMac_27.2_26B123_Restore.ipsw",
+    "version": "27.2.1",
+    "build": "26B131",
+    "url": "https://updates.cdn-apple.com/2026FallFCS/c202a724-db7e-4d56-917b-110aa0226507/UniversalMac_27.2.1_26B131_Restore.ipsw",
     "apple_slug": "unknown",
-    "fetch_timestamp": "2026-11-09T18:19:29.861632104Z"
+    "fetch_timestamp": "2026-11-09T18:34:49.318916175Z"
   },
   "total_devices": 294,
   "total_firmwares": 285
