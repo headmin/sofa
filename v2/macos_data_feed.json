@@ -1,8 +1,8 @@
 {
   "SchemaVersion": "2026.04.11.2",
   "Version": "2.0",
-  "UpdateHash": "c057d3c47995510afba3ab958d28f514ab2fb8cd6cc481671b91f6a508c8a241",
-  "LastCheck": "2026-11-09T12:37:43.902596490+00:00",
+  "UpdateHash": "d917c71b40a0a29673ed973fef87d57372c3d4214fc607e8b8d83f7e80b2b441",
+  "LastCheck": "2026-11-09T17:11:52.756815314+00:00",
   "OSVersions": [
     {
       "OSVersion": "Golden Gate 27",
@@ -4683,19 +4683,10 @@
           "ExpirationDate": "2027-02-07",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/148171",
-          "SecurityInfoContext": "macOS 15.7.9 was released on August 06, 2026. This release addressed one security issue. Newer updates are now available, so please check to see if they apply to your devices.",
-          "CVEs": {
-            "CVE-2026-65400": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
-              "ActivelyExploited": true,
-              "InKEV": true,
-              "Severity": "Critical"
-            }
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2026-65400"
-          ],
-          "UniqueCVEsCount": 1,
+          "SecurityInfoContext": "macOS 15.7.9 was released on August 06, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 10,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -4705,17 +4696,17 @@
             "DaysLater": 39
           },
           "UpdateSummary": {
-            "Priority": "critical",
-            "Summary": "Contains 1 actively exploited vulnerability",
-            "Recommendation": "Update immediately - actively exploited vulnerabilities",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
-              "Exploited": 1,
+              "Exploited": 0,
               "Critical": 0,
               "High": 0,
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 1
+              "Total": 0
             }
           }
         },
@@ -8888,19 +8879,10 @@
           "ReleaseDate": "2025-02-10T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/122901",
-          "SecurityInfoContext": "macOS 14.7.4 was released on February 10, 2025. This release addressed one security issue. Newer updates are now available, so please check to see if they apply to your devices.",
-          "CVEs": {
-            "CVE-2025-43200": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43200",
-              "ActivelyExploited": true,
-              "InKEV": true,
-              "Severity": "Critical"
-            }
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2025-43200"
-          ],
-          "UniqueCVEsCount": 1,
+          "SecurityInfoContext": "macOS 14.7.4 was released on February 10, 2025. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 14,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -8910,17 +8892,17 @@
             "DaysLater": 49
           },
           "UpdateSummary": {
-            "Priority": "critical",
-            "Summary": "Contains 1 actively exploited vulnerability",
-            "Recommendation": "Update immediately - actively exploited vulnerabilities",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
-              "Exploited": 1,
+              "Exploited": 0,
               "Critical": 0,
               "High": 0,
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 1
+              "Total": 0
             }
           }
         },
@@ -10105,126 +10087,10 @@
           "ReleaseDate": "2023-09-26T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/kb/HT213940",
-          "SecurityInfoContext": "macOS 14.0 was released on September 26, 2023. This release addressed 108 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
-          "CVEs": {
-            "CVE-2023-23495": {},
-            "CVE-2023-29497": {},
-            "CVE-2023-32359": {},
-            "CVE-2023-32361": {},
-            "CVE-2023-32377": {},
-            "CVE-2023-32396": {},
-            "CVE-2023-32421": {},
-            "CVE-2023-35074": {},
-            "CVE-2023-35984": {},
-            "CVE-2023-35990": {},
-            "CVE-2023-37448": {},
-            "CVE-2023-38408": {},
-            "CVE-2023-38586": {},
-            "CVE-2023-38596": {},
-            "CVE-2023-38607": {},
-            "CVE-2023-38610": {},
-            "CVE-2023-38612": {},
-            "CVE-2023-38614": {},
-            "CVE-2023-38615": {},
-            "CVE-2023-39233": {},
-            "CVE-2023-39434": {},
-            "CVE-2023-40384": {},
-            "CVE-2023-40385": {},
-            "CVE-2023-40386": {},
-            "CVE-2023-40388": {},
-            "CVE-2023-40391": {},
-            "CVE-2023-40393": {},
-            "CVE-2023-40395": {},
-            "CVE-2023-40396": {},
-            "CVE-2023-40399": {},
-            "CVE-2023-40400": {},
-            "CVE-2023-40401": {},
-            "CVE-2023-40402": {},
-            "CVE-2023-40403": {},
-            "CVE-2023-40406": {},
-            "CVE-2023-40407": {},
-            "CVE-2023-40410": {},
-            "CVE-2023-40411": {},
-            "CVE-2023-40414": {},
-            "CVE-2023-40417": {},
-            "CVE-2023-40420": {},
-            "CVE-2023-40422": {},
-            "CVE-2023-40424": {},
-            "CVE-2023-40425": {},
-            "CVE-2023-40426": {},
-            "CVE-2023-40427": {},
-            "CVE-2023-40429": {},
-            "CVE-2023-40430": {},
-            "CVE-2023-40432": {},
-            "CVE-2023-40434": {},
-            "CVE-2023-40436": {},
-            "CVE-2023-40438": {},
-            "CVE-2023-40441": {},
-            "CVE-2023-40443": {},
-            "CVE-2023-40448": {},
-            "CVE-2023-40450": {},
-            "CVE-2023-40452": {},
-            "CVE-2023-40454": {},
-            "CVE-2023-40455": {},
-            "CVE-2023-40528": {},
-            "CVE-2023-40541": {},
-            "CVE-2023-41060": {},
-            "CVE-2023-41063": {},
-            "CVE-2023-41065": {},
-            "CVE-2023-41066": {},
-            "CVE-2023-41067": {},
-            "CVE-2023-41070": {},
-            "CVE-2023-41073": {},
-            "CVE-2023-41074": {},
-            "CVE-2023-41076": {},
-            "CVE-2023-41077": {},
-            "CVE-2023-41078": {},
-            "CVE-2023-41079": {},
-            "CVE-2023-41968": {},
-            "CVE-2023-41979": {},
-            "CVE-2023-41980": {},
-            "CVE-2023-41981": {},
-            "CVE-2023-41984": {},
-            "CVE-2023-41986": {},
-            "CVE-2023-41987": {},
-            "CVE-2023-41993": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2023-41993",
-              "ActivelyExploited": true,
-              "InKEV": true,
-              "Severity": "Critical"
-            },
-            "CVE-2023-41994": {},
-            "CVE-2023-41995": {},
-            "CVE-2023-41996": {},
-            "CVE-2023-42826": {},
-            "CVE-2023-42833": {},
-            "CVE-2023-42870": {},
-            "CVE-2023-42871": {},
-            "CVE-2023-42872": {},
-            "CVE-2023-42875": {},
-            "CVE-2023-42876": {},
-            "CVE-2023-42918": {},
-            "CVE-2023-42925": {},
-            "CVE-2023-42929": {},
-            "CVE-2023-42933": {},
-            "CVE-2023-42934": {},
-            "CVE-2023-42943": {},
-            "CVE-2023-42948": {},
-            "CVE-2023-42949": {},
-            "CVE-2023-42957": {},
-            "CVE-2023-42959": {},
-            "CVE-2023-42961": {},
-            "CVE-2023-42969": {},
-            "CVE-2023-42970": {},
-            "CVE-2023-42977": {},
-            "CVE-2023-42981": {},
-            "CVE-2023-42982": {},
-            "CVE-2023-42983": {}
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2023-41993"
-          ],
-          "UniqueCVEsCount": 108,
+          "SecurityInfoContext": "macOS 14.0 was released on September 26, 2023. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 0,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -10234,17 +10100,17 @@
             "DaysLater": 29
           },
           "UpdateSummary": {
-            "Priority": "critical",
-            "Summary": "Contains 1 actively exploited vulnerability",
-            "Recommendation": "Update immediately - actively exploited vulnerabilities",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
-              "Exploited": 1,
+              "Exploited": 0,
               "Critical": 0,
               "High": 0,
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 108
+              "Total": 0
             }
           }
         }
@@ -13377,34 +13243,10 @@
           "ReleaseDate": "2023-10-25T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/kb/HT213983",
-          "SecurityInfoContext": "macOS 12.7.1 was released on October 25, 2023. This release addressed 23 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
-          "CVEs": {
-            "CVE-2023-36191": {},
-            "CVE-2023-40413": {},
-            "CVE-2023-40416": {},
-            "CVE-2023-40421": {},
-            "CVE-2023-40423": {},
-            "CVE-2023-40425": {},
-            "CVE-2023-40446": {},
-            "CVE-2023-40449": {},
-            "CVE-2023-41975": {},
-            "CVE-2023-42823": {},
-            "CVE-2023-42840": {},
-            "CVE-2023-42844": {},
-            "CVE-2023-42849": {},
-            "CVE-2023-42853": {},
-            "CVE-2023-42854": {},
-            "CVE-2023-42856": {},
-            "CVE-2023-42858": {},
-            "CVE-2023-42859": {},
-            "CVE-2023-42860": {},
-            "CVE-2023-42873": {},
-            "CVE-2023-42877": {},
-            "CVE-2023-42889": {},
-            "CVE-2023-42952": {}
-          },
+          "SecurityInfoContext": "macOS 12.7.1 was released on October 25, 2023. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "CVEs": {},
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 23,
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 34,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -13414,9 +13256,9 @@
             "DaysLater": 6
           },
           "UpdateSummary": {
-            "Priority": "high",
-            "Summary": "Addresses 23 security issues",
-            "Recommendation": "Update to stay secure - security fixes available",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -13424,7 +13266,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 23
+              "Total": 0
             }
           }
         },
@@ -13437,36 +13279,10 @@
           "ReleaseDate": "2023-09-21T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/kb/HT213932",
-          "SecurityInfoContext": "macOS 12.7 was released on September 21, 2023. This release addressed 18 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
-          "CVEs": {
-            "CVE-2023-38612": {},
-            "CVE-2023-40395": {},
-            "CVE-2023-40403": {},
-            "CVE-2023-40406": {},
-            "CVE-2023-40409": {},
-            "CVE-2023-40410": {},
-            "CVE-2023-40412": {},
-            "CVE-2023-40420": {},
-            "CVE-2023-40427": {},
-            "CVE-2023-40452": {},
-            "CVE-2023-40454": {},
-            "CVE-2023-41073": {},
-            "CVE-2023-41232": {},
-            "CVE-2023-41968": {},
-            "CVE-2023-41984": {},
-            "CVE-2023-41992": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2023-41992",
-              "ActivelyExploited": true,
-              "InKEV": true,
-              "Severity": "Critical"
-            },
-            "CVE-2023-42961": {},
-            "CVE-2023-42969": {}
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2023-41992"
-          ],
-          "UniqueCVEsCount": 18,
+          "SecurityInfoContext": "macOS 12.7 was released on September 21, 2023. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 10,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -13476,17 +13292,17 @@
             "DaysLater": 34
           },
           "UpdateSummary": {
-            "Priority": "critical",
-            "Summary": "Contains 1 actively exploited vulnerability",
-            "Recommendation": "Update immediately - actively exploited vulnerabilities",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
-              "Exploited": 1,
+              "Exploited": 0,
               "Critical": 0,
               "High": 0,
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 18
+              "Total": 0
             }
           }
         },
@@ -13803,52 +13619,10 @@
           "ReleaseDate": "2023-03-27T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/kb/HT213677",
-          "SecurityInfoContext": "macOS 12.6.4 was released on March 27, 2023. This release addressed 41 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
-          "CVEs": {
-            "CVE-2023-0433": {},
-            "CVE-2023-0512": {},
-            "CVE-2023-23514": {},
-            "CVE-2023-23527": {},
-            "CVE-2023-23533": {},
-            "CVE-2023-23536": {},
-            "CVE-2023-23537": {},
-            "CVE-2023-23538": {},
-            "CVE-2023-23540": {},
-            "CVE-2023-23542": {},
-            "CVE-2023-27933": {},
-            "CVE-2023-27934": {},
-            "CVE-2023-27935": {},
-            "CVE-2023-27936": {},
-            "CVE-2023-27937": {},
-            "CVE-2023-27941": {},
-            "CVE-2023-27942": {},
-            "CVE-2023-27944": {},
-            "CVE-2023-27946": {},
-            "CVE-2023-27949": {},
-            "CVE-2023-27951": {},
-            "CVE-2023-27953": {},
-            "CVE-2023-27955": {},
-            "CVE-2023-27958": {},
-            "CVE-2023-27961": {},
-            "CVE-2023-27962": {},
-            "CVE-2023-27963": {},
-            "CVE-2023-28178": {},
-            "CVE-2023-28181": {},
-            "CVE-2023-28182": {},
-            "CVE-2023-28185": {},
-            "CVE-2023-28189": {},
-            "CVE-2023-28192": {},
-            "CVE-2023-28197": {},
-            "CVE-2023-28199": {},
-            "CVE-2023-28200": {},
-            "CVE-2023-28207": {},
-            "CVE-2023-32366": {},
-            "CVE-2023-32378": {},
-            "CVE-2023-40398": {},
-            "CVE-2023-41075": {}
-          },
+          "SecurityInfoContext": "macOS 12.6.4 was released on March 27, 2023. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "CVEs": {},
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 41,
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 443,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -13858,9 +13632,9 @@
             "DaysLater": 52
           },
           "UpdateSummary": {
-            "Priority": "high",
-            "Summary": "Addresses 41 security issues",
-            "Recommendation": "Update to stay secure - security fixes available",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -13868,7 +13642,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 41
+              "Total": 0
             }
           }
         },
@@ -14896,7 +14670,7 @@
           "AllBuilds": [],
           "ReleaseDate": "2021-09-20T00:00:00Z",
           "ReleaseType": "OS",
-          "SecurityInfo": "https://support.apple.com/kb/HT213256",
+          "SecurityInfo": "https://support.apple.com/en-us/126349",
           "SecurityInfoContext": "macOS 12.0 was released on . This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
           "CVEs": {},
           "ActivelyExploitedCVEs": [],
@@ -16862,12 +16636,12 @@
     }
   },
   "XProtectPlistConfigData": {
-    "com.apple.XProtect": "5371",
-    "ReleaseDate": "2026-11-03T18:03:00Z"
+    "ReleaseDate": "2026-11-03T18:03:00Z",
+    "com.apple.XProtect": "5371"
   },
   "XProtectPayloads": {
-    "com.apple.XProtectFramework.XProtect": "170",
     "com.apple.XprotectFramework.PluginService": "74",
+    "com.apple.XProtectFramework.XProtect": "170",
     "ReleaseDate": "2026-11-03T18:03:00Z"
   },
   "BackgroundSecurityImprovements": {

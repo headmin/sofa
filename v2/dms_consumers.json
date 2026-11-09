@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "SchemaVersion": "2026.04.11.2",
-    "ContentHash": "069907dd9048033845410e26dd477fa03075a2aa6bbac5df1819604698a5b581",
-    "GeneratedAt": "2026-11-09T12:37:44.079567508+00:00",
+    "ContentHash": "ecd66715a821f9699bdd7a428d606b76e64b66f55a993c60d6f8ac4f697863f5",
+    "GeneratedAt": "2026-11-09T17:11:52.959547806+00:00",
     "Description": "Device Management consumers view of Apple-signed OS versions across all platforms with resolved device details."
   },
   "Devices": {
@@ -2548,7 +2548,7 @@
               "Version": "27.0",
               "Build": "24A9437",
               "ReleaseDate": "2026-09-14T00:00:00Z",
-              "CVECount": 163,
+              "CVECount": 0,
               "ActivelyExploitedCount": 0,
               "DeviceScope": "universal",
               "SupportedDevices": [
@@ -4013,8 +4013,8 @@
               "Version": "26.3",
               "Build": "23K6620",
               "ReleaseDate": "2026-02-11T00:00:00Z",
-              "CVECount": 46,
-              "ActivelyExploitedCount": 3,
+              "CVECount": 0,
+              "ActivelyExploitedCount": 0,
               "DeviceScope": "universal",
               "SupportedDevices": [
                 "iPad11,1",
@@ -4223,8 +4223,8 @@
               "Version": "26.2",
               "Build": "23S6303",
               "ReleaseDate": "2025-12-12T00:00:00Z",
-              "CVECount": 39,
-              "ActivelyExploitedCount": 2,
+              "CVECount": 0,
+              "ActivelyExploitedCount": 0,
               "DeviceScope": "universal",
               "SupportedDevices": [
                 "iPad11,1",
@@ -4818,7 +4818,7 @@
               "Version": "26.5",
               "Build": "",
               "ReleaseDate": "2026-05-11",
-              "CVECount": 0,
+              "CVECount": 48,
               "ActivelyExploitedCount": 0,
               "DeviceScope": "universal",
               "SupportedDevices": [
@@ -4842,8 +4842,8 @@
               "Version": "26.3",
               "Build": "",
               "ReleaseDate": "2026-02-11",
-              "CVECount": 0,
-              "ActivelyExploitedCount": 0,
+              "CVECount": 17,
+              "ActivelyExploitedCount": 3,
               "DeviceScope": "universal",
               "SupportedDevices": [
                 "AppleTV5,3",
@@ -4854,8 +4854,8 @@
               "Version": "26.2",
               "Build": "",
               "ReleaseDate": "2025-12-12",
-              "CVECount": 0,
-              "ActivelyExploitedCount": 0,
+              "CVECount": 18,
+              "ActivelyExploitedCount": 2,
               "DeviceScope": "universal",
               "SupportedDevices": [
                 "AppleTV5,3",
@@ -4890,7 +4890,7 @@
               "Version": "26.0",
               "Build": "",
               "ReleaseDate": "2025-09-15",
-              "CVECount": 0,
+              "CVECount": 22,
               "ActivelyExploitedCount": 0,
               "DeviceScope": "universal",
               "SupportedDevices": [
@@ -5186,8 +5186,8 @@
               "Version": "26.3",
               "Build": "",
               "ReleaseDate": "2026-02-11",
-              "CVECount": 0,
-              "ActivelyExploitedCount": 0,
+              "CVECount": 19,
+              "ActivelyExploitedCount": 3,
               "DeviceScope": "universal",
               "SupportedDevices": [
                 "Watch6,1",
@@ -5536,7 +5536,7 @@
               "Version": "27.0",
               "Build": "24M6362",
               "ReleaseDate": "2026-09-14",
-              "CVECount": 148,
+              "CVECount": 0,
               "ActivelyExploitedCount": 0,
               "DeviceScope": "universal",
               "SupportedDevices": [
@@ -5554,7 +5554,7 @@
               "Version": "26.6.1",
               "Build": "23O780",
               "ReleaseDate": "2026-08-17",
-              "CVECount": 2,
+              "CVECount": 0,
               "ActivelyExploitedCount": 0,
               "DeviceScope": "universal",
               "SupportedDevices": [
@@ -5578,7 +5578,7 @@
               "Version": "26.5",
               "Build": "23O471",
               "ReleaseDate": "2026-05-11",
-              "CVECount": 0,
+              "CVECount": 51,
               "ActivelyExploitedCount": 0,
               "DeviceScope": "universal",
               "SupportedDevices": [
@@ -5590,7 +5590,7 @@
               "Version": "26.4",
               "Build": "23O247",
               "ReleaseDate": "2026-03-24",
-              "CVECount": 0,
+              "CVECount": 32,
               "ActivelyExploitedCount": 0,
               "DeviceScope": "universal",
               "SupportedDevices": [
@@ -5614,8 +5614,8 @@
               "Version": "26.3",
               "Build": "23N6620",
               "ReleaseDate": "2026-02-11",
-              "CVECount": 0,
-              "ActivelyExploitedCount": 0,
+              "CVECount": 31,
+              "ActivelyExploitedCount": 3,
               "DeviceScope": "universal",
               "SupportedDevices": [
                 "RealityDevice14,1",
@@ -5650,7 +5650,7 @@
               "Version": "26.0.1",
               "Build": "",
               "ReleaseDate": "2025-09-29",
-              "CVECount": 0,
+              "CVECount": 1,
               "ActivelyExploitedCount": 0,
               "DeviceScope": "universal",
               "SupportedDevices": [
