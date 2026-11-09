@@ -1,5 +1,5 @@
 {
-  "UpdateHash": "58da12f3f58c00089866fec0b4c510510bbd3bb18e2335fb27ab846789ade7e6",
+  "UpdateHash": "6040c9a0e8e973c0f970ef8969bb26521d8e7d04302b2b09ef88000c0eaf1b82",
   "OSVersions": [
     {
       "OSVersion": "Golden Gate 27",
@@ -11376,9 +11376,15 @@
             "VMA2MACOSAP",
             "VMM-x86_64"
           ],
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "CVEs": {
+            "CVE-2023-42916": true,
+            "CVE-2023-42917": true
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2023-42917",
+            "CVE-2023-42916"
+          ],
+          "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 23
         },
         {
@@ -16167,9 +16173,13 @@
             "VMA2MACOSAP",
             "VMM-x86_64"
           ],
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "CVEs": {
+            "CVE-2023-41064": true
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2023-41064"
+          ],
+          "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 49
         },
         {
@@ -17053,13 +17063,13 @@
             "CVE-2022-32917"
           ],
           "UniqueCVEsCount": 40,
-          "DaysSincePreviousRelease": 665
+          "DaysSincePreviousRelease": 225
         },
         {
           "UpdateName": "macOS Monterey 12.5.1",
           "ProductName": "macOS",
           "ProductVersion": "12.5.1",
-          "ReleaseDate": "2022-08-17T00:00:00Z",
+          "ReleaseDate": "2023-10-31T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/kb/HT213413",
           "SupportedDevices": [
@@ -17122,10 +17132,16 @@
             "VMA2MACOSAP",
             "VMM-x86_64"
           ],
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
-          "DaysSincePreviousRelease": 28
+          "CVEs": {
+            "CVE-2022-32893": true,
+            "CVE-2022-32894": true
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2022-32894",
+            "CVE-2022-32893"
+          ],
+          "UniqueCVEsCount": 2,
+          "DaysSincePreviousRelease": 468
         },
         {
           "UpdateName": "macOS Monterey 12.5",
@@ -17649,13 +17665,13 @@
           },
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 69,
-          "DaysSincePreviousRelease": 628
+          "DaysSincePreviousRelease": 0
         },
         {
           "UpdateName": "macOS Monterey 12.2.1",
           "ProductName": "macOS",
           "ProductVersion": "12.2.1",
-          "ReleaseDate": "2022-02-10T00:00:00Z",
+          "ReleaseDate": "2023-11-06T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/kb/HT213092",
           "SupportedDevices": [
@@ -17718,10 +17734,14 @@
             "VMA2MACOSAP",
             "VMM-x86_64"
           ],
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
-          "DaysSincePreviousRelease": 0
+          "CVEs": {
+            "CVE-2022-22620": true
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2022-22620"
+          ],
+          "UniqueCVEsCount": 1,
+          "DaysSincePreviousRelease": 4
         },
         {
           "UpdateName": "macOS Monterey 12.2",
