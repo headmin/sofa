@@ -1,5 +1,5 @@
 {
-  "UpdateHash": "9a75b8fe32496fb9674d46d7a620e856ab7fea7b122c0779c427203c5f49ef64",
+  "UpdateHash": "555c4cf3e98d8aacf50cd3998d689d38b0def63b5fcfb67a5d5c5a5c02656e87",
   "OSVersions": [
     {
       "OSVersion": "Golden Gate 27",
@@ -7,7 +7,7 @@
         "ProductVersion": "27.2.1",
         "Build": "26B8132",
         "ReleaseDate": "2026-11-09T00:00:00Z",
-        "ExpirationDate": "2027-02-07T00:00:00Z",
+        "ExpirationDate": "2027-02-08T00:00:00Z",
         "SupportedDevices": [
           "J180dAP",
           "J274AP",
@@ -1093,7 +1093,7 @@
         "ProductVersion": "26.7.3",
         "Build": "25G342",
         "ReleaseDate": "2026-11-09T00:00:00Z",
-        "ExpirationDate": "2027-02-07T00:00:00Z",
+        "ExpirationDate": "2027-02-08T00:00:00Z",
         "SupportedDevices": [
           "J152FAP",
           "J160AP",
@@ -3958,7 +3958,7 @@
         "ProductVersion": "15.8.3",
         "Build": "24H241",
         "ReleaseDate": "2026-11-09T00:00:00Z",
-        "ExpirationDate": "2027-02-07T00:00:00Z",
+        "ExpirationDate": "2027-02-08T00:00:00Z",
         "SupportedDevices": [
           "J132AP",
           "J137AP",
@@ -7822,7 +7822,7 @@
         "ProductVersion": "14.8.9",
         "Build": "23J631",
         "ReleaseDate": "2026-08-06T00:00:00Z",
-        "ExpirationDate": "2027-02-07T00:00:00Z",
+        "ExpirationDate": "2027-02-08T00:00:00Z",
         "SupportedDevices": [
           "J132AP",
           "J137AP",
@@ -11486,7 +11486,7 @@
         "ProductVersion": "13.7.8",
         "Build": "22H730",
         "ReleaseDate": "2025-08-20T00:00:00Z",
-        "ExpirationDate": "2027-02-07T00:00:00Z",
+        "ExpirationDate": "2027-02-08T00:00:00Z",
         "SupportedDevices": [
           "J132AP",
           "J137AP",
@@ -12867,9 +12867,11 @@
             "VMA2MACOSAP",
             "VMM-x86_64"
           ],
-          "CVEs": {},
+          "CVEs": {
+            "CVE-2024-1580": false
+          },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 18
         },
         {
@@ -14900,7 +14902,7 @@
         "ProductVersion": "12.7.6",
         "Build": "21H1320",
         "ReleaseDate": "2024-07-29T00:00:00Z",
-        "ExpirationDate": "2027-02-07T00:00:00Z",
+        "ExpirationDate": "2027-02-08T00:00:00Z",
         "SupportedDevices": [
           "J132AP",
           "J137AP",
