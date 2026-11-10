@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "SchemaVersion": "2026.04.11.2",
-    "ContentHash": "186e29a9eb76430c66e410e0ac6c0ebf6b67e6ede80a80317858156da7502032",
-    "GeneratedAt": "2026-11-10T00:45:22.857023559+00:00",
+    "ContentHash": "e2039924b4f062ef9a0c84b695541fedf411c4eed8890601852303cc5a9beb30",
+    "GeneratedAt": "2026-11-10T06:39:05.060143479+00:00",
     "Description": "Device Management consumers view of Apple-signed OS versions across all platforms with resolved device details."
   },
   "Devices": {
@@ -2399,10 +2399,7 @@
               "SupportedDevices": [
                 "J700AP"
               ],
-              "SecurityInfo": "https://support.apple.com/en-us/126604",
-              "CVEs": [
-                "CVE-2026-20643"
-              ]
+              "SecurityInfo": "https://support.apple.com/en-us/126604"
             },
             {
               "Version": "26.3.1",
@@ -2475,10 +2472,7 @@
                 "VMA2MACOSAP",
                 "VMM-x86_64"
               ],
-              "SecurityInfo": "https://support.apple.com/en-us/126604",
-              "CVEs": [
-                "CVE-2026-20643"
-              ]
+              "SecurityInfo": "https://support.apple.com/en-us/126604"
             }
           ]
         }
@@ -4784,7 +4778,7 @@
               "Version": "26.0.1",
               "Build": "",
               "ReleaseDate": "2025-09-29T00:00:00Z",
-              "CVECount": 1,
+              "CVECount": 0,
               "ActivelyExploitedCount": 0,
               "DeviceScope": "universal",
               "SupportedDevices": [
@@ -5815,7 +5809,7 @@
               "Version": "26.6.1",
               "Build": "23O780",
               "ReleaseDate": "2026-08-17",
-              "CVECount": 2,
+              "CVECount": 0,
               "ActivelyExploitedCount": 0,
               "DeviceScope": "universal",
               "SupportedDevices": [

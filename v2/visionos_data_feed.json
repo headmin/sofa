@@ -2,8 +2,8 @@
   "SchemaVersion": "2026.04.11.2",
   "OSName": "visionOS",
   "Version": "2.0",
-  "UpdateHash": "a97088e682c24f8c590511ab5009181301598ece82e8c1f9d4bd185cb5468cef",
-  "LastCheck": "2026-11-10T00:45:22.746294070+00:00",
+  "UpdateHash": "4b54394a4b955e9ef4099944146057b5e842270400a5fb1b9377417276e06645",
+  "LastCheck": "2026-11-10T06:39:04.962716010+00:00",
   "OSVersions": [
     {
       "OSVersion": "visionOS 27",
@@ -535,22 +535,19 @@
         "ExpirationDate": "2027-02-08",
         "ReleaseType": "OS",
         "SecurityInfo": "https://support.apple.com/en-us/148353",
-        "SecurityInfoContext": "visionOS has been updated to version 26.6.1, released on August 17, 2026. This update addresses 2 security issues and is the most recent approved version.",
+        "SecurityInfoContext": "visionOS has been updated to version 26.6.1, released on August 17, 2026. This update has no published CVE entries and is the most recent approved version.",
         "SupportedDevices": [
           "RealityDevice14,1",
           "RealityDevice17,1"
         ],
-        "CVEs": {
-          "CVE-2026-65352": {},
-          "CVE-2026-65355": {}
-        },
+        "CVEs": {},
         "ActivelyExploitedCVEs": [],
-        "UniqueCVEsCount": 2,
+        "UniqueCVEsCount": 0,
         "DaysSincePreviousRelease": 21,
         "UpdateSummary": {
-          "Priority": "medium",
-          "Summary": "Addresses 2 security issues",
-          "Recommendation": "Update to stay secure - security fixes available",
+          "Priority": "low",
+          "Summary": "Maintenance update with no published CVE entries",
+          "Recommendation": "Update recommended - may include unpublished security improvements",
           "Stats": {
             "Exploited": 0,
             "Critical": 0,
@@ -558,7 +555,7 @@
             "Medium": 0,
             "Low": 0,
             "Remote": 0,
-            "Total": 2
+            "Total": 0
           }
         }
       },
@@ -576,22 +573,19 @@
           "ExpirationDate": "2027-02-08",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/148353",
-          "SecurityInfoContext": "visionOS has been updated to version 26.6.1, released on August 17, 2026. This update addresses 2 security issues and is the most recent approved version.",
+          "SecurityInfoContext": "visionOS has been updated to version 26.6.1, released on August 17, 2026. This update has no published CVE entries and is the most recent approved version.",
           "SupportedDevices": [
             "RealityDevice14,1",
             "RealityDevice17,1"
           ],
-          "CVEs": {
-            "CVE-2026-65352": {},
-            "CVE-2026-65355": {}
-          },
+          "CVEs": {},
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 2,
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 21,
           "UpdateSummary": {
-            "Priority": "medium",
-            "Summary": "Addresses 2 security issues",
-            "Recommendation": "Update to stay secure - security fixes available",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -599,7 +593,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 2
+              "Total": 0
             }
           }
         },
