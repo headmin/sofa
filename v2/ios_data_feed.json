@@ -1,8 +1,8 @@
 {
   "SchemaVersion": "2026.04.11.2",
   "Version": "2.0",
-  "UpdateHash": "7284bb474b1c49757ae4dff0c04ce50a2bbdc9aff14f405afdb0f7df1ed82ef5",
-  "LastCheck": "2026-11-10T06:39:04.899170516+00:00",
+  "UpdateHash": "093dce11b48a5efb637151460fa5755133c4b4bb14adf0cf932813347eeeb189",
+  "LastCheck": "2026-11-10T12:36:01.755538881+00:00",
   "OSVersions": [
     {
       "OSVersion": "27",
@@ -3321,11 +3321,13 @@
           "ReleaseDate": "2025-09-29T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/125326",
-          "SecurityInfoContext": "iOS 26.0.1 was released on September 29, 2025. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "iOS 26.0.1 was released on September 29, 2025. This release addressed one security issue. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [],
-          "CVEs": {},
+          "CVEs": {
+            "CVE-2025-43400": {}
+          },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 14,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -3335,9 +3337,9 @@
             "DaysLater": 35
           },
           "UpdateSummary": {
-            "Priority": "low",
-            "Summary": "Maintenance update with no published CVE entries",
-            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Priority": "medium",
+            "Summary": "Addresses 1 security issue",
+            "Recommendation": "Update to stay secure - security fixes available",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -3345,7 +3347,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 0
+              "Total": 1
             }
           }
         },
@@ -4594,11 +4596,20 @@
           "ReleaseDate": "2025-08-20T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/124925",
-          "SecurityInfoContext": "iOS 18.6.2 was released on August 20, 2025. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "iOS 18.6.2 was released on August 20, 2025. This release addressed one security issue. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [],
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "CVEs": {
+            "CVE-2025-43300": {
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43300",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
+            }
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-43300"
+          ],
+          "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 6,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -4608,9 +4619,9 @@
             "DaysLater": 26
           },
           "UpdateSummary": {
-            "Priority": "low",
-            "Summary": "Maintenance update with no published CVE entries",
-            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Priority": "medium",
+            "Summary": "Addresses 1 security issue",
+            "Recommendation": "Update to stay secure - security fixes available",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -4618,7 +4629,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 0
+              "Total": 1
             }
           }
         },
@@ -4826,11 +4837,27 @@
           "ReleaseDate": "2025-04-16T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/122282",
-          "SecurityInfoContext": "iOS 18.4.1 was released on April 16, 2025. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "iOS 18.4.1 was released on April 16, 2025. This release addressed 2 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [],
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "CVEs": {
+            "CVE-2025-31200": {
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31200",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
+            },
+            "CVE-2025-31201": {
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31201",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
+            }
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-31201",
+            "CVE-2025-31200"
+          ],
+          "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 16,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -4840,9 +4867,9 @@
             "DaysLater": 26
           },
           "UpdateSummary": {
-            "Priority": "low",
-            "Summary": "Maintenance update with no published CVE entries",
-            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Priority": "medium",
+            "Summary": "Addresses 2 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -4850,7 +4877,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 0
+              "Total": 2
             }
           }
         },
@@ -5078,11 +5105,59 @@
           "ReleaseDate": "2025-01-27T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/122066",
-          "SecurityInfoContext": "iOS 18.3 was released on January 27, 2025. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "iOS 18.3 was released on January 27, 2025. This release addressed 40 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [],
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "CVEs": {
+            "CVE-2024-55549": {},
+            "CVE-2024-9956": {},
+            "CVE-2025-24085": {
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-24085",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
+            },
+            "CVE-2025-24086": {},
+            "CVE-2025-24089": {},
+            "CVE-2025-24090": {},
+            "CVE-2025-24091": {},
+            "CVE-2025-24104": {},
+            "CVE-2025-24107": {},
+            "CVE-2025-24111": {},
+            "CVE-2025-24113": {},
+            "CVE-2025-24117": {},
+            "CVE-2025-24123": {},
+            "CVE-2025-24124": {},
+            "CVE-2025-24126": {},
+            "CVE-2025-24127": {},
+            "CVE-2025-24128": {},
+            "CVE-2025-24129": {},
+            "CVE-2025-24131": {},
+            "CVE-2025-24137": {},
+            "CVE-2025-24141": {},
+            "CVE-2025-24143": {},
+            "CVE-2025-24144": {},
+            "CVE-2025-24145": {},
+            "CVE-2025-24149": {},
+            "CVE-2025-24150": {},
+            "CVE-2025-24154": {},
+            "CVE-2025-24158": {},
+            "CVE-2025-24159": {},
+            "CVE-2025-24160": {},
+            "CVE-2025-24161": {},
+            "CVE-2025-24162": {},
+            "CVE-2025-24163": {},
+            "CVE-2025-24177": {},
+            "CVE-2025-24179": {},
+            "CVE-2025-24184": {},
+            "CVE-2025-24189": {},
+            "CVE-2025-24855": {},
+            "CVE-2025-31185": {},
+            "CVE-2025-31262": {}
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-24085"
+          ],
+          "UniqueCVEsCount": 40,
           "DaysSincePreviousRelease": 21,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -5092,9 +5167,9 @@
             "DaysLater": 14
           },
           "UpdateSummary": {
-            "Priority": "low",
-            "Summary": "Maintenance update with no published CVE entries",
-            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Priority": "high",
+            "Summary": "Addresses 40 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -5102,7 +5177,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 0
+              "Total": 40
             }
           }
         },
@@ -5406,11 +5481,60 @@
           "ReleaseDate": "2024-09-16T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/121250",
-          "SecurityInfoContext": "iOS 18.0 was released on September 16, 2024. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "iOS 18.0 was released on September 16, 2024. This release addressed 48 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [],
-          "CVEs": {},
+          "CVEs": {
+            "CVE-2023-5841": {},
+            "CVE-2024-27869": {},
+            "CVE-2024-27874": {},
+            "CVE-2024-27876": {},
+            "CVE-2024-27879": {},
+            "CVE-2024-27880": {},
+            "CVE-2024-40791": {},
+            "CVE-2024-40826": {},
+            "CVE-2024-40830": {},
+            "CVE-2024-40840": {},
+            "CVE-2024-40850": {},
+            "CVE-2024-40852": {},
+            "CVE-2024-40853": {},
+            "CVE-2024-40856": {},
+            "CVE-2024-40857": {},
+            "CVE-2024-40863": {},
+            "CVE-2024-44122": {},
+            "CVE-2024-44123": {},
+            "CVE-2024-44124": {},
+            "CVE-2024-44126": {},
+            "CVE-2024-44127": {},
+            "CVE-2024-44131": {},
+            "CVE-2024-44139": {},
+            "CVE-2024-44144": {},
+            "CVE-2024-44145": {},
+            "CVE-2024-44147": {},
+            "CVE-2024-44155": {},
+            "CVE-2024-44165": {},
+            "CVE-2024-44167": {},
+            "CVE-2024-44169": {},
+            "CVE-2024-44170": {},
+            "CVE-2024-44171": {},
+            "CVE-2024-44176": {},
+            "CVE-2024-44179": {},
+            "CVE-2024-44180": {},
+            "CVE-2024-44183": {},
+            "CVE-2024-44184": {},
+            "CVE-2024-44187": {},
+            "CVE-2024-44191": {},
+            "CVE-2024-44192": {},
+            "CVE-2024-44198": {},
+            "CVE-2024-44202": {},
+            "CVE-2024-44217": {},
+            "CVE-2024-44227": {},
+            "CVE-2024-54467": {},
+            "CVE-2024-54469": {},
+            "CVE-2024-54558": {},
+            "CVE-2024-54560": {}
+          },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "UniqueCVEsCount": 48,
           "DaysSincePreviousRelease": 0,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -5420,9 +5544,9 @@
             "DaysLater": 17
           },
           "UpdateSummary": {
-            "Priority": "low",
-            "Summary": "Maintenance update with no published CVE entries",
-            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Priority": "high",
+            "Summary": "Addresses 48 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -5430,7 +5554,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 0
+              "Total": 48
             }
           }
         }

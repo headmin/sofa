@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "SchemaVersion": "2026.04.11.2",
-    "ContentHash": "b7495fae06821f0f6d2f2c0935e2c050c923470468ea857009afc8af054bffd5",
-    "GeneratedAt": "2026-11-10T06:39:05.060143479+00:00",
+    "ContentHash": "a2be071e147c492721d1bb3c0883e6408106e6bd4244091847afec35fdcfb22c",
+    "GeneratedAt": "2026-11-10T12:36:01.944434140+00:00",
     "Description": "Lightweight DMS feed. Releases inherit SupportedDevices from their OS version unless overridden."
   },
   "Devices": {
@@ -1455,7 +1455,7 @@
               "Version": "26.3.2(a)",
               "Build": "25D771400a",
               "ReleaseDate": "2026-03-17",
-              "CVECount": 0,
+              "CVECount": 1,
               "ActivelyExploitedCount": 0,
               "Type": "bsi",
               "SupportedDevices": [
@@ -1466,7 +1466,7 @@
               "Version": "26.3.1(a)",
               "Build": "25D771280a",
               "ReleaseDate": "2026-03-17",
-              "CVECount": 0,
+              "CVECount": 1,
               "ActivelyExploitedCount": 0,
               "Type": "bsi",
               "SupportedDevices": [
@@ -2077,7 +2077,7 @@
               "Version": "26.0.1",
               "Build": "",
               "ReleaseDate": "2025-09-29T00:00:00Z",
-              "CVECount": 0,
+              "CVECount": 1,
               "ActivelyExploitedCount": 0
             },
             {
@@ -2674,7 +2674,7 @@
               "Version": "26.6.1",
               "Build": "23O780",
               "ReleaseDate": "2026-08-17",
-              "CVECount": 0,
+              "CVECount": 2,
               "ActivelyExploitedCount": 0
             },
             {

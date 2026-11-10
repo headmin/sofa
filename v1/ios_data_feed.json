@@ -1,5 +1,5 @@
 {
-  "UpdateHash": "cc4f8ce7059e8e0f886a06dc581093c9d5d5a50b521a93e307a94f7e264d89e7",
+  "UpdateHash": "38812ca028037eea9a79eecff699fa3697dea48b38e429bfda5dfa8c494c5a66",
   "OSVersions": [
     {
       "OSVersion": "27",
@@ -2605,9 +2605,11 @@
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/125326",
           "SupportedDevices": [],
-          "CVEs": {},
+          "CVEs": {
+            "CVE-2025-43400": false
+          },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 14
         },
         {
@@ -3371,9 +3373,13 @@
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/124925",
           "SupportedDevices": [],
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "CVEs": {
+            "CVE-2025-43300": true
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-43300"
+          ],
+          "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 6
         },
         {
@@ -3497,9 +3503,15 @@
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/122282",
           "SupportedDevices": [],
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "CVEs": {
+            "CVE-2025-31200": true,
+            "CVE-2025-31201": true
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-31201",
+            "CVE-2025-31200"
+          ],
+          "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 16
         },
         {
@@ -3638,9 +3650,52 @@
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/122066",
           "SupportedDevices": [],
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "CVEs": {
+            "CVE-2024-55549": false,
+            "CVE-2024-9956": false,
+            "CVE-2025-24085": true,
+            "CVE-2025-24086": false,
+            "CVE-2025-24089": false,
+            "CVE-2025-24090": false,
+            "CVE-2025-24091": false,
+            "CVE-2025-24104": false,
+            "CVE-2025-24107": false,
+            "CVE-2025-24111": false,
+            "CVE-2025-24113": false,
+            "CVE-2025-24117": false,
+            "CVE-2025-24123": false,
+            "CVE-2025-24124": false,
+            "CVE-2025-24126": false,
+            "CVE-2025-24127": false,
+            "CVE-2025-24128": false,
+            "CVE-2025-24129": false,
+            "CVE-2025-24131": false,
+            "CVE-2025-24137": false,
+            "CVE-2025-24141": false,
+            "CVE-2025-24143": false,
+            "CVE-2025-24144": false,
+            "CVE-2025-24145": false,
+            "CVE-2025-24149": false,
+            "CVE-2025-24150": false,
+            "CVE-2025-24154": false,
+            "CVE-2025-24158": false,
+            "CVE-2025-24159": false,
+            "CVE-2025-24160": false,
+            "CVE-2025-24161": false,
+            "CVE-2025-24162": false,
+            "CVE-2025-24163": false,
+            "CVE-2025-24177": false,
+            "CVE-2025-24179": false,
+            "CVE-2025-24184": false,
+            "CVE-2025-24189": false,
+            "CVE-2025-24855": false,
+            "CVE-2025-31185": false,
+            "CVE-2025-31262": false
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-24085"
+          ],
+          "UniqueCVEsCount": 40,
           "DaysSincePreviousRelease": 21
         },
         {
@@ -3812,9 +3867,58 @@
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/121250",
           "SupportedDevices": [],
-          "CVEs": {},
+          "CVEs": {
+            "CVE-2023-5841": false,
+            "CVE-2024-27869": false,
+            "CVE-2024-27874": false,
+            "CVE-2024-27876": false,
+            "CVE-2024-27879": false,
+            "CVE-2024-27880": false,
+            "CVE-2024-40791": false,
+            "CVE-2024-40826": false,
+            "CVE-2024-40830": false,
+            "CVE-2024-40840": false,
+            "CVE-2024-40850": false,
+            "CVE-2024-40852": false,
+            "CVE-2024-40853": false,
+            "CVE-2024-40856": false,
+            "CVE-2024-40857": false,
+            "CVE-2024-40863": false,
+            "CVE-2024-44122": false,
+            "CVE-2024-44123": false,
+            "CVE-2024-44124": false,
+            "CVE-2024-44126": false,
+            "CVE-2024-44127": false,
+            "CVE-2024-44131": false,
+            "CVE-2024-44139": false,
+            "CVE-2024-44144": false,
+            "CVE-2024-44145": false,
+            "CVE-2024-44147": false,
+            "CVE-2024-44155": false,
+            "CVE-2024-44165": false,
+            "CVE-2024-44167": false,
+            "CVE-2024-44169": false,
+            "CVE-2024-44170": false,
+            "CVE-2024-44171": false,
+            "CVE-2024-44176": false,
+            "CVE-2024-44179": false,
+            "CVE-2024-44180": false,
+            "CVE-2024-44183": false,
+            "CVE-2024-44184": false,
+            "CVE-2024-44187": false,
+            "CVE-2024-44191": false,
+            "CVE-2024-44192": false,
+            "CVE-2024-44198": false,
+            "CVE-2024-44202": false,
+            "CVE-2024-44217": false,
+            "CVE-2024-44227": false,
+            "CVE-2024-54467": false,
+            "CVE-2024-54469": false,
+            "CVE-2024-54558": false,
+            "CVE-2024-54560": false
+          },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "UniqueCVEsCount": 48,
           "DaysSincePreviousRelease": 0
         }
       ]
