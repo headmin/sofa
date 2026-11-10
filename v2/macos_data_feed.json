@@ -1,8 +1,8 @@
 {
   "SchemaVersion": "2026.04.11.2",
   "Version": "2.0",
-  "UpdateHash": "c9eb8b86583d67d5851bb8317252bd7f3afdb181551f0ac9b87f513367cb1f93",
-  "LastCheck": "2026-11-10T19:10:20.872500103+00:00",
+  "UpdateHash": "986cb4cc5daf2b78c26ecd4d798625d3c75d93d73b2c9cdc81d5c3db205eef50",
+  "LastCheck": "2026-11-10T20:11:39.940948136+00:00",
   "OSVersions": [
     {
       "OSVersion": "Golden Gate 27",
@@ -8634,10 +8634,63 @@
           "ReleaseDate": "2024-10-28T00:00:00Z",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/121570",
-          "SecurityInfoContext": "macOS 14.7.1 was released on October 28, 2024. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
-          "CVEs": {},
+          "SecurityInfoContext": "macOS 14.7.1 was released on October 28, 2024. This release addressed 52 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "CVEs": {
+            "CVE-2024-40854": {},
+            "CVE-2024-40855": {},
+            "CVE-2024-44122": {},
+            "CVE-2024-44137": {},
+            "CVE-2024-44144": {},
+            "CVE-2024-44156": {},
+            "CVE-2024-44159": {},
+            "CVE-2024-44175": {},
+            "CVE-2024-44196": {},
+            "CVE-2024-44197": {},
+            "CVE-2024-44213": {},
+            "CVE-2024-44215": {},
+            "CVE-2024-44216": {},
+            "CVE-2024-44218": {},
+            "CVE-2024-44222": {},
+            "CVE-2024-44232": {},
+            "CVE-2024-44233": {},
+            "CVE-2024-44234": {},
+            "CVE-2024-44236": {},
+            "CVE-2024-44237": {},
+            "CVE-2024-44239": {},
+            "CVE-2024-44240": {},
+            "CVE-2024-44247": {},
+            "CVE-2024-44253": {},
+            "CVE-2024-44254": {},
+            "CVE-2024-44255": {},
+            "CVE-2024-44256": {},
+            "CVE-2024-44257": {},
+            "CVE-2024-44260": {},
+            "CVE-2024-44264": {},
+            "CVE-2024-44265": {},
+            "CVE-2024-44267": {},
+            "CVE-2024-44269": {},
+            "CVE-2024-44270": {},
+            "CVE-2024-44273": {},
+            "CVE-2024-44275": {},
+            "CVE-2024-44278": {},
+            "CVE-2024-44279": {},
+            "CVE-2024-44280": {},
+            "CVE-2024-44281": {},
+            "CVE-2024-44282": {},
+            "CVE-2024-44283": {},
+            "CVE-2024-44284": {},
+            "CVE-2024-44287": {},
+            "CVE-2024-44289": {},
+            "CVE-2024-44294": {},
+            "CVE-2024-44295": {},
+            "CVE-2024-44297": {},
+            "CVE-2024-44301": {},
+            "CVE-2024-44302": {},
+            "CVE-2024-54471": {},
+            "CVE-2024-54538": {}
+          },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "UniqueCVEsCount": 52,
           "DaysSincePreviousRelease": 42,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -8647,9 +8700,9 @@
             "DaysLater": 44
           },
           "UpdateSummary": {
-            "Priority": "low",
-            "Summary": "Maintenance update with no published CVE entries",
-            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Priority": "high",
+            "Summary": "Addresses 52 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -8657,7 +8710,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 0
+              "Total": 52
             }
           }
         },
@@ -14382,7 +14435,7 @@
           "AllBuilds": [],
           "ReleaseDate": "2021-09-20T00:00:00Z",
           "ReleaseType": "OS",
-          "SecurityInfo": "https://support.apple.com/en-us/128071",
+          "SecurityInfo": "https://support.apple.com/kb/HT213532",
           "SecurityInfoContext": "macOS 12.0 was released on . This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
           "CVEs": {},
           "ActivelyExploitedCVEs": [],
@@ -16352,9 +16405,9 @@
     "ReleaseDate": "2026-11-03T18:03:00Z"
   },
   "XProtectPayloads": {
-    "com.apple.XprotectFramework.PluginService": "74",
     "ReleaseDate": "2026-11-03T18:03:00Z",
-    "com.apple.XProtectFramework.XProtect": "170"
+    "com.apple.XProtectFramework.XProtect": "170",
+    "com.apple.XprotectFramework.PluginService": "74"
   },
   "BackgroundSecurityImprovements": {
     "26": [
