@@ -6,7 +6,7 @@
     <description>Simple Organized Feed for Apple Software Updates - Security releases and updates</description>
     <language>en-us</language>
     <generator>SOFA RSS Generator 2.0</generator>
-    <lastBuildDate>Wed, 11 Nov 2026 19:10:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 20:12:29 +0000</lastBuildDate>
     <image>
       <url>https://sofa.macadmins.io/images/custom_logo.png</url>
       <title>SOFA</title>
@@ -1674,7 +1674,7 @@
     <item>
       <title>visionOS 2.1.1</title>
       <link>https://support.apple.com/en-us/121755</link>
-      <description>Vulnerabilities Addressed: 2&lt;br&gt;Exploited CVE(s): 2&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/en-us/121755"&gt;https://support.apple.com/en-us/121755&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/visionos/visionos2"&gt;https://sofa.macadmins.io/visionos/visionos2&lt;/a&gt;</description>
+      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/en-us/121755"&gt;https://support.apple.com/en-us/121755&lt;/a&gt;</description>
       <guid isPermaLink="false">visionOS_OS_2.1.1</guid>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
     </item>
@@ -2575,10 +2575,24 @@
       <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>iOS 12.5.4</title>
+      <link>https://support.apple.com/kb/HT212548</link>
+      <description>Vulnerabilities Addressed: 3&lt;br&gt;Exploited CVE(s): 2&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT212548"&gt;https://support.apple.com/kb/HT212548&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/ios/ios17"&gt;https://sofa.macadmins.io/ios/ios17&lt;/a&gt;</description>
+      <guid isPermaLink="false">iOS_OS_12.5.4</guid>
+      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>iOS 13.4 and iPadOS 13.4</title>
       <link>https://support.apple.com/kb/HT211102</link>
       <description>Vulnerabilities Addressed: 32&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT211102"&gt;https://support.apple.com/kb/HT211102&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/ios/ios17"&gt;https://sofa.macadmins.io/ios/ios17&lt;/a&gt;</description>
       <guid isPermaLink="false">iOS_OS_13.4</guid>
+      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>iOS 13.5.1 and iPadOS 13.5.1</title>
+      <link>https://support.apple.com/kb/HT211214</link>
+      <description>Vulnerabilities Addressed: 1&lt;br&gt;Exploited CVE(s): 1&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT211214"&gt;https://support.apple.com/kb/HT211214&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/ios/ios17"&gt;https://sofa.macadmins.io/ios/ios17&lt;/a&gt;</description>
+      <guid isPermaLink="false">iOS_OS_13.5.1</guid>
       <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2631,6 +2645,13 @@
       <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>tvOS 13.4</title>
+      <link>https://support.apple.com/kb/HT211101</link>
+      <description>Vulnerabilities Addressed: 22&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT211101"&gt;https://support.apple.com/kb/HT211101&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/tvos/tvos17"&gt;https://sofa.macadmins.io/tvos/tvos17&lt;/a&gt;</description>
+      <guid isPermaLink="false">tvOS_OS_13.4</guid>
+      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>tvOS 13.4.6</title>
       <link>https://support.apple.com/kb/HT211216</link>
       <description>Vulnerabilities Addressed: 1&lt;br&gt;Exploited CVE(s): 1&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT211216"&gt;https://support.apple.com/kb/HT211216&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/tvos/tvos17"&gt;https://sofa.macadmins.io/tvos/tvos17&lt;/a&gt;</description>
@@ -2642,6 +2663,13 @@
       <link>https://support.apple.com/kb/HT211176</link>
       <description>Vulnerabilities Addressed: 2&lt;br&gt;Exploited CVE(s): 1&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT211176"&gt;https://support.apple.com/kb/HT211176&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/watchos/watchos11"&gt;https://sofa.macadmins.io/watchos/watchos11&lt;/a&gt;</description>
       <guid isPermaLink="false">watchOS_OS_5.3.7</guid>
+      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>watchOS 6.2.6</title>
+      <link>https://support.apple.com/kb/HT211217</link>
+      <description>Vulnerabilities Addressed: 1&lt;br&gt;Exploited CVE(s): 1&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT211217"&gt;https://support.apple.com/kb/HT211217&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/watchos/watchos11"&gt;https://sofa.macadmins.io/watchos/watchos11&lt;/a&gt;</description>
+      <guid isPermaLink="false">watchOS_OS_6.2.6</guid>
       <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2708,6 +2736,13 @@
       <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>iOS 12.5.5</title>
+      <link>https://support.apple.com/en-us/103157</link>
+      <description>Vulnerabilities Addressed: 4&lt;br&gt;Exploited CVE(s): 4&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/en-us/103157"&gt;https://support.apple.com/en-us/103157&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/ios/ios17"&gt;https://sofa.macadmins.io/ios/ios17&lt;/a&gt;</description>
+      <guid isPermaLink="false">iOS_OS_12.5.5</guid>
+      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>iOS 13.3.1 and iPadOS 13.3.1</title>
       <link>https://support.apple.com/kb/HT210918</link>
       <description>Vulnerabilities Addressed: 35&lt;br&gt;Exploited CVE(s): 1&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT210918"&gt;https://support.apple.com/kb/HT210918&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/ios/ios17"&gt;https://sofa.macadmins.io/ios/ios17&lt;/a&gt;</description>
@@ -2733,6 +2768,13 @@
       <link>https://support.apple.com/kb/HT212256</link>
       <description>Vulnerabilities Addressed: 1&lt;br&gt;Exploited CVE(s): 1&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT212256"&gt;https://support.apple.com/kb/HT212256&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/ios/ios17"&gt;https://sofa.macadmins.io/ios/ios17&lt;/a&gt;</description>
       <guid isPermaLink="false">iOS_OS_14.4.2</guid>
+      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>iOS 14.5 and iPadOS 14.5</title>
+      <link>https://support.apple.com/kb/HT212317</link>
+      <description>Vulnerabilities Addressed: 62&lt;br&gt;Exploited CVE(s): 1&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT212317"&gt;https://support.apple.com/kb/HT212317&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/ios/ios17"&gt;https://sofa.macadmins.io/ios/ios17&lt;/a&gt;</description>
+      <guid isPermaLink="false">iOS_OS_14.5</guid>
       <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2827,6 +2869,13 @@
       <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>watchOS 6.1.2</title>
+      <link>https://support.apple.com/kb/HT210921</link>
+      <description>Vulnerabilities Addressed: 20&lt;br&gt;Exploited CVE(s): 1&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT210921"&gt;https://support.apple.com/kb/HT210921&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/watchos/watchos11"&gt;https://sofa.macadmins.io/watchos/watchos11&lt;/a&gt;</description>
+      <guid isPermaLink="false">watchOS_OS_6.1.2</guid>
+      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>watchOS 6.2.5</title>
       <link>https://support.apple.com/kb/HT211175</link>
       <description>Vulnerabilities Addressed: 34&lt;br&gt;Exploited CVE(s): 2&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT211175"&gt;https://support.apple.com/kb/HT211175&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/watchos/watchos11"&gt;https://sofa.macadmins.io/watchos/watchos11&lt;/a&gt;</description>
@@ -2841,10 +2890,10 @@
       <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>watchOS 8.1</title>
-      <link>https://support.apple.com/en-us/103165</link>
-      <description>Vulnerabilities Addressed: 20&lt;br&gt;Exploited CVE(s): 1&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/en-us/103165"&gt;https://support.apple.com/en-us/103165&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/watchos/watchos11"&gt;https://sofa.macadmins.io/watchos/watchos11&lt;/a&gt;</description>
-      <guid isPermaLink="false">watchOS_OS_8.1</guid>
+      <title>watchOS 7.3.3</title>
+      <link>https://support.apple.com/kb/HT212258</link>
+      <description>Vulnerabilities Addressed: 1&lt;br&gt;Exploited CVE(s): 1&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT212258"&gt;https://support.apple.com/kb/HT212258&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/watchos/watchos11"&gt;https://sofa.macadmins.io/watchos/watchos11&lt;/a&gt;</description>
+      <guid isPermaLink="false">watchOS_OS_7.3.3</guid>
       <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -3058,6 +3107,13 @@
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>tvOS 14.4</title>
+      <link>https://support.apple.com/kb/HT212149</link>
+      <description>Vulnerabilities Addressed: 37&lt;br&gt;Exploited CVE(s): 2&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT212149"&gt;https://support.apple.com/kb/HT212149&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/tvos/tvos17"&gt;https://sofa.macadmins.io/tvos/tvos17&lt;/a&gt;</description>
+      <guid isPermaLink="false">tvOS_OS_14.4</guid>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>tvOS 15.6</title>
       <link>https://support.apple.com/kb/HT213342</link>
       <description>Vulnerabilities Addressed: 30&lt;br&gt;Exploited CVE(s): 1&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT213342"&gt;https://support.apple.com/kb/HT213342&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/tvos/tvos17"&gt;https://sofa.macadmins.io/tvos/tvos17&lt;/a&gt;</description>
@@ -3153,13 +3209,6 @@
       <link>https://support.apple.com/kb/HT213346</link>
       <description>Vulnerabilities Addressed: 44&lt;br&gt;Exploited CVE(s): 2&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT213346"&gt;https://support.apple.com/kb/HT213346&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/ios/ios17"&gt;https://sofa.macadmins.io/ios/ios17&lt;/a&gt;</description>
       <guid isPermaLink="false">iOS_OS_15.6</guid>
-      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>iOS 16.3.1 and iPadOS 16.3.1</title>
-      <link>https://support.apple.com/kb/HT213635</link>
-      <description>Vulnerabilities Addressed: 3&lt;br&gt;Exploited CVE(s): 1&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT213635"&gt;https://support.apple.com/kb/HT213635&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/ios/ios17"&gt;https://sofa.macadmins.io/ios/ios17&lt;/a&gt;</description>
-      <guid isPermaLink="false">iOS_OS_16.3.1</guid>
       <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -3319,7 +3368,7 @@
     <item>
       <title>tvOS 17.1</title>
       <link>https://support.apple.com/kb/HT213987</link>
-      <description>Vulnerabilities Addressed: 11&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT213987"&gt;https://support.apple.com/kb/HT213987&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/tvos/tvos17"&gt;https://sofa.macadmins.io/tvos/tvos17&lt;/a&gt;</description>
+      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT213987"&gt;https://support.apple.com/kb/HT213987&lt;/a&gt;</description>
       <guid isPermaLink="false">tvOS_OS_17.1</guid>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
     </item>
@@ -3340,7 +3389,7 @@
     <item>
       <title>iOS 17.0.3 and iPadOS 17.0.3</title>
       <link>https://support.apple.com/kb/HT213961</link>
-      <description>Vulnerabilities Addressed: 2&lt;br&gt;Exploited CVE(s): 2&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT213961"&gt;https://support.apple.com/kb/HT213961&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/ios/ios17"&gt;https://sofa.macadmins.io/ios/ios17&lt;/a&gt;</description>
+      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT213961"&gt;https://support.apple.com/kb/HT213961&lt;/a&gt;</description>
       <guid isPermaLink="false">iOS_OS_17.0.3</guid>
       <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
     </item>
@@ -3737,6 +3786,13 @@
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>iOS 16.3.1 and iPadOS 16.3.1</title>
+      <link>https://support.apple.com/kb/HT213635</link>
+      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT213635"&gt;https://support.apple.com/kb/HT213635&lt;/a&gt;</description>
+      <guid isPermaLink="false">iOS_OS_16.3.1</guid>
+      <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>tvOS 16.3.1</title>
       <link>https://sofa.macadmins.io</link>
       <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0</description>
@@ -3746,7 +3802,7 @@
     <item>
       <title>tvOS 16.3</title>
       <link>https://support.apple.com/kb/HT213601</link>
-      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT213601"&gt;https://support.apple.com/kb/HT213601&lt;/a&gt;</description>
+      <description>Vulnerabilities Addressed: 16&lt;br&gt;Exploited CVE(s): 1&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT213601"&gt;https://support.apple.com/kb/HT213601&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/tvos/tvos17"&gt;https://sofa.macadmins.io/tvos/tvos17&lt;/a&gt;</description>
       <guid isPermaLink="false">tvOS_OS_16.3</guid>
       <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
     </item>
@@ -4059,6 +4115,13 @@
       <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>watchOS 8.1</title>
+      <link>https://support.apple.com/en-us/103165</link>
+      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/en-us/103165"&gt;https://support.apple.com/en-us/103165&lt;/a&gt;</description>
+      <guid isPermaLink="false">watchOS_OS_8.1</guid>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>iOS 15.0.2 and iPadOS 15.0.2</title>
       <link>https://support.apple.com/en-us/103159</link>
       <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/en-us/103159"&gt;https://support.apple.com/en-us/103159&lt;/a&gt;</description>
@@ -4078,13 +4141,6 @@
       <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/en-us/103160"&gt;https://support.apple.com/en-us/103160&lt;/a&gt;</description>
       <guid isPermaLink="false">iOS_OS_15.0.1</guid>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>iOS 12.5.5</title>
-      <link>https://support.apple.com/en-us/103157</link>
-      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/en-us/103157"&gt;https://support.apple.com/en-us/103157&lt;/a&gt;</description>
-      <guid isPermaLink="false">iOS_OS_12.5.5</guid>
-      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>iOS 14.8 and iPadOS 14.8</title>
@@ -4129,13 +4185,6 @@
       <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>iOS 12.5.4</title>
-      <link>https://support.apple.com/kb/HT212548</link>
-      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT212548"&gt;https://support.apple.com/kb/HT212548&lt;/a&gt;</description>
-      <guid isPermaLink="false">iOS_OS_12.5.4</guid>
-      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>tvOS 14.6</title>
       <link>https://support.apple.com/kb/HT212532</link>
       <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT212532"&gt;https://support.apple.com/kb/HT212532&lt;/a&gt;</description>
@@ -4145,7 +4194,7 @@
     <item>
       <title>watchOS 7.5</title>
       <link>https://support.apple.com/kb/HT212533</link>
-      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT212533"&gt;https://support.apple.com/kb/HT212533&lt;/a&gt;</description>
+      <description>Vulnerabilities Addressed: 31&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT212533"&gt;https://support.apple.com/kb/HT212533&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/watchos/watchos11"&gt;https://sofa.macadmins.io/watchos/watchos11&lt;/a&gt;</description>
       <guid isPermaLink="false">watchOS_OS_7.5</guid>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
     </item>
@@ -4162,13 +4211,6 @@
       <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT212339"&gt;https://support.apple.com/kb/HT212339&lt;/a&gt;</description>
       <guid isPermaLink="false">watchOS_OS_7.4.1</guid>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>iOS 14.5 and iPadOS 14.5</title>
-      <link>https://support.apple.com/kb/HT212317</link>
-      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT212317"&gt;https://support.apple.com/kb/HT212317&lt;/a&gt;</description>
-      <guid isPermaLink="false">iOS_OS_14.5</guid>
-      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>tvOS 14.5</title>
@@ -4192,13 +4234,6 @@
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>watchOS 7.3.3</title>
-      <link>https://support.apple.com/kb/HT212258</link>
-      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT212258"&gt;https://support.apple.com/kb/HT212258&lt;/a&gt;</description>
-      <guid isPermaLink="false">watchOS_OS_7.3.3</guid>
-      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>macOS Big Sur 11.2.2</title>
       <link>https://sofa.macadmins.io</link>
       <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0</description>
@@ -4217,13 +4252,6 @@
       <link>https://support.apple.com/kb/HT212146</link>
       <description>Vulnerabilities Addressed: 54&lt;br&gt;Exploited CVE(s): 5&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT212146"&gt;https://support.apple.com/kb/HT212146&lt;/a&gt;&lt;br&gt;Security Details: &lt;a href="https://sofa.macadmins.io/ios/ios17"&gt;https://sofa.macadmins.io/ios/ios17&lt;/a&gt;</description>
       <guid isPermaLink="false">iOS_OS_14.4</guid>
-      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>tvOS 14.4</title>
-      <link>https://support.apple.com/kb/HT212149</link>
-      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT212149"&gt;https://support.apple.com/kb/HT212149&lt;/a&gt;</description>
-      <guid isPermaLink="false">tvOS_OS_14.4</guid>
       <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -4381,20 +4409,6 @@
       <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>iOS 13.5.1 and iPadOS 13.5.1</title>
-      <link>https://support.apple.com/kb/HT211214</link>
-      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT211214"&gt;https://support.apple.com/kb/HT211214&lt;/a&gt;</description>
-      <guid isPermaLink="false">iOS_OS_13.5.1</guid>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>watchOS 6.2.6</title>
-      <link>https://support.apple.com/kb/HT211217</link>
-      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT211217"&gt;https://support.apple.com/kb/HT211217&lt;/a&gt;</description>
-      <guid isPermaLink="false">watchOS_OS_6.2.6</guid>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>iOS 12.4.7</title>
       <link>https://support.apple.com/kb/HT211169</link>
       <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT211169"&gt;https://support.apple.com/kb/HT211169&lt;/a&gt;</description>
@@ -4451,13 +4465,6 @@
       <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>tvOS 13.4</title>
-      <link>https://support.apple.com/kb/HT211101</link>
-      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT211101"&gt;https://support.apple.com/kb/HT211101&lt;/a&gt;</description>
-      <guid isPermaLink="false">tvOS_OS_13.4</guid>
-      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>watchOS 5.3.6</title>
       <link>https://sofa.macadmins.io</link>
       <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0</description>
@@ -4490,13 +4497,6 @@
       <link>https://sofa.macadmins.io</link>
       <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0</description>
       <guid isPermaLink="false">iOS_OS_12.4.5</guid>
-      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>watchOS 6.1.2</title>
-      <link>https://support.apple.com/kb/HT210921</link>
-      <description>Vulnerabilities Addressed: 0&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Apple Security Bulletin: &lt;a href="https://support.apple.com/kb/HT210921"&gt;https://support.apple.com/kb/HT210921&lt;/a&gt;</description>
-      <guid isPermaLink="false">watchOS_OS_6.1.2</guid>
       <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
     </item>
   </channel>
