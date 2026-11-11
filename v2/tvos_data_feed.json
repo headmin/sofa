@@ -2,8 +2,8 @@
   "SchemaVersion": "2026.04.11.2",
   "OSName": "tvOS",
   "Version": "2.0",
-  "UpdateHash": "0048f4404caf9b494bbb36a7736b2f26423324d040badb6b107e52d74d97c579",
-  "LastCheck": "2026-11-10T20:11:40.010730971+00:00",
+  "UpdateHash": "aa88a997faf411dea3c062b5a45ae77b39ffd5a6c7e202930e17e476d31b3e05",
+  "LastCheck": "2026-11-11T00:46:14.741705306+00:00",
   "OSVersions": [
     {
       "OSVersion": "tvOS 27",
@@ -19,7 +19,7 @@
           "24K122"
         ],
         "ReleaseDate": "2026-10-26",
-        "ExpirationDate": "2027-02-08",
+        "ExpirationDate": "2027-02-09",
         "ReleaseType": "OS",
         "SecurityInfo": "https://support.apple.com/en-us/149524",
         "SecurityInfoContext": "tvOS has been updated to version 27.2, released on October 26, 2026. This update addresses 72 security issues and is the most recent approved version.",
@@ -133,7 +133,7 @@
             "24K122"
           ],
           "ReleaseDate": "2026-10-26",
-          "ExpirationDate": "2027-02-08",
+          "ExpirationDate": "2027-02-09",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/149524",
           "SecurityInfoContext": "tvOS has been updated to version 27.2, released on October 26, 2026. This update addresses 72 security issues and is the most recent approved version.",
@@ -393,7 +393,7 @@
           "23L6781"
         ],
         "ReleaseDate": "2026-10-26",
-        "ExpirationDate": "2027-02-08",
+        "ExpirationDate": "2027-02-09",
         "ReleaseType": "OS",
         "SecurityInfo": "https://support.apple.com/en-us/100100",
         "SecurityInfoContext": "tvOS has been updated to version 26.6.1, released on October 26, 2026. This update has no published CVE entries and is the most recent approved version.",
@@ -431,7 +431,7 @@
             "23L6781"
           ],
           "ReleaseDate": "2026-10-26",
-          "ExpirationDate": "2027-02-08",
+          "ExpirationDate": "2027-02-09",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/100100",
           "SecurityInfoContext": "tvOS has been updated to version 26.6.1, released on October 26, 2026. This update has no published CVE entries and is the most recent approved version.",
@@ -1005,34 +1005,11 @@
           "ReleaseDate": "2025-09-15",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/125114",
-          "SecurityInfoContext": "tvOS 26.0 was released on September 15, 2025. This release addressed 22 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "tvOS 26.0 was released on September 15, 2025. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [],
-          "CVEs": {
-            "CVE-2025-31255": {},
-            "CVE-2025-43302": {},
-            "CVE-2025-43303": {},
-            "CVE-2025-43317": {},
-            "CVE-2025-43323": {},
-            "CVE-2025-43329": {},
-            "CVE-2025-43342": {},
-            "CVE-2025-43343": {},
-            "CVE-2025-43344": {},
-            "CVE-2025-43345": {},
-            "CVE-2025-43346": {},
-            "CVE-2025-43347": {},
-            "CVE-2025-43349": {},
-            "CVE-2025-43354": {},
-            "CVE-2025-43355": {},
-            "CVE-2025-43356": {},
-            "CVE-2025-43359": {},
-            "CVE-2025-43361": {},
-            "CVE-2025-43372": {},
-            "CVE-2025-43376": {},
-            "CVE-2025-43419": {},
-            "CVE-2025-6965": {}
-          },
+          "CVEs": {},
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 22,
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 0,
           "SupersededBy": {
             "ProductVersion": "26.0.1",
@@ -1041,9 +1018,9 @@
             "DaysLater": 14
           },
           "UpdateSummary": {
-            "Priority": "high",
-            "Summary": "Addresses 22 security issues",
-            "Recommendation": "Update to stay secure - security fixes available",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -1051,7 +1028,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 22
+              "Total": 0
             }
           }
         }

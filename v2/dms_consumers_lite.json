@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "SchemaVersion": "2026.04.11.2",
-    "ContentHash": "a2be071e147c492721d1bb3c0883e6408106e6bd4244091847afec35fdcfb22c",
-    "GeneratedAt": "2026-11-10T20:11:40.153352704+00:00",
+    "ContentHash": "7ee5a420a99ce909e83b73a84b303bb0cf50478cbaf5cd5fbb13c936eeb5a8b4",
+    "GeneratedAt": "2026-11-11T00:46:14.839597417+00:00",
     "Description": "Lightweight DMS feed. Releases inherit SupportedDevices from their OS version unless overridden."
   },
   "Devices": {
@@ -2229,7 +2229,7 @@
               "Version": "26.0",
               "Build": "",
               "ReleaseDate": "2025-09-15",
-              "CVECount": 22,
+              "CVECount": 0,
               "ActivelyExploitedCount": 0,
               "SupportedDevices": [
                 "AppleTV5,3",
@@ -2695,7 +2695,7 @@
               "Version": "26.4",
               "Build": "23O247",
               "ReleaseDate": "2026-03-24",
-              "CVECount": 32,
+              "CVECount": 0,
               "ActivelyExploitedCount": 0
             },
             {
