@@ -2,8 +2,8 @@
   "SchemaVersion": "2026.04.11.2",
   "OSName": "watchOS",
   "Version": "2.0",
-  "UpdateHash": "10e11df821a212dfa90f9715b2faaf04bc9729809c5a57dd28fa7e865ac30788",
-  "LastCheck": "2026-11-12T00:47:53.557150773+00:00",
+  "UpdateHash": "ed2d4d78a03210ce28d575746c363177118f0412228bb77b2a95ea6208046d94",
+  "LastCheck": "2026-11-12T17:11:13.718606478+00:00",
   "OSVersions": [
     {
       "OSVersion": "watchOS 27",
@@ -1142,49 +1142,11 @@
           "ReleaseDate": "2025-12-12",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/125890",
-          "SecurityInfoContext": "watchOS 26.2 was released on December 12, 2025. This release addressed 26 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "watchOS 26.2 was released on December 12, 2025. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [],
-          "CVEs": {
-            "CVE-2024-7264": {},
-            "CVE-2025-14174": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
-              "InKEV": true,
-              "Severity": "High"
-            },
-            "CVE-2025-43511": {},
-            "CVE-2025-43518": {},
-            "CVE-2025-43529": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
-              "InKEV": true,
-              "Severity": "High"
-            },
-            "CVE-2025-43531": {},
-            "CVE-2025-43532": {},
-            "CVE-2025-43533": {},
-            "CVE-2025-43538": {},
-            "CVE-2025-43539": {},
-            "CVE-2025-46276": {},
-            "CVE-2025-46277": {},
-            "CVE-2025-46279": {},
-            "CVE-2025-46285": {},
-            "CVE-2025-46287": {},
-            "CVE-2025-46288": {},
-            "CVE-2025-46290": {},
-            "CVE-2025-46298": {},
-            "CVE-2025-46299": {},
-            "CVE-2025-46300": {},
-            "CVE-2025-46301": {},
-            "CVE-2025-46302": {},
-            "CVE-2025-46303": {},
-            "CVE-2025-46304": {},
-            "CVE-2025-46305": {},
-            "CVE-2025-9086": {}
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2025-43529",
-            "CVE-2025-14174"
-          ],
-          "UniqueCVEsCount": 26,
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 39,
           "SupersededBy": {
             "ProductVersion": "26.2.1",
@@ -1193,9 +1155,9 @@
             "DaysLater": 45
           },
           "UpdateSummary": {
-            "Priority": "high",
-            "Summary": "Addresses 26 security issues",
-            "Recommendation": "Update to stay secure - security fixes available",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -1203,7 +1165,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 26
+              "Total": 0
             }
           }
         },
