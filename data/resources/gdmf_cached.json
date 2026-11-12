@@ -1,5 +1,5 @@
 {
-  "etag": "bfa64e8343e044e8a140e51ca93472a0d05e652d7fe7674954857be0238e2df7",
+  "etag": "7ec746394e8db351bde71172b8ca099a519edc4f351dbae58f106b5d48b16909",
   "data": {
     "PublicAssetSets": {
       "iOS": [
@@ -347,16 +347,6 @@
         },
         {
           "ProductVersion": "27.2",
-          "Build": "24V514",
-          "PostingDate": "2026-10-30",
-          "ExpirationDate": "2027-02-10",
-          "SupportedDevices": [
-            "HomeAccessory17,1",
-            "HomeAccessory17,2"
-          ]
-        },
-        {
-          "ProductVersion": "27.2",
           "Build": "24K122",
           "PostingDate": "2026-11-02",
           "ExpirationDate": "2027-02-10",
@@ -632,6 +622,16 @@
             "iPhone19,2",
             "iPhone19,3",
             "iPhone19,7"
+          ]
+        },
+        {
+          "ProductVersion": "27.2",
+          "Build": "24V526",
+          "PostingDate": "2026-11-12",
+          "ExpirationDate": "2027-02-10",
+          "SupportedDevices": [
+            "HomeAccessory17,1",
+            "HomeAccessory17,2"
           ]
         },
         {
@@ -2668,6 +2668,16 @@
             "iPhone18,3",
             "iPhone18,4",
             "iPhone18,5"
+          ]
+        },
+        {
+          "ProductVersion": "27.2",
+          "Build": "24V526",
+          "PostingDate": "2026-11-12",
+          "ExpirationDate": "2027-02-10",
+          "SupportedDevices": [
+            "HomeAccessory17,1",
+            "HomeAccessory17,2"
           ]
         },
         {

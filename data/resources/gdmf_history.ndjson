@@ -338,3 +338,4 @@
 {"timestamp":"2026-11-09T19:09:02Z","platform":"macOS","version":"27.2.1","build":"26B7131","posting_date":"2026-11-09","entry_type":"pmv_asset","unique_id":"pmv-macOS-26B7131-27.2.1"}
 {"timestamp":"2026-11-09T19:09:02Z","platform":"visionOS","version":"27.2.1","build":"24N124","posting_date":"2026-11-09","entry_type":"pmv_asset","unique_id":"pmv-visionOS-24N124-27.2.1"}
 {"timestamp":"2026-11-09T19:09:02Z","platform":"visionOS","version":"27.2.1","build":"24N6124","posting_date":"2026-11-09","entry_type":"pmv_asset","unique_id":"pmv-visionOS-24N6124-27.2.1"}
+{"timestamp":"2026-11-12T19:09:26Z","platform":"iOS","version":"27.2","build":"24V526","posting_date":"2026-11-12","entry_type":"pmv_asset","unique_id":"pmv-iOS-24V526-27.2"}
