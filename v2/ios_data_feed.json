@@ -1,8 +1,8 @@
 {
   "SchemaVersion": "2026.04.11.2",
   "Version": "2.0",
-  "UpdateHash": "530d1c829bc7a4e0145b4e3fbbb28078f9218102e24b750eb1b52c5d267d00ba",
-  "LastCheck": "2026-11-12T18:14:22.589660339+00:00",
+  "UpdateHash": "228e21c67fccd2108b8e1e0fe4de3e94320b975f09e20353f727390f210528fb",
+  "LastCheck": "2026-11-12T18:35:03.330447095+00:00",
   "OSVersions": [
     {
       "OSVersion": "27",
@@ -1077,7 +1077,7 @@
         "ExpirationDate": "2027-02-10",
         "ReleaseType": "OS",
         "SecurityInfo": "https://support.apple.com/en-us/149716",
-        "SecurityInfoContext": "iOS has been updated to version 26.7.3, released on November 09, 2026. This update addresses 8 security issues and is the most recent approved version.",
+        "SecurityInfoContext": "iOS has been updated to version 26.7.3, released on November 09, 2026. This update has no published CVE entries and is the most recent approved version.",
         "SupportedDevices": [
           "iPad11,1",
           "iPad11,2",
@@ -1175,31 +1175,15 @@
           "iPhone18,4",
           "iPhone18,5"
         ],
-        "CVEs": {
-          "CVE-2026-111497": {
-            "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
-            "ActivelyExploited": true,
-            "InKEV": true,
-            "Severity": "Critical"
-          },
-          "CVE-2026-113960": {},
-          "CVE-2026-113961": {},
-          "CVE-2026-113964": {},
-          "CVE-2026-113965": {},
-          "CVE-2026-113968": {},
-          "CVE-2026-113969": {},
-          "CVE-2026-113970": {}
-        },
-        "ActivelyExploitedCVEs": [
-          "CVE-2026-111497"
-        ],
-        "UniqueCVEsCount": 8,
+        "CVEs": {},
+        "ActivelyExploitedCVEs": [],
+        "UniqueCVEsCount": 0,
         "DaysSincePreviousRelease": 14,
         "DeviceScope": "universal",
         "UpdateSummary": {
-          "Priority": "medium",
-          "Summary": "Addresses 8 security issues",
-          "Recommendation": "Update to stay secure - security fixes available",
+          "Priority": "low",
+          "Summary": "Maintenance update with no published CVE entries",
+          "Recommendation": "Update recommended - may include unpublished security improvements",
           "Stats": {
             "Exploited": 0,
             "Critical": 0,
@@ -1207,7 +1191,7 @@
             "Medium": 0,
             "Low": 0,
             "Remote": 0,
-            "Total": 8
+            "Total": 0
           }
         }
       },
@@ -1225,7 +1209,7 @@
           "ExpirationDate": "2027-02-10",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/149716",
-          "SecurityInfoContext": "iOS has been updated to version 26.7.3, released on November 09, 2026. This update addresses 8 security issues and is the most recent approved version.",
+          "SecurityInfoContext": "iOS has been updated to version 26.7.3, released on November 09, 2026. This update has no published CVE entries and is the most recent approved version.",
           "SupportedDevices": [
             "iPad11,1",
             "iPad11,2",
@@ -1323,31 +1307,15 @@
             "iPhone18,4",
             "iPhone18,5"
           ],
-          "CVEs": {
-            "CVE-2026-111497": {
-              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
-              "ActivelyExploited": true,
-              "InKEV": true,
-              "Severity": "Critical"
-            },
-            "CVE-2026-113960": {},
-            "CVE-2026-113961": {},
-            "CVE-2026-113964": {},
-            "CVE-2026-113965": {},
-            "CVE-2026-113968": {},
-            "CVE-2026-113969": {},
-            "CVE-2026-113970": {}
-          },
-          "ActivelyExploitedCVEs": [
-            "CVE-2026-111497"
-          ],
-          "UniqueCVEsCount": 8,
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 14,
           "DeviceScope": "universal",
           "UpdateSummary": {
-            "Priority": "medium",
-            "Summary": "Addresses 8 security issues",
-            "Recommendation": "Update to stay secure - security fixes available",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -1355,7 +1323,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 8
+              "Total": 0
             }
           }
         },
@@ -2160,7 +2128,7 @@
           "ExpirationDate": "2026-12-07",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/148282",
-          "SecurityInfoContext": "iOS 26.6.1 was released on August 17, 2026. This release addressed 35 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "iOS 26.6.1 was released on August 17, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [
             "iPad11,1",
             "iPad11,2",
@@ -2258,45 +2226,9 @@
             "iPhone18,4",
             "iPhone18,5"
           ],
-          "CVEs": {
-            "CVE-2026-28935": {},
-            "CVE-2026-43794": {},
-            "CVE-2026-43795": {},
-            "CVE-2026-64715": {},
-            "CVE-2026-64736": {},
-            "CVE-2026-64778": {},
-            "CVE-2026-64779": {},
-            "CVE-2026-64780": {},
-            "CVE-2026-64781": {},
-            "CVE-2026-64782": {},
-            "CVE-2026-64784": {},
-            "CVE-2026-64787": {},
-            "CVE-2026-64788": {},
-            "CVE-2026-65329": {},
-            "CVE-2026-65330": {},
-            "CVE-2026-65331": {},
-            "CVE-2026-65332": {},
-            "CVE-2026-65333": {},
-            "CVE-2026-65334": {},
-            "CVE-2026-65335": {},
-            "CVE-2026-65336": {},
-            "CVE-2026-65337": {},
-            "CVE-2026-65338": {},
-            "CVE-2026-65339": {},
-            "CVE-2026-65340": {},
-            "CVE-2026-65341": {},
-            "CVE-2026-65343": {},
-            "CVE-2026-65346": {},
-            "CVE-2026-65347": {},
-            "CVE-2026-65349": {},
-            "CVE-2026-65351": {},
-            "CVE-2026-65352": {},
-            "CVE-2026-65355": {},
-            "CVE-2026-65390": {},
-            "CVE-2026-65391": {}
-          },
+          "CVEs": {},
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 35,
+          "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 21,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -2306,9 +2238,9 @@
             "DaysLater": 22
           },
           "UpdateSummary": {
-            "Priority": "high",
-            "Summary": "Addresses 35 security issues",
-            "Recommendation": "Update to stay secure - security fixes available",
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
             "Stats": {
               "Exploited": 0,
               "Critical": 0,
@@ -2316,7 +2248,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 35
+              "Total": 0
             }
           }
         },
