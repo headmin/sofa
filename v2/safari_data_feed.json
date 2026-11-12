@@ -1,6 +1,6 @@
 {
   "Version": "2.0",
-  "UpdateHash": "3251e668673505bbb99a0196a242ad0c2924ad94cdc18ae38f50112e195704d6",
+  "UpdateHash": "6e107689869de58be1fa0ac2717bff1ff140d5ce559a9390f59c1bf20ed43f61",
   "AppVersions": [
     {
       "AppVersion": "Safari 27",
@@ -1743,9 +1743,18 @@
           "ReleaseDate": "2025-03-11T00:00:00Z",
           "ReleaseType": "Safari",
           "SecurityInfo": "https://support.apple.com/en-us/122285",
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
+          "CVEs": {
+            "CVE-2025-24201": {
+              "exploited": true,
+              "kev": true,
+              "matched_pattern": "CISA KEV catalog",
+              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24201"
+            }
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2025-24201"
+          ],
+          "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 43
         },
         {
