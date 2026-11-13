@@ -1,5 +1,5 @@
 {
-  "update_hash": "sha256:c10500e594c530ee3e36348bee952302f49c29b4a632ac55b55bce385c42738e",
+  "update_hash": "sha256:28cba2b8faaab1771412ae0ad5ffd37d650e3aea4e4b67287b89cad35f5764e8",
   "devices": [
     {
       "name": "iPhone 2G",
@@ -2057,6 +2057,20 @@
       "identifier": "iPad19,2",
       "platform": "t8160",
       "cpid": 33120,
+      "bdid": 6
+    },
+    {
+      "name": "Apple HomeView",
+      "identifier": "HomeAccessory17,1",
+      "platform": "t8140",
+      "cpid": 33088,
+      "bdid": 2
+    },
+    {
+      "name": "Apple HomeView (Wall Mounted)",
+      "identifier": "HomeAccessory17,2",
+      "platform": "t8140",
+      "cpid": 33088,
       "bdid": 6
     }
   ],
@@ -4684,8 +4698,8 @@
     "build": "26B131",
     "url": "https://updates.cdn-apple.com/2026FallFCS/c202a724-db7e-4d56-917b-110aa0226507/UniversalMac_27.2.1_26B131_Restore.ipsw",
     "apple_slug": "unknown",
-    "fetch_timestamp": "2026-11-12T20:11:32.382673272Z"
+    "fetch_timestamp": "2026-11-13T00:47:18.219642996Z"
   },
-  "total_devices": 294,
+  "total_devices": 296,
   "total_firmwares": 289
 }
